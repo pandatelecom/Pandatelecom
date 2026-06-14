@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panda Telecom 熊貓電訊 - 產品價目</title>
+<style>
+:root{--bg:#fff;--black:#111;--muted:#6b7280;--border:#e5e7eb;--accent:#ee5a6f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang HK","Noto Sans CJK HK",sans-serif;color:var(--black);background:#f8f9fa}
+
+.site-header{max-width:1200px;margin:0 auto;padding:24px 16px 8px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.site-header .brand{font-size:18px;font-weight:700;color:var(--black);text-decoration:none}
+.site-header .brand small{display:block;font-size:12px;color:var(--muted);font-weight:400}
+.back-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;background:#fff;border:1px solid var(--border);border-radius:20px;text-decoration:none;color:var(--black);font-size:13px}
+
+.hero{background:linear-gradient(135deg,#ff6b6b,#ee5a6f);color:#fff;padding:30px 16px 22px;text-align:center}
+.hero h1{font-size:1.8em;margin-bottom:6px}
+.hero p{opacity:.95;font-size:14px}
+
+.container{max-width:1200px;margin:0 auto;padding:14px 16px 110px}
+
+.search-row{position:sticky;top:10px;z-index:20;margin-bottom:12px;background:#fff;padding:12px;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.search-row input{width:100%;padding:12px 14px;border:2px solid #e5e7eb;border-radius:8px;font-size:16px;outline:none}
+.search-row input:focus{border-color:var(--accent)}
+
+.cat-bar{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 16px}
+.cat-chip{padding:6px 14px;background:#fff;border:1px solid #e5e7eb;border-radius:20px;font-size:13px;cursor:pointer;user-select:none;color:#333}
+.cat-chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+.section{margin:22px 0}
+.section-head{font-size:1.05em;padding-bottom:8px;margin-bottom:12px;border-bottom:2px solid var(--accent);display:flex;align-items:center;gap:10px}
+.section-head .count{background:#fef2f4;color:var(--accent);font-size:12px;padding:3px 10px;border-radius:10px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
+.card{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,.04);border:1px solid #f0f0f0;transition:transform .15s ease,box-shadow .15s ease;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.card-thumb{width:100%;height:150px;background:#fafafa;display:grid;place-items:center;color:#bbb;font-size:12px}
+.card-body{padding:10px 12px;display:flex;flex-direction:column;gap:3px;flex:1}
+.card-sku{font-size:10px;color:#aaa;letter-spacing:.5px}
+.card-name{font-size:12px;font-weight:600;color:#222;line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card-prices{margin-top:auto;display:flex;align-items:baseline;gap:6px}
+.card-res{font-size:1.15em;font-weight:700;color:var(--accent)}
+.card-srp{font-size:12px;color:#bbb;text-decoration:line-through}
+
+.contact-bar{position:fixed;bottom:0;left:0;right:0;background:#fff;padding:12px 16px;box-shadow:0 -2px 18px rgba(0,0,0,.06);display:flex;gap:10px;justify-content:center;flex-wrap:wrap;z-index:30}
+.contact-bar a{padding:12px 20px;border-radius:25px;color:#fff;font-weight:600;text-decoration:none;font-size:14px}
+.btn-wa{background:#25D366}.btn-tel{background:var(--accent)}
+
+.empty{text-align:center;padding:60px 20px;color:#888}
+footer.main{max-width:1200px;margin:0 auto;text-align:center;padding:36px 16px 90px;color:#aaa;font-size:12px}
+
+@media(max-width:520px){.grid{grid-template-columns:repeat(2,1fr)}.card-thumb{height:120px}.card-name{font-size:11px}}
+</style>
+</head>
+<body>
+<div class="site-header">
+  <a href="index.html" class="brand">Panda Telecom 熊貓電訊<small>九龍紅磡 · 黃埔108</small></a>
+  <a href="index.html" class="back-btn">← 返回主頁</a>
+</div>
+
+<div class="hero">
+  <h1>📱 Momax 產品目錄</h1>
+  <p>2026年5月價目表 · 客戶價以本店報價為準</p>
+</div>
+
+<div class="container">
+  <div class="search-row"><input type="text" id="search" placeholder="🔍 輸入產品名稱 / 型號 / 類別…" /></div>
+  <div class="cat-bar" id="cats"></div>
+  <div id="list"></div>
+</div>
+
+<div class="contact-bar">
+  <a href="tel:+852****7181" class="btn-tel">📞 致電 6855 7181</a>
+  <a href="https://wa.me/85268557181?text=%E6%88%91%E6%83%B3%E6%9F%A5%E8%A9%A2Momax%E5%95%86%E5%93%81" class="btn-wa">💬 WhatsApp 詢價</a>
+</div>
+
+<footer class="main">© 2026 Panda Telecom · 資料來源：Momax 2026-05-01 價目表</footer>
+
+<script>
+const DATA={cats:["Wearable","個人護理","充電器","充電線","其他","定位器 / FindMy","家居","按摩 / 健康","支架 / 座","旅行充電器","流動電源","空氣淨化","耳機 / 音響","觸控筆","車充","車載支架","配件","風扇 / 冷風"],products:[
+{cat:"Wearable",sku:"SG2S6E",name:"1-Sense 智能戒指 #12 (灰)",srp:999,msrp:899,res:530},
+{cat:"Wearable",sku:"SG2S7E",name:"1-Sense 智能戒指 #13 (灰)",srp:999,msrp:899,res:530},
+{cat:"Wearable",sku:"SG2S1E",name:"1-Sense 智能戒指 #7 (灰)",srp:999,msrp:899,res:530},
+{cat:"流動電源",sku:"IP117D",name:"Q.Mag X1 10000mAh 超薄磁吸流動電源 (黑)",srp:369,msrp:299,res:220},
+{cat:"流動電源",sku:"IP117AL2",name:"Q.Mag X1 10000mAh 超薄磁吸流動電源 (沙漠金)",srp:369,msrp:299,res:220},
+{cat:"流動電源",sku:"IP117AM",name:"Q.Mag X1 10000mAh 超薄磁吸流動電源 (橙)",srp:369,msrp:299,res:220},
+{cat:"流動電源",sku:"IP117AP",name:"Q.Mag X1 10000mAh 超薄磁吸流動電源 (粉紅)",srp:369,msrp:299,res:220},
+{cat:"流動電源",sku:"IP136Q2D",name:"Q.Mag X1 Qi2 超薄磁吸流動電源 10000mAh Gen 2 (黑)",srp:449,msrp:399,res:245},
+{cat:"流動電源",sku:"IP136Q2L",name:"Q.Mag X1 Qi2 超薄磁吸流動電源 10000mAh Gen 2 (鈦)",srp:449,msrp:399,res:245},
+{cat:"流動電源",sku:"IP136Q2L2",name:"Q.Mag X1 Qi2 超薄磁吸流動電源 10000mAh Gen 2 (沙漠金)",srp:449,msrp:399,res:245},
+{cat:"充電器",sku:"UM76UKD",name:"1-Charge+ 65W GaN 單輸出及伸縮USB-C 線充電器 (黑)",srp:219,msrp:199,res:132},
+{cat:"充電器",sku:"UM76UKG",name:"1-Charge+ 65W GaN 單輸出及伸縮USB-C 線充電器 (綠)",srp:219,msrp:199,res:132},
+{cat:"充電器",sku:"UM76UKM",name:"1-Charge+ 65W GaN 單輸出及伸縮USB-C 線充電器 (橙)",srp:219,msrp:199,res:132},
+{cat:"充電器",sku:"UA10UKD",name:"1-World 100W GaN 4-插口 + AC 全方位快充旅行插座 (黑)",srp:399,msrp:349,res:238},
+{cat:"充電器",sku:"UA15UKGSD",name:"1-World 120W GaN 旅行充電插座 (鈦色)",srp:449,msrp:429,res:328},
+{cat:"充電器",sku:"UA17UKD",name:"1-World 170W 4-插口旅行充電插座 (沙漠金)",srp:649,msrp:599,res:390},
+{cat:"充電線",sku:"DC35D",name:"Mag Link USB-C to USB-C 100W USB2.0 1m 磁吸連接線 (黑)",srp:89,msrp:69,res:50},
+{cat:"充電線",sku:"DC35L",name:"Mag Link USB-C to USB-C 100W USB2.0 1m 磁吸連接線 (鈦)",srp:89,msrp:69,res:50},
+{cat:"充電線",sku:"DC35W",name:"Mag Link USB-C to USB-C 100W USB2.0 1m 磁吸連接線 (白)",srp:89,msrp:69,res:50},
+{cat:"充電線",sku:"DC36D",name:"Mag Link USB-C to USB-C 100W USB2.0 2m 磁吸連接線 (黑)",srp:119,msrp:89,res:65},
+{cat:"充電線",sku:"DC36L",name:"Mag Link USB-C to USB-C 100W USB2.0 2m 磁吸連接線 (鈦)",srp:119,msrp:89,res:65},
+{cat:"耳機 / 音響",sku:"BT13D",name:"1-VIBE LITE 真無線降噪耳機 (黑)",srp:249,msrp:219,res:125},
+{cat:"耳機 / 音響",sku:"BT13L",name:"1-VIBE LITE 真無線降噪耳機 (鈦)",srp:249,msrp:219,res:125},
+{cat:"耳機 / 音響",sku:"BT13L2",name:"1-VIBE LITE 真無線降噪耳機 (沙漠金)",srp:249,msrp:219,res:125},
+{cat:"耳機 / 音響",sku:"BT13M",name:"1-VIBE LITE 真無線降噪耳機 (橙)",srp:249,msrp:219,res:125},
+{cat:"耳機 / 音響",sku:"BS6HKD",name:"1-Vibe Go 磁吸無線音箱 (黑)",srp:199,msrp:189,res:110},
+{cat:"耳機 / 音響",sku:"BS6HKL",name:"1-Vibe Go 磁吸無線音箱 (鈦)",srp:199,msrp:189,res:110},
+{cat:"耳機 / 音響",sku:"BS6HKL2",name:"1-Vibe Go 磁吸無線音箱 (沙漠金)",srp:199,msrp:189,res:110},
+{cat:"耳機 / 音響",sku:"BS6HKM",name:"1-Vibe Go 磁吸無線音箱 (橙)",srp:199,msrp:189,res:110},
+{cat:"定位器 / FindMy",sku:"BR10D",name:"PinPop Lite Find My 全球定位器 (黑)",srp:49,msrp:30,res:30},
+{cat:"定位器 / FindMy",sku:"BR10W",name:"PinPop Lite Find My 全球定位器 (白)",srp:49,msrp:30,res:30},
+{cat:"定位器 / FindMy",sku:"BR11D",name:"Pinpop Duo Find My 全球定位器 (黑)",srp:129,msrp:105,res:70},
+{cat:"定位器 / FindMy",sku:"BR11W",name:"Pinpop Duo Find My 全球定位器 (白)",srp:129,msrp:105,res:70},
+{cat:"車載支架",sku:"CM22E",name:"MoVe 簡易磁吸車載支架",srp:129,msrp:99,res:70},
+{cat:"車載支架",sku:"CM22L",name:"MoVe 簡易磁吸車載支架 (鈦)",srp:129,msrp:99,res:70},
+{cat:"車載支架",sku:"CM29W",name:"1-Charge Flow 無線車用充電支架 (白)",srp:199,msrp:179,res:120},
+{cat:"車載支架",sku:"CM32L",name:"Q2.Mag Mount Qi2 無線充電車載重力支架 (鈦)",srp:399,msrp:329,res:235},
+{cat:"車充",sku:"UC17E",name:"MoVe 100W 三輸出車載充電器",srp:149,msrp:129,res:89},
+{cat:"車充",sku:"UC16E",name:"MoVe 67W 雙輸出車載充電器",srp:99,msrp:89,res:58},
+{cat:"支架 / 座",sku:"KH5L1",name:"Fold Stand 旋轉手機&平板支架 (鈦)",srp:189,msrp:149,res:120},
+{cat:"支架 / 座",sku:"KH10E",name:"Fold Stand 旋轉座檯電腦支架",srp:399,msrp:239,res:200},
+{cat:"個人護理",sku:"HL20L",name:"1-CARE RAZE 往復式迷你剃須刀",srp:229,msrp:137,res:137},
+{cat:"個人護理",sku:"HL13UKW",name:"1-Care Hair Mini 負離子高速吹風機 (英規) (白)",srp:469,msrp:399,res:238}
+]};
+
+function render(q,cat){q=(q||'').toLowerCase().trim();cat=cat||'';let out='',has=false;DATA.cats.forEach(c=>{if(cat&&c!==cat)return;const items=DATA.products.filter(p=>p.cat===c);if(!items.length)return;const show=items.filter(p=>!q||p.name.toLowerCase().includes(q)||p.sku.toLowerCase().includes(q));if(!show.length)return;has=true;out+=`<div class="section"><div class="section-head">${c} <span class="count">${show.length} 款</span></div><div class="grid">`;show.forEach(p=>{out+=`<div class="card"><div class="card-thumb">📦</div><div class="card-body"><div class="card-sku">${p.sku||''}</div><div class="card-name">${p.name}</div><div class="card-prices"><div class="card-res">$${p.res}</div>${(p.srp&&p.srp!==p.res)?`<div class="card-srp">$${p.srp}</div>`:''}</div></div></div>`});out+='</div></div>'});if(!has)out='<div class="empty">😕 冇搵到相關產品<br><small>試下其他關鍵字</small></div>';document.getElementById('list').innerHTML=out}
+const bar=document.getElementById('cats');const allBtn=document.createElement('span');allBtn.className='cat-chip on';allBtn.textContent='全部';allBtn.onclick=()=>{render(document.getElementById('search').value);bar.querySelectorAll('.cat-chip').forEach(x=>x.classList.remove('on'));allBtn.classList.add('on')};bar.appendChild(allBtn);DATA.cats.forEach(c=>{const b=document.createElement('span');b.className='cat-chip';b.textContent=c;b.onclick=()=>{render(document.getElementById('search').value,c);bar.querySelectorAll('.cat-chip').forEach(x=>x.classList.remove('on'));b.classList.add('on')};bar.appendChild(b)});document.getElementById('search').addEventListener('input',e=>render(e.target.value));render('','');
+</script>
+</body>
+</html>
