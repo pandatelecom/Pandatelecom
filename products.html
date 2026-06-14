@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panda Telecom 熊貓電訊 - 產品價目</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --black: #111111;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --accent: #ee5a6f;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang HK", "Noto Sans CJK HK", sans-serif;
+  color: var(--black);
+  background: #f8f9fa;
+}
+
+.site-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.site-header .brand {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--black);
+  text-decoration: none;
+}
+.site-header .brand small {
+  display: block;
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 400;
+}
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  text-decoration: none;
+  color: var(--black);
+  font-size: 13px;
+}
+.hero {
+  background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+  color: white;
+  padding: 34px 20px 26px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.1em;
+  margin-bottom: 8px;
+}
+.hero p {
+  opacity: 0.98;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px 18px 110px;
+}
+
+.search-row {
+  position: sticky;
+  top: 10px;
+  z-index: 20;
+  margin-bottom: 14px;
+  background: white;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.search-row input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+.search-row input:focus {
+  border-color: var(--accent);
+}
+
+.cat-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 6px 0 18px;
+}
+.cat-chip {
+  padding: 6px 14px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  user-select: none;
+  color: #333;
+}
+.cat-chip.on {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.section {
+  margin: 24px 0;
+}
+.section-head {
+  font-size: 1.15em;
+  padding-bottom: 8px;
+  margin-bottom: 14px;
+  border-bottom: 2px solid var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-head .count {
+  background: #fef2f4;
+  color: var(--accent);
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 14px;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  border: 1px solid #f0f0f0;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  display: flex;
+  flex-direction: column;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+.card-thumb {
+  width: 100%;
+  height: 170px;
+  background: #fafafa;
+  display: grid;
+  place-items: center;
+  color: #bbb;
+  font-size: 12px;
+}
+.card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 6px;
+  display: block;
+}
+.card-body {
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+.card-sku {
+  font-size: 10px;
+  color: #aaa;
+  letter-spacing: 0.5px;
+}
+.card-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #222;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card-prices {
+  margin-top: auto;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.card-res {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--accent);
+}
+.card-srp {
+  font-size: 12px;
+  color: #bbb;
+  text-decoration: line-through;
+}
+
+.contact-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  padding: 14px 18px;
+  box-shadow: 0 -2px 18px rgba(0,0,0,0.06);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 30;
+}
+.contact-bar a {
+  padding: 12px 20px;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+}
+.btn-wa { background: #25D366; }
+.btn-tel { background: var(--accent); }
+
+.empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: #888;
+}
+
+footer.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 18px 90px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+@media (max-width: 520px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+  .card-thumb { height: 130px; }
+  .card-name { font-size: 12px; }
+}
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <a href="index.html" class="brand">
+    Panda Telecom 熊貓電訊
+    <small>九龍紅磡 · 黃埔108</small>
+  </a>
+  <a href="index.html" class="back-btn">← 返回主頁</a>
+</div>
+
+<div class="hero">
+  <h1>📱 Momax 產品目錄</h1>
+  <p>2026年5月價目表 · 客戶價以本店報價為準</p>
+</div>
+
+<div class="container">
+  <div class="search-row">
+    <input type="text" id="search" placeholder="🔍 輸入產品名稱 / 型號 / 類別…" />
+  </div>
+  <div class="cat-bar" id="cats"></div>
+  <div id="list"></div>
+</div>
+
+<div class="contact-bar">
+  <a href="tel:+85268557181" class="btn-tel">📞 致電 6855 7181</a>
+  <a href="https://wa.me/85268557181?text=%E6%88%91%E6%83%B3%E6%9F%A5%E8%A9%A2Momax%E5%95%86%E5%93%81" class="btn-wa">💬 WhatsApp 詢價</a>
+</div>
+
+<footer class="main">
+  © 2026 Panda Telecom · 資料來源：Momax 2026-05-01 價目表
+</footer>
+
+<script src="products-data.js"></script>
+<script>
+const PAGE = [];
+window.DATA.products.forEach(p => PAGE.push(p));
+
+function render(q, cat) {
+  q = (q || '').toLowerCase().trim();
+  cat = cat || '';
+  let out = '';
+  let has = false;
+  window.DATA.cats.forEach(c => {
+    if (cat && c !== cat) return;
+    const items = PAGE.filter(p => p.cat === c);
+    if (!items.length) return;
+    const shown = items.filter(p => {
+      if (!q) return true;
+      return p.name.toLowerCase().includes(q) || p.sku.toLowerCase().includes(q) || c.toLowerCase().includes(q);
+    });
+    if (!shown.length) return;
+    has = true;
+    out += `<div class="section"><div class="section-head">${c} <span class="count">${shown.length} 款</span></div><div class="grid">`;
+    shown.forEach(p => {
+      out += `<div class="card">
+        <div class="card-thumb">📦</div>
+        <div class="card-body">
+          <div class="card-sku">${p.sku || ''}</div>
+          <div class="card-name">${p.name}</div>
+          <div class="card-prices">
+            <div class="card-res">$${p.res}</div>
+            ${(p.srp && p.srp !== p.res) ? `<div class="card-srp">$${p.srp}</div>` : ''}
+          </div>
+        </div>
+      </div>`;
+    });
+    out += '</div></div>';
+  });
+  if (!has) out = '<div class="empty">😕 冇搵到相關產品<br><small>試下其他關鍵字</small></div>';
+  document.getElementById('list').innerHTML = out;
+}
+
+const bar = document.getElementById('cats');
+const allBtn = document.createElement('span');
+allBtn.className = 'cat-chip on';
+allBtn.textContent = '全部';
+allBtn.onclick = () => { render(document.getElementById('search').value); bar.querySelectorAll('.cat-chip').forEach(x => x.classList.remove('on')); allBtn.classList.add('on'); };
+bar.appendChild(allBtn);
+window.DATA.cats.forEach(c => {
+  const b = document.createElement('span');
+  b.className = 'cat-chip';
+  b.textContent = c;
+  b.onclick = () => { render(document.getElementById('search').value, c); bar.querySelectorAll('.cat-chip').forEach(x => x.classList.remove('on')); b.classList.add('on'); };
+  bar.appendChild(b);
+});
+
+document.getElementById('search').addEventListener('input', e => render(e.target.value));
+render('', '');
+</script>
+</body>
+</html>
