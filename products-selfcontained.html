@@ -1,295 +1,524 @@
 <!DOCTYPE html>
 <html lang="zh-HK">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Panda Telecom 熊貓電訊 - 產品價目</title>
-<style>
-:root{--bg:#fff;--black:#111;--muted:#6b7280;--border:#e5e7eb;--accent:#ee5a6f}
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang HK","Noto Sans CJK HK",sans-serif;color:var(--black);background:#f8f9fa}
-
-.site-header{max-width:1200px;margin:0 auto;padding:24px 16px 8px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.site-header .brand{font-size:18px;font-weight:700;color:var(--black);text-decoration:none}
-.site-header .brand small{display:block;font-size:12px;color:var(--muted);font-weight:400}
-.back-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;background:#fff;border:1px solid var(--border);border-radius:20px;text-decoration:none;color:var(--black);font-size:13px}
-
-.hero{background:linear-gradient(135deg,#ff6b6b,#ee5a6f);color:#fff;padding:30px 16px 22px;text-align:center}
-.hero h1{font-size:1.8em;margin-bottom:6px}
-.hero p{opacity:.95;font-size:14px}
-
-.container{max-width:1200px;margin:0 auto;padding:14px 16px 110px}
-
-.search-row{position:sticky;top:10px;z-index:20;margin-bottom:12px;background:#fff;padding:12px;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
-.search-row input{width:100%;padding:12px 14px;border:2px solid #e5e7eb;border-radius:8px;font-size:16px;outline:none}
-.search-row input:focus{border-color:var(--accent)}
-
-.cat-bar{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 16px}
-.cat-chip{padding:6px 14px;background:#fff;border:1px solid #e5e7eb;border-radius:20px;font-size:13px;cursor:pointer;user-select:none;color:#333}
-.cat-chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
-
-.section{margin:22px 0}
-.section-head{font-size:1.05em;padding-bottom:8px;margin-bottom:12px;border-bottom:2px solid var(--accent);display:flex;align-items:center;gap:10px}
-.section-head .count{background:#fef2f4;color:var(--accent);font-size:12px;padding:3px 10px;border-radius:10px}
-
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
-.card{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,.04);border:1px solid #f0f0f0;transition:transform .15s ease,box-shadow .15s ease;display:flex;flex-direction:column}
-.card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
-.card-thumb{width:100%;height:150px;background:#fafafa;display:grid;place-items:center;color:#bbb;font-size:12px}
-.card-body{padding:10px 12px;display:flex;flex-direction:column;gap:3px;flex:1}
-.card-sku{font-size:10px;color:#aaa;letter-spacing:.5px}
-.card-name{font-size:12px;font-weight:600;color:#222;line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.card-prices{margin-top:auto;display:flex;align-items:baseline;gap:6px}
-.card-res{font-size:1.15em;font-weight:700;color:var(--accent)}
-.card-srp{font-size:12px;color:#bbb;text-decoration:line-through}
-
-.contact-bar{position:fixed;bottom:0;left:0;right:0;background:#fff;padding:12px 16px;box-shadow:0 -2px 18px rgba(0,0,0,.06);display:flex;gap:10px;justify-content:center;flex-wrap:wrap;z-index:30}
-.contact-bar a{padding:12px 20px;border-radius:25px;color:#fff;font-weight:600;text-decoration:none;font-size:14px}
-.btn-wa{background:#25D366}.btn-tel{background:var(--accent)}
-
-.empty{text-align:center;padding:60px 20px;color:#888}
-footer.main{max-width:1200px;margin:0 auto;text-align:center;padding:36px 16px 90px;color:#aaa;font-size:12px}
-
-@media(max-width:520px){.grid{grid-template-columns:repeat(2,1fr)}.card-thumb{height:120px}.card-name{font-size:11px}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panda Telecom 熊貓電訊 - 產品價目</title>
+  <style>
+    :root{--bg:#fff;--black:#111;--muted:#6b7280;--border:#e5e7eb;--accent:#ee5a6f}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang HK","Noto Sans CJK HK",sans-serif;color:var(--black);background:#f8f9fa}
+    .site-header{max-width:1200px;margin:0 auto;padding:24px 16px 8px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    .site-header .brand{font-size:18px;font-weight:700;color:var(--black);text-decoration:none}
+    .site-header .brand small{display:block;font-size:12px;color:var(--muted);font-weight:400}
+    .back-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;background:#fff;border:1px solid var(--border);border-radius:20px;text-decoration:none;color:var(--black);font-size:13px}
+    .hero{background:linear-gradient(135deg,#ff6b6b,#ee5a6f);color:#fff;padding:30px 16px 22px;text-align:center}
+    .hero h1{font-size:1.8em;margin-bottom:6px}
+    .hero p{opacity:.95;font-size:14px}
+    .container{max-width:1200px;margin:0 auto;padding:14px 16px 110px}
+    .search-row{position:sticky;top:10px;z-index:20;margin-bottom:12px;background:#fff;padding:12px;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+    .search-row input{width:100%;padding:12px 14px;border:2px solid #e5e7eb;border-radius:8px;font-size:16px;outline:none}
+    .search-row input:focus{border-color:var(--accent)}
+    .cat-bar{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 16px}
+    .cat-chip{padding:6px 14px;background:#fff;border:1px solid #e5e7eb;border-radius:20px;font-size:13px;cursor:pointer;user-select:none;color:#333}
+    .cat-chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+    .section{margin:22px 0}
+    .section-head{font-size:1.05em;padding-bottom:8px;margin-bottom:12px;border-bottom:2px solid var(--accent);display:flex;align-items:center;gap:10px}
+    .section-head .count{background:#fef2f4;color:var(--accent);font-size:12px;padding:3px 10px;border-radius:10px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
+    .card{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,.04);border:1px solid #f0f0f0;transition:transform .15s ease,box-shadow .15s ease;display:flex;flex-direction:column}
+    .card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+    .card-thumb{width:100%;height:150px;background:#fafafa;display:grid;place-items:center;color:#bbb;font-size:12px}
+    .card-body{padding:10px 12px;display:flex;flex-direction:column;gap:3px;flex:1}
+    .card-sku{font-size:10px;color:#aaa;letter-spacing:.5px}
+    .card-name{font-size:12px;font-weight:600;color:#222;line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+    .card-prices{margin-top:auto;display:flex;align-items:baseline;gap:6px}
+    .card-res{font-size:1.15em;font-weight:700;color:var(--accent)}
+    .card-srp{font-size:12px;color:#bbb;text-decoration:line-through}
+    .contact-bar{position:fixed;bottom:0;left:0;right:0;background:#fff;padding:12px 16px;box-shadow:0 -2px 18px rgba(0,0,0,.06);display:flex;gap:10px;justify-content:center;flex-wrap:wrap;z-index:30}
+    .contact-bar a{padding:12px 20px;border-radius:25px;color:#fff;font-weight:600;text-decoration:none;font-size:14px}
+    .btn-wa{background:#25D366}.btn-tel{background:var(--accent)}
+    .empty{text-align:center;padding:60px 20px;color:#888}
+    footer.main{max-width:1200px;margin:0 auto;text-align:center;padding:36px 16px 90px;color:#aaa;font-size:12px}
+    @media(max-width:520px){.grid{grid-template-columns:repeat(2,1fr)}.card-thumb{height:120px}.card-name{font-size:11px}}
+  </style>
 </head>
 <body>
-<div class="site-header">
-  <a href="index.html" class="brand">Panda Telecom 熊貓電訊<small>九龍紅磡 · 黃埔108</small></a>
-  <a href="index.html" class="back-btn">← 返回主頁</a>
-</div>
+  <div class="site-header">
+    <a href="index.html" class="brand">Panda Telecom 熊貓電訊<small>九龍紅磡 · 黃埔108</small></a>
+    <a href="index.html" class="back-btn">← 返回主頁</a>
+  </div>
 
-<div class="hero">
-  <h1>📱 Momax 產品目錄</h1>
-  <p>2026年5月價目表 · 客戶價以本店報價為準</p>
-</div>
+  <div class="hero">
+    <h1>📱 Momax 產品目錄</h1>
+    <p>2026年5月價目表 · 客戶價以本店報價為準</p>
+  </div>
 
-<div class="container">
-  <div class="search-row"><input type="text" id="search" placeholder="🔍 輸入產品名稱 / 型號 / 類別…" /></div>
-  <div class="cat-bar" id="cats"></div>
-  <div id="list"></div>
-</div>
+  <div class="container">
+    <div class="search-row"><input type="text" id="search" placeholder="🔍 輸入產品名稱 / 型號 / 類別…" /></div>
+    <div class="cat-bar" id="cats"></div>
+    <div id="list"></div>
+  </div>
 
-<div class="contact-bar">
-  <a href="tel:+852****7181" class="btn-tel">📞 致電 6855 7181</a>
-  <a href="https://wa.me/85268557181?text=%E6%88%91%E6%83%B3%E6%9F%A5%E8%A9%A2Momax%E5%95%86%E5%93%81" class="btn-wa">💬 WhatsApp 詢價</a>
-</div>
+  <div class="contact-bar">
+    <a href="tel:+852****7181" class="btn-tel">📞 致電 6855 7181</a>
+    <a href="https://wa.me/85268557181?text=%E6%88%91%E6%83%B3%E6%9F%A5%E8%A9%A2Momax%E5%95%86%E5%93%81" class="btn-wa">💬 WhatsApp 詢價</a>
+  </div>
 
-<footer class="main">© 2026 Panda Telecom · 資料來源：Momax 2026-05-01 價目表</footer>
+  <footer class="main">© 2026 Panda Telecom · 資料來源：Momax 2026-05-01 價目表</footer>
 
-<script>
-const IMG = {
-  'BR16D': 'products-img/BR16D.jpg',
-  'BS13D': 'products-img/BS13D.jpg',
-  'BS13M': 'products-img/BS13M.jpg',
-  'BS13W': 'products-img/BS13W.jpg',
-  'BS6GSD': '',
-  'BS6GSL2': '',
-  'BS6HKB': '',
-  'BS6HKD': '',
-  'BS6HKL': '',
-  'BS6HKL2': '',
-  'BS6HKM': '',
-  'BS6HKP': '',
-  'BS6HKS': '',
-  'BS6HKU': '',
-  'BS7D': 'products-img/BS7D.jpg',
-  'BS7E': 'products-img/BS7E.jpg',
-  'BS7M': 'products-img/BS7M.jpg',
-  'BS8B': 'products-img/BS8B.jpg',
-  'BS8B1': 'products-img/BS8B1.jpg',
-  'BS8B2': 'products-img/BS8B2.jpg',
-  'BS8D': 'products-img/BS8D.jpg',
-  'BS8P': 'products-img/BS8P.jpg',
-  'BS8U': 'products-img/BS8U.jpg',
-  'BS8W': 'products-img/BS8W.jpg',
-  'BS8Y': 'products-img/BS8Y.jpg',
-  'BS9D': '',
-  'BS9S': '',
-  'BT13D': 'products-img/BT13D.jpg',
-  'BT13L': 'products-img/BT13L.jpg',
-  'BT13L2': 'products-img/BT13L2.jpg',
-  'BT13M': 'products-img/BT13M.jpg',
-  'BT15D': '',
-  'BT15L': '',
-  'BT15M': '',
-  'CM29W': 'products-img/CM29W.png',
-  'DA57D': 'products-img/DA57D.png',
-  'DC23D': 'products-img/DC23D.png',
-  'DC23G': 'products-img/DC23G.png',
-  'DC23P': 'products-img/DC23P.png',
-  'DC23W': 'products-img/DC23W.png',
-  'DC30D': 'products-img/DC30D.png',
-  'DC30L': 'products-img/DC30L.png',
-  'DC30W': 'products-img/DC30W.png',
-  'DC52B': 'products-img/DC52B.jpg',
-  'DC52D': 'products-img/DC52D.jpg',
-  'DC52G': 'products-img/DC52G.jpg',
-  'DC52M': 'products-img/DC52M.jpg',
-  'DC52R': 'products-img/DC52R.jpg',
-  'DC56D': 'products-img/DC56D.jpg',
-  'DC60D': 'products-img/DC60D.png',
-  'DC60L2': 'products-img/DC60L2.png',
-  'DC61D': 'products-img/DC61D.png',
-  'DC61L2': 'products-img/DC61L2.png',
-  'DC62D': 'products-img/DC62D.jpg',
-  'DC71D': 'products-img/DC71D.png',
-  'DL53G': 'products-img/DL53G.png',
-  'DL53P': 'products-img/DL53P.png',
-  'DL53W': 'products-img/DL53W.png',
-  'DL56D': 'products-img/DL56D.png',
-  'DL56W': 'products-img/DL56W.png',
-  'DL57D': 'products-img/DL57D.jpg',
-  'DL58D': 'products-img/DL58D.jpg',
-  'DL59D': 'products-img/DL59D.jpg',
-  'DL60D': 'products-img/DL60D.jpg',
-  'HL13UKG': 'products-img/HL13UKG.png',
-  'HL13UKW': 'products-img/HL13UKW.png',
-  'HL18UKL': 'products-img/HL18UKL.jpg',
-  'HL19L': 'products-img/HL19L.jpg',
-  'HL20L': 'products-img/HL20L.jpg',
-  'IP115D': 'products-img/IP115D.jpg',
-  'IP115L': 'products-img/IP115L.jpg',
-  'IP115M': 'products-img/IP115M.jpg',
-  'IP117D': 'products-img/IP117D.png',
-  'IP129Q2D': '',
-  'IP129Q2L': '',
-  'IP129Q2L2': '',
-  'IP130B': 'products-img/IP130B.png',
-  'IP130D': 'products-img/IP130D.png',
-  'IP130G': 'products-img/IP130G.png',
-  'IP130M': 'products-img/IP130M.png',
-  'IP130W': 'products-img/IP130W.png',
-  'IP133D': 'products-img/IP133D.jpg',
-  'IP133E': 'products-img/IP133E.jpg',
-  'IP133L2': 'products-img/IP133L2.jpg',
-  'IP135AB': 'products-img/IP135AB.jpg',
-  'IP135AP': 'products-img/IP135AP.jpg',
-  'IP135L1': 'products-img/IP135L1.jpg',
-  'IP136Q2D': '',
-  'IP136Q2L': '',
-  'IP138D': 'products-img/IP138D.png',
-  'IP138W': 'products-img/IP138W.png',
-  'IP139D': 'products-img/IP139D.jpg',
-  'IP139W': 'products-img/IP139W.jpg',
-  'IP152D': 'products-img/IP152D.png',
-  'IP152W': 'products-img/IP152W.png',
-  'IP152Y': 'products-img/IP152Y.png',
-  'IP155D': 'products-img/IP155D.jpg',
-  'IP155W': 'products-img/IP155W.jpg',
-  'IP156D': 'products-img/IP156D.jpg',
-  'IP156W': 'products-img/IP156W.jpg',
-  'IP157D': 'products-img/IP157D.jpg',
-  'IP157L': 'products-img/IP157L.jpg',
-  'IP157L2': 'products-img/IP157L2.jpg',
-  'IP158D': 'products-img/IP158D.jpg',
-  'IP158L': 'products-img/IP158L.jpg',
-  'IP158L2': 'products-img/IP158L2.jpg',
-  'IP159D': 'products-img/IP159D.jpg',
-  'IP159L': 'products-img/IP159L.jpg',
-  'IP160D': 'products-img/IP160D.jpg',
-  'IP160L': 'products-img/IP160L.jpg',
-  'IP161Q2D': '',
-  'IP161Q2L': '',
-  'IP161Q2M': '',
-  'IP162Q2D': 'products-img/IP162Q2D.png',
-  'IP162Q2L': 'products-img/IP162Q2L.png',
-  'IP162Q2M': 'products-img/IP162Q2M.png',
-  'IP163Q22D': '',
-  'IP163Q22L': '',
-  'IP163Q22M': '',
-  'IP163Q22Y': '',
-  'IP166P': '',
-  'IP166S': '',
-  'IP166U': '',
-  'IP168Q22D': 'products-img/IP168Q22D.jpg',
-  'IP168Q22L': 'products-img/IP168Q22L.jpg',
-  'IP168Q22M': 'products-img/IP168Q22M.jpg',
-  'MS02L2': 'products-img/MS02L2.jpg',
-  'RO7UKD1': 'products-img/RO7UKD1.png',
-  'RO8UKE': 'products-img/RO8UKE.png',
-  'TP11W': 'products-img/TP11W.png',
-  'UD31Q22UKM': 'products-img/UD31Q22UKM.jpg',
-  'UD35YTW': '',
-  'UM52UKW': 'products-img/UM52UKW.png',
-  'UM53UKW': 'products-img/UM53UKW.jpg',
-  'UM55UKW': 'products-img/UM55UKW.jpg',
-  'UM58UKL2': 'products-img/UM58UKL2.png',
-  'UM68UKL2': 'products-img/UM68UKL2.png',
-  'UM69UKL2': 'products-img/UM69UKL2.jpg',
-  'UM72UKD': 'products-img/UM72UKD.jpg',
-  'UM72UKG': 'products-img/UM72UKG.jpg',
-  'UM72UKM': 'products-img/UM72UKM.jpg',
-  'UM73UKM': 'products-img/UM73UKM.jpg',
-  'UM73UKW': 'products-img/UM73UKW.jpg',
-  'UM76UKD': 'products-img/UM76UKD.jpg',
-  'UM76UKG': 'products-img/UM76UKG.jpg',
-  'UM76UKM': 'products-img/UM76UKM.jpg',
-  'UM81UKM': 'products-img/UM81UKM.jpg',
-  'UM81UKW': 'products-img/UM81UKW.jpg',
-  'US17UKW': 'products-img/US17UKW.png',
-  'US19UKW': 'products-img/US19UKW.png',
-  'US20UKW': 'products-img/US20UKW.png',
-  'US21UKW': 'products-img/US21UKW.jpg',
-  'US25UKW': 'products-img/US25UKW.jpg'
-};
-const DATA={cats:["Wearable","個人護理","充電器","充電線","其他","定位器 / FindMy","家居","按摩 / 健康","支架 / 座","旅行充電器","流動電源","空氣淨化","耳機 / 音響","觸控筆","車充","車載支架","配件","風扇 / 冷風"],products:[
-{cat:"Wearable",sku:"SG2S6E",name:"1-Sense 智能戒指 #12 (灰)",srp:999,msrp:899,res:530},
-{cat:"Wearable",sku:"SG2S7E",name:"1-Sense 智能戒指 #13 (灰)",srp:999,msrp:899,res:530},
-{cat:"Wearable",sku:"SG2S1E",name:"1-Sense 智能戒指 #7 (灰)",srp:999,msrp:899,res:530},
-{cat:"流動電源",sku:"IP117D",name:"Q.Mag X1 10000mAh 超薄磁吸流動電源 (黑)",srp:369,msrp:299,res:220},
-{cat:"流動電源",sku:"IP117AL2",name:"Q.Mag X1 10000mAh 超薄磁吸流動電源 (沙漠金)",srp:369,msrp:299,res:220},
-{cat:"流動電源",sku:"IP117AM",name:"Q.Mag X1 10000mAh 超薄磁吸流動電源 (橙)",srp:369,msrp:299,res:220},
-{cat:"流動電源",sku:"IP117AP",name:"Q.Mag X1 10000mAh 超薄磁吸流動電源 (粉紅)",srp:369,msrp:299,res:220},
-{cat:"流動電源",sku:"IP136Q2D",name:"Q.Mag X1 Qi2 超薄磁吸流動電源 10000mAh Gen 2 (黑)",srp:449,msrp:399,res:245},
-{cat:"流動電源",sku:"IP136Q2L",name:"Q.Mag X1 Qi2 超薄磁吸流動電源 10000mAh Gen 2 (鈦)",srp:449,msrp:399,res:245},
-{cat:"流動電源",sku:"IP136Q2L2",name:"Q.Mag X1 Qi2 超薄磁吸流動電源 10000mAh Gen 2 (沙漠金)",srp:449,msrp:399,res:245},
-{cat:"充電器",sku:"UM76UKD",name:"1-Charge+ 65W GaN 單輸出及伸縮USB-C 線充電器 (黑)",srp:219,msrp:199,res:132},
-{cat:"充電器",sku:"UM76UKG",name:"1-Charge+ 65W GaN 單輸出及伸縮USB-C 線充電器 (綠)",srp:219,msrp:199,res:132},
-{cat:"充電器",sku:"UM76UKM",name:"1-Charge+ 65W GaN 單輸出及伸縮USB-C 線充電器 (橙)",srp:219,msrp:199,res:132},
-{cat:"充電器",sku:"UA10UKD",name:"1-World 100W GaN 4-插口 + AC 全方位快充旅行插座 (黑)",srp:399,msrp:349,res:238},
-{cat:"充電器",sku:"UA15UKGSD",name:"1-World 120W GaN 旅行充電插座 (鈦色)",srp:449,msrp:429,res:328},
-{cat:"充電器",sku:"UA17UKD",name:"1-World 170W 4-插口旅行充電插座 (沙漠金)",srp:649,msrp:599,res:390},
-{cat:"充電線",sku:"DC35D",name:"Mag Link USB-C to USB-C 100W USB2.0 1m 磁吸連接線 (黑)",srp:89,msrp:69,res:50},
-{cat:"充電線",sku:"DC35L",name:"Mag Link USB-C to USB-C 100W USB2.0 1m 磁吸連接線 (鈦)",srp:89,msrp:69,res:50},
-{cat:"充電線",sku:"DC35W",name:"Mag Link USB-C to USB-C 100W USB2.0 1m 磁吸連接線 (白)",srp:89,msrp:69,res:50},
-{cat:"充電線",sku:"DC36D",name:"Mag Link USB-C to USB-C 100W USB2.0 2m 磁吸連接線 (黑)",srp:119,msrp:89,res:65},
-{cat:"充電線",sku:"DC36L",name:"Mag Link USB-C to USB-C 100W USB2.0 2m 磁吸連接線 (鈦)",srp:119,msrp:89,res:65},
-{cat:"耳機 / 音響",sku:"BT13D",name:"1-VIBE LITE 真無線降噪耳機 (黑)",srp:249,msrp:219,res:125},
-{cat:"耳機 / 音響",sku:"BT13L",name:"1-VIBE LITE 真無線降噪耳機 (鈦)",srp:249,msrp:219,res:125},
-{cat:"耳機 / 音響",sku:"BT13L2",name:"1-VIBE LITE 真無線降噪耳機 (沙漠金)",srp:249,msrp:219,res:125},
-{cat:"耳機 / 音響",sku:"BT13M",name:"1-VIBE LITE 真無線降噪耳機 (橙)",srp:249,msrp:219,res:125},
-{cat:"耳機 / 音響",sku:"BS6HKD",name:"1-Vibe Go 磁吸無線音箱 (黑)",srp:199,msrp:189,res:110},
-{cat:"耳機 / 音響",sku:"BS6HKL",name:"1-Vibe Go 磁吸無線音箱 (鈦)",srp:199,msrp:189,res:110},
-{cat:"耳機 / 音響",sku:"BS6HKL2",name:"1-Vibe Go 磁吸無線音箱 (沙漠金)",srp:199,msrp:189,res:110},
-{cat:"耳機 / 音響",sku:"BS6HKM",name:"1-Vibe Go 磁吸無線音箱 (橙)",srp:199,msrp:189,res:110},
-{cat:"定位器 / FindMy",sku:"BR10D",name:"PinPop Lite Find My 全球定位器 (黑)",srp:49,msrp:30,res:30},
-{cat:"定位器 / FindMy",sku:"BR10W",name:"PinPop Lite Find My 全球定位器 (白)",srp:49,msrp:30,res:30},
-{cat:"定位器 / FindMy",sku:"BR11D",name:"Pinpop Duo Find My 全球定位器 (黑)",srp:129,msrp:105,res:70},
-{cat:"定位器 / FindMy",sku:"BR11W",name:"Pinpop Duo Find My 全球定位器 (白)",srp:129,msrp:105,res:70},
-{cat:"車載支架",sku:"CM22E",name:"MoVe 簡易磁吸車載支架",srp:129,msrp:99,res:70},
-{cat:"車載支架",sku:"CM22L",name:"MoVe 簡易磁吸車載支架 (鈦)",srp:129,msrp:99,res:70},
-{cat:"車載支架",sku:"CM29W",name:"1-Charge Flow 無線車用充電支架 (白)",srp:199,msrp:179,res:120},
-{cat:"車載支架",sku:"CM32L",name:"Q2.Mag Mount Qi2 無線充電車載重力支架 (鈦)",srp:399,msrp:329,res:235},
-{cat:"車充",sku:"UC17E",name:"MoVe 100W 三輸出車載充電器",srp:149,msrp:129,res:89},
-{cat:"車充",sku:"UC16E",name:"MoVe 67W 雙輸出車載充電器",srp:99,msrp:89,res:58},
-{cat:"支架 / 座",sku:"KH5L1",name:"Fold Stand 旋轉手機&平板支架 (鈦)",srp:189,msrp:149,res:120},
-{cat:"支架 / 座",sku:"KH10E",name:"Fold Stand 旋轉座檯電腦支架",srp:399,msrp:239,res:200},
-{cat:"個人護理",sku:"HL20L",name:"1-CARE RAZE 往復式迷你剃須刀",srp:229,msrp:137,res:137},
-{cat:"個人護理",sku:"HL13UKW",name:"1-Care Hair Mini 負離子高速吹風機 (英規) (白)",srp:469,msrp:399,res:238}
+  <script>
+    const IMG = {
+      'MS02L2': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/files/MS02_L2_01_1500_Additional_JPG_Medium_a0e638c5-d5f5-49ec-a129-fc0fc48aede4.jpg?v=1742745828',
+      'BR16D': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BR16_BilkQR_1080_1080_972c35e0-1e44-4e87-8d6a-1b2f4d5c6a7b_1500.png?v=1735688400',
+      'BS13D': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS13D-Black-Main_1500.png?v=1724128733',
+      'BS13M': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS13M-Orange-Main_1500.png?v=1724128733',
+      'BS13W': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS13W-White-Main_1500.png?v=1724128733',
+      'BS6HKD': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS6HKD-Black_1500.png?v=1724128733',
+      'BS6HKL': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS6HKL-Titanium_1500.png?v=1724128733',
+      'BS6HKL2': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS6HKL2-DesertGold_1500.png?v=1724128733',
+      'BS6HKM': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS6HKM-Orange_1500.png?v=1724128733',
+      'BS6HKP': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS6HKP-Pink_1500.png?v=1724128733',
+      'BS6HKS': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS6HKS-Silver_1500.png?v=1724128733',
+      'BS6HKU': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS6HKU-Purple_1500.png?v=1724128733',
+      'BS6GSD': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS6GSD-DarkGrey_1500.png?v=1724128733',
+      'BS6GSL2': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS6GSL2-DesertGold_1500.png?v=1724128733',
+      'BS6HKB': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS6HKB-Black_1500.png?v=1724128733',
+      'BT13D': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BT13D_1-VIBELITE-Black_1500.png?v=1724128733',
+      'BT13L': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BT13L_1-VIBELITE-Titanium_1500.png?v=1724128733',
+      'BT13L2': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BT13L2_1-VIBELITE-DesertGold_1500.png?v=1724128733',
+      'BT13M': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BT13M_1-VIBELITE-Orange_1500.png?v=1724128733',
+      'BT15D': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BT15D-Black_1500.png?v=1724128733',
+      'BT15L': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BT15L-Titanium_1500.png?v=1724128733',
+      'BT15M': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BT15M-Orange_1500.png?v=1724128733'    </script>
+    <script>
+      const DATA={cats:["Wearable","個人護理","充電器","充電線","其他","定位器 / FindMy","家居","按摩 / 健康","支架 / 座","旅行充電器","流動電源","空氣淨化","耳機 / 音響","觸控筆","車充","車載支架","配件","風扇 / 冷風"],products:[
+        [
+  {cat:'其他', sku:'MS02L2', name:'1-Folio A.I. 滑鼠 (沙漠金)', srp:parseFloat('499'), msrp:parseFloat('449'), res:parseFloat('300')},
+  {cat:'配件', sku:'AP11SLX', name:'AP11S H13 HEPA及活性炭過濾網', srp:parseFloat('99'), msrp:parseFloat('48'), res:parseFloat('48')},
+  {cat:'配件', sku:'AP16SLX3', name:'AP16S H13 HEPA 過濾網', srp:parseFloat('99'), msrp:parseFloat('48'), res:parseFloat('48')},
+  {cat:'配件', sku:'AP6SLX', name:'AP6S/AP7S H13 HEPA過濾網', srp:parseFloat('169'), msrp:parseFloat('98'), res:parseFloat('98')},
+  {cat:'配件', sku:'AP8SLX', name:'AP8S H13 HEPA及活性炭過濾網 Air Purifier -', srp:parseFloat('399'), msrp:parseFloat('198'), res:parseFloat('198')},
+  {cat:'配件', sku:'AP9SLX', name:'AP9S H14 HEPA 過濾網', srp:parseFloat('299'), msrp:parseFloat('108'), res:parseFloat('108')},
+  {cat:'配件', sku:'', name:'SJDTHL20 1-CARE RAZE HL20專用替換磁性刮鬍刀頭 Vacuum', srp:parseFloat('69'), msrp:parseFloat('34'), res:parseFloat('34')},
+  {cat:'旅行充電器', sku:'UA22UKM', name:'1-WORLD² 70W 雙 AC 五 USB GaN 全球轉換插座 Travel', srp:parseFloat('319'), msrp:parseFloat('299'), res:parseFloat('168')},
+  {cat:'旅行充電器', sku:'UA10UKD', name:'1-World 100W GaN 4-插口 + AC 全方位快充旅行插座 (黑) Travel', srp:parseFloat('399'), msrp:parseFloat('349'), res:parseFloat('238')},
+  {cat:'旅行充電器', sku:'UA17UKD', name:'1-World 170W 4-插口旅行充電插座 (沙漠金) Travel', srp:parseFloat('649'), msrp:parseFloat('599'), res:parseFloat('390')},
+  {cat:'旅行充電器', sku:'UA29UKM', name:'1-World 20W 2-插口雙AC旅行充電插座 (橙) Travel', srp:parseFloat('99'), msrp:parseFloat('89'), res:parseFloat('60')},
+  {cat:'旅行充電器', sku:'UA29UKW', name:'1-World 20W 2-插口雙AC旅行充電插座 (白) Travel', srp:parseFloat('99'), msrp:parseFloat('89'), res:parseFloat('60')},
+  {cat:'旅行充電器', sku:'UA29UKD', name:'1-World 20W 2-插口雙AC旅行充電插座 (黑) Travel', srp:parseFloat('99'), msrp:parseFloat('89'), res:parseFloat('60')},
+  {cat:'旅行充電器', sku:'UA9UKW', name:'1-World 35W 5 USB 旅行充電插座 (白色)', srp:parseFloat('229'), msrp:parseFloat('179'), res:parseFloat('128')},
+  {cat:'旅行充電器', sku:'UA9UKD', name:'1-World 35W 5 USB 旅行充電插座 (黑色) Travel', srp:parseFloat('229'), msrp:parseFloat('179'), res:parseFloat('128')},
+  {cat:'旅行充電器', sku:'UA9UKE', name:'1-World 35W 5-插口 + AC旅行充電插座 (鈦色) Travel', srp:parseFloat('229'), msrp:parseFloat('179'), res:parseFloat('128')},
+  {cat:'旅行充電器', sku:'UA8AUKU', name:'1-World 70W 5-插口 + AC旅行充電插座 (暗紫) Travel', srp:parseFloat('299'), msrp:parseFloat('269'), res:parseFloat('158')},
+  {cat:'旅行充電器', sku:'UA8AUKD', name:'1-World 70W 5-插口 + AC旅行充電插座 (黑) Travel', srp:parseFloat('299'), msrp:parseFloat('269'), res:parseFloat('158')},
+  {cat:'旅行充電器', sku:'UA8AUKW', name:'1-World 70W GaN旅行充電插座 (白) Travel', srp:parseFloat('299'), msrp:parseFloat('269'), res:parseFloat('158')},
+  {cat:'旅行充電器', sku:'UA8AUKE', name:'1-World 70W GaN旅行充電插座 (鈦) Travel', srp:parseFloat('299'), msrp:parseFloat('269'), res:parseFloat('158')},
+  {cat:'旅行充電器', sku:'UA19UKE', name:'1-World 旅行插座 (灰) Travel', srp:parseFloat('79'), msrp:parseFloat('69'), res:parseFloat('39')},
+  {cat:'旅行充電器', sku:'UA19UKW', name:'1-World 旅行插座 (白) Travel', srp:parseFloat('79'), msrp:parseFloat('69'), res:parseFloat('39')},
+  {cat:'旅行充電器', sku:'UA19UKP', name:'1-World 旅行插座 (粉紅) Travel', srp:parseFloat('79'), msrp:parseFloat('69'), res:parseFloat('39')},
+  {cat:'旅行充電器', sku:'UA19UKD', name:'1-World 旅行插座 (黑) Travel', srp:parseFloat('79'), msrp:parseFloat('69'), res:parseFloat('39')},
+  {cat:'旅行充電器', sku:'UA23UKL', name:'1-World2 100W 4-插口雙AC旅行充電插座 (鈦) Travel', srp:parseFloat('449'), msrp:parseFloat('399'), res:parseFloat('270')},
+  {cat:'旅行充電器', sku:'UA23UKD', name:'1-World2 100W 4-插口雙AC旅行充電插座 (黑) Travel', srp:parseFloat('449'), msrp:parseFloat('399'), res:parseFloat('270')},
+  {cat:'旅行充電器', sku:'UA28UKL', name:'1-World2 205W七接口雙AC旅行充電插座 (Titanium) Travel', srp:parseFloat('749'), msrp:parseFloat('669'), res:parseFloat('470')},
+  {cat:'旅行充電器', sku:'UA26UKW', name:'1-World2 20W 3-插口雙AC旅行充電插座 (白) Travel', srp:parseFloat('179'), msrp:parseFloat('149'), res:parseFloat('99')},
+  {cat:'旅行充電器', sku:'UA26UKD', name:'1-World2 20W 3-插口雙AC旅行充電插座 (黑) Travel', srp:parseFloat('179'), msrp:parseFloat('149'), res:parseFloat('99')},
+  {cat:'旅行充電器', sku:'UA27UKL2', name:'1-World2 35W 5-插口雙AC旅行充電插座 (沙漠金) Travel', srp:parseFloat('209'), msrp:parseFloat('179'), res:parseFloat('115')},
+  {cat:'旅行充電器', sku:'UA27UKD', name:'1-World2 35W 5-插口雙AC旅行充電插座 (黑) Travel', srp:parseFloat('209'), msrp:parseFloat('179'), res:parseFloat('115')},
+  {cat:'旅行充電器', sku:'UA22UKL2', name:'1-World2 70W 5-插口雙AC旅行充電插座 (沙漠金) Travel', srp:parseFloat('319'), msrp:parseFloat('299'), res:parseFloat('168')},
+  {cat:'旅行充電器', sku:'UA22UKD', name:'1-World2 70W 5-插口雙AC旅行充電插座 (黑) Travel', srp:parseFloat('319'), msrp:parseFloat('299'), res:parseFloat('168')},
+  {cat:'旅行充電器', sku:'UA30UKL', name:'1-World2+ 70W 伸縮充電線三接口旅行充電插座 (鈦) Travel', srp:parseFloat('339'), msrp:parseFloat('210'), res:parseFloat('210')},
+  {cat:'旅行充電器', sku:'UA30UKD', name:'1-World2+ 70W 伸縮充電線三接口旅行充電插座 (黑) Travel', srp:parseFloat('339'), msrp:parseFloat('210'), res:parseFloat('210')},
+  {cat:'空氣淨化', sku:'AP16SUKW', name:'Air Pure Duo IoT 紫外線冷暖淨化風扇 (英規) (白) Air Purifier -', srp:parseFloat('2380'), msrp:parseFloat('1280'), res:parseFloat('1280')},
+  {cat:'充電線', sku:'DC25D', name:'1-Link Flow CC 100W USB-C 2m 編織紋連接線 (黑) Charging', srp:parseFloat('89'), msrp:parseFloat('79'), res:parseFloat('45')},
+  {cat:'充電線', sku:'DC23W', name:'1-Link Flow CC X 60W USB-C 1.2m 連接線 (白) Charging', srp:parseFloat('59'), msrp:parseFloat('49'), res:parseFloat('24')},
+  {cat:'充電線', sku:'DC23P', name:'1-Link Flow CC X 60W USB-C 1.2m 連接線 (粉) Charging', srp:parseFloat('59'), msrp:parseFloat('49'), res:parseFloat('24')},
+  {cat:'充電線', sku:'DC23G', name:'1-Link Flow CC X 60W USB-C 1.2m 連接線 (綠) Charging', srp:parseFloat('59'), msrp:parseFloat('49'), res:parseFloat('24')},
+  {cat:'充電線', sku:'DC23D', name:'1-Link Flow CC X 60W USB-C 1.2m 連接線 (黑) Charging', srp:parseFloat('59'), msrp:parseFloat('49'), res:parseFloat('24')},
+  {cat:'充電線', sku:'DC26W', name:'1-Link Flow CC+ 100W USB-C 3m 編織紋連接線 (白) Charging', srp:parseFloat('99'), msrp:parseFloat('89'), res:parseFloat('50')},
+  {cat:'充電線', sku:'DC26D', name:'1-Link Flow CC+ 100W USB-C 3m 編織紋連接線 (黑) Charging', srp:parseFloat('99'), msrp:parseFloat('89'), res:parseFloat('50')},
+  {cat:'充電線', sku:'DL53W', name:'1-Link Flow CL USB-C to Lightning 1.2m 連接線 (白) Charging', srp:parseFloat('99'), msrp:parseFloat('89'), res:parseFloat('58')},
+  {cat:'充電線', sku:'DL53P', name:'1-Link Flow CL USB-C to Lightning 1.2m 連接線 (粉) Charging', srp:parseFloat('99'), msrp:parseFloat('89'), res:parseFloat('58')},
+  {cat:'充電線', sku:'DL53G', name:'1-Link Flow CL USB-C to Lightning 1.2m 連接線 (綠) Charging', srp:parseFloat('99'), msrp:parseFloat('89'), res:parseFloat('58')},
+  {cat:'充電線', sku:'DL56W', name:'1-Link Flow Duo 2-in-1 1.5米 編織紋連接線 (白) Charging', srp:parseFloat('199'), msrp:parseFloat('179'), res:parseFloat('98')},
+  {cat:'充電線', sku:'DL56D', name:'1-Link Flow Duo 2-in-1 1.5米 編織紋連接線 (黑) Charging', srp:parseFloat('199'), msrp:parseFloat('179'), res:parseFloat('98')},
+  {cat:'充電線', sku:'DC39D', name:'Elite 240W USB-C USB4 40Gbps 1m連接線 (黑) Charging', srp:parseFloat('149'), msrp:parseFloat('129'), res:parseFloat('80')},
+  {cat:'充電線', sku:'DC30L', name:'Elite 60W USB-C 1.5m 連接線 (鈦) Charging', srp:parseFloat('69'), msrp:parseFloat('62'), res:parseFloat('28')},
+  {cat:'充電線', sku:'DC30W', name:'Elite 60W USB-C Cable 1.5m 連接線 (白) SRP (HKD) 客⼾價 (HKD) Charging', srp:parseFloat('69'), msrp:parseFloat('62'), res:parseFloat('28')},
+  {cat:'充電線', sku:'DC30D', name:'Elite 60W USB-C Cable 1.5m 連接線 (黑) Charging', srp:parseFloat('69'), msrp:parseFloat('62'), res:parseFloat('28')},
+  {cat:'充電線', sku:'DC52M', name:'Mag.Link 100W USB-C to USB-C  磁吸連接線 1m  (橙) Charging', srp:parseFloat('89'), msrp:parseFloat('69'), res:parseFloat('44')},
+  {cat:'充電線', sku:'DC52R', name:'Mag.Link 100W USB-C to USB-C  磁吸連接線 1m  (紅) Charging', srp:parseFloat('89'), msrp:parseFloat('69'), res:parseFloat('44')},
+  {cat:'充電線', sku:'DC52G', name:'Mag.Link 100W USB-C to USB-C  磁吸連接線 1m  (綠) Charging', srp:parseFloat('89'), msrp:parseFloat('69'), res:parseFloat('44')},
+  {cat:'充電線', sku:'DC52B', name:'Mag.Link 100W USB-C to USB-C  磁吸連接線 1m  (藍) Charging', srp:parseFloat('89'), msrp:parseFloat('69'), res:parseFloat('44')},
+  {cat:'充電線', sku:'DC52D', name:'Mag.Link 100W USB-C to USB-C  磁吸連接線 1m  (黑) Charging', srp:parseFloat('89'), msrp:parseFloat('69'), res:parseFloat('44')},
+  {cat:'充電線', sku:'DC62D', name:'Mag.Link 100W USB-C to USB-C  磁吸連接線 2m (黑) Charging', srp:parseFloat('119'), msrp:parseFloat('99'), res:parseFloat('59')},
+  {cat:'充電線', sku:'DC71D', name:'Mag.Link 240W USB-C to USB-C  磁吸連接線 2m (黑) Charging', srp:parseFloat('149'), msrp:parseFloat('129'), res:parseFloat('75')},
+  {cat:'充電線', sku:'DC60L2', name:'Mag.Link 60W USB-C to USB-C  磁吸連接線 1m (沙漠金) Charging', srp:parseFloat('39'), msrp:parseFloat('39'), res:parseFloat('27')},
+  {cat:'充電線', sku:'DC60D', name:'Mag.Link 60W USB-C to USB-C  磁吸連接線 1m (黑) Charging', srp:parseFloat('39'), msrp:parseFloat('39'), res:parseFloat('27')},
+  {cat:'充電線', sku:'DC61L2', name:'Mag.Link 60W USB-C to USB-C  磁吸連接線 2m (沙漠金) Charging', srp:parseFloat('89'), msrp:parseFloat('79'), res:parseFloat('53')},
+  {cat:'充電線', sku:'DC61D', name:'Mag.Link 60W USB-C to USB-C  磁吸連接線 2m (黑) Charging', srp:parseFloat('89'), msrp:parseFloat('79'), res:parseFloat('53')},
+  {cat:'充電線', sku:'DA57D', name:'Mag.Link 66W USB-A to USB-C  磁吸連接線 1m (黑) Charging', srp:parseFloat('69'), msrp:parseFloat('59'), res:parseFloat('41')},
+  {cat:'充電線', sku:'DC56D', name:'Mag.link 100W USB-C to Dual USB-C 磁吸連接線 2m (黑)Charging', srp:parseFloat('169'), msrp:parseFloat('149'), res:parseFloat('95')},
+  {cat:'充電線', sku:'DL58D', name:'Mag.link USB-C to C & Lightning 磁吸連接線 1m (黑) Charging', srp:parseFloat('199'), msrp:parseFloat('179'), res:parseFloat('100')},
+  {cat:'充電線', sku:'DL60D', name:'Mag.link USB-C to C & Lightning 磁吸連接線 2m (黑) Charging', srp:parseFloat('229'), msrp:parseFloat('209'), res:parseFloat('115')},
+  {cat:'充電線', sku:'DL57D', name:'Mag.link USB-C to Lightning 磁吸連接線 1m (黑) Charging', srp:parseFloat('149'), msrp:parseFloat('129'), res:parseFloat('89')},
+  {cat:'充電線', sku:'DL59D', name:'Mag.link USB-C to Lightning 磁吸連接線 2m (黑) Charging', srp:parseFloat('179'), msrp:parseFloat('159'), res:parseFloat('108')},
+  {cat:'充電線', sku:'DL39M', name:'ZERO USB-C to Lightning 1.2米 編織紋連接線 (香檳金) Charging', srp:parseFloat('119'), msrp:parseFloat('105'), res:parseFloat('68')},
+  {cat:'充電線', sku:'DL35W', name:'Zero USB-C to Lightning 30cm 連接線 (白) Charging', srp:parseFloat('89'), msrp:parseFloat('79'), res:parseFloat('53')},
+  {cat:'車充', sku:'UC19E', name:'1-MOVE+ 60W 伸縮充電線雙接口車用充電器 (灰) Wireless', srp:parseFloat('179'), msrp:parseFloat('159'), res:parseFloat('99')},
+  {cat:'車充', sku:'UC17E', name:'MoVe 100W 三輸出車載充電器 SRP (HKD) 客⼾價 (HKD)', srp:parseFloat('149'), msrp:parseFloat('129'), res:parseFloat('89')},
+  {cat:'車充', sku:'UC16E', name:'MoVe 67W 雙輸出車載充電器', srp:parseFloat('99'), msrp:parseFloat('89'), res:parseFloat('58')},
+  {cat:'車充', sku:'UC16GSC', name:'MoVe 67W 雙輸出車載充電器 (套裝包含DC21)', srp:parseFloat('129'), msrp:parseFloat('70'), res:parseFloat('70')},
+  {cat:'車充', sku:'UC16GSL', name:'MoVe 67W 雙輸出車載充電器 (套裝包含DL16)', srp:parseFloat('159'), msrp:parseFloat('95'), res:parseFloat('95')},
+  {cat:'車載支架', sku:'CM29W', name:'1-Charge Flow 無線車用充電支架 (白)', srp:parseFloat('199'), msrp:parseFloat('179'), res:parseFloat('120')},
+  {cat:'車載支架', sku:'CM22E', name:'MoVe 簡易磁吸車載支架', srp:parseFloat('129'), msrp:parseFloat('99'), res:parseFloat('70')},
+  {cat:'車載支架', sku:'CM22L', name:'MoVe 簡易磁吸車載支架 (鈦)', srp:parseFloat('129'), msrp:parseFloat('99'), res:parseFloat('70')},
+  {cat:'車載支架', sku:'CM30E', name:'Pac Mount 多用途磁吸支架 (灰)', srp:parseFloat('189'), msrp:parseFloat('149'), res:parseFloat('90')},
+  {cat:'車載支架', sku:'CM30L', name:'Pac Mount 多用途磁吸支架 (鈦)', srp:parseFloat('189'), msrp:parseFloat('149'), res:parseFloat('90')},
+  {cat:'車載支架', sku:'CM32L', name:'Q2.Mag Mount Qi2 無線充電車載重力支架 (鈦)', srp:parseFloat('399'), msrp:parseFloat('329'), res:parseFloat('235')},
+  {cat:'充電器', sku:'US25UKW', name:'1-CHARGE Work Flow 70W 2A3C 6位数显拖板 (白) Extension Socket & Adaptor', srp:parseFloat('379'), msrp:parseFloat('225'), res:parseFloat('225')},
+  {cat:'充電器', sku:'UM68UKL2', name:'1-Charge 20W 單輸出充電器 (英規) (沙漠金)', srp:parseFloat('89'), msrp:parseFloat('69'), res:parseFloat('48')},
+  {cat:'充電器', sku:'UM58UKL2', name:'1-Charge 30W 單輸出充電器 (英規) (沙漠金)', srp:parseFloat('129'), msrp:parseFloat('109'), res:parseFloat('75')},
+  {cat:'充電器', sku:'UM71UKL2', name:'1-Charge 30W 雙輸出充電器 (英規) (沙漠金)', srp:parseFloat('159'), msrp:parseFloat('129'), res:parseFloat('80')},
+  {cat:'充電器', sku:'UM73UKM', name:'1-Charge 45W 1位氮化鎵充電器 1x USB-C  (英規）(橙) SRP (HKD) 客⼾價 (HKD)', srp:parseFloat('129'), msrp:parseFloat('76'), res:parseFloat('76')},
+  {cat:'充電器', sku:'UM73UKW', name:'1-Charge 45W 1位氮化鎵充電器 1x USB-C (英規）(白)', srp:parseFloat('129'), msrp:parseFloat('76'), res:parseFloat('76')},
+  {cat:'充電器', sku:'UM81UKW', name:'1-Charge 45W 2位氮化鎵充電器 2x USB-C (英規） (白) Extension Socket & Adaptor', srp:parseFloat('169'), msrp:parseFloat('85'), res:parseFloat('85')},
+  {cat:'充電器', sku:'UM81UKM', name:'1-Charge 45W 2位氮化鎵充電器 2x USB-C (英規）(橙)', srp:parseFloat('169'), msrp:parseFloat('85'), res:parseFloat('85')},
+  {cat:'充電器', sku:'UM69UKL2', name:'1-Charge 65W 單輸出充電器 (英規) (沙漠金)', srp:parseFloat('219'), msrp:parseFloat('179'), res:parseFloat('115')},
+  {cat:'充電器', sku:'UM52UKW', name:'1-Charge Flow 80W 三輸出充電器 (英規) (白色)', srp:parseFloat('239'), msrp:parseFloat('189'), res:parseFloat('128')},
+  {cat:'充電器', sku:'UM53UKW', name:'1-Charge Flow 80W 四輸出桌面充電器 (英規) (白色)', srp:parseFloat('239'), msrp:parseFloat('209'), res:parseFloat('128')},
+  {cat:'充電器', sku:'UM55UKW', name:'1-Charge Flow+ 120W 六輸出桌面充電器 (英規) (白色)', srp:parseFloat('439'), msrp:parseFloat('389'), res:parseFloat('238')},
+  {cat:'充電器', sku:'UD31Q22UKM', name:'1-Charge Q.Port² 折疊 Qi2.2 三合一無線充電座 (英規）(橙)Wireless', srp:parseFloat('1099'), msrp:parseFloat('660'), res:parseFloat('660')},
+  {cat:'充電器', sku:'US17UKW', name:'1-Charge Work Flow 25W 2A2C 2口T型插座 (白) Extension Socket & Adaptor', srp:parseFloat('149'), msrp:parseFloat('139'), res:parseFloat('89')},
+  {cat:'充電器', sku:'US19UKW', name:'1-Charge Work Flow 35W 2A2C 3口T型插座 (白) Extension Socket & Adaptor', srp:parseFloat('189'), msrp:parseFloat('169'), res:parseFloat('113')},
+  {cat:'充電器', sku:'US20UKW', name:'1-Charge Work Flow PD30W 2A2C 3位拖板 (白) Extension Socket & Adaptor', srp:parseFloat('239'), msrp:parseFloat('209'), res:parseFloat('143')},
+  {cat:'充電器', sku:'US21UKW', name:'1-Charge Work Flow PD35W 2A3C 6位拖板 (白) Extension Socket & Adaptor', srp:parseFloat('299'), msrp:parseFloat('269'), res:parseFloat('180')},
+  {cat:'充電器', sku:'UM72UKM', name:'1-Charge+ 35W GaN單輸出及伸縮USB-C 線充電器 (橙)', srp:parseFloat('169'), msrp:parseFloat('149'), res:parseFloat('102')},
+  {cat:'充電器', sku:'UM72UKG', name:'1-Charge+ 35W GaN單輸出及伸縮USB-C 線充電器 (綠)', srp:parseFloat('169'), msrp:parseFloat('149'), res:parseFloat('102')},
+  {cat:'充電器', sku:'UM72UKD', name:'1-Charge+ 35W GaN單輸出及伸縮USB-C 線充電器 (黑)', srp:parseFloat('169'), msrp:parseFloat('149'), res:parseFloat('102')},
+  {cat:'充電器', sku:'UM76UKM', name:'1-Charge+ 65W GaN單輸出及伸縮USB-C 線充電器 (橙)', srp:parseFloat('219'), msrp:parseFloat('199'), res:parseFloat('132')},
+  {cat:'充電器', sku:'UM76UKG', name:'1-Charge+ 65W GaN單輸出及伸縮USB-C 線充電器 (綠)', srp:parseFloat('219'), msrp:parseFloat('199'), res:parseFloat('132')},
+  {cat:'充電器', sku:'UM76UKD', name:'1-Charge+ 65W GaN單輸出及伸縮USB-C 線充電器 (黑)', srp:parseFloat('219'), msrp:parseFloat('199'), res:parseFloat('132')},
+  {cat:'充電器', sku:'UM56UKW', name:'ONEPLUG 25W雙輸出快速充電器 (英規) (白色)', srp:parseFloat('99'), msrp:parseFloat('79'), res:parseFloat('48')},
+  {cat:'充電器', sku:'UM50UKP', name:'ONEPLUG 70W 四輸出桌面充電器 (英規) (粉色)', srp:parseFloat('199'), msrp:parseFloat('179'), res:parseFloat('118')},
+  {cat:'充電器', sku:'US10UKE', name:'ONEPLUG PD20W 2A1C 1位萬能插蘇 (太空灰) Extension Socket & Adaptor', srp:parseFloat('99'), msrp:parseFloat('64'), res:parseFloat('64')},
+  {cat:'充電器', sku:'US6UKE', name:'ONEPLUG PD20W 2A1C 3位T型插座 (深空灰) Extension Socket & Adaptor', srp:parseFloat('139'), msrp:parseFloat('109'), res:parseFloat('90')},
+  {cat:'充電器', sku:'US6UKW', name:'ONEPLUG PD20W 2A1C 3位T型插座 (白) Extension Socket & Adaptor', srp:parseFloat('139'), msrp:parseFloat('109'), res:parseFloat('90')},
+  {cat:'充電器', sku:'US8UKE', name:'ONEPLUG PD20W 2A1C 3位萬能插蘇 (深空灰)', srp:parseFloat('139'), msrp:parseFloat('109'), res:parseFloat('90')},
+  {cat:'充電器', sku:'US3UKE', name:'ONEPLUG PD20W 2A1C 4位拖板 (深空灰) Extension Socket & Adaptor', srp:parseFloat('189'), msrp:parseFloat('149'), res:parseFloat('120')},
+  {cat:'充電器', sku:'US3UKW', name:'ONEPLUG PD20W 2A1C 4位拖板 (白) Extension Socket & Adaptor', srp:parseFloat('189'), msrp:parseFloat('149'), res:parseFloat('120')},
+  {cat:'充電器', sku:'US5UKE', name:'ONEPLUG PD20W 2A1C 8位拖板 (深空灰) Extension Socket & Adaptor', srp:parseFloat('229'), msrp:parseFloat('179'), res:parseFloat('150')},
+  {cat:'充電器', sku:'US11UKE', name:'ONEPLUG PD20W 2A2C 11位拖板(灰) Extension Socket & Adaptor', srp:parseFloat('269'), msrp:parseFloat('219'), res:parseFloat('175')},
+  {cat:'充電器', sku:'US11UKW', name:'ONEPLUG PD20W 2A2C 11位拖板(白) Extension Socket & Adaptor', srp:parseFloat('269'), msrp:parseFloat('219'), res:parseFloat('175')},
+  {cat:'充電器', sku:'US18UKE', name:'ONEPLUG PD20W 2A2C 7位拖板 (太空灰) Extension Socket & Adaptor', srp:parseFloat('249'), msrp:parseFloat('199'), res:parseFloat('160')},
+  {cat:'充電器', sku:'US18UKW', name:'ONEPLUG PD20W 2A2C 7位拖板 (白) Extension Socket & Adaptor', srp:parseFloat('249'), msrp:parseFloat('199'), res:parseFloat('160')},
+  {cat:'充電器', sku:'UD30MFIE', name:'Q.Mag Go 折疊MageSafe二合一無線充電器 Wireless', srp:parseFloat('799'), msrp:parseFloat('719'), res:parseFloat('468')},
+  {cat:'充電器', sku:'UD31L2', name:'Q2.Mag Go Qi2 三合一磁吸無線充電支架 (英規）(沙漠金) Wireless', srp:parseFloat('899'), msrp:parseFloat('585'), res:parseFloat('585')},
+  {cat:'充電器', sku:'UD31L', name:'Q2.Mag Go Qi2 三合一磁吸無線充電支架 (英規）(鈦) Wireless', srp:parseFloat('899'), msrp:parseFloat('585'), res:parseFloat('585')},
+  {cat:'充電器', sku:'UD31D', name:'Q2.Mag Go Qi2 三合一磁吸無線充電支架 (英規）(黑) Wireless', srp:parseFloat('899'), msrp:parseFloat('585'), res:parseFloat('585')},
+  {cat:'充電器', sku:'UD32L', name:'Q2.Mag Qi2 磁吸無線充電器 (鈦) Brand', srp:parseFloat('269'), msrp:parseFloat('209'), res:parseFloat('150')},
+  {cat:'其他', sku:'RO7UKD1', name:'1-Home Vacuum 無線吸塵器 (英規) Vacuum Cleaner - Accessories', srp:parseFloat('1099'), msrp:parseFloat('699'), res:parseFloat('650')},
+  {cat:'其他', sku:'RO8UKE', name:'1-Home Vacuum+ 無線吸塵器 (英規) Vacuum', srp:parseFloat('1499'), msrp:parseFloat('1199'), res:parseFloat('780')},
+  {cat:'其他', sku:'RO9E', name:'1-Move Vacuum 便攜式吸塵器 (太空灰) Smart', srp:parseFloat('499'), msrp:parseFloat('275'), res:parseFloat('275')},
+  {cat:'其他', sku:'RO12E', name:'1° Airo 多用途渦輪高速風扇和清潔套裝 (深灰) Vacuum', srp:parseFloat('399'), msrp:parseFloat('220'), res:parseFloat('220')},
+  {cat:'其他', sku:'RO12W', name:'1° Airo 多用途渦輪高速風扇和清潔套裝 (白) Vacuum', srp:parseFloat('399'), msrp:parseFloat('220'), res:parseFloat('220')},
+  {cat:'其他', sku:'RO12D', name:'1° Airo 多用途渦輪高速風扇和清潔套裝 (黑) Vacuum', srp:parseFloat('399'), msrp:parseFloat('220'), res:parseFloat('220')},
+  {cat:'其他', sku:'RO3LX', name:'Micro Cleanse H11 HEPA 濾芯 (3件裝) Vacuum Cleaner - Accessories', srp:parseFloat('99'), msrp:parseFloat('48'), res:parseFloat('48')},
+  {cat:'其他', sku:'RO3E', name:'Micro Cleanse 便携式迷你吸塵器 Vacuum Cleaner - Accessories', srp:parseFloat('369'), msrp:parseFloat('228'), res:parseFloat('228')},
+  {cat:'其他', sku:'RO7LX1', name:'RO7 擴充電池組 Vacuum Cleaner - Accessories', srp:parseFloat('499'), msrp:parseFloat('250'), res:parseFloat('250')},
+  {cat:'其他', sku:'RO7LX2', name:'RO7 高效過濾器 Vacuum', srp:parseFloat('129'), msrp:parseFloat('50'), res:parseFloat('50')},
+  {cat:'其他', sku:'RO8LX1', name:'RO8 擴充電池組 SRP (HKD) 客⼾價 (HKD) Vacuum Cleaner - Accessories', srp:parseFloat('599'), msrp:parseFloat('300'), res:parseFloat('300')},
+  {cat:'其他', sku:'RO8LX2', name:'RO8 高效過濾器 Vacuum', srp:parseFloat('129'), msrp:parseFloat('50'), res:parseFloat('50')},
+  {cat:'其他', sku:'', name:'SJLXRO12 1° Airo 高效能 HEPA濾芯 (2 件) Vacuum Cleaner - Accessories', srp:parseFloat('24'), msrp:parseFloat('12'), res:parseFloat('12')},
+  {cat:'其他', sku:'', name:'SJLXRO9 RO9 高效過濾器 (3件裝) Smart', srp:parseFloat('199'), msrp:parseFloat('179'), res:parseFloat('99')},
+  {cat:'家居', sku:'AP13LX', name:'Fresh 360 Max 神奇抽濕棒補充裝（AP12 專用） Air Purifier -', srp:parseFloat('159'), msrp:parseFloat('68'), res:parseFloat('68')},
+  {cat:'家居', sku:'AP12UKW', name:'Fresh 360 Max 神奇抽濕棒連底座', srp:parseFloat('369'), msrp:parseFloat('178'), res:parseFloat('178')},
+  {cat:'風扇 / 冷風', sku:'IF22W', name:'1°GO CLAMP 輕巧摺疊式傘夾迷你風扇 (白)', srp:parseFloat('149'), msrp:parseFloat('139'), res:parseFloat('75')},
+  {cat:'風扇 / 冷風', sku:'IF22G', name:'1°GO CLAMP 輕巧摺疊式傘夾迷你風扇 (綠)', srp:parseFloat('149'), msrp:parseFloat('139'), res:parseFloat('75')},
+  {cat:'風扇 / 冷風', sku:'IF23W', name:'1°GO CLIP 高速腰夾迷你風扇 (白)', srp:parseFloat('199'), msrp:parseFloat('189'), res:parseFloat('110')},
+  {cat:'風扇 / 冷風', sku:'IF21W', name:'1°GO FREEZE 輕巧摺疊式冰敷風扇 (白)', srp:parseFloat('169'), msrp:parseFloat('159'), res:parseFloat('85')},
+  {cat:'風扇 / 冷風', sku:'IF21G', name:'1°GO FREEZE 輕巧摺疊式冰敷風扇 (綠)', srp:parseFloat('169'), msrp:parseFloat('159'), res:parseFloat('85')},
+  {cat:'風扇 / 冷風', sku:'IF18L2', name:'1°Go 冰敷手持風扇 (沙漠金)', srp:parseFloat('249'), msrp:parseFloat('189'), res:parseFloat('138')},
+  {cat:'風扇 / 冷風', sku:'IF20L2', name:'1°Pod 迷你桌上型風扇 (沙漠金)', srp:parseFloat('179'), msrp:parseFloat('139'), res:parseFloat('99')},
+  {cat:'風扇 / 冷風', sku:'IF16UKW', name:'Airoma 3D 空氣循環扇', srp:parseFloat('399'), msrp:parseFloat('239'), res:parseFloat('239')},
+  {cat:'風扇 / 冷風', sku:'IF17UKW', name:'Airoma Tower 3D 座地空氣循環扇', srp:parseFloat('599'), msrp:parseFloat('349'), res:parseFloat('349')},
+  {cat:'風扇 / 冷風', sku:'IF15W', name:'Ultra Freeze 冰敷手持高速風扇', srp:parseFloat('199'), msrp:parseFloat('149'), res:parseFloat('107')},
+  {cat:'風扇 / 冷風', sku:'IF15U', name:'Ultra Freeze 冰敷手持高速風扇 (紫)', srp:parseFloat('199'), msrp:parseFloat('149'), res:parseFloat('107')},
+  {cat:'風扇 / 冷風', sku:'IF15B', name:'Ultra Freeze 冰敷手持高速風扇 (藍)', srp:parseFloat('199'), msrp:parseFloat('149'), res:parseFloat('107')},
+  {cat:'個人護理', sku:'HL19L', name:'1-CARE SLEEK 长续航负离子无线直发梳', srp:parseFloat('429'), msrp:parseFloat('257'), res:parseFloat('257')},
+  {cat:'個人護理', sku:'HL18UKL', name:'1-CARE VELO 宽电压迷你负 离子高速吹风机 ( (鈦金)', srp:parseFloat('499'), msrp:parseFloat('299'), res:parseFloat('299')},
+  {cat:'個人護理', sku:'HL13UKW', name:'1-Care Hair Mini負離子高速吹風機 (英規) (白)', srp:parseFloat('469'), msrp:parseFloat('399'), res:parseFloat('238')},
+  {cat:'個人護理', sku:'HL13UKG', name:'1-Care Hair Mini負離子高速吹風機 (英規) (綠)', srp:parseFloat('469'), msrp:parseFloat('399'), res:parseFloat('238')},
+  {cat:'個人護理', sku:'HL17W', name:'1-Care Styler 無線迷你直髮夾 (白)', srp:parseFloat('299'), msrp:parseFloat('269'), res:parseFloat('159')},
+  {cat:'耳機 / 音響', sku:'BT15M', name:'1-VIBE CLIP M.IN.D, 真無線降噪智能夾耳式耳機 (橙)', srp:parseFloat('360'), msrp:parseFloat('203'), res:parseFloat('203')},
+  {cat:'耳機 / 音響', sku:'BT15L', name:'1-VIBE CLIP M.IN.D, 真無線降噪智能夾耳式耳機 (鈦)', srp:parseFloat('360'), msrp:parseFloat('203'), res:parseFloat('203')},
+  {cat:'耳機 / 音響', sku:'BT15D', name:'1-VIBE CLIP M.IN.D, 真無線降噪智能夾耳式耳機 (黑)', srp:parseFloat('360'), msrp:parseFloat('203'), res:parseFloat('203')},
+  {cat:'耳機 / 音響', sku:'BT13M', name:'1-VIBE LITE, 真無線降噪耳機 (橙)', srp:parseFloat('249'), msrp:parseFloat('125'), res:parseFloat('125')},
+  {cat:'耳機 / 音響', sku:'BT13L2', name:'1-VIBE LITE, 真無線降噪耳機 (沙漠金)', srp:parseFloat('249'), msrp:parseFloat('219'), res:parseFloat('125')},
+  {cat:'耳機 / 音響', sku:'BT13L', name:'1-VIBE LITE, 真無線降噪耳機 (鈦) SRP (HKD) 客⼾價 (HKD)', srp:parseFloat('249'), msrp:parseFloat('219'), res:parseFloat('125')},
+  {cat:'耳機 / 音響', sku:'BT13D', name:'1-VIBE LITE, 真無線降噪耳機 (黑)', srp:parseFloat('249'), msrp:parseFloat('219'), res:parseFloat('125')},
+  {cat:'其他', sku:'SR51M', name:'1-Wallet 磁吸可調支架卡包 (橙)', srp:parseFloat('179'), msrp:parseFloat('159'), res:parseFloat('90')},
+  {cat:'其他', sku:'SR51G', name:'1-Wallet 磁吸可調支架卡包 (綠)', srp:parseFloat('179'), msrp:parseFloat('159'), res:parseFloat('90')},
+  {cat:'其他', sku:'SR51D', name:'1-Wallet 磁吸可調支架卡包 (黑)', srp:parseFloat('179'), msrp:parseFloat('159'), res:parseFloat('90')},
+  {cat:'其他', sku:'SR29E', name:'1-Wallet 磁吸支架卡包 (太空灰)', srp:parseFloat('139'), msrp:parseFloat('109'), res:parseFloat('58')},
+  {cat:'其他', sku:'SR29L2', name:'1-Wallet 磁吸支架卡包 (沙漠金) SRP (HKD) 客⼾價 (HKD)', srp:parseFloat('139'), msrp:parseFloat('109'), res:parseFloat('58')},
+  {cat:'其他', sku:'SR29B', name:'1-Wallet 磁吸支架卡包 (藍)', srp:parseFloat('139'), msrp:parseFloat('109'), res:parseFloat('58')},
+  {cat:'其他', sku:'SR29D', name:'1-Wallet 磁吸支架卡包 (黑)', srp:parseFloat('139'), msrp:parseFloat('109'), res:parseFloat('58')},
+  {cat:'其他', sku:'SR53E', name:'1-World Airliner 防火防護袋 (Size M) (灰)', srp:parseFloat('169'), msrp:parseFloat('85'), res:parseFloat('85')},
+  {cat:'其他', sku:'SR52E', name:'1-World Airliner 防火防護袋 (Size S) (灰)', srp:parseFloat('99'), msrp:parseFloat('50'), res:parseFloat('50')},
+  {cat:'其他', sku:'SR55E', name:'1-World Airliner 防火防護袋 (Size X) (灰)', srp:parseFloat('229'), msrp:parseFloat('138'), res:parseFloat('138')},
+  {cat:'其他', sku:'SR56E', name:'1-World Airliner 防火防護袋 (Size XL) (灰) Smart', srp:parseFloat('299'), msrp:parseFloat('178'), res:parseFloat('178')},
+  {cat:'其他', sku:'SR39L2', name:'Cord 背帶 (沙漠金)', srp:parseFloat('139'), msrp:parseFloat('70'), res:parseFloat('70')},
+  {cat:'其他', sku:'SR39U', name:'Cord 背帶 (紫)', srp:parseFloat('139'), msrp:parseFloat('70'), res:parseFloat('70')},
+  {cat:'其他', sku:'SR39D', name:'Cord 背帶 (黑)', srp:parseFloat('139'), msrp:parseFloat('70'), res:parseFloat('70')},
+  {cat:'其他', sku:'QC7W', name:'Cymbal , 咖啡桌帶有燈光效果、磁吸充電和無線揚聲器Vacuum', srp:parseFloat('1299'), msrp:parseFloat('999'), res:parseFloat('650')},
+  {cat:'其他', sku:'SR37E', name:'I-world 人體工學旅行枕', srp:parseFloat('249'), msrp:parseFloat('199'), res:parseFloat('99')},
+  {cat:'定位器 / FindMy', sku:'', name:'1BR20D Pinpop2 X 可充電迷你全球定位器 (黑)', srp:parseFloat('79'), msrp:parseFloat('48'), res:parseFloat('48')},
+  {cat:'定位器 / FindMy', sku:'', name:'7BR20W', srp:parseFloat('79'), msrp:parseFloat('48'), res:parseFloat('48')},
+  {cat:'定位器 / FindMy', sku:'', name:'8BR20M Pinpop2 X 可充電迷你全球定位器 (橙)', srp:parseFloat('79'), msrp:parseFloat('48'), res:parseFloat('48')},
+  {cat:'定位器 / FindMy', sku:'', name:'9BR20P Pinpop2 X 可充電迷你全球定位器 (粉紅)', srp:parseFloat('79'), msrp:parseFloat('48'), res:parseFloat('48')},
+  {cat:'定位器 / FindMy', sku:'BR10AE', name:'Pinpop² Lite 全球定位器 (灰色)', srp:parseFloat('69'), msrp:parseFloat('42'), res:parseFloat('42')},
+  {cat:'定位器 / FindMy', sku:'BR10AW', name:'Pinpop² Lite 全球定位器 (白色)', srp:parseFloat('69'), msrp:parseFloat('42'), res:parseFloat('42')},
+  {cat:'定位器 / FindMy', sku:'BR10AR', name:'Pinpop² Lite 全球定位器 (紅色)', srp:parseFloat('69'), msrp:parseFloat('42'), res:parseFloat('42')},
+  {cat:'定位器 / FindMy', sku:'BR16D', name:'1-Power Badge+ 移動電源 FIND MY 全球定位器 (黑)', srp:parseFloat('239'), msrp:parseFloat('209'), res:parseFloat('143')},
+  {cat:'定位器 / FindMy', sku:'BR17M', name:'PinBuzz 可充電個人警報器FIND MY 全球定位器 (橙)', srp:parseFloat('149'), msrp:parseFloat('129'), res:parseFloat('85')},
+  {cat:'定位器 / FindMy', sku:'BR17W', name:'PinBuzz 可充電個人警報器FIND MY 全球定位器 (白)', srp:parseFloat('149'), msrp:parseFloat('129'), res:parseFloat('85')},
+  {cat:'定位器 / FindMy', sku:'BR17D', name:'PinBuzz 可充電個人警報器FIND MY 全球定位器 (黑)', srp:parseFloat('149'), msrp:parseFloat('129'), res:parseFloat('85')},
+  {cat:'定位器 / FindMy', sku:'BR6W', name:'PinCard Find My 超薄全球定位器 (白)', srp:parseFloat('139'), msrp:parseFloat('75'), res:parseFloat('75')},
+  {cat:'定位器 / FindMy', sku:'BR8D', name:'PinCard Pro Mini 可充電全球定位器 (黑)', srp:parseFloat('219'), msrp:parseFloat('169'), res:parseFloat('128')},
+  {cat:'定位器 / FindMy', sku:'BR13M', name:'PinGurard 鏡頭掃瞄 Find My 全球定位器 (橙)', srp:parseFloat('149'), msrp:parseFloat('119'), res:parseFloat('85')},
+  {cat:'定位器 / FindMy', sku:'BR13W', name:'PinGurard 鏡頭掃瞄 Find My 全球定位器 (白) SRP (HKD) 客⼾價 (HKD)', srp:parseFloat('149'), msrp:parseFloat('119'), res:parseFloat('85')},
+  {cat:'定位器 / FindMy', sku:'BR13P', name:'PinGurard 鏡頭掃瞄 Find My 全球定位器 (粉)', srp:parseFloat('149'), msrp:parseFloat('119'), res:parseFloat('85')},
+  {cat:'定位器 / FindMy', sku:'BR13D', name:'PinGurard 鏡頭掃瞄 Find My 全球定位器 (黑)', srp:parseFloat('149'), msrp:parseFloat('119'), res:parseFloat('85')},
+  {cat:'定位器 / FindMy', sku:'BR15L2', name:'PinLock TSA 鎖頭 Find My全球定位器 (沙漠金)', srp:parseFloat('149'), msrp:parseFloat('129'), res:parseFloat('90')},
+  {cat:'定位器 / FindMy', sku:'BR15D', name:'PinLock TSA 鎖頭 Find My全球定位器 (黑)', srp:parseFloat('149'), msrp:parseFloat('129'), res:parseFloat('90')},
+  {cat:'定位器 / FindMy', sku:'BR10M', name:'PinPop Lite Find My 全球定位器 (橙)', srp:parseFloat('49'), msrp:parseFloat('30'), res:parseFloat('30')},
+  {cat:'定位器 / FindMy', sku:'BR10W', name:'PinPop Lite Find My 全球定位器 (白)', srp:parseFloat('49'), msrp:parseFloat('30'), res:parseFloat('30')},
+  {cat:'定位器 / FindMy', sku:'BR10G', name:'PinPop Lite Find My 全球定位器 (綠)', srp:parseFloat('49'), msrp:parseFloat('30'), res:parseFloat('30')},
+  {cat:'定位器 / FindMy', sku:'BR10B', name:'PinPop Lite Find My 全球定位器 (藍)', srp:parseFloat('49'), msrp:parseFloat('30'), res:parseFloat('30')},
+  {cat:'定位器 / FindMy', sku:'BR10D', name:'PinPop Lite Find My 全球定位器 (黑)', srp:parseFloat('49'), msrp:parseFloat('30'), res:parseFloat('30')},
+  {cat:'定位器 / FindMy', sku:'BR11W', name:'Pinpop Duo Find My 全球定位器 (白)', srp:parseFloat('129'), msrp:parseFloat('105'), res:parseFloat('70')},
+  {cat:'定位器 / FindMy', sku:'BR11D', name:'Pinpop Duo Find My 全球定位器 (黑)', srp:parseFloat('129'), msrp:parseFloat('105'), res:parseFloat('70')},
+  {cat:'流動電源', sku:'IP156D', name:' Bank4894222079816IP156D HK$209 HK$189 HK$125', srp:parseFloat('209'), msrp:parseFloat('189'), res:parseFloat('125')},
+  {cat:'流動電源', sku:'IP166P', name:'1-POWER PASS 10000mAh磁吸流動電源 (粉色)', srp:parseFloat('239'), msrp:parseFloat('135'), res:parseFloat('135')},
+  {cat:'流動電源', sku:'IP166U', name:'1-POWER PASS 10000mAh磁吸流動電源 (紫色) SRP (HKD) 客⼾價 (HKD)', srp:parseFloat('239'), msrp:parseFloat('135'), res:parseFloat('135')},
+  {cat:'流動電源', sku:'IP166S', name:'1-POWER PASS 10000mAh磁吸流動電源 (銀色)', srp:parseFloat('239'), msrp:parseFloat('135'), res:parseFloat('135')},
+  {cat:'流動電源', sku:'IP165P', name:'1-POWER PASS 5000mAh磁吸流動電源 (粉色)', srp:parseFloat('199'), msrp:parseFloat('118'), res:parseFloat('118')},
+  {cat:'流動電源', sku:'IP165U', name:'1-POWER PASS 5000mAh磁吸流動電源 (紫色)', srp:parseFloat('199'), msrp:parseFloat('118'), res:parseFloat('118')},
+  {cat:'流動電源', sku:'IP165S', name:'1-POWER PASS 5000mAh磁吸流動電源 (銀色)', srp:parseFloat('199'), msrp:parseFloat('118'), res:parseFloat('118')},
+  {cat:'流動電源', sku:'IP115M', name:'1-POWER Q.PASS 3000mAh 超薄磁吸流動電源 (橙)', srp:parseFloat('229'), msrp:parseFloat('138'), res:parseFloat('138')},
+  {cat:'流動電源', sku:'IP115L', name:'1-POWER Q.PASS 3000mAh 超薄磁吸流動電源 (鈦)', srp:parseFloat('229'), msrp:parseFloat('138'), res:parseFloat('138')},
+  {cat:'流動電源', sku:'IP115D', name:'1-POWER Q.PASS 3000mAh 超薄磁吸流動電源 (黑)', srp:parseFloat('229'), msrp:parseFloat('138'), res:parseFloat('138')},
+  {cat:'流動電源', sku:'IP158L2', name:'1-Power F.Pass+ 10000mAh 磁吸帶線移動電源 (沙漠金)', srp:parseFloat('299'), msrp:parseFloat('269'), res:parseFloat('178')},
+  {cat:'流動電源', sku:'IP158L', name:'1-Power F.Pass+ 10000mAh 磁吸帶線移動電源 (鈦)', srp:parseFloat('299'), msrp:parseFloat('269'), res:parseFloat('178')},
+  {cat:'流動電源', sku:'IP158D', name:'1-Power F.Pass+ 10000mAh 磁吸帶線移動電源 (黑)', srp:parseFloat('299'), msrp:parseFloat('269'), res:parseFloat('178')},
+  {cat:'流動電源', sku:'IP157L2', name:'1-Power F.Pass+ 5000mAh 磁吸帶線移動電源 (沙漠金) SRP (HKD) 客⼾價 (HKD)', srp:parseFloat('229'), msrp:parseFloat('209'), res:parseFloat('138')},
+  {cat:'流動電源', sku:'IP157L', name:'1-Power F.Pass+ 5000mAh 磁吸帶線移動電源 (鈦)', srp:parseFloat('229'), msrp:parseFloat('209'), res:parseFloat('138')},
+  {cat:'流動電源', sku:'IP157D', name:'1-Power F.Pass+ 5000mAh 磁吸帶線移動電源 (黑)', srp:parseFloat('229'), msrp:parseFloat('209'), res:parseFloat('138')},
+  {cat:'流動電源', sku:'IP159D', name:'1-Power F.Pass⁺ 20000mAh 磁吸帶線流動電源  (黑)', srp:parseFloat('399'), msrp:parseFloat('369'), res:parseFloat('235')},
+  {cat:'流動電源', sku:'IP159L', name:'1-Power F.Pass⁺ 20000mAh 磁吸帶線流動電源 (鈦)', srp:parseFloat('399'), msrp:parseFloat('369'), res:parseFloat('235')},
+  {cat:'流動電源', sku:'IP160D', name:'1-Power F.Pass⁺ 3000mAh 磁吸帶線流動電源  (黑)', srp:parseFloat('199'), msrp:parseFloat('120'), res:parseFloat('120')},
+  {cat:'流動電源', sku:'IP160L', name:'1-Power F.Pass⁺ 3000mAh 磁吸帶線流動電源 (鈦)', srp:parseFloat('199'), msrp:parseFloat('120'), res:parseFloat('120')},
+  {cat:'流動電源', sku:'IP130M', name:'1-Power Mini 5000mAh 内置可折叠USB-C移動電源 (橙)', srp:parseFloat('169'), msrp:parseFloat('129'), res:parseFloat('100')},
+  {cat:'流動電源', sku:'IP130W', name:'1-Power Mini 5000mAh 内置可折叠USB-C移動電源 (白)', srp:parseFloat('169'), msrp:parseFloat('129'), res:parseFloat('100')},
+  {cat:'流動電源', sku:'IP130G', name:'1-Power Mini 5000mAh 内置可折叠USB-C移動電源 (绿)', srp:parseFloat('169'), msrp:parseFloat('129'), res:parseFloat('100')},
+  {cat:'流動電源', sku:'IP130B', name:'1-Power Mini 5000mAh 内置可折叠USB-C移動電源 (蓝)', srp:parseFloat('169'), msrp:parseFloat('129'), res:parseFloat('100')},
+  {cat:'流動電源', sku:'IP130D', name:'1-Power Mini 5000mAh 内置可折叠USB-C移動電源 (黑)', srp:parseFloat('169'), msrp:parseFloat('129'), res:parseFloat('100')},
+  {cat:'流動電源', sku:'IP137AP', name:'1-Power Pass 10000mAh 磁吸流動電源 (粉色)', srp:parseFloat('299'), msrp:parseFloat('165'), res:parseFloat('165')},
+  {cat:'流動電源', sku:'IP137AB', name:'1-Power Pass 10000mAh 磁吸流動電源 (藍)', srp:parseFloat('299'), msrp:parseFloat('165'), res:parseFloat('165')},
+  {cat:'流動電源', sku:'IP137L1', name:'1-Power Pass 10000mAh 磁吸流動電源 (鈦)', srp:parseFloat('299'), msrp:parseFloat('165'), res:parseFloat('165')},
+  {cat:'流動電源', sku:'IP135AP', name:'1-Power Pass 5000mAh 磁吸流動電源 (粉色) SRP (HKD) 客⼾價 (HKD)', srp:parseFloat('249'), msrp:parseFloat('138'), res:parseFloat('138')},
+  {cat:'流動電源', sku:'IP135AB', name:'1-Power Pass 5000mAh 磁吸流動電源 (藍)', srp:parseFloat('249'), msrp:parseFloat('138'), res:parseFloat('138')},
+  {cat:'流動電源', sku:'IP135L1', name:'1-Power Pass 5000mAh 磁吸流動電源 (鈦)', srp:parseFloat('249'), msrp:parseFloat('138'), res:parseFloat('138')},
+  {cat:'流動電源', sku:'IP129Q2L2', name:'1-Power Q.Pass 5000mAh Qi2 磁吸流動電源 (沙漠金)', srp:parseFloat('379'), msrp:parseFloat('339'), res:parseFloat('228')},
+  {cat:'流動電源', sku:'IP129Q2L', name:'1-Power Q.Pass 5000mAh Qi2 磁吸流動電源 (鈦)', srp:parseFloat('379'), msrp:parseFloat('339'), res:parseFloat('228')},
+  {cat:'流動電源', sku:'IP129Q2D', name:'1-Power Q.Pass 5000mAh Qi2 磁吸流動電源 (黑)', srp:parseFloat('379'), msrp:parseFloat('339'), res:parseFloat('228')},
+  {cat:'流動電源', sku:'IP168Q22M', name:'1-Power Q.Pass2 10000mAh Qi2 25W 磁吸流動電源 (橙)', srp:parseFloat('499'), msrp:parseFloat('288'), res:parseFloat('288')},
+  {cat:'流動電源', sku:'IP168Q22L', name:'1-Power Q.Pass2 10000mAh Qi2 25W 磁吸流動電源 (鈦)', srp:parseFloat('499'), msrp:parseFloat('288'), res:parseFloat('288')},
+  {cat:'流動電源', sku:'IP168Q22D', name:'1-Power Q.Pass2 10000mAh Qi2 25W 磁吸流動電源 (黑)', srp:parseFloat('499'), msrp:parseFloat('288'), res:parseFloat('288')},
+  {cat:'流動電源', sku:'IP180S', name:'1-Power S.Pass Air 5000mAh 超薄磁吸流動電源  (銀色) SRP (HKD) 客⼾價 (HKD) Foldable', srp:parseFloat('369'), msrp:parseFloat('329'), res:parseFloat('235')},
+  {cat:'流動電源', sku:'IP180R', name:'1-Power S.Pass Air 5000mAh 超薄磁吸流動電源 (紅色)', srp:parseFloat('369'), msrp:parseFloat('329'), res:parseFloat('235')},
+  {cat:'流動電源', sku:'IP180L', name:'1-Power S.Pass Air 5000mAh 超薄磁吸流動電源 (鈦)', srp:parseFloat('369'), msrp:parseFloat('329'), res:parseFloat('235')},
+  {cat:'流動電源', sku:'IP163Q22M', name:'1-Power S.Pass2 10000mAh 磁吸流動電源 (橙)', srp:parseFloat('569'), msrp:parseFloat('341'), res:parseFloat('341')},
+  {cat:'流動電源', sku:'IP163Q22L', name:'1-Power S.Pass2 10000mAh 磁吸流動電源 (鈦金)', srp:parseFloat('569'), msrp:parseFloat('341'), res:parseFloat('341')},
+  {cat:'流動電源', sku:'IP163Q22Y', name:'1-Power S.Pass2 10000mAh 磁吸流動電源 (黃)', srp:parseFloat('569'), msrp:parseFloat('341'), res:parseFloat('341')},
+  {cat:'流動電源', sku:'IP163Q22D', name:'1-Power S.Pass2 10000mAh 磁吸流動電源 (黑)', srp:parseFloat('569'), msrp:parseFloat('341'), res:parseFloat('341')},
+  {cat:'流動電源', sku:'IP155W', name:'1-Power Vital 10000mAh 移動電源 (白)', srp:parseFloat('139'), msrp:parseFloat('119'), res:parseFloat('84')},
+  {cat:'流動電源', sku:'IP155D', name:'1-Power Vital 10000mAh 移動電源 (黑)', srp:parseFloat('139'), msrp:parseFloat('119'), res:parseFloat('84')},
+  {cat:'流動電源', sku:'IP156W', name:'1-Power Vital 20000mAh 移動電源 (白)', srp:parseFloat('209'), msrp:parseFloat('189'), res:parseFloat('125')},
+  {cat:'流動電源', sku:'IP138W', name:'1-Power Vital+ 10000mAh 雙內建 USB-C 線流動電源 (白)', srp:parseFloat('249'), msrp:parseFloat('219'), res:parseFloat('135')},
+  {cat:'流動電源', sku:'IP138D', name:'1-Power Vital+ 10000mAh 雙內建 USB-C 線流動電源 (黑)', srp:parseFloat('249'), msrp:parseFloat('219'), res:parseFloat('135')},
+  {cat:'流動電源', sku:'IP139W', name:'1-Power Vital+ 20000mAh 雙內建 USB-C 線流動電源 (白)', srp:parseFloat('319'), msrp:parseFloat('289'), res:parseFloat('175')},
+  {cat:'流動電源', sku:'IP139D', name:'1-Power Vital+ 20000mAh 雙內建 USB-C 線流動電源 (黑)', srp:parseFloat('319'), msrp:parseFloat('289'), res:parseFloat('175')},
+  {cat:'流動電源', sku:'IP152D', name:'1-Power X 10000mAh 內置USB-C線移動電源  (黑)', srp:parseFloat('179'), msrp:parseFloat('159'), res:parseFloat('108')},
+  {cat:'流動電源', sku:'IP152W', name:'1-Power X 10000mAh 內置USB-C線移動電源 (白)', srp:parseFloat('179'), msrp:parseFloat('159'), res:parseFloat('108')},
+  {cat:'流動電源', sku:'IP152Y', name:'1-Power X 10000mAh 內置USB-C線移動電源 (黃)', srp:parseFloat('179'), msrp:parseFloat('159'), res:parseFloat('108')},
+  {cat:'流動電源', sku:'IP116AM', name:'Q.Mag X 5000mAh 超薄磁吸流動電源 (橙)', srp:parseFloat('299'), msrp:parseFloat('180'), res:parseFloat('180')},
+  {cat:'流動電源', sku:'IP116AL2', name:'Q.Mag X 5000mAh 超薄磁吸流動電源 (沙漠金)', srp:parseFloat('299'), msrp:parseFloat('249'), res:parseFloat('180')},
+  {cat:'流動電源', sku:'IP116AP', name:'Q.Mag X 5000mAh 超薄磁吸流動電源 (粉紅色)', srp:parseFloat('299'), msrp:parseFloat('180'), res:parseFloat('180')},
+  {cat:'流動電源', sku:'IP116AE', name:'Q.Mag X 5000mAh 超薄磁吸流動電源 (鈦)', srp:parseFloat('299'), msrp:parseFloat('249'), res:parseFloat('180')},
+  {cat:'流動電源', sku:'IP116AD', name:'Q.Mag X 5000mAh 超薄磁吸流動電源 (黑)', srp:parseFloat('299'), msrp:parseFloat('249'), res:parseFloat('180')},
+  {cat:'流動電源', sku:'IP117AM', name:'Q.Mag X1 10000mAh 超薄磁吸流動電源 (橙)', srp:parseFloat('369'), msrp:parseFloat('220'), res:parseFloat('220')},
+  {cat:'流動電源', sku:'IP117AL2', name:'Q.Mag X1 10000mAh 超薄磁吸流動電源 (沙漠金)', srp:parseFloat('369'), msrp:parseFloat('299'), res:parseFloat('220')},
+  {cat:'流動電源', sku:'IP117AP', name:'Q.Mag X1 10000mAh 超薄磁吸流動電源 (粉紅色)', srp:parseFloat('369'), msrp:parseFloat('220'), res:parseFloat('220')},
+  {cat:'流動電源', sku:'IP117AE', name:'Q.Mag X1 10000mAh 超薄磁吸流動電源 (鈦) SRP (HKD) 客⼾價 (HKD)', srp:parseFloat('369'), msrp:parseFloat('299'), res:parseFloat('220')},
+  {cat:'流動電源', sku:'IP117AD', name:'Q.Mag X1 10000mAh 超薄磁吸流動電源 (黑)', srp:parseFloat('369'), msrp:parseFloat('299'), res:parseFloat('220')},
+  {cat:'流動電源', sku:'IP117D', name:'Q.Mag X1 10000mAh 超薄磁吸流動電源 (黑)', srp:parseFloat('369'), msrp:parseFloat('200'), res:parseFloat('200')},
+  {cat:'流動電源', sku:'IP136Q2L', name:'Q.Mag X1 Qi2 超薄磁吸流動電源 10000mAh - Gen 2 (鈦)', srp:parseFloat('449'), msrp:parseFloat('399'), res:parseFloat('245')},
+  {cat:'流動電源', sku:'IP136Q2D', name:'Q.Mag X1 Qi2 超薄磁吸流動電源 10000mAh - Gen 2 (黑)', srp:parseFloat('449'), msrp:parseFloat('399'), res:parseFloat('245')},
+  {cat:'流動電源', sku:'IP133E', name:'Q.Mag X2 35W 20000mAh 磁吸流動電源 (鈦)', srp:parseFloat('489'), msrp:parseFloat('439'), res:parseFloat('290')},
+  {cat:'流動電源', sku:'IP133D', name:'Q.Mag X2 35W 20000mAh 磁吸流動電源 (黑)', srp:parseFloat('489'), msrp:parseFloat('439'), res:parseFloat('290')},
+  {cat:'流動電源', sku:'IP133L2', name:'Q.Mag X2 35W 20000mAh 超薄磁吸流動電源 (沙漠金)', srp:parseFloat('489'), msrp:parseFloat('439'), res:parseFloat('290')},
+  {cat:'流動電源', sku:'IP162Q2M', name:'﻿1-POWER S.PASS 10000mAh Qi2 磁吸流動電源 (橙)', srp:parseFloat('459'), msrp:parseFloat('265'), res:parseFloat('265')},
+  {cat:'流動電源', sku:'IP162Q2L', name:'﻿1-POWER S.PASS 10000mAh Qi2 磁吸流動電源 (鈦)', srp:parseFloat('459'), msrp:parseFloat('265'), res:parseFloat('265')},
+  {cat:'流動電源', sku:'IP162Q2D', name:'﻿1-POWER S.PASS 10000mAh Qi2 磁吸流動電源 (黑)', srp:parseFloat('459'), msrp:parseFloat('265'), res:parseFloat('265')},
+  {cat:'流動電源', sku:'IP161Q2M', name:'﻿1-POWER S.PASS 5000mAh Qi2 磁吸流動電源 (橙)', srp:parseFloat('389'), msrp:parseFloat('240'), res:parseFloat('240')},
+  {cat:'流動電源', sku:'IP161Q2L', name:'﻿1-POWER S.PASS 5000mAh Qi2 磁吸流動電源 (鈦)', srp:parseFloat('389'), msrp:parseFloat('240'), res:parseFloat('240')},
+  {cat:'流動電源', sku:'IP161Q2D', name:'﻿1-POWER S.PASS 5000mAh Qi2 磁吸流動電源 (黑)', srp:parseFloat('389'), msrp:parseFloat('240'), res:parseFloat('240')},
+  {cat:'其他', sku:'UD35YTW', name:'1-Charge Flow Pro Apple Watch 磁吸快速充電器 - 粵東 Wireless', srp:parseFloat('399'), msrp:parseFloat('235'), res:parseFloat('235')},
+  {cat:'按摩 / 健康', sku:'HL9E', name:'Relaxmus筋膜按摩槍', srp:parseFloat('498'), msrp:parseFloat('448'), res:parseFloat('298')},
+  {cat:'其他', sku:'SL12SW', name:'Smart Sensor 人體感應器 (白)', srp:parseFloat('339'), msrp:parseFloat('299'), res:parseFloat('185')},
+  {cat:'其他', sku:'SL10SD', name:'Smart 智能萬用搖控器', srp:parseFloat('149'), msrp:parseFloat('139'), res:parseFloat('82')},
+  {cat:'其他', sku:'SL8SW', name:'智能人體動態感應器', srp:parseFloat('229'), msrp:parseFloat('205'), res:parseFloat('148')},
+  {cat:'其他', sku:'SL6SW', name:'智能溫濕度感應器', srp:parseFloat('289'), msrp:parseFloat('259'), res:parseFloat('188')},
+  {cat:'其他', sku:'SL5SW', name:'智能網關', srp:parseFloat('499'), msrp:parseFloat('449'), res:parseFloat('325')},
+  {cat:'其他', sku:'SL9SW', name:'智能門磁感應器', srp:parseFloat('199'), msrp:parseFloat('179'), res:parseFloat('128')},
+  {cat:'其他', sku:'SL13SW', name:'有線智能網關 (白)', srp:parseFloat('499'), msrp:parseFloat('399'), res:parseFloat('298')},
+  {cat:'個人護理', sku:'HL20L', name:'1-CARE RAZE 往复式迷你剃须刀 SRP (HKD) 客⼾價 (HKD)', srp:parseFloat('229'), msrp:parseFloat('137'), res:parseFloat('137')},
+  {cat:'其他', sku:'SL2SW', name:'Smart Eye IoT 智能網絡監視器', srp:parseFloat('399'), msrp:parseFloat('359'), res:parseFloat('238')},
+  {cat:'耳機 / 音響', sku:'BS13M', name:'1-VIBE Bottle 磁吸式無線音箱水瓶 (橙)', srp:parseFloat('469'), msrp:parseFloat('399'), res:parseFloat('229')},
+  {cat:'耳機 / 音響', sku:'BS13W', name:'1-VIBE Bottle 磁吸式無線音箱水瓶 (白)', srp:parseFloat('469'), msrp:parseFloat('399'), res:parseFloat('229')},
+  {cat:'耳機 / 音響', sku:'BS13D', name:'1-VIBE Bottle 磁吸式無線音箱水瓶 (黑)', srp:parseFloat('469'), msrp:parseFloat('399'), res:parseFloat('229')},
+  {cat:'耳機 / 音響', sku:'BS8B2', name:'1-VIBE GO LITE 磁吸無線音箱 (湖水綠色)', srp:parseFloat('169'), msrp:parseFloat('98'), res:parseFloat('98')},
+  {cat:'耳機 / 音響', sku:'BS8W', name:'1-VIBE GO LITE 磁吸無線音箱 (白色)', srp:parseFloat('169'), msrp:parseFloat('98'), res:parseFloat('98')},
+  {cat:'耳機 / 音響', sku:'BS8P', name:'1-VIBE GO LITE 磁吸無線音箱 (粉紅色)', srp:parseFloat('169'), msrp:parseFloat('98'), res:parseFloat('98')},
+  {cat:'耳機 / 音響', sku:'BS8U', name:'1-VIBE GO LITE 磁吸無線音箱 (紫色)', srp:parseFloat('169'), msrp:parseFloat('98'), res:parseFloat('98')},
+  {cat:'耳機 / 音響', sku:'BS8B1', name:'1-VIBE GO LITE 磁吸無線音箱 (紫藍色)', srp:parseFloat('169'), msrp:parseFloat('98'), res:parseFloat('98')},
+  {cat:'耳機 / 音響', sku:'BS8B', name:'1-VIBE GO LITE 磁吸無線音箱 (藍色)', srp:parseFloat('169'), msrp:parseFloat('98'), res:parseFloat('98')},
+  {cat:'耳機 / 音響', sku:'BS8Y', name:'1-VIBE GO LITE 磁吸無線音箱 (黃色)', srp:parseFloat('169'), msrp:parseFloat('98'), res:parseFloat('98')},
+  {cat:'耳機 / 音響', sku:'BS8D', name:'1-VIBE GO LITE 磁吸無線音箱 (黑色)', srp:parseFloat('169'), msrp:parseFloat('98'), res:parseFloat('98')},
+  {cat:'耳機 / 音響', sku:'BS9S', name:'1-VIBE Mood 磁吸無線音箱 (銀）', srp:parseFloat('329.00'), msrp:parseFloat('299'), res:parseFloat('181')},
+  {cat:'耳機 / 音響', sku:'BS9D', name:'1-VIBE Mood 磁吸無線音箱 (黑)', srp:parseFloat('329.00'), msrp:parseFloat('299'), res:parseFloat('181')},
+  {cat:'耳機 / 音響', sku:'BS7M', name:'1-Vibe Go 磁吸戶外無線音箱 (橙)', srp:parseFloat('179'), msrp:parseFloat('159'), res:parseFloat('98')},
+  {cat:'耳機 / 音響', sku:'BS7E', name:'1-Vibe Go 磁吸戶外無線音箱 (灰)', srp:parseFloat('179'), msrp:parseFloat('159'), res:parseFloat('98')},
+  {cat:'耳機 / 音響', sku:'BS7D', name:'1-Vibe Go 磁吸戶外無線音箱 (黑)', srp:parseFloat('179'), msrp:parseFloat('159'), res:parseFloat('98')},
+  {cat:'耳機 / 音響', sku:'BS6HKM', name:'1-Vibe Go 磁吸無線音箱  (橙)', srp:parseFloat('199'), msrp:parseFloat('189'), res:parseFloat('110')},
+  {cat:'耳機 / 音響', sku:'BS6HKL2', name:'1-Vibe Go 磁吸無線音箱  (沙漠金)', srp:parseFloat('199'), msrp:parseFloat('189'), res:parseFloat('110')},
+  {cat:'耳機 / 音響', sku:'BS6HKP', name:'1-Vibe Go 磁吸無線音箱  (粉紅)', srp:parseFloat('199'), msrp:parseFloat('189'), res:parseFloat('110')},
+  {cat:'耳機 / 音響', sku:'BS6HKU', name:'1-Vibe Go 磁吸無線音箱  (紫)', srp:parseFloat('199'), msrp:parseFloat('189'), res:parseFloat('110')},
+  {cat:'耳機 / 音響', sku:'BS6HKB', name:'1-Vibe Go 磁吸無線音箱  (藍) SRP (HKD) 客⼾價 (HKD)', srp:parseFloat('199'), msrp:parseFloat('189'), res:parseFloat('110')},
+  {cat:'耳機 / 音響', sku:'BS6HKL', name:'1-Vibe Go 磁吸無線音箱  (鈦)', srp:parseFloat('199'), msrp:parseFloat('189'), res:parseFloat('110')},
+  {cat:'耳機 / 音響', sku:'BS6HKD', name:'1-Vibe Go 磁吸無線音箱  (黑)', srp:parseFloat('199'), msrp:parseFloat('189'), res:parseFloat('110')},
+  {cat:'耳機 / 音響', sku:'BS6HKS', name:'1-Vibe Go 磁吸無線音箱 (銀色)', srp:parseFloat('199'), msrp:parseFloat('189'), res:parseFloat('110')},
+  {cat:'耳機 / 音響', sku:'BS6GSL2', name:'1-Vibe Go 磁吸無線音箱套裝  (沙漠金)', srp:parseFloat('299'), msrp:parseFloat('279'), res:parseFloat('145')},
+  {cat:'耳機 / 音響', sku:'BS6GSD', name:'1-Vibe Go 磁吸無線音箱套裝  (黑)', srp:parseFloat('299'), msrp:parseFloat('279'), res:parseFloat('145')},
+  {cat:'支架 / 座', sku:'KH20M', name:'1-Snap Go 電動吸盤磁吸支架 (橙) Foldable', srp:parseFloat('199'), msrp:parseFloat('120'), res:parseFloat('120')},
+  {cat:'支架 / 座', sku:'KH20L2', name:'1-Snap Go 電動吸盤磁吸支架 (沙漠金) Foldable', srp:parseFloat('199'), msrp:parseFloat('120'), res:parseFloat('120')},
+  {cat:'支架 / 座', sku:'KH20L', name:'1-Snap Go 電動吸盤磁吸支架 (鈦) Foldable', srp:parseFloat('199'), msrp:parseFloat('120'), res:parseFloat('120')},
+  {cat:'支架 / 座', sku:'KH20D', name:'1-Snap Go 電動吸盤磁吸支架 (黑) Foldable', srp:parseFloat('199'), msrp:parseFloat('120'), res:parseFloat('120')},
+  {cat:'支架 / 座', sku:'KM17D', name:'1-Snap 磁吸遙控自拍桿 (黑)', srp:parseFloat('299'), msrp:parseFloat('269'), res:parseFloat('165')},
+  {cat:'支架 / 座', sku:'KH8E', name:'Fold Stand 旋轉平板電腦支架 (太空灰) Foldable', srp:parseFloat('229'), msrp:parseFloat('129'), res:parseFloat('125')},
+  {cat:'支架 / 座', sku:'KH10E', name:'Fold Stand 旋轉座檯電腦支架 Foldable', srp:parseFloat('399'), msrp:parseFloat('239'), res:parseFloat('200')},
+  {cat:'支架 / 座', sku:'KH5L1', name:'Fold Stand 旋轉手機&平板支架 (鈦) Foldable', srp:parseFloat('189'), msrp:parseFloat('149'), res:parseFloat('100')},
+  {cat:'支架 / 座', sku:'KH19M', name:'Hoop 磁環支架 (橙) Foldable', srp:parseFloat('99'), msrp:parseFloat('49'), res:parseFloat('49')},
+  {cat:'支架 / 座', sku:'KH19L2', name:'Hoop 磁環支架 (沙漠金) Foldable', srp:parseFloat('99'), msrp:parseFloat('49'), res:parseFloat('49')},
+  {cat:'支架 / 座', sku:'KH19D', name:'Hoop 磁環支架 (黑) Foldable', srp:parseFloat('99'), msrp:parseFloat('49'), res:parseFloat('49')},
+  {cat:'支架 / 座', sku:'KH19U', name:'Hoop 磁環支架 (黑) Foldable', srp:parseFloat('99'), msrp:parseFloat('49'), res:parseFloat('49')},
+  {cat:'觸控筆', sku:'TP11W', name:'1-Folio Flow Find My 主動式電容觸控筆 (白)', srp:parseFloat('199'), msrp:parseFloat('179'), res:parseFloat('110')},
+  {cat:'觸控筆', sku:'TP10AE', name:'Mag.Link Pop 主動式電容觸控筆 (灰)', srp:parseFloat('169'), msrp:parseFloat('100'), res:parseFloat('100')},
+  {cat:'觸控筆', sku:'TP10AW', name:'Mag.Link Pop 主動式電容觸控筆 (白)', srp:parseFloat('169'), msrp:parseFloat('100'), res:parseFloat('100')},
+  {cat:'觸控筆', sku:'TP10AG', name:'Mag.Link Pop 主動式電容觸控筆 (綠) SRP (HKD) 客⼾價 (HKD)', srp:parseFloat('169'), msrp:parseFloat('100'), res:parseFloat('100')},
+  {cat:'觸控筆', sku:'TP10AB', name:'Mag.Link Pop 主動式電容觸控筆 (藍)', srp:parseFloat('169'), msrp:parseFloat('100'), res:parseFloat('100')},
+  {cat:'觸控筆', sku:'TP10AY', name:'Mag.Link Pop 主動式電容觸控筆 (黃)', srp:parseFloat('169'), msrp:parseFloat('100'), res:parseFloat('100')},
+  {cat:'觸控筆', sku:'TP10AD', name:'Mag.Link Pop 主動式電容觸控筆 (黑)', srp:parseFloat('169'), msrp:parseFloat('100'), res:parseFloat('100')},
+  {cat:'觸控筆', sku:'TP9L', name:'Mag.Link Pro iPad專用透明雙模組主動式電容筆Pro (鈦) Travel', srp:parseFloat('399'), msrp:parseFloat('359'), res:parseFloat('218')},
+  {cat:'觸控筆', sku:'TP3W', name:'One Link iOS/Android/iPad適用 主動式電容觸控筆 (白)', srp:parseFloat('399'), msrp:parseFloat('359'), res:parseFloat('198')},
+  {cat:'Wearable', sku:'SG1S4D', name:'1-Sense Active 智能戒指 #10 (黑金) Smart', srp:parseFloat('1499'), msrp:parseFloat('936'), res:parseFloat('936')},
+  {cat:'Wearable', sku:'SG1S5D', name:'1-Sense Active 智能戒指 #11 (黑金) Smart', srp:parseFloat('1499'), msrp:parseFloat('936'), res:parseFloat('936')},
+  {cat:'Wearable', sku:'SG1S6D', name:'1-Sense Active 智能戒指 #12 (黑金) Smart', srp:parseFloat('1499'), msrp:parseFloat('936'), res:parseFloat('936')},
+  {cat:'Wearable', sku:'SG1S7D', name:'1-Sense Active 智能戒指 #13 (黑金) Smart', srp:parseFloat('1499'), msrp:parseFloat('936'), res:parseFloat('936')},
+  {cat:'Wearable', sku:'SG1S1D', name:'1-Sense Active 智能戒指 #7 (黑金) Smart', srp:parseFloat('1499'), msrp:parseFloat('936'), res:parseFloat('936')},
+  {cat:'Wearable', sku:'SG1S2D', name:'1-Sense Active 智能戒指 #8 (黑金) Smart', srp:parseFloat('1499'), msrp:parseFloat('936'), res:parseFloat('936')},
+  {cat:'Wearable', sku:'SG1S3D', name:'1-Sense Active 智能戒指 #9 (黑金) Smart', srp:parseFloat('1499'), msrp:parseFloat('936'), res:parseFloat('936')},
+  {cat:'Wearable', sku:'SG3S5L2', name:'1-Sense Soul 智能戒指 #10 (沙漠金) Smart', srp:parseFloat('799'), msrp:parseFloat('460'), res:parseFloat('460')},
+  {cat:'Wearable', sku:'SG3S6L2', name:'1-Sense Soul 智能戒指 #11 (沙漠金) SRP (HKD) 客⼾價 (HKD) Smart', srp:parseFloat('799'), msrp:parseFloat('460'), res:parseFloat('460')},
+  {cat:'Wearable', sku:'SG3S7L2', name:'1-Sense Soul 智能戒指 #12 (沙漠金) Smart', srp:parseFloat('799'), msrp:parseFloat('460'), res:parseFloat('460')},
+  {cat:'Wearable', sku:'SG3S8L2', name:'1-Sense Soul 智能戒指 #13 (沙漠金) Smart', srp:parseFloat('799'), msrp:parseFloat('460'), res:parseFloat('460')},
+  {cat:'Wearable', sku:'SG3S1L2', name:'1-Sense Soul 智能戒指 #6 (沙漠金) Smart', srp:parseFloat('799'), msrp:parseFloat('460'), res:parseFloat('460')},
+  {cat:'Wearable', sku:'SG3S2L2', name:'1-Sense Soul 智能戒指 #7 (沙漠金) Smart', srp:parseFloat('799'), msrp:parseFloat('460'), res:parseFloat('460')},
+  {cat:'Wearable', sku:'SG3S3L2', name:'1-Sense Soul 智能戒指 #8 (沙漠金) Smart', srp:parseFloat('799'), msrp:parseFloat('460'), res:parseFloat('460')},
+  {cat:'Wearable', sku:'SG3S4L2', name:'1-Sense Soul 智能戒指 #9 (沙漠金) Smart', srp:parseFloat('799'), msrp:parseFloat('460'), res:parseFloat('460')},
+  {cat:'Wearable', sku:'SG2S4E', name:'1-Sense 智能戒指 #10 (灰) Smart', srp:parseFloat('999'), msrp:parseFloat('899'), res:parseFloat('530')},
+  {cat:'Wearable', sku:'SG2S5E', name:'1-Sense 智能戒指 #11 (灰) Smart', srp:parseFloat('999'), msrp:parseFloat('899'), res:parseFloat('530')},
+  {cat:'Wearable', sku:'SG2S6E', name:'1-Sense 智能戒指 #12 (灰) Smart', srp:parseFloat('999'), msrp:parseFloat('899'), res:parseFloat('530')},
+  {cat:'Wearable', sku:'SG2S7E', name:'1-Sense 智能戒指 #13 (灰) Smart', srp:parseFloat('999'), msrp:parseFloat('899'), res:parseFloat('530')},
+  {cat:'Wearable', sku:'SG2S1E', name:'1-Sense 智能戒指 #7 (灰) Smart', srp:parseFloat('999'), msrp:parseFloat('899'), res:parseFloat('530')},
+  {cat:'Wearable', sku:'SG2S2E', name:'1-Sense 智能戒指 #8 (灰) Smart', srp:parseFloat('999'), msrp:parseFloat('899'), res:parseFloat('530')},
+  {cat:'Wearable', sku:'SG2S3E', name:'1-Sense 智能戒指 #9 (灰) Smart', srp:parseFloat('999'), msrp:parseFloat('899'), res:parseFloat('530')},
+  {cat:'Wearable', sku:'SW5SL', name:'1-WEAR Curvex 智能手錶 (鈦色)', srp:parseFloat('799'), msrp:parseFloat('399'), res:parseFloat('399')},
+  {cat:'Wearable', sku:'SW5SD', name:'1-WEAR Curvex 智能手錶 (黑) Smart', srp:parseFloat('799'), msrp:parseFloat('399'), res:parseFloat('399')},
+  {cat:'Wearable', sku:'SW1SM', name:'1-Wear 智能手錶 (橙) Smart', srp:parseFloat('299'), msrp:parseFloat('279'), res:parseFloat('180')},
+  {cat:'Wearable', sku:'SW2SL', name:'1-Wear 智能手錶 (銀+米) Smart', srp:parseFloat('499'), msrp:parseFloat('449'), res:parseFloat('275')},
+  {cat:'Wearable', sku:'SW1SD', name:'1-Wear 智能手錶 (黑) Smart', srp:parseFloat('299'), msrp:parseFloat('279'), res:parseFloat('180')},
+  {cat:'Wearable', sku:'SW2SD', name:'1-Wear 智能手錶 (黑) Smart', srp:parseFloat('499'), msrp:parseFloat('449'), res:parseFloat('275')},
+  {cat:'Wearable', sku:'SW3SG', name:'1-Wear+ 智能手錶 (綠) Smart', srp:parseFloat('699'), msrp:parseFloat('649'), res:parseFloat('385')},
+  {cat:'Wearable', sku:'SW3SB', name:'1-Wear+ 智能手錶 (藍) Smart', srp:parseFloat('699'), msrp:parseFloat('649'), res:parseFloat('385')},
+  {cat:'Wearable', sku:'', name:'SJBDSW1G 替換錶帶 綠色 Smart', srp:parseFloat('99'), msrp:parseFloat('89'), res:parseFloat('40')},
+  {cat:'Wearable', sku:'', name:'SJBDSW2L2 替換錶帶 (沙漠金) Smart', srp:parseFloat('99'), msrp:parseFloat('89'), res:parseFloat('40')},
+  {cat:'Wearable', sku:'', name:'SJBDSW3L 替換錶帶 (米色) Smart', srp:parseFloat('99'), msrp:parseFloat('89'), res:parseFloat('40')},
+  {cat:'Wearable', sku:'', name:'SJCDHSG3SW 1-Sense 智能戒指充電盒 Shaver', srp:parseFloat('92'), msrp:parseFloat('46'), res:parseFloat('46')},
+  {cat:'Wearable', sku:'', name:'SJZMSG1SV1 1-Sense智能戒指尺寸模板 Smart', srp:parseFloat('49'), msrp:parseFloat('39'), res:parseFloat('39')},
+  {cat:'Wearable', sku:'', name:'SJZMSG3SV1 1-SENSE 智能戒指尺碼套件 (#6 - #13)', srp:parseFloat('69'), msrp:parseFloat('39'), res:parseFloat('39')},
+]
+        {cat:"Wearable",sku:"SG2S6E",name:"1-Sense 智能戒指 #12 (灰)",srp:999,msrp:899,res:530},
+        {cat:"Wearable",sku:"SG2S7E",name:"1-Sense 智能戒指 #13 (灰)",srp:999,msrp:899,res:530},
+        {cat:"Wearable",sku:"SG2S1E",name:"1-Sense 智能戒指 #7 (灰)",srp:999,msrp:899,res:530}
+      ]};
 
-{cat:"Wearable",sku:"SG2S6E",name:"1-Sense 智能戒指 #12 (灰)",srp:999,msrp:899,res:530},
-{cat:"Wearable",sku:"SG2S7E",name:"1-Sense 智能戒指 #13 (灰)",srp:999,msrp:899,res:530},
-{cat:"Wearable",sku:"SG2S1E",name:"1-Sense 智能戒指 #7 (灰)",srp:999,msrp:899,res:530},
-{cat:"其他",sku:"SG2S2E",name:"1-Sense 智能戒指 #8 (灰)",srp:999,msrp:899,res:530},
-{cat:"其他",sku:"SG2S3E",name:"1-Sense 智能戒指 #9 (灰)",srp:999,msrp:899,res:530}
-]};
+      function render(q,cat){
+        q=(q||'').toLowerCase().trim();cat=cat||'';
+        let out='',has=false;
+        DATA.cats.forEach(c=>{
+          if(cat&&c!==cat)return;
+          const items=DATA.products.filter(p=>p.cat===c);
+          if(!items.length)return;
+          const show=items.filter(p=>!q||p.name.toLowerCase().includes(q)||p.sku.toLowerCase().includes(q));
+          if(!show.length)return;
+          has=true;
+          out+=`<div class="section"><div class="section-head">${c} <span class="count">${show.length} 款</span></div><div class="grid">`;
+          show.forEach(p=>{
+            const imgSrc = IMG[p.sku] ? ('products-img/' + p.sku + (IMG[p.sku].endsWith('.png') ? '.png' : '.jpg')) : '';
+            out+=`<div class="card"><div class="card-thumb"><img src="${imgSrc}" alt="${p.name}" loading="lazy" onerror="this.style.display='none';this.parentNode.innerHTML='📦'" /></div><div class="card-body"><div class="card-sku">${p.sku||''}</div><div class="card-name">${p.name}</div><div class="card-prices"><div class="card-res">$${p.srp}</div></div></div></div>`;
+          });
+          out+='</div></div>';
+        });
+        if(!has)out='<div class="empty">😕 冇搵到相關產品<br><small>試下其他關鍵字</small></div>';
+        document.getElementById('list').innerHTML=out;
+      }
 
-
-function render(q,cat){q=(q||'').toLowerCase().trim();cat=cat||'';let out='',has=false;DATA.cats.forEach(c=>{if(cat&&c!==cat)return;const items=DATA.products.filter(p=>p.cat===c);if(!items.length)return;const show=items.filter(p=>!q||p.name.toLowerCase().includes(q)||p.sku.toLowerCase().includes(q));if(!show.length)return;has=true;out+=`<div class="section"><div class="section-head">${c} <span class="count">${show.length} 款</span></div><div class="grid">`;show.forEach(p=>{out+=`<div class="card"><div class="card-thumb"><img src="${IMG[p.sku] || ''}" alt="${p.name}" loading="lazy" onerror="this.style.display='none';this.parentNode.innerHTML='📦'" /></div><div class="card-body"><div class="card-sku">${p.sku||''}</div><div class="card-name">${p.name}</div><div class="card-prices"><div class="card-res">$${p.srp}</div></div></div>`});out+='</div></div>'});if(!has)out='<div class="empty">😕 冇搵到相關產品<br><small>試下其他關鍵字</small></div>';document.getElementById('list').innerHTML=out}
-const bar=document.getElementById('cats');const allBtn=document.createElement('span');allBtn.className='cat-chip on';allBtn.textContent='全部';allBtn.onclick=()=>{render(document.getElementById('search').value);bar.querySelectorAll('.cat-chip').forEach(x=>x.classList.remove('on'));allBtn.classList.add('on')};bar.appendChild(allBtn);DATA.cats.forEach(c=>{const b=document.createElement('span');b.className='cat-chip';b.textContent=c;b.onclick=()=>{render(document.getElementById('search').value,c);bar.querySelectorAll('.cat-chip').forEach(x=>x.classList.remove('on'));b.classList.add('on')};bar.appendChild(b)});
-
-
-</script>
-</body>
+      const bar=document.getElementById('cats');
+      const allBtn=document.createElement('span');
+      allBtn.className='cat-chip on';
+      allBtn.textContent='全部';
+      allBtn.onclick=()=>{
+        render(document.getElementById('search').value);
+        bar.querySelectorAll('.cat-chip').forEach(x=>x.classList.remove('on'));
+        allBtn.classList.add('on')
+      };
+      bar.appendChild(allBtn);
+      DATA.cats.slice(0,12).forEach(c=>{
+        const b=document.createElement('span');
+        b.className='cat-chip';
+        b.textContent=c;
+        b.onclick=()=>{
+          render(document.getElementById('search').value,c);
+          bar.querySelectorAll('.cat-chip').forEach(x=>x.classList.remove('on'));
+          b.classList.add('on')
+        };
+        bar.appendChild(b)
+      });
+      document.getElementById('search').addEventListener('input',e=>render(e.target.value));
+      render('','');
+    </script>
+  </body>
 </html>
