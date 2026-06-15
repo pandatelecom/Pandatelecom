@@ -77,6 +77,7 @@ footer.main{max-width:1200px;margin:0 auto;text-align:center;padding:36px 16px 9
 
 <footer class="main">© 2026 Panda Telecom · 資料來源：Momax 2026-05-01 價目表</footer>
 
+<script>
 const IMG = {
   'MS02L2': 'https://cdn.shopify.com/s/files/1/0800/4727/6344/files/MS02_L2_01_1500_Additional_JPG_Medium_a0e638c5-d5f5-49ec-a129-fc0fc48aede4.jpg?v=1742745828',
   'AP11SLX': '',
@@ -454,7 +455,6 @@ const IMG = {
   '': '',
   '': '',
 };
-<script>
 const DATA={cats:["Wearable","個人護理","充電器","充電線","其他","定位器 / FindMy","家居","按摩 / 健康","支架 / 座","旅行充電器","流動電源","空氣淨化","耳機 / 音響","觸控筆","車充","車載支架","配件","風扇 / 冷風"],products:[
 {cat:"Wearable",sku:"SG2S6E",name:"1-Sense 智能戒指 #12 (灰)",srp:999,msrp:899,res:530},
 {cat:"Wearable",sku:"SG2S7E",name:"1-Sense 智能戒指 #13 (灰)",srp:999,msrp:899,res:530},
@@ -503,7 +503,9 @@ const DATA={cats:["Wearable","個人護理","充電器","充電線","其他","�
 
 
 function render(q,cat){q=(q||'').toLowerCase().trim();cat=cat||'';let out='',has=false;DATA.cats.forEach(c=>{if(cat&&c!==cat)return;const items=DATA.products.filter(p=>p.cat===c);if(!items.length)return;const show=items.filter(p=>!q||p.name.toLowerCase().includes(q)||p.sku.toLowerCase().includes(q));if(!show.length)return;has=true;out+=`<div class="section"><div class="section-head">${c} <span class="count">${show.length} 款</span></div><div class="grid">`;show.forEach(p=>{out+=`<div class="card"><div class="card-thumb"><img src="${IMG[p.sku] || ''}" alt="${p.name}" loading="lazy" onerror="this.style.display='none';this.parentNode.innerHTML='📦'" /></div><div class="card-body"><div class="card-sku">${p.sku||''}</div><div class="card-name">${p.name}</div><div class="card-prices"><div class="card-res">$${p.res}</div>${(p.srp&&p.srp!==p.res)?`<div class="card-srp">$${p.srp}</div>`:''}</div></div></div>`});out+='</div></div>'});if(!has)out='<div class="empty">😕 冇搵到相關產品<br><small>試下其他關鍵字</small></div>';document.getElementById('list').innerHTML=out}
-const bar=document.getElementById('cats');const allBtn=document.createElement('span');allBtn.className='cat-chip on';allBtn.textContent='全部';allBtn.onclick=()=>{render(document.getElementById('search').value);bar.querySelectorAll('.cat-chip').forEach(x=>x.classList.remove('on'));allBtn.classList.add('on')};bar.appendChild(allBtn);DATA.cats.forEach(c=>{const b=document.createElement('span');b.className='cat-chip';b.textContent=c;b.onclick=()=>{render(document.getElementById('search').value,c);bar.querySelectorAll('.cat-chip').forEach(x=>x.classList.remove('on'));b.classList.add('on')};bar.appendChild(b)});document.getElementById('search').addEventListener('input',e=>render(e.target.value));render('','');
+const bar=document.getElementById('cats');const allBtn=document.createElement('span');allBtn.className='cat-chip on';allBtn.textContent='全部';allBtn.onclick=()=>{render(document.getElementById('search').value);bar.querySelectorAll('.cat-chip').forEach(x=>x.classList.remove('on'));allBtn.classList.add('on')};bar.appendChild(allBtn);DATA.cats.forEach(c=>{const b=document.createElement('span');b.className='cat-chip';b.textContent=c;b.onclick=()=>{render(document.getElementById('search').value,c);bar.querySelectorAll('.cat-chip').forEach(x=>x.classList.remove('on'));b.classList.add('on')};bar.appendChild(b)});
+
+
 </script>
 </body>
 </html>
