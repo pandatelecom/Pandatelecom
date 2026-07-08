@@ -1,0 +1,1061 @@
+{
+  "products": [
+    {
+      "id": "argo-kc240",
+      "name": "ARGO KC240 240W傳輸匙扣充電線",
+      "brand": "ARGO",
+      "category": "充電線",
+      "price": 109,
+      "desc": "ARGO KC240 240W 匙扣充電線，採用PU荔枝紋皮質裁縫，線長12cm方便收納。內置E-marker晶片支援PD 3.1 240W快充，支援USB4數據傳輸高達40Gbps，兼容Thunderbolt 3。",
+      "features": [
+        "支援PD 3.1 240W (48VDC/5A) 超級快充",
+        "支援USB4數據傳輸高達40Gbps，兼容Thunderbolt 3",
+        "PU荔枝紋皮質裁縫，匙扣設計不易鬆脫",
+        "高品質鋅合金接頭，不易生鏽",
+        "雙編織尼龍電纜設計，搖擺測試8000次以上",
+        "支援QC 4.0及QC 3.0快充"
+      ]
+    },
+    {
+      "id": "argo-cc140",
+      "name": "ARGO CC140 140W雙口實時功率數顯充電線",
+      "brand": "ARGO",
+      "category": "充電線",
+      "price": 128,
+      "desc": "業界首創140W雙口實時功率數顯充電線，支援PD3.1協議，兼容QC5.0/4.0/3.0。智能LED數顯實時顯示充電功率，內置E-Marker智能芯片，支援高效傳輸480Mbps。",
+      "features": [
+        "支援PD3.1協議，兼容QC5.0/4.0/3.0、華為SCP、三星超快速充電2.0",
+        "140W超大功率，單口最高輸出140W",
+        "智能LED數顯，實時顯示充電功率",
+        "E-Marker智能芯片，多重安全保護",
+        "傳輸速度高達480Mbps",
+        "電壓：5V、9V、15V、28V"
+      ]
+    },
+    {
+      "id": "argo-3in2-cable",
+      "name": "ARGO 3 in 2 充電線",
+      "brand": "ARGO",
+      "category": "充電線",
+      "price": 118,
+      "desc": "ARGO 3 in 2充電線，市場罕有雙Type-C頭LED顯示屏。支援PD3.0 100W高效快速充電，LED顯示器即時顯示充電瓦數，高性能強化線芯通過20,000次彎折測試。",
+      "features": [
+        "雙Type-C頭LED顯示屏",
+        "支援USB-C PD3.0 100W高效快速充電",
+        "LED顯示器即時顯示充電瓦數",
+        "高性能強化線芯通過20,000次彎折測試",
+        "支援USB-C資料傳輸高達480 Mbps",
+        "無氧純銅線芯，耐用鋁合金物料"
+      ]
+    },
+    {
+      "id": "argo-bu70",
+      "name": "ARGO BU70 70W超迷你充電器",
+      "brand": "ARGO",
+      "category": "充電器",
+      "price": 348,
+      "desc": "ARGO BU70 70W充電器，超迷你設計僅55x50x57mm。內置80cm Type-C線，雙Type-C+USB-A三輸出，TFT智慧顯示屏即時顯示充電狀態。",
+      "features": [
+        "70W超高功率，雙Type-C+USB-A三輸出",
+        "TFT智慧顯示屏即時顯示充電狀態",
+        "超迷你設計僅55x50x57mm",
+        "內置80cm Type-C線，一體化設計",
+        "智能分配：C1+C2(45W+25W)，C1+A(45W+18W)",
+        "多協議相容，滿足手機、平板、筆電需求"
+      ]
+    },
+    {
+      "id": "argo-magnetic-powerbank-5000",
+      "name": "ARGO 多功能Magnetic Power Bank 5000mAh",
+      "brand": "ARGO",
+      "category": "行動電源",
+      "price": 278,
+      "desc": "多合一磁吸行動電源，內置5000mAh電量，配備便攜折疊式充電座。可同時為iPhone、AirPods、iWatch充電，支援USB-C有線充電最高22.5W。",
+      "features": [
+        "內置5000mAh + 便攜折疊式充電座",
+        "多合一充電，同時為iPhone、AirPods、iWatch充電",
+        "完美支援iPhone 15",
+        "USB-C有線充電最高22.5W",
+        "可折疊設計，旅行必備",
+        "黑、白兩色"
+      ]
+    },
+    {
+      "id": "argo-5in1-powerbank-10000",
+      "name": "ARGO 5合1磁吸快充王者 10,000mAh多功能數顯Power Bank",
+      "brand": "ARGO",
+      "category": "行動電源",
+      "price": 298,
+      "desc": "5合1磁吸快充10000mAh行動電源，全港首發半固態電池技術。支援Qi2 15W無線快充+20W PD自帶線，TFT高清數顯實時監控電量，航空級鋰聚合物電芯五重防護。",
+      "features": [
+        "10000mAh大容量，半固態電池技術",
+        "Qi2 15W無線快充 + 20W PD有線快充",
+        "TFT高清數顯實時監控電量/功率",
+        "自帶Type-C線，輸入輸出隨心切換",
+        "一體式鋁合金支架，邊充邊用",
+        "超薄設計僅193g、16mm厚",
+        "CCC認證，五重安全防護"
+      ]
+    },
+    {
+      "id": "argo-w19",
+      "name": "ARGO W19",
+      "brand": "ARGO",
+      "category": "充電器",
+      "price": 118,
+      "desc": "ARGO W19充電器，Sigma產品線中的充電配件產品。",
+      "features": [
+        "ARGO品牌充電器",
+        "Sigma原裝產品"
+      ]
+    },
+    {
+      "id": "ssb5-solid-state",
+      "name": "SSB5 固態電池行動電源",
+      "brand": "ARGO",
+      "category": "行動電源",
+      "price": 99,
+      "desc": "SSB5固態電池行動電源，採用固態電池技術，安全高效，效能大幅提升。",
+      "features": [
+        "固態電池技術，杜絕電解液洩漏與過熱風險",
+        "經1,000次充放電循環性能零衰退",
+        "安全可靠"
+      ]
+    },
+    {
+      "id": "argo-tfc10-5in1",
+      "name": "ARGO 5in1 Power Bank TFC10",
+      "brand": "ARGO",
+      "category": "行動電源",
+      "price": 118,
+      "desc": "ARGO 5in1多功能行動電源TFC10，5合1設計滿足多種充電需求。",
+      "features": [
+        "5合1多功能設計",
+        "ARGO品牌行動電源"
+      ]
+    },
+    {
+      "id": "pq001",
+      "name": "PQ001 充電配件",
+      "brand": "ARGO",
+      "category": "配件",
+      "price": 128,
+      "desc": "PQ001充電配件，Sigma產品線配件產品。",
+      "features": [
+        "ARGO品牌配件"
+      ]
+    },
+    {
+      "id": "sincos-sc-am02",
+      "name": "Sincos SC-AM02 智能無線AI翻譯滑鼠 第二代",
+      "brand": "Sincos",
+      "category": "智能翻譯設備",
+      "price": 299,
+      "desc": "2025年最新第二代AI翻譯滑鼠，2.4GHz + 藍牙雙模式，可同時連接三個裝置。內置ChatGPT無需VPN永久免費，支援語音打字、截圖翻譯、語音搜尋，兼容Windows/Mac雙系統。",
+      "features": [
+        "2.4GHz + 藍牙雙模式使用",
+        "藍牙可同時連三個裝置",
+        "超靜音按鍵設計",
+        "語音打字功能，兼容多國語言",
+        "支援截圖翻譯韓/日文",
+        "內置ChatGPT，無需VPN永久免費",
+        "PPT/Excel/Word AI生成",
+        "圖片一鍵去背功能",
+        "Windows/Mac兼容雙系統"
+      ]
+    },
+    {
+      "id": "sincos-sc-dc06",
+      "name": "Sincos SC-DC06 極速電機颶風便攜風扇Pro",
+      "brand": "Sincos",
+      "category": "風扇",
+      "price": 299,
+      "desc": "極速電機颶風便攜風扇Pro，4段式風速調節，最高達10萬轉速（25m/s超強風力）。4500mAh電量可使用4-8小時，比手機還小的尺寸方便攜帶，內置聚光LED燈。",
+      "features": [
+        "4段式風速調節",
+        "最高10萬轉速（25m/s超強風力）",
+        "4500mAh電量，可使用4-8小時",
+        "比手機還小的尺寸",
+        "內置聚光LED燈，方便夜間出行",
+        "Type-C充電",
+        "尺寸：137×87×38mm"
+      ]
+    },
+    {
+      "id": "sincos-sc-g3",
+      "name": "Sincos SC-G3 運動商務專用單耳藍牙耳機",
+      "brand": "Sincos",
+      "category": "耳機",
+      "price": 399,
+      "desc": "運動商務專用單耳藍牙耳機，藍牙5.3版本連接更穩定，ENC+CVC雙降噪技術。石墨烯生物振膜單元音效層次分明，IPX4防水防汗水設計，耳掛可自由旋轉。",
+      "features": [
+        "最新藍牙5.3版本",
+        "ENC降噪去除背景雜音",
+        "CVC降噪加強通話清晰度",
+        "石墨烯生物振膜單元",
+        "IPX4防水防汗水設計",
+        "耳掛可自由旋轉，左右耳均可用",
+        "通話時間最大35小時（配合充電底座）"
+      ]
+    },
+    {
+      "id": "sincos-s15-lte",
+      "name": "Sincos S15-LTE 4G全網通智能AI多功能翻譯機",
+      "brand": "Sincos",
+      "category": "智能翻譯設備",
+      "price": 788,
+      "desc": "4G全網通智能AI多功能翻譯機，支援ChatGPT智能錄音及138種語言翻譯。可插SIM卡4G在線使用，19種語言離線精準翻譯（含廣東話），74種在線拍照翻譯語言，內置2000mAh鋰電可持續約11小時。",
+      "features": [
+        "四核處理器",
+        "19種語言離線精準翻譯（內置廣東話）",
+        "在線翻譯138種國家語言",
+        "智能錄音功能，專業降噪技術",
+        "可插SIM卡4G網絡在線使用",
+        "內置ChatGPT支援翻譯以外百科",
+        "74種在線拍照翻譯語言",
+        "2000mAh鋰電，可使用約11小時",
+        "支援最大128GB記憶卡"
+      ]
+    },
+    {
+      "id": "sincos-a40-lite",
+      "name": "Sincos A40 Lite AI智能翻譯機",
+      "brand": "Sincos",
+      "category": "智能翻譯設備",
+      "price": 399,
+      "desc": "A40 Lite AI智能翻譯機，支援離線廣東話翻譯，5寸屏幕，翻譯139種不同語言。內置鏡頭拍照翻譯75種語言，17種離線翻譯語言同聲傳譯，1500mAh鋰電可使用約7小時。",
+      "features": [
+        "支援在線139種語言（可廣東話翻譯）",
+        "1500mAh鋰電可使用約7小時",
+        "ChatGPT 75種大模型語言處理技術",
+        "內置鏡頭拍照翻譯75種語言",
+        "17種離線翻譯語言同聲傳譯",
+        "5吋觸控式屏幕",
+        "內置匯率換算app"
+      ]
+    },
+    {
+      "id": "sincos-eb01",
+      "name": "Sincos EB01 迷你電動螺絲批",
+      "brand": "Sincos",
+      "category": "工具",
+      "price": 599,
+      "desc": "迷你電動螺絲批，350mAh鋰電池充電時間<40分鐘，空轉速度200r/min。配備LED屏幕實時顯示維修狀態，4顆LED無影燈照明，手自一體設計，單次充電可打400+顆精密螺絲。",
+      "features": [
+        "電池容量350mAh，充電時間<40分鐘",
+        "空轉速度200r/min",
+        "手動扭力3N.m，電動扭力0.25-0.35N.m",
+        "充滿電持續續航120分鐘",
+        "5檔位調節",
+        "配備LED屏幕實時顯示維修動態",
+        "4顆LED無影燈照明",
+        "手自一體設計"
+      ]
+    },
+    {
+      "id": "qd-688",
+      "name": "QD-688 自發電無線門鈴",
+      "brand": "Sincos",
+      "category": "智能家居",
+      "price": 128,
+      "desc": "自發電無線門鈴，按鍵瞬間發電無需電池，4檔音量適合不同人士。內置閃燈配搭響鈴雙重提醒，傳輸距離最大200米，內置58首鈴聲，獲得多項國際認證。",
+      "features": [
+        "4檔音量，適合不同人士",
+        "內置閃燈配搭響鈴雙重提醒",
+        "按鍵瞬間發電，無需電池",
+        "門鈴傳輸距離最大200米",
+        "最大配對10個按鍵",
+        "內置58首鈴聲",
+        "獲CE、EMC、UKCA、RoHS、FCC、KC等多項認證"
+      ]
+    },
+    {
+      "id": "sincos-sc-pscc",
+      "name": "Sincos SC-PSCC 二合一螺旋手機掛繩充電線",
+      "brand": "Sincos",
+      "category": "配件",
+      "price": 238,
+      "desc": "二合一螺旋手機掛繩充電線，PD60W快充兼容大部份手機。鋅合金金屬掛扣具備質感，專利掛扣技術狂甩不鬆脫，Type-C to Type-C頭兼容大部份型號，120cm長度方便斜孭出街。",
+      "features": [
+        "PD60W快充",
+        "鋅合金金屬掛扣",
+        "專利掛扣技術，狂甩不鬆脫",
+        "奶白色/櫻花粉編織繩材",
+        "配備0.5mm厚度掛片",
+        "Type-C to Type-C頭",
+        "120cm長度，方便斜孭出街"
+      ]
+    },
+    {
+      "id": "sincos-sc-mb650",
+      "name": "Sincos SC-MB650 不鏽鋼磁吸運動保溫壺650ml",
+      "brand": "Sincos",
+      "category": "水壺/保溫",
+      "price": 398,
+      "desc": "可磁吸不鏽鋼運動保溫壺650ml，外殼及內殼均採用304食品級不鏽鋼。已通過SGS/BPA FREE認證，支援Magsafe磁吸功能，12小時熱度保溫及24小時凍感。",
+      "features": [
+        "外殼及內殼均採用304食品級不鏽鋼",
+        "已通過SGS/BPA FREE認證",
+        "支援Magsafe磁吸功能",
+        "12小時熱度保溫",
+        "24小時凍感",
+        "容量22oz/650ml",
+        "尺寸90×210mm，重量350g"
+      ]
+    },
+    {
+      "id": "sincos-sc-bp03c",
+      "name": "Sincos SC-BP03C 廣東話語音手臂式血壓計",
+      "brand": "Sincos",
+      "category": "醫療健康",
+      "price": 299,
+      "desc": "少有廣東話語音血壓計，全自動充氣排氣一鍵測量。智能語音提示，高清大屏幕，雙99組記錄，支援USB充電或AAA電池兩用。",
+      "features": [
+        "全自動充氣排氣",
+        "一鍵測量",
+        "智能語音提示（廣東話）",
+        "高清大屏幕",
+        "雙99組記錄",
+        "USB充電線供電或AAA×4電池兩用"
+      ]
+    },
+    {
+      "id": "sincos-sc-y4000",
+      "name": "Sincos SC-Y4000 復古便攜式閃光燈智能相機",
+      "brand": "Sincos",
+      "category": "相機",
+      "price": 399,
+      "desc": "復古便攜式閃光燈智能相機，1080p高清鏡頭可錄影或拍照。內置180mAh電池附380mAh續航底座，1.44吋高清屏幕，自帶90度可旋轉閃光燈，內置6種濾鏡。",
+      "features": [
+        "1080p高清鏡頭",
+        "可進行錄影或拍照",
+        "內置180mAh電池另附380mAh續航底座",
+        "1.44吋高清大屏幕",
+        "自帶90度可旋轉閃光燈",
+        "內置6種濾鏡（原圖/冷色/暖色/黑白/復古/清新）",
+        "支援Micro-SD卡（8GB-512GB）"
+      ]
+    },
+    {
+      "id": "sincos-sc-nm360",
+      "name": "Sincos SC-NM360 智能恆溫四手頸部按摩儀",
+      "brand": "Sincos",
+      "category": "按摩器",
+      "price": 299,
+      "desc": "智能恆溫四手頸部按摩儀，全身可用（肩頸、背部、腰部到大小腿）。智能恆溫熱敷搭配柔軟親膚布料，四點揉捏按摩仿人體工學設計，三種智能模式，最長使用約90分鐘。",
+      "features": [
+        "全身可用：肩頸、背部、腰部、大小腿",
+        "智能恆溫熱敷",
+        "四點揉捏按摩，仿人體工學設計",
+        "三種智能模式：標準、快速、強力揉捏",
+        "特大電量長續航，最長約90分鐘"
+      ]
+    },
+    {
+      "id": "smartcoby-pro-30w",
+      "name": "SMARTCOBY PRO 30W 10000mAh 外置充電器",
+      "brand": "SMARTCOBY",
+      "category": "行動電源",
+      "price": 298,
+      "desc": "全港極細30W超級快充10000mAh外置充電器日本品牌。支援PD、QC4+、PPS輸出，電量百分比顯示屏，黑白色可選。",
+      "features": [
+        "10000mAh 30W",
+        "PD Type-C輸入",
+        "PD、QC4+、PPS輸出",
+        "QC3.0、SCP、S-VOOC輸出",
+        "電量百分比顯示屏",
+        "黑、白兩色"
+      ]
+    },
+    {
+      "id": "smartcoby-pro-slim-35w",
+      "name": "SMARTCOBY PRO SLIM 35W 10000mAh",
+      "brand": "SMARTCOBY",
+      "category": "行動電源",
+      "price": 299,
+      "desc": "超薄35W輸出10000mAh外置充電器，LED數字顯示，防刮花物料花紋設計。2C1U同時支援三個裝置，超薄身16mm重量180g，支援iPhone/Galaxy/MacBook Air。",
+      "features": [
+        "最大35W輸出",
+        "LED數字顯示",
+        "防刮花物料花紋設計",
+        "2C1U同時支援三個裝置",
+        "超薄身16mm",
+        "重量180g",
+        "PPS/PD3.0/QC4.0+規格"
+      ]
+    },
+    {
+      "id": "smartcoby-pro-slim-35w-sakura",
+      "name": "SMARTCOBY PRO SLIM 35W (SAKURA Ver.)",
+      "brand": "SMARTCOBY",
+      "category": "行動電源",
+      "price": 298,
+      "desc": "櫻花限定版SMARTCOBY PRO SLIM 35W，超薄設計內置LED顯示。防刮花物料花紋，2C1U三裝置同時充電，重量180g。",
+      "features": [
+        "最大35W輸出",
+        "LED數字顯示",
+        "防刮花物料花紋設計",
+        "2C1U同時支援三個裝置",
+        "超薄身16mm",
+        "重量180g",
+        "櫻花Ver.限定版"
+      ]
+    },
+    {
+      "id": "smartcoby-trio-67w",
+      "name": "SMARTCOBY TRIO 67W 20000mAh",
+      "brand": "SMARTCOBY",
+      "category": "行動電源",
+      "price": 449,
+      "desc": "最大67W輸出20000mAh大容量外置充電器，LED數字顯示，防刮花物料花紋設計。2C1U同時支援三個裝置，重量333g，提供數位電量顯示。",
+      "features": [
+        "最大67W輸出",
+        "LED數字顯示",
+        "防刮花物料花紋設計",
+        "2C1U同時支援三個裝置",
+        "重量333g",
+        "提供數位電量顯示",
+        "支援iPhone/Galaxy/MacBook Air"
+      ]
+    },
+    {
+      "id": "smartcoby-duo-40w",
+      "name": "SMARTCOBY DUO 40W 10000mAh",
+      "brand": "SMARTCOBY",
+      "category": "行動電源",
+      "price": 268,
+      "desc": "大容量10000mAh同時充電時輸出40W，每兩個連接保持20W輸出。高輸出緊湊設計，LED顯示器顯示電量，為兩部智慧型手機快速充電。",
+      "features": [
+        "10000mAh大容量",
+        "總輸出40W，每口20W",
+        "可同時為兩部手機快速充電",
+        "LED顯示器顯示電量"
+      ]
+    },
+    {
+      "id": "smartcoby-pro-slim-cable-35w",
+      "name": "SMARTCOBY Pro Slim Cable 35W 10000mAh",
+      "brand": "SMARTCOBY",
+      "category": "行動電源",
+      "price": 368,
+      "desc": "超薄35W輸出內置Type-C線10000mAh行動電源，支援iPhone 16快充。新款LED數量顯示燈，防刮花物料花紋設計，超薄身17.8mm重量189g。",
+      "features": [
+        "超薄35W輸出內置Type-C線",
+        "新款LED數量顯示燈",
+        "防刮花物料花紋設計",
+        "超薄身17.8mm",
+        "重量189g",
+        "支援iPhone 16快充"
+      ]
+    },
+    {
+      "id": "10denki-jd-d1",
+      "name": "10Denki JD-D1 45W 10000mAh磁吸無線快充行動電源",
+      "brand": "10Denki",
+      "category": "行動電源",
+      "price": 298,
+      "desc": "提供最大15W磁吸無線快充，內置可拆式Type-C線，PD快充提供最高45W輸出輸入。極速45W輸入約1.5小時充滿，支援同時為三個裝置充電。",
+      "features": [
+        "最大15W磁吸無線快充",
+        "內置可拆式Type-C線",
+        "PD快充最高45W輸出輸入",
+        "極速45W輸入，約1.5小時充滿",
+        "188 LED電量顯示",
+        "支援同時為三個裝置充電",
+        "重量213g，尺寸102×65×18.5mm"
+      ]
+    },
+    {
+      "id": "10denki-j1-d2",
+      "name": "10Denki J1-D2 PD45W 10000mAh 3C頭快充移動電源",
+      "brand": "10Denki",
+      "category": "行動電源",
+      "price": 268,
+      "desc": "PD45W 10000mAh 3C頭快充移動電源，同時支援3部裝置快充。內嵌式LED電量顯示，激輕薄設計，附60W C to C網纖扁線，符合國際航班上機標準。",
+      "features": [
+        "總輸出可達PD45W",
+        "Type-C out ×3",
+        "內嵌式LED電量顯示",
+        "附60W C to C網纖扁線",
+        "符合國際航班上機標準",
+        "通過IEC62133-2/IEC62368-1認證"
+      ]
+    },
+    {
+      "id": "t9-kids-watch",
+      "name": "T9 多功能定位兒童智能手錶",
+      "brand": "Sincos",
+      "category": "智能手錶",
+      "price": 499,
+      "desc": "最新定位技術兒童智能手錶，前鏡頭可視訊通話。CPU雙核1GB RAM+8G ROM，Android 9.0系統，1.83寸特大高清IPS屏幕，800mAh大容量電池，生活防水聲波排水系統。",
+      "features": [
+        "最新定位技術",
+        "前鏡頭可輕鬆視訊",
+        "CPU雙核，1GB RAM+8G ROM",
+        "Android 9.0",
+        "1.83寸特大高清IPS屏幕",
+        "生活防水，聲波排水系統",
+        "800mAh大容量電池",
+        "支援高清通話",
+        "拒收陌生來電，雙模式可選"
+      ]
+    },
+    {
+      "id": "eb-con-24",
+      "name": "EB-CON-24 真骨傳導藍牙耳機",
+      "brand": "Sincos",
+      "category": "耳機",
+      "price": 799,
+      "desc": "真耳骨傳導耳機（非空氣傳導小喇叭），內置32GB IPX8游水級別防水。DT 3.0脈沖定向全音技術，智能電量屏幕，6-8小時續航，最新藍牙5.3。",
+      "features": [
+        "真耳骨傳導技術",
+        "內置32GB",
+        "IPX8游水級別防水",
+        "DT 3.0脈沖定向全音技術",
+        "智能電量屏幕",
+        "6-8小時續航",
+        "最新藍牙5.3",
+        "藍牙模式及MP3內置播放模式"
+      ]
+    },
+    {
+      "id": "eb-con-23",
+      "name": "EB-Con-23 骨傳導藍牙耳機",
+      "brand": "Sincos",
+      "category": "耳機",
+      "price": 788,
+      "desc": "骨傳導藍牙耳機，採用DIRECTIN TONE定向傳音技術及PeakSlroy防漏音濾芯。續航時間6+20小時，不分主副機可單獨使用，智能觸控功能，IPX5防水。",
+      "features": [
+        "DIRECTIN TONE定向傳音技術",
+        "PeakSlroy防漏音濾芯",
+        "最新藍牙技術5.3",
+        "續航時間6+20小時",
+        "不分主副機，任何一隻可單獨使用",
+        "智能觸控功能",
+        "Acavity聲學結構技術",
+        "IPX5防水",
+        "多色選擇：黑底（黑/黃/藍）、白底（白/粉/紫）"
+      ]
+    },
+    {
+      "id": "co-20-anc",
+      "name": "Co-20 ANC 真無線藍牙耳機",
+      "brand": "Sincos",
+      "category": "耳機",
+      "price": 799,
+      "desc": "LED全彩Mon顯示充電盒，ANC降噪功能（降噪/通透模式）。藍牙5.3版本，IPX5防水，Type-C充電15分鐘續航4小時，共32小時超長續航。",
+      "features": [
+        "LED全彩Mon顯示充電盒",
+        "ANC降噪功能（降噪/通透模式）",
+        "藍牙5.3版本",
+        "IPX5防水",
+        "Type-C充電，15分鐘續航4小時",
+        "共32小時續航（耳機7-8小時+充電盒24小時）",
+        "360度智能環繞立體音"
+      ]
+    },
+    {
+      "id": "co-21",
+      "name": "CO-21 真無線藍牙耳機",
+      "brand": "Sincos",
+      "category": "耳機",
+      "price": 599,
+      "desc": "2.1寸高清觸控屏幕充電盒，支援Hi-Res高清音樂，13mm高低音雙單元復合振膜。數字消音技術定向傳音不漏聲，32GB容量MP3隨身聽，多國語言選擇。",
+      "features": [
+        "2.1寸高清觸控屏幕",
+        "自定螢幕圖片個人化",
+        "支援Hi-Res高清音樂",
+        "13mm高低音雙單元復合振膜",
+        "數字消音技術",
+        "ACS全景音效",
+        "32GB容量MP3隨身聽",
+        "來電顯示/計時/鬧鐘/耳機尋找",
+        "黑、白、金、紅四色"
+      ]
+    },
+    {
+      "id": "smartbuds",
+      "name": "Smartbuds ANC/ENC真無線藍牙耳機",
+      "brand": "Sincos",
+      "category": "耳機",
+      "price": 299,
+      "desc": "配備ANC主動降噪和ENC環境降噪技術，LCD觸控螢幕輕鬆控制音樂和通話。內建麥克風確保清晰通話，舒適角度設計實現良好音效隔離。",
+      "features": [
+        "ANC主動降噪 + ENC環境降噪",
+        "LCD觸控螢幕控制",
+        "內建麥克風清晰通話",
+        "舒適角度設計音效隔離"
+      ]
+    },
+    {
+      "id": "free-pods",
+      "name": "Free Pods 真無線藍牙耳機",
+      "brand": "Sincos",
+      "category": "耳機",
+      "price": 199,
+      "desc": "輕量耳塞無線藍牙設計，Hi-Res Audio認證，內置ENC隨處都能清晰通話。10MM動圈單元，耳塞30mAh+充電箱300mAh，一次充電聽6小時，5色選擇。",
+      "features": [
+        "藍牙5.3",
+        "Hi-Res Audio",
+        "輕量耳塞無線藍牙設計",
+        "內置ENC通話降噪",
+        "10MM動圈單元",
+        "提供3種尺寸耳塞",
+        "5色選擇：深藍、紫、綠、黃、紅"
+      ]
+    },
+    {
+      "id": "revolution-headphones",
+      "name": "Revolution ANC主動降噪頭戴式耳機",
+      "brand": "Sincos",
+      "category": "耳機",
+      "price": 488,
+      "desc": "深度降噪頭戴式耳機，ANC主動降噪+ENC通話降噪。40mm大動圈單元提供強勁低音，ANC開啟最長80小時續航，一體成型鋁合金框架輕奢設計，支援無線/有線雙模式。",
+      "features": [
+        "ANC主動降噪 + ENC通話降噪",
+        "40mm大動圈單元",
+        "108dB高靈敏度 + 32Ω阻抗",
+        "ANC開啟最長80小時 / ANC關閉最長112小時",
+        "一體成型鋁合金框架",
+        "可旋轉耳罩+伸縮頭帶",
+        "藍牙5.4",
+        "AUX有線模式",
+        "霧面銀色質感"
+      ]
+    },
+    {
+      "id": "xspace-earphones",
+      "name": "Xspace 真無線藍牙耳機",
+      "brand": "Sincos",
+      "category": "耳機",
+      "price": 299,
+      "desc": "Xspace真無線藍牙耳機，6個內置ENC環境噪音麥克風。13毫米動態驅動器提供強勁深沉低音，藍牙5.3技術，透明模式可感知環境音，三種尺寸耳塞套。",
+      "features": [
+        "6個內置ENC環境噪音麥克風",
+        "透明模式讓環境噪音進入",
+        "13毫米動態驅動器",
+        "藍牙5.3技術",
+        "高效單點控制",
+        "三種尺寸耳塞套"
+      ]
+    },
+    {
+      "id": "inspire-headphones",
+      "name": "Inspire 耳罩式藍牙耳機",
+      "brand": "Sincos",
+      "category": "耳機",
+      "price": 199,
+      "desc": "最新藍牙5.3技術耳罩式耳機，1-3秒快速配對。雙40mm驅動器提供Hi-Fi立體聲和平衡深低音，內建麥克風清晰通話，支援有線和無線連接，內置FM收音機和語音助理。",
+      "features": [
+        "最新藍牙5.3技術",
+        "雙40mm驅動器",
+        "Hi-Fi立體聲",
+        "內建麥克風清晰通話",
+        "支援有線和無線連接",
+        "3.5mm音源線",
+        "FM收音機（FM87.5-108MHz）",
+        "語音助理",
+        "黑、白兩色可選"
+      ]
+    },
+    {
+      "id": "leap-earbuds",
+      "name": "Leap 平耳式藍牙耳機",
+      "brand": "Sincos",
+      "category": "耳機",
+      "price": 228,
+      "desc": "療癒解壓神器平耳式藍牙耳機，Hi-Res Audio解碼藍牙5.4版本。13mm重低音單元，連充電座使用時間高達20小時，充電座顯示屏顯示電量，長時間佩戴舒適不易鬆脫。",
+      "features": [
+        "Hi-Res Audio解碼",
+        "藍牙5.4版本",
+        "13mm重低音單元",
+        "連充電座使用時間高達20小時",
+        "充電座顯示屏顯示電量",
+        "平耳式設計，長時間佩戴舒適"
+      ]
+    },
+    {
+      "id": "lonzuer-leap-speaker",
+      "name": "Lonzuer Leap 迷你藍牙喇叭",
+      "brand": "Lonzuer",
+      "category": "喇叭",
+      "price": 399,
+      "desc": "迷你藍牙喇叭10W單元帶來震撼低音，IPX7 1米深防水防塵。一次充電可播放長達7小時，TWS真無線立體聲配對可連接兩個喇叭達20W音量，配有自行車支架。",
+      "features": [
+        "10W單元震撼低音",
+        "IPX7 1米深防水防塵",
+        "長達7小時播放時間（50%音量）",
+        "TWS真無線立體聲配對（最高20W）",
+        "配有可調式自行車支架",
+        "堅固橡膠錶帶"
+      ]
+    },
+    {
+      "id": "cs-pd100",
+      "name": "CS-PD100 100W PD行動電源",
+      "brand": "Ismartdigi",
+      "category": "行動電源",
+      "price": 368,
+      "desc": "100W PD大功率行動電源，尺寸約130×77×26mm淨重約360g。可同時輸出三部裝置，支援Macbook Pro 65W、iPhone 30W、iPad Pro 40W、Switch TV MODE 45W，Type-C PD最高輸出100W。",
+      "features": [
+        "可同時輸出三部裝置",
+        "支援Macbook Pro 65W",
+        "支援iPhone 14 30W",
+        "支援iPad Pro 40W",
+        "支援Switch TV MODE 45W",
+        "Type-C PD最高輸出100W",
+        "雙輸入Type-C + Micro",
+        "雙USB最高輸出40W及22.5W"
+      ]
+    },
+    {
+      "id": "flashmini-stand",
+      "name": "FlashMini (Stand) 磁吸無線快充行動電源",
+      "brand": "Ismartdigi",
+      "category": "行動電源",
+      "price": 298,
+      "desc": "Tempo紙巾大小的磁吸無線快充行動電源，15W無線快充PD3.0 QC4.0+。最大PD20W Type-C急速充電，電量數字LED顯示，配備金屬製折疊式支架可邊充電邊使用。",
+      "features": [
+        "Tempo紙巾尺寸",
+        "15W無線快充，PD3.0 QC4.0+",
+        "最大PD20W Type-C急速充電",
+        "電量數字LED顯示",
+        "配備金屬製折疊式支架",
+        "深海藍、櫻花粉、鬱金香紫、黑色"
+      ]
+    },
+    {
+      "id": "tl166",
+      "name": "TL166 磁吸無線充電行動電源",
+      "brand": "Ismartdigi",
+      "category": "行動電源",
+      "price": 388,
+      "desc": "支援5部裝置同時充電的磁吸行動電源，N52磁吸圈夠實淨。15W磁吸無線充電，PD35W快充兼容大部分手機，內置Type-C及Lightning線，UV亮面材質不怕黏。",
+      "features": [
+        "同時支援5部裝置",
+        "N52磁吸圈",
+        "可帶上飛機",
+        "15W磁吸無線充電",
+        "PD35W快充",
+        "內置Type-C及Lightning線",
+        "UV亮面材質",
+        "LED電量及充電狀態顯示"
+      ]
+    },
+    {
+      "id": "is-pps23",
+      "name": "IS-PPS23 30W 10000mAh 外置充電器",
+      "brand": "Ismartdigi",
+      "category": "行動電源",
+      "price": 298,
+      "desc": "SMARTCOBY同款同廠出品30W 10000mAh外置充電器，支援PD QC4+ PPS輸出。電量百分比顯示屏，紫粉兩色，小巧輕便。",
+      "features": [
+        "10000mAh 30W",
+        "PD、QC4+、PPS輸出",
+        "QC3.0、SCP、S-VOOC輸出",
+        "電量百分比顯示屏",
+        "紫、粉兩色"
+      ]
+    },
+    {
+      "id": "ismartdigi-sq15",
+      "name": "Ismartdigi SQ15 8000mAh 行動電源",
+      "brand": "Ismartdigi",
+      "category": "行動電源",
+      "price": 198,
+      "desc": "8000mAh輕巧行動電源，總輸出最大15W。140g超輕量，91.5×65×14.5mm超薄設計，1 Type-C + 1 USB輸出，1 Type-C + 1 Lightning輸入，多色可選。",
+      "features": [
+        "8000mAh容量",
+        "總輸出最大15W",
+        "140g超輕量",
+        "91.5×65×14.5mm超薄",
+        "1 Type-C + 1 USB輸出",
+        "1 Type-C + 1 Lightning輸入",
+        "多色：黑灰、粉白、藍白、粉紫、藍紫、白紫"
+      ]
+    },
+    {
+      "id": "ismartdigi-sq16",
+      "name": "Ismartdigi SQ16 8000mAh 行動電源",
+      "brand": "Ismartdigi",
+      "category": "行動電源",
+      "price": 198,
+      "desc": "8000mAh輕巧行動電源，總輸出最大15W。140g超輕量超薄設計，多色選擇，Type-C+USB輸出，Type-C+Lightning輸入。",
+      "features": [
+        "8000mAh容量",
+        "總輸出最大15W",
+        "140g超輕量",
+        "91.5×65×14.5mm超薄",
+        "1 Type-C + 1 USB輸出",
+        "1 Type-C + 1 Lightning輸入"
+      ]
+    },
+    {
+      "id": "ismartdigi-40w-charger",
+      "name": "Ismartdigi 40W 2C2U快充火牛",
+      "brand": "Ismartdigi",
+      "category": "充電器",
+      "price": 98,
+      "desc": "日本Ismartdigi 40W 2C2U快充充電器，符合國際安全標準防火A0規格。配備1個QC3.0端口及3個2.4A端口，總輸出最高40W，尺寸75×44.5×47mm重量52g。",
+      "features": [
+        "2 USB + 2 Type-C",
+        "QC3.0/PD3.0",
+        "最大輸出40W (20W+20W)",
+        "符合國際安全標準防火A0規格",
+        "尺寸75×44.5×47mm",
+        "重量52g",
+        "輸入100-240V AC 50/60Hz"
+      ]
+    },
+    {
+      "id": "ismartdigi-65w-charger",
+      "name": "Ismartdigi 65W 火牛 (2C1U)",
+      "brand": "Ismartdigi",
+      "category": "充電器",
+      "price": 128,
+      "desc": "Ismartdigi 65W 2C1U快充充電器，支援PD3.0快充。USB-C1/C2最高65W輸出，支援PPS 3.3V-20.3V，多口同時充電智能分配功率。",
+      "features": [
+        "USB-C1/C2: 5V/3A, 9V/3A, 12V/3A, 15V/3A, 20V/3.25A",
+        "PPS 3.3V-20.3V-3.25A (65W)",
+        "USB-A: 18W max",
+        "USB-C1(45W)+USB-A(18W)=63W",
+        "USB-C1(45W)+C2(20W)=65W",
+        "輸入100-240V~50/60Hz 1.5A max"
+      ]
+    },
+    {
+      "id": "ismartdigi-is-cll201",
+      "name": "Ismartdigi IS-CLL201 1.2m 3合1充電線",
+      "brand": "Ismartdigi",
+      "category": "充電線",
+      "price": 98,
+      "desc": "3合1充電線，Type-C ×1 + Lightning ×2，鋁合金外殼金屬電纜線材超級耐用。支援最大480Mbps數據傳輸，1.2米長，黑、灰、藍三色。",
+      "features": [
+        "3合1 Type-C ×1 + Lightning ×2",
+        "鋁合金外殼",
+        "支援480Mbps數據傳輸",
+        "1.2米長",
+        "黑、灰、藍三色"
+      ]
+    },
+    {
+      "id": "ismartdigi-3in1-cable",
+      "name": "Ismartdigi 1.2m 3合1充電線 (Type-C/Lightning/Micro)",
+      "brand": "Ismartdigi",
+      "category": "充電線",
+      "price": 68,
+      "desc": "3合1充電線兼容Type-C、Lightning、Micro接口，金屬外殼尼龍布料材質，1.2米長。",
+      "features": [
+        "3合1 Type-C、Lightning、Micro",
+        "金屬外殼尼龍布料",
+        "1.2米長"
+      ]
+    },
+    {
+      "id": "is-cc301-100w",
+      "name": "IS-CC301 USB3.1 100W C to C充電數據線 20Gbps",
+      "brand": "Ismartdigi",
+      "category": "充電線",
+      "price": 268,
+      "desc": "USB3.1 Gen2高速充電數據線，數據傳輸高達20Gbps。內置E-marker晶片支援PD快充，支援4K@60Hz投屏，224根99.99% 4N無氧銅線芯，金屬外殼尼龍布料。",
+      "features": [
+        "USB3.1 Gen2 20Gbps數據傳輸",
+        "內置E-marker晶片支援PD快充",
+        "支援4K@60Hz投屏",
+        "224根99.99% 4N無氧銅線芯",
+        "金屬外殼尼龍布料+鋁合金外殼",
+        "支援iPhone 15/MacBook快充"
+      ]
+    },
+    {
+      "id": "is-cc501-60w",
+      "name": "IS-CC501 USB 60W C to C充電數據線 480Mbps",
+      "brand": "Ismartdigi",
+      "category": "充電線",
+      "price": 118,
+      "desc": "USB 60W快速C to C充電數據線，480Mbps數據傳輸，金屬外殼尼龍布料+鋁合金外殼，耐用設計。",
+      "features": [
+        "60W快速充電",
+        "480Mbps數據傳輸",
+        "金屬外殼尼龍布料+鋁合金外殼"
+      ]
+    },
+    {
+      "id": "tf-01",
+      "name": "TF-01 座枱風扇",
+      "brand": "Sincos",
+      "category": "風扇",
+      "price": 399,
+      "desc": "3檔調速四扇頁強力風扇，4000mAh大容量電池支援充電和蓄電兩種模式。智能數顯顯示電量及風速，配備一鍵左右搖頭或定位送風，附香薰蓋可添加香氛，低噪穩定。",
+      "features": [
+        "3檔調速四扇頁",
+        "4000mAh大容量電池",
+        "智能數顯電量及風速",
+        "一鍵左右搖頭或定位送風",
+        "手動調節上下送風",
+        "配備香薰蓋",
+        "定時關機功能"
+      ]
+    },
+    {
+      "id": "rhythm-breeze-25",
+      "name": "Rhythm x 10Denki Breeze 25 便攜式直立手提風扇",
+      "brand": "Rhythm",
+      "category": "風扇",
+      "price": 238,
+      "desc": "Rhythm聯同日本品牌10Denki推出Breeze 25便攜式直立手提風扇。內置可活動式掛扣可掛袋、直立坐枱或橫放使用，4檔風速最高檔為自然風模式，更慳電更舒適。",
+      "features": [
+        "可活動式掛扣多種使用方式",
+        "4段風速（第4檔自然風）",
+        "保留多種受歡迎顏色",
+        "便攜式直立手提設計"
+      ]
+    },
+    {
+      "id": "rhythm-silky-wind-mini",
+      "name": "RHYTHM Silky Wind Mini 雙扇葉坐枱風扇",
+      "brand": "Rhythm",
+      "category": "風扇",
+      "price": 548,
+      "desc": "Silky Wind Mini雙扇葉坐枱風扇，4800+小時使用壽命可用足五年。面板和後蓋方便拆卸易於清潔，內置雙扇葉出風更集中更涼爽，兩段式風速設計，機身可傾斜30度，自動左右搖擺70度，僅重270g。",
+      "features": [
+        "4800+小時使用壽命",
+        "面板和後蓋方便拆卸易於清潔",
+        "內置雙扇葉出風更集中更涼爽",
+        "兩段式風速設計",
+        "機身可手動傾斜30度",
+        "可自動左右搖擺70度",
+        "僅重270g"
+      ]
+    },
+    {
+      "id": "sincos-3d-circulator-fan",
+      "name": "Sincos 小型3D循環扇風機",
+      "brand": "Sincos",
+      "category": "風扇",
+      "price": 450,
+      "desc": "獨家專利空氣淨化技術零耗材，第三代設計空氣淨化模組與後蓋結合。Treely Air模式僅需5W為常規空氣清新機功耗的6%，12段風速調節，上下及左右各90度擺動，運作功率可低至2W。",
+      "features": [
+        "獨家專利空氣淨化技術零耗材",
+        "Treely Air模式僅5W功耗",
+        "Treely Air+模式配合等離子發生器",
+        "僅8W達到87%空氣淨化效能",
+        "12段風速調節",
+        "上下及左右各90度擺動",
+        "超長送風距離",
+        "可拆式調整高度（座枱/直立）",
+        "三腳英規插頭"
+      ]
+    },
+    {
+      "id": "smart-wind-fan",
+      "name": "Smart Wind便攜式智能語音空氣循環風扇",
+      "brand": "Sincos",
+      "category": "風扇",
+      "price": 498,
+      "desc": "Ai廣東話語音控制便攜式智能語音空氣循環風扇，3D廣角搖頭全方位空氣流通。8000mAh大容量電池超長續航，5檔風速調節，3/6/9小時計時功能，可拆式調整高度座枱企身兩用。",
+      "features": [
+        "AI廣東話語音控制",
+        "3D廣角搖頭全方位空氣流通",
+        "上下調整/左右搖頭",
+        "小夜燈模式",
+        "高速靜音運行",
+        "8000mAh大容量電池",
+        "5檔風速調節",
+        "可拆式調整高度",
+        "USB-C充電",
+        "3/6/9小時計時"
+      ]
+    },
+    {
+      "id": "heal-force-b01",
+      "name": "Heal Force B01 手臂式血壓計",
+      "brand": "Heal Force",
+      "category": "醫療健康",
+      "price": 450,
+      "desc": "廣東話/英文真人語音血壓計，雙人各90組記憶功能。心律不齊監測，大屏LCD顯示，三次平均值分析，一鍵使用智能加壓，本港醫療機構使用。",
+      "features": [
+        "廣東話/英文真人語音",
+        "雙人各90組記憶功能",
+        "心律不齊監測",
+        "大屏LCD顯示",
+        "三次平均值分析",
+        "一鍵使用",
+        "智能加壓",
+        "本港醫療機構使用"
+      ]
+    },
+    {
+      "id": "motorola-mbp66n",
+      "name": "MOTOROLA MBP66N 3合1非接觸式額溫計",
+      "brand": "MOTOROLA",
+      "category": "醫療健康",
+      "price": 299,
+      "desc": "MOTOROLA 3合1非接觸式額溫計，可測量體溫、水溫、物溫。夜間模式可關閉聲響，高溫警示紅燈/正常綠燈，快速測量僅需1秒。AgeSmart年齡選擇按鈕，食物及洗澡水測溫。",
+      "features": [
+        "非接觸式額溫計",
+        "可測量體溫/水溫/物溫",
+        "夜間模式",
+        "高溫警示（紅燈/綠燈）",
+        "快速測量1秒 (±0.2℃)",
+        "AgeSmart年齡選擇按鈕",
+        "靜音模式",
+        "大型液晶顯示屏"
+      ]
+    },
+    {
+      "id": "pe03-stylus",
+      "name": "PE03 透明設計iPad觸控筆",
+      "brand": "Sincos",
+      "category": "配件",
+      "price": 188,
+      "desc": "透明設計iPad觸控筆，兼容2018-2022年蘋果平板電腦。無線充電低功耗晶片可連續使用10小時，斜壓感應模擬真實紙上繪畫體驗，全屏/分屏防觸碰，藍牙實時電池顯示。",
+      "features": [
+        "兼容2018-2022年蘋果平板電腦",
+        "無線充電，連續使用10小時",
+        "斜壓感應",
+        "全屏/分屏防觸碰",
+        "藍牙實時電池顯示",
+        "金屬感應環開關"
+      ]
+    },
+    {
+      "id": "smartcoby-pro-slim-cable-35w-purple",
+      "name": "SMARTCOBY Pro Slim Cable 35W Purple Ver. 10000mAh",
+      "brand": "SMARTCOBY",
+      "category": "行動電源",
+      "price": 368,
+      "desc": "紫色限定版SMARTCOBY Pro Slim Cable 35W，超薄35W輸出內置Type-C線10000mAh行動電源。新款LED數量顯示燈，防刮花物料花紋設計，超薄身17.8mm，支援iPhone 16快充。",
+      "features": [
+        "超薄35W輸出內置Type-C線",
+        "新款LED數量顯示燈",
+        "防刮花物料花紋設計",
+        "超薄身17.8mm",
+        "重量189g",
+        "Purple紫色限定版"
+      ]
+    },
+    {
+      "id": "argo-gd80",
+      "name": "ARGO GD80",
+      "brand": "ARGO",
+      "category": "配件",
+      "price": 99,
+      "desc": "ARGO GD80充電配件，Sigma產品線中的標準配件產品。",
+      "features": [
+        "ARGO品牌配件"
+      ]
+    },
+    {
+      "id": "argo-md10-plus",
+      "name": "ARGO MD10 Plus",
+      "brand": "ARGO",
+      "category": "配件",
+      "price": 68,
+      "desc": "ARGO MD10 Plus配件產品。",
+      "features": [
+        "ARGO品牌產品"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panda Telecom — 產品相片管理</title>
+<style>
+:root{--bg:#0d0d0d;--card:#1a1a1a;--text:#e5e5e5;--muted:#888;--border:#2a2a2a;--gold:#d4a02b;--green:#22c55e;--red:#ef4444;--blue:#3b82f6;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+/* ── Login ── */
+.login-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
+.login-box{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:40px;width:380px;max-width:100%;text-align:center}
+.login-box h1{font-size:22px;margin-bottom:4px}
+.login-box .icon{font-size:64px;margin-bottom:12px}
+.login-box p{color:var(--muted);font-size:13px;margin-bottom:24px}
+.login-box input{width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:15px;font-family:inherit;outline:none;margin-bottom:14px;transition:border-color .2s}
+.login-box input:focus{border-color:var(--gold)}
+.login-box button{width:100%;padding:12px;border-radius:25px;border:none;background:var(--gold);color:#111;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .2s}
+.login-box button:hover{background:#c4961a}
+.login-box .error{color:var(--red);font-size:13px;margin-top:10px;display:none}
+.admin-screen{display:none}
+/* ── Header ── */
+.hdr{background:#111;border-bottom:1px solid var(--border);padding:14px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.hdr h2{font-size:16px;font-weight:700}
+.hdr h2 small{font-weight:400;font-size:12px;color:var(--muted)}
+.hdr-actions{display:flex;gap:8px;flex-wrap:wrap}
+.hdr-actions button,.hdr-actions a{display:inline-flex;align-items:center;gap:5px;padding:7px 16px;border-radius:20px;border:none;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .2s;text-decoration:none}
+.btn-deploy{background:var(--green);color:#111}.btn-deploy:hover{background:#16a34a}
+.btn-preview{background:var(--blue);color:#fff}.btn-preview:hover{background:#2563eb}
+.btn-logout{background:var(--card);border:1px solid var(--border)!important;color:var(--muted)}.btn-logout:hover{color:var(--text)}
+/* ── Stats Bar ── */
+.stats{display:flex;gap:12px;padding:16px 24px;background:var(--card);border-bottom:1px solid var(--border)}
+.stat{padding:8px 16px;border-radius:8px;font-size:13px;font-weight:600}
+.stat.green{background:rgba(34,197,94,.15);color:var(--green)}
+.stat.red{background:rgba(239,68,68,.15);color:var(--red)}
+.stat.total{background:rgba(59,130,246,.15);color:var(--blue)}
+/* ── Container ── */
+.container{max-width:1100px;margin:0 auto;padding:24px}
+/* ── Search & Filters ── */
+.toolbar{display:flex;gap:10px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input{padding:10px 14px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:14px;font-family:inherit;outline:none;flex:1;min-width:200px;transition:border-color .2s}
+.toolbar input:focus{border-color:var(--gold)}
+.toolbar select{padding:10px 14px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:13px;font-family:inherit;outline:none;cursor:pointer}
+.toolbar select:focus{border-color:var(--gold)}
+.filter-btns{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px}
+.filter-btn{padding:6px 14px;border-radius:20px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:12px;cursor:pointer;font-family:inherit;transition:all .2s}
+.filter-btn:hover{border-color:#555;color:#fff}
+.filter-btn.active{background:var(--gold);border-color:var(--gold);color:#111;font-weight:700}
+.filter-btn.green{color:var(--green)}.filter-btn.green.active{background:var(--green);color:#111}
+.filter-btn.red{color:var(--red)}.filter-btn.red.active{background:var(--red);color:#111}
+
+/* ── Product list ── */
+.empty-state{text-align:center;padding:60px 20px;color:var(--muted)}
+.empty-state .big{font-size:48px;margin-bottom:16px;display:block}
+.empty-state p{font-size:14px;line-height:1.6}
+.prod-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.prod-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s}
+.prod-card:hover{border-color:#555}
+.prod-card .top{display:flex;gap:12px;padding:14px}
+.prod-card .thumb{width:80px;height:80px;border-radius:8px;background:#222;flex-shrink:0;display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:28px;color:var(--muted);position:relative}
+.prod-card .thumb img{max-width:100%;max-height:100%;object-fit:contain}
+.prod-card .thumb .no-photo{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:24px;background:#1a1a1a}
+.prod-card .info{flex:1;min-width:0}
+.prod-card .info .sku{font-size:11px;color:var(--muted);margin-bottom:2px;word-break:break-all}
+.prod-card .info .name{font-size:13px;font-weight:600;margin-bottom:4px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.prod-card .info .cat{font-size:11px;color:var(--muted)}
+.prod-card .info .price{font-size:14px;color:var(--gold);font-weight:700;margin-top:4px}
+.prod-card .bottom{border-top:1px solid var(--border);padding:10px 14px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.photo-badge{font-size:11px;padding:3px 8px;border-radius:12px;font-weight:600}
+.photo-badge.yes{background:rgba(34,197,94,.15);color:var(--green)}
+.photo-badge.no{background:rgba(239,68,68,.15);color:var(--red)}
+.photo-badge.local{background:rgba(59,130,246,.15);color:var(--blue)}
+.upload-btn{background:var(--gold);color:#111;border:none;padding:5px 12px;border-radius:15px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .2s}
+.upload-btn:hover{background:#c4961a}
+.upload-btn.small{padding:3px 10px;font-size:10px}
+.replace-btn{background:var(--blue);color:#fff;border:none;padding:5px 12px;border-radius:15px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .2s}
+.replace-btn:hover{background:#2563eb}
+.delete-btn{background:transparent;color:var(--red);border:1px solid var(--red);padding:4px 10px;border-radius:15px;font-size:10px;cursor:pointer;font-family:inherit;transition:all .2s}
+.delete-btn:hover{background:var(--red);color:#fff}
+.prod-card .file-input{display:none}
+
+/* ── Upload area ── */
+.batch-upload{margin-bottom:24px;background:var(--card);border:1px dashed var(--border);border-radius:var(--radius);padding:32px;text-align:center}
+.batch-upload.dragover{border-color:var(--gold);background:rgba(212,160,43,.05)}
+.batch-upload .big{font-size:48px;display:block;margin-bottom:12px}
+.batch-upload h3{font-size:16px;margin-bottom:6px}
+.batch-upload p{color:var(--muted);font-size:13px;margin-bottom:16px}
+.batch-upload input[type=file]{display:none}
+.batch-upload .btn-select{background:var(--gold);color:#111;border:none;padding:12px 28px;border-radius:25px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .2s}
+.batch-upload .btn-select:hover{background:#c4961a}
+.batch-upload .hint{margin-top:12px;font-size:11px;color:var(--muted)}
+.batch-queue{display:none;margin-top:16px;text-align:left}
+.batch-queue .q-item{display:flex;align-items:center;gap:10px;padding:6px 0;border-bottom:1px solid var(--border);font-size:12px}
+.batch-queue .q-item .q-name{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.batch-queue .q-item .q-status{font-weight:600;flex-shrink:0}
+.batch-queue .q-item .q-status.done{color:var(--green)}
+.batch-queue .q-item .q-status.err{color:var(--red)}
+.batch-queue .q-item .q-status.pending{color:var(--muted)}
+
+/* ── Deploy Section ── */
+.deploy-section{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:32px;margin-top:24px;text-align:center}
+.deploy-section h3{font-size:18px;margin-bottom:8px}
+.deploy-section p{color:var(--muted);font-size:13px;margin-bottom:20px;line-height:1.6}
+.github-setup{text-align:left;max-width:500px;margin:0 auto 20px}
+.github-setup label{display:block;font-size:12px;font-weight:600;color:var(--muted);margin-bottom:4px}
+.github-setup input{width:100%;padding:10px 14px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:13px;font-family:monospace;outline:none;margin-bottom:10px}
+.github-setup input:focus{border-color:var(--gold)}
+.github-setup .hint{font-size:11px;color:var(--muted);line-height:1.6}
+.btn-deploy-now{background:var(--green);color:#111;border:none;padding:14px 40px;border-radius:25px;font-size:16px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .2s}
+.btn-deploy-now:hover{background:#16a34a;transform:scale(1.02)}
+.btn-deploy-now:disabled{opacity:.4;cursor:not-allowed;transform:none}
+.deploy-log{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:14px 18px;margin-top:16px;font-size:12px;font-family:monospace;color:var(--muted);text-align:left;max-height:300px;overflow-y:auto;display:none;white-space:pre-wrap;line-height:1.6}
+.deploy-log.show{display:block}
+
+/* ── Toast ── */
+.toast{position:fixed;top:20px;left:50%;transform:translateX(-50%) translateY(-80px);background:var(--green);color:#fff;padding:14px 28px;border-radius:8px;font-size:13px;font-weight:600;z-index:9999;transition:transform .4s;box-shadow:0 4px 20px rgba(34,197,94,.3)}
+.toast.show{transform:translateX(-50%) translateY(0)}
+.toast.error{background:var(--red);box-shadow:0 4px 20px rgba(239,68,68,.3)}
+
+/* ── Modal ── */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:9998;display:none;align-items:center;justify-content:center;padding:24px}
+.modal-overlay.show{display:flex}
+.modal{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;max-width:420px;width:100%;text-align:center}
+.modal h3{font-size:18px;margin-bottom:8px}
+.modal p{color:var(--muted);font-size:13px;margin-bottom:20px;line-height:1.5}
+.modal-actions{display:flex;gap:10px;justify-content:center}
+.modal-actions button{padding:10px 24px;border-radius:20px;border:none;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .2s}
+.modal-actions .confirm{background:var(--red);color:#fff}
+.modal-actions .confirm:hover{background:#dc2626}
+.modal-actions .cancel{background:var(--border);color:var(--text)}
+.modal-actions .cancel:hover{background:#555}
+
+/* ── Responsive ── */
+@media(max-width:640px){
+  .hdr{padding:12px 16px}
+  .hdr h2{font-size:14px}
+  .prod-grid{grid-template-columns:1fr}
+  .stats{flex-wrap:wrap}
+  .batch-upload{padding:20px 16px}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ LOGIN ═══ -->
+<div class="login-screen" id="loginScreen">
+  <div class="login-box">
+    <div class="icon">📸</div>
+    <h1>🐼 產品相片管理</h1>
+    <p>Panda Telecom 熊貓電訊 · 後台上載產品相片</p>
+    <input type="password" id="loginPass" placeholder="管理密碼" onkeydown="if(event.key==='Enter')doLogin()">
+    <button onclick="doLogin()">登入</button>
+    <div class="error" id="loginError">❌ 密碼錯誤，請再試</div>
+  </div>
+</div>
+
+<!-- ═══ ADMIN ═══ -->
+<div class="admin-screen" id="adminScreen">
+
+  <!-- Header -->
+  <div class="hdr">
+    <h2>📸 產品相片管理 <small>熊貓電訊 · Momax 產品</small></h2>
+    <div class="hdr-actions">
+      <a class="btn-preview" href="https://pandatelecom.github.io/Pandatelecom/products.html" target="_blank">🔗 預覽網站</a>
+      <button class="btn-deploy" onclick="scrollToDeploy()">🚀 發布</button>
+      <button class="btn-logout" onclick="doLogout()">登出</button>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats" id="statsBar"></div>
+
+  <!-- Container -->
+  <div class="container" id="mainContainer">
+
+    <!-- Batch Upload Area -->
+    <div class="batch-upload" id="batchArea" ondragover="event.preventDefault();this.classList.add('dragover')" ondragleave="this.classList.remove('dragover')" ondrop="handleDrop(event)">
+      <span class="big">🖼️</span>
+      <h3>拖放相片上載</h3>
+      <p>將產品相片直接拖到呢度，或者㩒「選擇相片」揀檔案<br>檔案名要係產品 SKU（例如 <code>BR16D.jpg</code>、<code>BS13D.png</code>）</p>
+      <button class="btn-select" onclick="document.getElementById('fileInput').click()">📁 選擇相片</button>
+      <input type="file" id="fileInput" multiple accept="image/*" onchange="handleFiles(this.files)">
+      <div class="hint">📌 支援 JPG / PNG / WebP，檔案名 = 產品 SKU（副檔名自動修正）</div>
+      <div class="batch-queue" id="batchQueue"></div>
+    </div>
+
+    <!-- Search & Filter -->
+    <div class="toolbar">
+      <input type="text" id="searchInput" placeholder="🔍 搜尋產品名稱 / SKU..." oninput="filterProducts()">
+      <select id="catFilter" onchange="filterProducts()">
+        <option value="">全部類別</option>
+      </select>
+      <select id="brandFilter" onchange="filterProducts()">
+        <option value="">全部品牌</option>
+      </select>
+    </div>
+    <div class="filter-btns" id="photoFilter">
+      <button class="filter-btn active" data-filter="" onclick="setPhotoFilter(this,'')">📷 全部產品</button>
+      <button class="filter-btn green" data-filter="has" onclick="setPhotoFilter(this,'has')">✅ 有相</button>
+      <button class="filter-btn red" data-filter="none" onclick="setPhotoFilter(this,'none')">❌ 未上載</button>
+    </div>
+
+    <!-- Product Grid -->
+    <div id="productList"></div>
+
+    <!-- Deploy Section -->
+    <div class="deploy-section" id="deploySection">
+      <h3>🚀 發布相片到網站</h3>
+      <p>上載完相片之後，撳下面個掣將所有相片上傳到 GitHub，<br>然後等 1-2 分鐘網站就會自動更新 🎉</p>
+
+      <div class="github-setup">
+        <label>🔑 GitHub Token</label>
+        <input type="text" id="f_token" placeholder="ghp_xxx...xxxx" value="">
+        <div class="hint">第一次用要填 Token。去 <a href="https://github.com/settings/tokens" target="_blank" style="color:var(--gold)">github.com/settings/tokens</a> 建立（要剔 <strong>repo</strong> 權限），貼上去就得。之後會自動 save 喺瀏覽器。</div>
+        <label>Repository</label>
+        <input type="text" id="f_repo" value="pandatelecom/pandatelecom.github.io">
+        <label>圖片路徑（repo 內）</label>
+        <input type="text" id="f_imgPath" value="Pandatelecom/products-img">
+        <label>IMG Map 檔案路徑（repo 內）</label>
+        <input type="text" id="f_mapPath" value="Pandatelecom/products-img-map.js">
+      </div>
+
+      <button class="btn-deploy-now" id="deployBtn" onclick="doDeploy()">🚀 上傳相片到 GitHub</button>
+      <div class="deploy-log" id="deployLog"></div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <h3 id="modalTitle">⚠️ 確認</h3>
+    <p id="modalText">確定要刪除呢張相？</p>
+    <div class="modal-actions">
+      <button class="cancel" onclick="closeModal()">取消</button>
+      <button class="confirm" id="modalConfirmBtn" onclick="closeModal()">確認</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ═══════════════════════════════════════
+   STATE
+   ═══════════════════════════════════════ */
+const ADMIN_PASSWORD = 'panda2024';
+let products = [];
+let imgMap = {};
+let localImages = new Set();
+let photoFilter = '';
+let pendingUploads = []; // batch queue
+let modalCallback = null;
+
+/* ═══════════════════════════════════════
+   LOGIN
+   ═══════════════════════════════════════ */
+function doLogin() {
+  const pass = document.getElementById('loginPass').value;
+  if(pass === ADMIN_PASSWORD) {
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('adminScreen').style.display = 'block';
+    init();
+    const saved = localStorage.getItem('pandaPhotosToken');
+    if(saved) document.getElementById('f_token').value = saved;
+  } else {
+    document.getElementById('loginError').style.display = 'block';
+    document.getElementById('loginPass').value = '';
+    document.getElementById('loginPass').focus();
+  }
+}
+function doLogout() {
+  document.getElementById('adminScreen').style.display = 'none';
+  document.getElementById('loginScreen').style.display = 'flex';
+  document.getElementById('loginPass').value = '';
+  document.getElementById('loginError').style.display = 'none';
+}
+
+/* ═══════════════════════════════════════
+   INIT — load products data + img map
+   ═══════════════════════════════════════ */
+async function init() {
+  try {
+    // Load products data
+    const r1 = await fetch('products-data.js?' + Date.now());
+    const txt = await r1.text();
+    eval(txt);
+    products = DATA.products;
+    document.getElementById('statsBar').innerHTML = '<span class="stat total">📦 ' + products.length + ' 件產品</span>';
+
+    // Load img map
+    try {
+      const r2 = await fetch('products-img-map.js?' + Date.now());
+      const txt2 = await r2.text();
+      eval(txt2);
+      imgMap = PROD_IMG || {};
+    } catch(e) {
+      imgMap = {};
+    }
+
+    // Build local image set from IMG map + file names
+    // We'll track which SKUs have images from the IMG map
+    updateLocalImageSet();
+
+    // Populate category filter
+    const cats = [...new Set(products.map(p => p.cat).filter(Boolean))];
+    const catSel = document.getElementById('catFilter');
+    cats.forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = c; opt.textContent = c;
+      catSel.appendChild(opt);
+    });
+
+    renderProducts();
+    updateStats();
+  } catch(e) {
+    showToast('❌ 無法載入產品資料: ' + e.message, true);
+  }
+}
+
+function updateLocalImageSet() {
+  // Check what's in the current imgMap
+  localImages = new Set(Object.keys(imgMap));
+}
+
+function updateStats() {
+  const has = products.filter(p => imgMap[p.sku]).length;
+  const none = products.filter(p => !imgMap[p.sku]).length;
+  document.getElementById('statsBar').innerHTML =
+    '<span class="stat total">📦 ' + products.length + ' 件產品</span>' +
+    '<span class="stat green">✅ ' + has + ' 件有相</span>' +
+    '<span class="stat red">❌ ' + none + ' 件未上載</span>';
+}
+
+/* ═══════════════════════════════════════
+   PRODUCT RENDERING
+   ═══════════════════════════════════════ */
+function filterProducts() {
+  renderProducts();
+}
+
+function setPhotoFilter(btn, val) {
+  photoFilter = val;
+  document.querySelectorAll('#photoFilter .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderProducts();
+}
+
+function renderProducts() {
+  const q = document.getElementById('searchInput').value.toLowerCase().trim();
+  const cat = document.getElementById('catFilter').value;
+  const brand = document.getElementById('brandFilter').value;
+
+  let list = products.filter(p => {
+    // Search
+    if(q && !p.name.toLowerCase().includes(q) && !(p.sku || '').toLowerCase().includes(q)) return false;
+    // Category
+    if(cat && p.cat !== cat) return false;
+    // Brand
+    if(brand && (!p.brand || p.brand !== brand)) return false;
+    // Photo filter
+    if(photoFilter === 'has' && !imgMap[p.sku]) return false;
+    if(photoFilter === 'none' && imgMap[p.sku]) return false;
+    return true;
+  });
+
+  const container = document.getElementById('productList');
+
+  if(!list.length) {
+    container.innerHTML = '<div class="empty-state"><span class="big">🔍</span><p>冇搵到符合條件嘅產品</p></div>';
+    return;
+  }
+
+  let html = '<div class="prod-grid">';
+  list.forEach(p => {
+    const hasImg = !!imgMap[p.sku];
+    const imgUrl = imgMap[p.sku] || '';
+    html += `
+      <div class="prod-card">
+        <div class="top">
+          <div class="thumb">
+            ${hasImg ? '<img src="'+imgMap[p.sku]+'" alt="'+p.name+'" loading="lazy" onerror="this.style.display=\'none\'">' : '<div class="no-photo">📦</div>'}
+          </div>
+          <div class="info">
+            <div class="sku">${p.sku || '—'}</div>
+            <div class="name">${p.name}</div>
+            <div class="cat">${p.cat || ''}</div>
+            <div class="price">$${p.srp}</div>
+          </div>
+        </div>
+        <div class="bottom">
+          <span class="photo-badge ${hasImg ? 'yes' : 'no'}">${hasImg ? '✅ 有相' : '❌ 無相'}</span>
+          ${hasImg ? '<button class="replace-btn" onclick="uploadForSku(\''+p.sku+'\')">🔄 換相</button>' : ''}
+          <button class="upload-btn" onclick="uploadForSku('${p.sku}')">${hasImg ? '➕ 另加' : '📤 上載相片'}</button>
+          ${hasImg ? '<button class="delete-btn" onclick="confirmRemoveImg(\''+p.sku+'\')">🗑️ 刪除</button>' : ''}
+          <input type="file" accept="image/*" id="file_${p.sku}" style="display:none" onchange="handleSingleUpload('${p.sku}',this.files)">
+        </div>
+      </div>`;
+  });
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+/* ═══════════════════════════════════════
+   SINGLE PHOTO UPLOAD
+   ═══════════════════════════════════════ */
+function uploadForSku(sku) {
+  document.getElementById('file_' + sku).click();
+}
+
+function handleSingleUpload(sku, files) {
+  if(!files || !files.length) return;
+  const file = files[0];
+  addToBatchQueue(sku, file);
+}
+
+/* ═══════════════════════════════════════
+   BATCH UPLOAD (drag & drop / multi-select)
+   ═══════════════════════════════════════ */
+function handleDrop(e) {
+  e.preventDefault();
+  document.getElementById('batchArea').classList.remove('dragover');
+  handleFiles(e.dataTransfer.files);
+}
+
+function handleFiles(files) {
+  if(!files || !files.length) return;
+  for(let i = 0; i < files.length; i++) {
+    const f = files[i];
+    // Extract SKU from filename (strip extension)
+    let name = f.name.replace(/\.[^.]+$/, '');
+    // Handle common patterns like "SKU_01" -> "SKU", "SKU-1" -> "SKU"
+    name = name.replace(/[-_][0-9a-zA-Z]*$/, '').toUpperCase();
+    addToBatchQueue(name, f);
+  }
+}
+
+function addToBatchQueue(sku, file) {
+  pendingUploads.push({ sku, file, status: 'pending' });
+  renderBatchQueue();
+  // Show queue
+  document.getElementById('batchQueue').style.display = 'block';
+  showToast('📥 ' + sku + ' 已加入上載佇列');
+}
+
+function renderBatchQueue() {
+  const q = document.getElementById('batchQueue');
+  if(!pendingUploads.length) {
+    q.style.display = 'none';
+    q.innerHTML = '';
+    return;
+  }
+  let html = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">' +
+    '<strong>上載佇列 (' + pendingUploads.length + ' 項)</strong>' +
+    '<button class="upload-btn" onclick="uploadAll()" style="font-size:12px">⬆️ 全部上載</button>' +
+    '</div>';
+  pendingUploads.forEach((item, i) => {
+    const statusMap = { pending: '⏳ 待上載', uploading: '🔄 上載中...', done: '✅ 完成', err: '❌ ' + (item.error || '失敗') };
+    html += '<div class="q-item">' +
+      '<span class="q-name">' + item.sku + ' (' + item.file.name + ')</span>' +
+      '<span class="q-status ' + item.status + '">' + (statusMap[item.status] || item.status) + '</span>' +
+      (item.status === 'pending' ? '<button class="delete-btn" onclick="removeFromQueue('+i+')" style="padding:2px 8px;font-size:10px">✕</button>' : '') +
+      '</div>';
+  });
+  q.innerHTML = html;
+}
+
+function removeFromQueue(idx) {
+  pendingUploads.splice(idx, 1);
+  renderBatchQueue();
+}
+
+/* ═══════════════════════════════════════
+   PROCESS UPLOADS IN BROWSER (convert to base64 and store locally)
+   ═══════════════════════════════════════ */
+function uploadAll() {
+  // Convert all pending files to base64 and store in local imgMap
+  pendingUploads.forEach(item => {
+    if(item.status !== 'pending') return;
+    item.status = 'uploading';
+    renderBatchQueue();
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      // We can't store base64 in GitHub directly via client-side easily
+      // Instead, we'll store the file reference for the deploy step
+      item.dataUrl = e.target.result;
+      item.status = 'done';
+      // Also update local imgMap with a GitHub URL placeholder
+      const ext = item.file.name.split('.').pop() || 'jpg';
+      imgMap[item.sku] = 'products-img/' + item.sku + '.' + ext;
+      localImages.add(item.sku);
+      renderBatchQueue();
+      renderProducts();
+      updateStats();
+    };
+    reader.onerror = function() {
+      item.status = 'err';
+      item.error = '讀取失敗';
+      renderBatchQueue();
+    };
+    reader.readAsDataURL(item.file);
+  });
+  showToast('✅ 已載入 ' + pendingUploads.length + ' 張相，按「🚀 上傳相片到 GitHub」發布');
+}
+
+/* ═══════════════════════════════════════
+   MODAL
+   ═══════════════════════════════════════ */
+function confirmRemoveImg(sku) {
+  const p = products.find(x => x.sku === sku);
+  showModal(
+    '🗑️ 刪除相片',
+    '確定要移除 <strong>' + (sku || '') + '</strong> 嘅相片？',
+    function() {
+      delete imgMap[sku];
+      localImages.delete(sku);
+      renderProducts();
+      updateStats();
+      showToast('✅ 已移除 ' + sku + ' 嘅相片（發布先會生效）');
+    }
+  );
+}
+
+function showModal(title, text, onConfirm) {
+  document.getElementById('modalTitle').innerHTML = title;
+  document.getElementById('modalText').innerHTML = text;
+  modalCallback = onConfirm;
+  document.getElementById('modalConfirmBtn').onclick = function() {
+    closeModal();
+    if(modalCallback) modalCallback();
+  };
+  document.getElementById('modalOverlay').classList.add('show');
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('show');
+}
+
+/* ═══════════════════════════════════════
+   DEPLOY TO GITHUB
+   ═══════════════════════════════════════ */
+function scrollToDeploy() {
+  document.getElementById('deploySection').scrollIntoView({ behavior: 'smooth' });
+}
+
+async function doDeploy() {
+  const token = document.getElementById('f_token').value.trim();
+  const repo = document.getElementById('f_repo').value.trim();
+  const imgPath = document.getElementById('f_imgPath').value.trim();
+  const mapPath = document.getElementById('f_mapPath').value.trim();
+
+  if(!token) { showToast('❌ 請先填 GitHub Token', true); return; }
+  if(!repo) { showToast('❌ 請填 Repository', true); return; }
+
+  localStorage.setItem('pandaPhotosToken', token);
+
+  const btn = document.getElementById('deployBtn');
+  const log = document.getElementById('deployLog');
+  btn.disabled = true;
+  btn.textContent = '⏳ 上傳中...';
+  log.classList.add('show');
+  log.textContent = '🚀 開始上傳...\n';
+
+  function logLine(msg) { log.textContent += msg + '\n'; log.scrollTop = log.scrollHeight; }
+
+  // Collect files to upload (from pendingUploads that are done)
+  const toUpload = pendingUploads.filter(item => item.status === 'done' && item.dataUrl);
+  
+  if(!toUpload.length && !haveLocalChanges()) {
+    logLine('⚠️ 冇新相片上載');
+    btn.disabled = false;
+    btn.textContent = '🚀 上傳相片到 GitHub';
+    showToast('⚠️ 未有新相片需要上載', true);
+    return;
+  }
+
+  try {
+    // --- Step 1: Upload each image file to GitHub ---
+    logLine('📡 連接 GitHub...\n');
+    
+    // Upload images
+    for(let i = 0; i < toUpload.length; i++) {
+      const item = toUpload[i];
+      const ext = item.file.name.split('.').pop() || 'jpg';
+      const ghPath = imgPath + '/' + item.sku + '.' + ext;
+      const base64Data = item.dataUrl.split(',')[1]; // strip data:image/...;base64,
+      
+      logLine('📤 [' + (i+1) + '/' + toUpload.length + '] ' + item.sku + '.' + ext + '...');
+      
+      // Check if file exists
+      const getResp = await fetch('https://api.github.com/repos/' + repo + '/contents/' + ghPath + '?ref=main', {
+        headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github.v3+json' }
+      });
+      let sha = '';
+      if(getResp.ok) {
+        const data = await getResp.json();
+        sha = data.sha;
+      }
+
+      // Upload
+      const putResp = await fetch('https://api.github.com/repos/' + repo + '/contents/' + ghPath, {
+        method: 'PUT',
+        headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github.v3+json' },
+        body: JSON.stringify({
+          message: '📸 上載產品相片: ' + item.sku,
+          content: base64Data,
+          sha: sha || undefined
+        })
+      });
+
+      if(!putResp.ok) {
+        const err = await putResp.text();
+        logLine('❌ ' + item.sku + ' 上載失敗: ' + err.substring(0,150));
+        item.status = 'err';
+        item.error = 'GitHub 上載失敗';
+      } else {
+        logLine('✅ ' + item.sku + '.' + ext + ' 上載成功');
+        // Update IMG map with the correct URL
+        const rawUrl = 'https://raw.githubusercontent.com/' + repo + '/main/' + ghPath;
+        imgMap[item.sku] = rawUrl;
+        item.status = 'done';
+      }
+      renderBatchQueue();
+    }
+
+    // --- Step 2: Update products-img-map.js ---
+    logLine('\n📝 更新 products-img-map.js...');
+    const mapContent = 'const PROD_IMG = ' + JSON.stringify(imgMap, null, 2) + ';';
+
+    // Get current SHA
+    const mapResp = await fetch('https://api.github.com/repos/' + repo + '/contents/' + mapPath + '?ref=main', {
+      headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github.v3+json' }
+    });
+    let mapSha = '';
+    if(mapResp.ok) {
+      const data = await mapResp.json();
+      mapSha = data.sha;
+    }
+
+    const mapPutResp = await fetch('https://api.github.com/repos/' + repo + '/contents/' + mapPath, {
+      method: 'PUT',
+      headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github.v3+json' },
+      body: JSON.stringify({
+        message: '📸 更新產品相片對應表',
+        content: btoa(unescape(encodeURIComponent(mapContent))),
+        sha: mapSha || undefined
+      })
+    });
+
+    if(!mapPutResp.ok) {
+      const err = await mapPutResp.text();
+      logLine('❌ products-img-map.js 更新失敗: ' + err.substring(0,200));
+    } else {
+      logLine('✅ products-img-map.js 已更新');
+    }
+
+    // --- Step 3: Also update products.html (just SHA check to trigger rebuild) ---
+    logLine('\n⏳ GitHub Pages 自動部署中...');
+    logLine('   約 1-2 分鐘後網站會自動更新');
+    logLine('   🔗 https://pandatelecom.github.io/Pandatelecom/products.html');
+
+    btn.textContent = '✅ 上載完成！';
+    setTimeout(() => {
+      btn.disabled = false;
+      btn.textContent = '🚀 上傳相片到 GitHub';
+    }, 3000);
+
+    // Clear processed items from queue
+    pendingUploads = pendingUploads.filter(item => item.status !== 'done');
+    renderBatchQueue();
+    renderProducts();
+    updateStats();
+
+    showToast('🎉 上載完成！1-2分鐘後網站會更新');
+
+  } catch(e) {
+    logLine('❌ 錯誤: ' + e.message);
+    btn.disabled = false;
+    btn.textContent = '🚀 上傳相片到 GitHub';
+    showToast('❌ 上載失敗: ' + e.message.substring(0,80), true);
+  }
+}
+
+function haveLocalChanges() {
+  // Check if any imgMap entries point to local paths (not URL)
+  for(let sku in imgMap) {
+    if(imgMap[sku] && !imgMap[sku].startsWith('http')) return true;
+  }
+  return false;
+}
+
+/* ═══════════════════════════════════════
+   TOAST
+   ═══════════════════════════════════════ */
+let toastTimer;
+function showToast(msg, isError) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast' + (isError ? ' error' : '');
+  clearTimeout(toastTimer);
+  requestAnimationFrame(() => { t.classList.add('show'); });
+  toastTimer = setTimeout(() => { t.classList.remove('show'); }, 3500);
+}
+</script>
+</body>
+</html>

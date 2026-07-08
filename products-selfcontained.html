@@ -55,8 +55,9 @@ body{background:#f5f5f5}
 </div>
 </div>
 <script src="products-data.js"></script>
+<script src="products-img-map.js"></script>
 <script>
-const IMG = {"MS02L2": "https://cdn.shopify.com/s/files/1/0800/4727/6344/files/MS02_L2_01_1500_Additional_JPG_Medium_a0e638c5-d5f5-49ec-a129-fc0fc48aede4.jpg", "BR16D": "https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BR16_BilkQR_1080_972c35e0-1e44-4e87-8d6a-1b2f4d5c6a7b_1500.png", "BS13D": "https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS13D-Black-Main_1500.png", "BS13M": "https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS13M-Orange-Main_1500.png", "BS13W": "https://cdn.shopify.com/s/files/1/0800/4727/6344/products/BS13W-White-Main_1500.png", "BS6HKD": "https://hk.momax.net/cdn/shop/files/BS6_D_01_1500.webp?v=1774800350&width=1500", "BS6HKL": "https://hk.momax.net/cdn/shop/files/BS6_L_01_1500.jpg?v=1774800350&width=1500", "BS6HKL2": "https://hk.momax.net/cdn/shop/files/BS6_L2_01_1500.webp?v=1774800350&width=1500", "BS6HKM": "https://hk.momax.net/cdn/shop/files/BS6_M_01_1500.jpg?v=1774800350&width=1500", "BS6HKS": "https://hk.momax.net/cdn/shop/files/BS6_S_01_1500.jpg?v=1774800350&width=1500", "BS7D": "https://hk.momax.net/cdn/shop/files/BS7_D_01_1500.jpg?v=1776009677&width=1500", "BS7E": "https://hk.momax.net/cdn/shop/files/BS7_E_01_1500.jpg?v=1776009677&width=1500", "BS7M": "https://hk.momax.net/cdn/shop/files/BS7_M_01_1500.jpg?v=1776009677&width=1500", "BS8D": "https://hk.momax.net/cdn/shop/files/BS8_D_04_1500.jpg?v=1760289049&width=1500", "BS8W": "https://hk.momax.net/cdn/shop/files/BS8_W_04_1500.jpg?v=1760289049&width=1500"};
+const IMG = PROD_IMG;
 
 function render(q,cat){
   q=(q||"").toLowerCase().trim();cat=cat||"";
