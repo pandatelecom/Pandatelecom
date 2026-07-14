@@ -245,6 +245,42 @@
     }
     .hero-badges span { display: flex; align-items: center; gap: 5px; }
 
+    /* ===== STATS BANNER ===== */
+    .stats-banner {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      padding: 24px 0 16px;
+    }
+    .stat-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 14px;
+      background: var(--bg-alt);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+    }
+    .stat-icon { font-size: 28px; flex-shrink: 0; }
+    .stat-num {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.2;
+    }
+    .stat-label {
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.3;
+      margin-top: 2px;
+    }
+    @media (max-width: 700px) {
+      .stats-banner { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 400px) {
+      .stats-banner { grid-template-columns: 1fr; }
+    }
+
     /* ===== SECTIONS ===== */
     section { padding: 64px 0; }
     section + section { border-top: 1px solid var(--border); }
@@ -702,13 +738,12 @@
     <h1><span class="lang-zh">紅磡手機維修<br/><span>即場報價・唔使預約</span></span>
         <span class="lang-en">Phone Repair in Hung Hom<br/><span>Walk-in · Instant Quote · No Appointment Needed</span></span></h1>
     <p class="lang-zh">
-      我哋係黃埔108商場嘅手機維修小店。Samsung、Xiaomi、iPhone 換 mon、換電、
-      FRP 解鎖、刷機，我哋都搞得掂 — 大部分維修即日完成。
+      Samsung、Xiaomi、iPhone 換 mon、換電、FRP 解鎖。<br/>
+      即場檢查報價，大部分維修 <strong>30分鐘至2小時</strong> 搞掂。
     </p>
     <p class="lang-en">
-      We're a family-run phone repair shop at Whampoa 108 Shopping Centre.
-      Samsung, Xiaomi, iPhone — screen replacement, battery, FRP unlock, firmware issues.
-      Most repairs done same day.
+      Samsung, Xiaomi, iPhone — screen repair, battery, FRP unlock.<br/>
+      Walk-in check, instant quote. Most repairs done in <strong>30min–2hrs</strong>.
     </p>
     <div class="hero-actions">
       <a href="https://wa.me/85268557181?text=你好，我想查詢手機維修服務" class="btn btn-whatsapp" target="_blank" rel="noopener">💬 <span class="lang-zh">WhatsApp 查詢</span><span class="lang-en">WhatsApp Us</span></a>
@@ -720,6 +755,42 @@
       <span>🕐 <span class="lang-zh">每日 09:00–19:00</span><span class="lang-en">Daily 9am–7pm</span></span>
       <span>🔧 <span class="lang-zh">即場維修</span><span class="lang-en">Walk-in Repairs</span></span>
       <span>⭐ <span class="lang-zh">4.9 星 · 50+ 好評</span><span class="lang-en">4.9 Stars · 50+ Reviews</span></span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS BANNER ===== -->
+<section style="padding:0;margin-top:-10px;">
+  <div class="container">
+    <div class="stats-banner">
+      <div class="stat-item">
+        <span class="stat-icon">⚡</span>
+        <div>
+          <div class="stat-num"><span class="lang-zh">即日完成</span><span class="lang-en">Same Day</span></div>
+          <div class="stat-label"><span class="lang-zh">大部分維修當日拎得</span><span class="lang-en">Most repairs done same day</span></div>
+        </div>
+      </div>
+      <div class="stat-item">
+        <span class="stat-icon">⭐</span>
+        <div>
+          <div class="stat-num">4.9</div>
+          <div class="stat-label"><span class="lang-zh">50+ Google 好評</span><span class="lang-en">50+ Google Reviews</span></div>
+        </div>
+      </div>
+      <div class="stat-item">
+        <span class="stat-icon">📍</span>
+        <div>
+          <div class="stat-num"><span class="lang-zh">紅磡地膽</span><span class="lang-en">Hung Hom Local</span></div>
+          <div class="stat-label"><span class="lang-zh">黃埔108商場即場維修</span><span class="lang-en">Walk-in at Whampoa 108 Mall</span></div>
+        </div>
+      </div>
+      <div class="stat-item">
+        <span class="stat-icon">🔧</span>
+        <div>
+          <div class="stat-num"><span class="lang-zh">街坊小店</span><span class="lang-en">Family Shop</span></div>
+          <div class="stat-label"><span class="lang-zh">唔整唔收費・老實經營</span><span class="lang-en">Free check-up · Fair pricing</span></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
