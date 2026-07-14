@@ -477,8 +477,36 @@
       background: #fff;
     }
     .quote-box select:focus, .quote-box textarea:focus { border-color: var(--accent); }
-    .quote-box textarea { min-height: 80px; resize: vertical; }
-    .quote-box .btn { width: 100%; justify-content: center; }
+    .quote-box textarea { min-height: 70px; resize: vertical; }
+    .quote-box .btn { font-size: 14px; }
+
+    /* Price Result */
+    .price-result {
+      margin-top: 14px;
+      padding: 16px;
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      text-align: center;
+    }
+    .pr-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+    .pr-range {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--accent);
+    }
+    .pr-note {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 6px;
+    }
 
     /* ===== BRANDS ===== */
     .brands-grid {
@@ -1152,35 +1180,52 @@
 <!-- ===== INSTANT QUOTE ===== -->
 <section id="quote" class="alt">
   <div class="container">
-    <div class="section-label">即時估價</div>
-    <h2>揀你嘅機型同問題</h2>
-    <p class="section-desc">簡單揀幾樣，我哋 WhatsApp 俾返報價你。</p>
+    <div class="section-label"><span class="lang-zh">即時估價</span><span class="lang-en">Price Calculator</span></div>
+    <h2><span class="lang-zh">揀你嘅機型同問題</span><span class="lang-en">Pick Your Device &amp; Issue</span></h2>
+    <p class="section-desc"><span class="lang-zh">㩒幾下就出到估算價錢，WhatsApp 確認就搞掂。</span>
+      <span class="lang-en">Select your device and issue to see an estimated price instantly.</span></p>
     <div class="quote-box">
-      <h3>📱 即時報價</h3>
-      <select id="qBrand">
-        <option value="">— 揀品牌 —</option>
-        <option>Samsung</option>
-        <option>Xiaomi / Redmi</option>
-        <option>POCO</option>
-        <option>iPhone</option>
-        <option>OnePlus</option>
-        <option>其他 Android</option>
-      </select>
-      <select id="qIssue">
-        <option value="">— 揀問題 —</option>
-        <option>FRP / Google 帳號鎖</option>
-        <option>換 Mon / 屏幕破裂</option>
-        <option>換電 / 電池倒水</option>
-        <option>刷機 / 卡開機</option>
-        <option>開唔到機 / 主板問題</option>
-        <option>尾插 / 充電問題</option>
-        <option>密碼忘記 / 軟件解鎖</option>
-        <option>其他問題</option>
-      </select>
-      <textarea id="qDetail" placeholder="🔍 補充資料（型號、問題描述…）"></textarea>
-      <a class="btn btn-whatsapp" id="quoteBtn" href="https://wa.me/85268557181?text=你好，我想查詢維修報價" target="_blank" rel="noopener">
-        💬 傳送到 WhatsApp 攞報價
-      </a>
+      <h3>📱 <span class="lang-zh">即時計價機</span><span class="lang-en">Price Calculator</span></h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+        <select id="qBrand">
+          <option value="">— <span class="lang-zh">揀品牌</span><span class="lang-en">Brand</span> —</option>
+          <option value="samsung">Samsung</option>
+          <option value="xiaomi">Xiaomi / Redmi</option>
+          <option value="poco">POCO</option>
+          <option value="iphone">iPhone</option>
+          <option value="oneplus">OnePlus</option>
+          <option value="other">其他 Android</option>
+        </select>
+        <select id="qIssue">
+          <option value="">— <span class="lang-zh">揀問題</span><span class="lang-en">Issue</span> —</option>
+          <option value="frp">🔓 FRP / Google 帳號鎖</option>
+          <option value="screen">🖥️ 換 Mon / 屏幕破裂</option>
+          <option value="battery">🔋 換電 / 電池倒水</option>
+          <option value="firmware">⚙️ 刷機 / 卡開機</option>
+          <option value="motherboard">🔧 開唔到機 / 主板問題</option>
+          <option value="charging">🔌 尾插 / 充電問題</option>
+          <option value="unlock">🔐 密碼忘記 / 軟件解鎖</option>
+          <option value="other">❓ 其他問題</option>
+        </select>
+      </div>
+      <!-- Price Display -->
+      <div class="price-result" id="priceResult">
+        <div class="pr-label"><span class="lang-zh">📋 估算價格</span><span class="lang-en">📋 Estimated Price</span></div>
+        <div class="pr-row">
+          <span class="pr-range" id="prRange"><span class="lang-zh">請選擇品牌同問題</span><span class="lang-en">Select brand &amp; issue</span></span>
+        </div>
+        <div class="pr-note" id="prNote"><span class="lang-zh">🔧 以上為估算起步價，實際報價視型號及損壞程度而定</span>
+          <span class="lang-en">🔧 Starting estimate only. Final price depends on model &amp; condition.</span></div>
+      </div>
+      <textarea id="qDetail" placeholder="📝 補充資料（型號、問題描述…）" style="margin-top:10px;"></textarea>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px;">
+        <a class="btn btn-whatsapp" id="quoteBtn" href="https://wa.me/85268557181?text=你好，我想查詢維修報價" target="_blank" rel="noopener" style="justify-content:center;">
+          💬 <span class="lang-zh">Send 去 WhatsApp</span><span class="lang-en">Send via WhatsApp</span>
+        </a>
+        <a class="btn btn-primary" href="tel:+852****7181" style="justify-content:center;">
+          📞 <span class="lang-zh">直接打電話</span><span class="lang-en">Call Us</span>
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -1652,29 +1697,99 @@ document.querySelectorAll('.nav-links a').forEach(function(a){
   });
 });
 
-// ===== QUOTE FORM =====
+// ===== PRICE CALCULATOR =====
 (function(){
   var brand = document.getElementById('qBrand');
   var issue = document.getElementById('qIssue');
   var detail = document.getElementById('qDetail');
   var btn = document.getElementById('quoteBtn');
+  var prRange = document.getElementById('prRange');
 
-  function updateLink(){
+  // Price estimates based on brand + issue
+  var prices = {
+    'samsung_frp':      '150-200',
+    'samsung_screen':   '380-800',
+    'samsung_battery':  '150-300',
+    'samsung_firmware': '100-200',
+    'samsung_motherboard': '查詢',
+    'samsung_charging': '150-250',
+    'samsung_unlock':   '100-200',
+    'xiaomi_frp':       '150-250',
+    'xiaomi_screen':    '280-600',
+    'xiaomi_battery':   '120-250',
+    'xiaomi_firmware':  '80-180',
+    'xiaomi_motherboard': '查詢',
+    'xiaomi_charging':  '120-220',
+    'xiaomi_unlock':    '80-150',
+    'poco_frp':         '150-250',
+    'poco_screen':      '280-550',
+    'poco_battery':     '120-250',
+    'poco_firmware':    '80-180',
+    'poco_motherboard': '查詢',
+    'poco_charging':    '120-220',
+    'poco_unlock':      '80-150',
+    'iphone_screen':    '480-1200',
+    'iphone_battery':   '150-350',
+    'iphone_firmware':  '150-300',
+    'iphone_motherboard': '查詢',
+    'iphone_charging':  '180-350',
+    'iphone_unlock':    '150-300',
+    'oneplus_frp':      '200-300',
+    'oneplus_screen':   '350-700',
+    'oneplus_battery':  '150-280',
+    'oneplus_firmware': '100-200',
+    'oneplus_motherboard': '查詢',
+    'oneplus_charging': '150-250',
+    'oneplus_unlock':   '100-200',
+    'other_frp':        '150-300',
+    'other_screen':     '280-800',
+    'other_battery':    '120-280',
+    'other_firmware':   '100-200',
+    'other_motherboard': '查詢',
+    'other_charging':   '120-250',
+    'other_unlock':     '100-200',
+  };
+
+  function getPrice(b, i){
+    var key = b + '_' + i;
+    if(prices[key]) return prices[key];
+    return null;
+  }
+
+  function update(){
     var b = brand.value;
     var i = issue.value;
     var d = detail.value.trim();
+
+    // Update price
+    if(b && i){
+      var p = getPrice(b, i);
+      if(p === '查詢'){
+        prRange.innerHTML = '<span class=\"lang-zh\">需要檢查報價</span><span class=\"lang-en\">Needs inspection</span>';
+      } else if(p){
+        prRange.innerHTML = '$' + p;
+      }
+    } else {
+      prRange.innerHTML = '<span class=\"lang-zh\">請選擇品牌同問題</span><span class=\"lang-en\">Select brand &amp; issue</span>';
+    }
+
+    // Update WhatsApp link
+    var bLabel = brand.options[brand.selectedIndex].text;
+    var iLabel = issue.options[issue.selectedIndex].text;
+    if(!b) bLabel = '';
+    if(!i) iLabel = '';
     var msg = '你好，我想查詢維修報價';
     var parts = [];
-    if(b) parts.push('品牌：' + b);
-    if(i) parts.push('問題：' + i);
+    if(bLabel) parts.push('品牌：' + bLabel);
+    if(iLabel) parts.push('問題：' + iLabel);
     if(d) parts.push('補充：' + d);
     if(parts.length) msg += '\\n\\n' + parts.join('\\n');
     btn.href = 'https://wa.me/85268557181?text=' + encodeURIComponent(msg);
   }
 
-  brand.addEventListener('change', updateLink);
-  issue.addEventListener('change', updateLink);
-  detail.addEventListener('input', updateLink);
+  brand.addEventListener('change', update);
+  issue.addEventListener('change', update);
+  detail.addEventListener('input', update);
 })();
 
 // ===== STATUS BAR (Opening Hours) =====
