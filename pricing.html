@@ -3,163 +3,207 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Panda Telecom 熊貓電訊 — 價目</title>
+  <title>Panda Telecom 熊貓電訊 — 維修收費</title>
+  <meta name="description" content="Panda Telecom 熊貓電訊手機維修收費表。Samsung FRP解鎖、換mon、換電、刷機、主板維修價格參考。" />
   <style>
     :root {
-      --bg: #ffffff;
-      --black: #111111;
+      --primary: #111111;
+      --accent: #e91e63;
+      --green: #25D366;
+      --text: #111;
       --muted: #6b7280;
       --border: #e5e7eb;
+      --bg: #ffffff;
+      --bg-alt: #f8f8f8;
+      --radius: 12px;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang HK", "Noto Sans CJK HK", sans-serif;
     }
-    * { box-sizing: border-box; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang HK", "Noto Sans CJK HK", sans-serif;
-      color: var(--black);
+      font-family: var(--font);
+      color: var(--text);
       background: var(--bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
     }
-    .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px; }
-    header {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      padding-bottom: 24px;
+    .container { max-width: 720px; margin: 0 auto; padding: 24px 20px 80px; }
+
+    /* Nav */
+    .nav-bar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 0 20px;
       border-bottom: 1px solid var(--border);
     }
-    .logo {
-      width: 48px; height: 48px;
-      border-radius: 12px;
-      background: var(--black);
-      color: #fff;
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px;
+      text-decoration: none; color: var(--text);
+    }
+    .logo-mark {
+      width: 30px; height: 30px;
+      background: var(--primary); color: #fff;
+      border-radius: 7px;
       display: grid; place-items: center;
-      font-weight: bold;
+      font-size: 10px; font-weight: 800;
+    }
+    .back-link {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 6px 14px; border-radius: 8px;
+      background: #f0f0f0; color: #333;
+      text-decoration: none; font-size: 13px;
+      transition: background .2s;
+    }
+    .back-link:hover { background: #e5e5e5; }
+
+    /* Section */
+    .page-title {
+      font-size: 26px;
+      font-weight: 800;
+      margin: 24px 0 6px;
+    }
+    .page-desc {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      margin: 32px 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Table */
+    .price-table { width: 100%; border-collapse: collapse; }
+    .price-table th, .price-table td {
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
       font-size: 14px;
     }
-    .title { font-size: 20px; font-weight: 700; }
-    .sub { font-size: 13px; color: var(--muted); margin-top: 2px; }
-    h2 { font-size: 16px; font-weight: 600; margin: 36px 0 14px; }
-    table { width: 100%; border-collapse: collapse; }
-    th, td { padding: 10px 8px; border-bottom: 1px solid var(--border); text-align: left; }
-    th { color: var(--muted); font-weight: 500; font-size: 13px; }
-    td { font-size: 15px; }
-    .back {
-      display: inline-block;
-      margin-bottom: 10px;
-      font-size: 13px;
+    .price-table th {
       color: var(--muted);
+      font-weight: 500;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
-    .back:hover { color: var(--black); }
+    .price-table td:last-child {
+      text-align: right;
+      font-weight: 600;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+    .price-table tr:last-child td { border-bottom: none; }
+    .price-table tr:hover td { background: #fafafa; }
+
+    /* Note */
     .note {
-      margin-top: 30px;
-      padding: 14px;
+      margin-top: 24px;
+      padding: 16px;
       border: 1px solid var(--border);
-      border-radius: 12px;
-      background: #fafafa;
+      border-radius: var(--radius);
+      background: var(--bg-alt);
       color: var(--muted);
       font-size: 13px;
       line-height: 1.7;
     }
-    footer { margin-top: 40px; font-size: 12px; color: var(--muted); text-align: right; }
+    .note strong { color: var(--text); }
+
+    /* CTA */
+    .cta-section {
+      margin-top: 32px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 28px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+      transition: all .2s;
+    }
+    .btn-whatsapp { background: var(--green); color: #fff; }
+    .btn-whatsapp:hover { background: #1da851; }
+    .btn-call { background: var(--primary); color: #fff; }
+    .btn-call:hover { background: #2a2a2a; }
+
+    footer {
+      margin-top: 40px;
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+    }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <a class="back" href="index.html">← 返回首頁</a>
-    <header>
-      <div class="logo">熊貓</div>
-      <div>
-        <div class="title">Panda Telecom 熊貓電訊 — 價目</div>
-        <div class="sub">最後更新：2026-06-05</div>
-      </div>
-    </header>
+  <div class="container">
+    <div class="nav-bar">
+      <a href="./" class="nav-brand">
+        <div class="logo-mark">熊貓</div>
+        <span>Panda Telecom</span>
+      </a>
+      <a class="back-link" href="./">← 主頁</a>
+    </div>
 
-    <h2>Google 帳號 / FRP 相關</h2>
-    <table>
-      <tr>
-        <th>服務</th>
-        <th>機型 / 備註</th>
-        <th>參考價</th>
-      </tr>
-      <tr>
-        <td>Samsung FRP 解鎖</td>
-        <td>Android 10 或以上</td>
-        <td>報價</td>
-      </tr>
-      <tr>
-        <td>Xiaomi / Redmi Google 鎖移除</td>
-        <td>視系統版本及型號</td>
-        <td>報價</td>
-      </tr>
+    <h1 class="page-title">💵 維修收費參考</h1>
+    <p class="page-desc">以下為參考價格，實際報價視機種型號、損壞程度及零件供應而定。歡迎 WhatsApp 查詢實價。</p>
+
+    <h2>🔓 Google 帳號 / FRP</h2>
+    <table class="price-table">
+      <tr><th>服務</th><th>機型 / 備註</th><th>參考價</th></tr>
+      <tr><td>Samsung FRP 解鎖</td><td>Android 10 或以上</td><td>報價</td></tr>
+      <tr><td>Xiaomi / Redmi Google 鎖移除</td><td>視系統版本及型號</td><td>報價</td></tr>
     </table>
 
-    <h2>螢幕與觸控</h2>
-    <table>
-      <tr>
-        <th>服務</th>
-        <th>機型 / 備註</th>
-        <th>參考價</th>
-      </tr>
-      <tr>
-        <td>換 mon</td>
-        <td>Samsung / Xiaomi / iPhone</td>
-        <td>報價</td>
-      </tr>
-      <tr>
-        <td>換 Touch / 觸控失準</td>
-        <td>視型號</td>
-        <td>報價</td>
-      </tr>
+    <h2>🖥️ 螢幕與觸控</h2>
+    <table class="price-table">
+      <tr><th>服務</th><th>機型 / 備註</th><th>參考價</th></tr>
+      <tr><td>換 Mon</td><td>Samsung / Xiaomi / iPhone</td><td>報價</td></tr>
+      <tr><td>換 Touch / 觸控失準</td><td>視型號</td><td>報價</td></tr>
     </table>
 
-    <h2>電池與充電</h2>
-    <table>
-      <tr>
-        <th>服務</th>
-        <th>機型 / 備註</th>
-        <th>參考價</th>
-      </tr>
-      <tr>
-        <td>換電</td>
-        <td>原廠 / 高容量電池</td>
-        <td>報價</td>
-      </tr>
-      <tr>
-        <td>尾插 / 充電口更換</td>
-        <td>視型號</td>
-        <td>報價</td>
-      </tr>
+    <h2>🔋 電池與充電</h2>
+    <table class="price-table">
+      <tr><th>服務</th><th>機型 / 備註</th><th>參考價</th></tr>
+      <tr><td>換電</td><td>原廠 / 高容量電池</td><td>報價</td></tr>
+      <tr><td>尾插 / 充電口更換</td><td>視型號</td><td>報價</td></tr>
     </table>
 
-    <h2>軟體、刷機、主板</h2>
-    <table>
-      <tr>
-        <th>服務</th>
-        <th>機型 / 備註</th>
-        <th>參考價</th>
-      </tr>
-      <tr>
-        <td>刷機 / 還原系統</td>
-        <td>官方 ROM</td>
-        <td>報價</td>
-      </tr>
-      <tr>
-        <td>開唔到機 / 不認機</td>
-        <td>主機板維修</td>
-        <td>查詢</td>
-      </tr>
-      <tr>
-        <td>軟件解鎖 / 密碼忘記</td>
-        <td>視情況</td>
-        <td>報價</td>
-      </tr>
+    <h2>⚙️ 軟體、刷機、主板</h2>
+    <table class="price-table">
+      <tr><th>服務</th><th>機型 / 備註</th><th>參考價</th></tr>
+      <tr><td>刷機 / 還原系統</td><td>官方 ROM</td><td>報價</td></tr>
+      <tr><td>開唔到機 / 不認機</td><td>主機板維修</td><td>查詢</td></tr>
+      <tr><td>軟件解鎖 / 密碼忘記</td><td>視情況</td><td>報價</td></tr>
     </table>
 
     <div class="note">
-      以上價格為參考價，實際價目視机種、版本、損壞程度及零件而定。<br/>
-      歡迎來電或 WhatsApp 查詢，唔使預約，即場检查報價。
+      <strong>📌 注意事項</strong><br/>
+      • 以上價格為參考價，實際收費視機種、版本、損壞程度及零件而定<br/>
+      • 歡迎來電或 WhatsApp 查詢即時報價<br/>
+      • 唔使預約，即場檢查報價，唔整唔收費<br/>
+      • 維修後提供基本保養
     </div>
 
-    <footer>© Panda Telecom 熊貓電訊</footer>
+    <div class="cta-section">
+      <a class="btn btn-whatsapp" href="https://wa.me/85268557181?text=你好，我想查詢維修報價" target="_blank" rel="noopener">💬 WhatsApp 攞報價</a>
+      <a class="btn btn-call" href="tel:+852****7181">📞 打電話問</a>
+    </div>
+
+    <footer>© 2026 Panda Telecom 熊貓電訊</footer>
   </div>
 </body>
 </html>
