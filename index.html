@@ -80,6 +80,42 @@
       --max-w: 1000px;
       --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang HK", "Noto Sans CJK HK", "Microsoft YaHei", sans-serif;
     }
+
+    /* Dark mode */
+    [data-theme="dark"] {
+      --primary: #e5e5e5;
+      --primary-light: #ffffff;
+      --bg: #0d0d0d;
+      --bg-alt: #1a1a1a;
+      --text: #e5e5e5;
+      --muted: #9ca3af;
+      --border: #2a2a2a;
+      --shadow: 0 1px 3px rgba(0,0,0,.3);
+      --shadow-lg: 0 4px 24px rgba(0,0,0,.4);
+    }
+    [data-theme="dark"] nav { background: rgba(13,13,13,.94); }
+    [data-theme="dark"] .hero { background: linear-gradient(180deg, #111 0%, #0d0d0d 100%); }
+    [data-theme="dark"] .service-card,
+    [data-theme="dark"] .step,
+    [data-theme="dark"] .testimonial-card,
+    [data-theme="dark"] .contact-info-card,
+    [data-theme="dark"] .price-card,
+    [data-theme="dark"] .quote-box,
+    [data-theme="dark"] .review-agg,
+    [data-theme="dark"] .bp-btn,
+    [data-theme="dark"] .nav-links { background: #1a1a1a; }
+    [data-theme="dark"] .brand-chip { background: #1a1a1a; }
+    [data-theme="dark"] .service-card .icon,
+    [data-theme="dark"] .service-card .tag { background: #2a2a2a; color: #ccc; }
+    [data-theme="dark"] .btn-primary { background: #e5e5e5; color: #111; }
+    [data-theme="dark"] .btn-primary:hover { background: #fff; }
+    [data-theme="dark"] .btn-outline { border-color: #333; color: #e5e5e5; }
+    [data-theme="dark"] .btn-outline:hover { border-color: #e5e5e5; }
+    [data-theme="dark"] .stat-item { background: #1a1a1a; }
+    [data-theme="dark"] .products-cta { background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460); }
+    [data-theme="dark"] .blog-card { background: #1a1a1a; }
+    [data-theme="dark"] .blog-num { background: #e5e5e5; color: #111; }
+    [data-theme="dark"] .blog-tag { background: #2a2a2a; color: #ccc; }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body {
@@ -598,6 +634,57 @@
 
     /* ===== FAQ ===== */
     .faq-list { max-width: 680px; }
+
+    /* ===== BLOG ===== */
+    .blog-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .blog-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      transition: all .25s;
+    }
+    .blog-card:hover {
+      box-shadow: var(--shadow-lg);
+      transform: translateY(-2px);
+    }
+    .blog-num {
+      width: 32px; height: 32px;
+      background: var(--primary);
+      color: #fff;
+      border-radius: 50%;
+      display: grid; place-items: center;
+      font-weight: 800; font-size: 13px;
+      margin-bottom: 12px;
+    }
+    .blog-card h3 {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+    .blog-card p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .blog-tag {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 11px;
+      padding: 3px 12px;
+      border-radius: 20px;
+      background: var(--bg-alt);
+      color: var(--muted);
+      font-weight: 500;
+    }
+    @media (max-width: 640px) {
+      .blog-grid { grid-template-columns: 1fr; }
+    }
     .faq-item {
       border-bottom: 1px solid var(--border);
     }
@@ -796,10 +883,12 @@
       <li><a href="#pricing"><span class="lang-zh">收費</span><span class="lang-en">Pricing</span></a></li>
       <li><a href="#quote"><span class="lang-zh">攞報價</span><span class="lang-en">Get Quote</span></a></li>
       <li><a href="products.html"><span class="lang-zh">產品</span><span class="lang-en">Products</span></a></li>
+      <li><a href="#blog"><span class="lang-zh">貼士</span><span class="lang-en">Tips</span></a></li>
       <li><a href="#contact"><span class="lang-zh">聯絡</span><span class="lang-en">Contact</span></a></li>
       <li><a href="#faq">FAQ</a></li>
       <li><a class="cta-wa" href="https://wa.me/85268557181" target="_blank" rel="noopener">💬 WhatsApp</a></li>
       <li><button class="lang-btn" id="langToggle" onclick="toggleLang()">EN</button></li>
+      <li><button class="lang-btn" id="darkToggle" onclick="toggleDark()">🌙</button></li>
     </ul>
   </div>
 </nav>
@@ -1183,6 +1272,50 @@
   </div>
 </section>
 
+<!-- ===== KNOWLEDGE BLOG ===== -->
+<section class="alt" id="blog">
+  <div class="container">
+    <div class="section-label"><span class="lang-zh">維修知識</span><span class="lang-en">Repair Tips</span></div>
+    <h2><span class="lang-zh">學多啲・整少啲</span><span class="lang-en">Learn More, Fix Less</span></h2>
+    <p class="section-desc"><span class="lang-zh">實用手機保養知識，等部機襟用啲。</span>
+      <span class="lang-en">Practical phone care tips to make your device last longer.</span></p>
+    <div class="blog-grid">
+      <div class="blog-card">
+        <div class="blog-num">1</div>
+        <h3><span class="lang-zh">點樣避免 Samsung FRP 鎖？</span><span class="lang-en">How to Avoid Samsung FRP Lock</span></h3>
+        <p class="lang-zh">Factory Reset Protection 係 Google 嘅安全功能。還原出廠設定前，記得先喺設定入面移除 Google 帳號，否則 reset 後就會彈 FRP 鎖要入返舊帳號密碼先開到機。</p>
+        <p class="lang-en">Factory Reset Protection is a Google security feature. Before factory resetting, always remove your Google account in Settings first, or you'll be locked out after reset.</p>
+        <span class="blog-tag"><span class="lang-zh">🔓 FRP</span><span class="lang-en">🔓 Security</span></span>
+      </div>
+      <div class="blog-card">
+        <div class="blog-num">2</div>
+        <h3><span class="lang-zh">手機電池點樣先用得耐？</span><span class="lang-en">Make Your Battery Last Longer</span></h3>
+        <p class="lang-zh">鋰電池最理想嘅電量範圍係 20%-80%。唔好成日用到 0% 先充，亦唔好長期 100% 插住充過夜。避免過熱（例如唔好擺喺車廂暴曬），電池壽命會長好多。</p>
+        <p class="lang-en">Lithium batteries work best between 20%-80%. Don't drain to 0% often, and avoid keeping it at 100% plugged in overnight. Keep it cool — heat is the #1 battery killer.</p>
+        <span class="blog-tag"><span class="lang-zh">🔋 電池</span><span class="lang-en">🔋 Battery</span></span>
+      </div>
+      <div class="blog-card">
+        <div class="blog-num">3</div>
+        <h3><span class="lang-zh">跌爆 Mon 之後應該點做？</span><span class="lang-en">What To Do After a Broken Screen</span></h3>
+        <p class="lang-zh">第一時間貼上保護貼防止玻璃碎跌出同進一步裂開。如果觸控仍然正常，可以繼續用住先，但建議盡快更換，避免碎玻璃整壞液晶層，到時就要成個 mon 總成更換，價錢更貴。</p>
+        <p class="lang-en">Apply a screen protector immediately to prevent glass shards. If touch still works, you can still use it, but replace soon — cracked glass can damage the LCD underneath, requiring a full assembly replacement (more expensive).</p>
+        <span class="blog-tag"><span class="lang-zh">🖥️ 螢幕</span><span class="lang-en">🖥️ Screen</span></span>
+      </div>
+      <div class="blog-card">
+        <div class="blog-num">4</div>
+        <h3><span class="lang-zh">手機充唔到電？先試呢幾樣</span><span class="lang-en">Phone Not Charging? Try This First</span></h3>
+        <p class="lang-zh">先用牙籤輕輕清下充電口嘅塵垢（好多時係入咗毛塵）。換第二條線試下。如果都唔得，可能係尾插壞咗，攞上嚟我哋幫你check。</p>
+        <p class="lang-en">First, gently clean the charging port with a toothpick (lint buildup is very common). Try a different cable. If still not charging, the charging port may need replacement — bring it in and we'll check.</p>
+        <span class="blog-tag"><span class="lang-zh">🔌 充電</span><span class="lang-en">🔌 Charging</span></span>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:20px;font-size:13px;color:var(--muted);">
+      <span class="lang-zh">📝 更多維修心得，follow 我哋 <a href="https://www.facebook.com/PandaTelecomHK" target="_blank" rel="noopener" style="color:var(--accent);">Facebook</a></span>
+      <span class="lang-en">📝 More repair tips on our <a href="https://www.facebook.com/PandaTelecomHK" target="_blank" rel="noopener" style="color:var(--accent);">Facebook</a></span>
+    </p>
+  </div>
+</section>
+
 <!-- ===== FAQ ===== -->
 <section id="faq">
   <div class="container">
@@ -1278,6 +1411,7 @@
       <a href="#pricing"><span class="lang-zh">收費</span><span class="lang-en">Pricing</span></a>
       <a href="#quote"><span class="lang-zh">攞報價</span><span class="lang-en">Get Quote</span></a>
       <a href="products.html"><span class="lang-zh">產品目錄</span><span class="lang-en">Products</span></a>
+      <a href="#blog"><span class="lang-zh">貼士</span><span class="lang-en">Tips</span></a>
       <a href="#faq">FAQ</a>
       <a href="#contact"><span class="lang-zh">聯絡</span><span class="lang-en">Contact</span></a>
     </div>
@@ -1289,6 +1423,30 @@
 <a class="sticky-wa" href="https://wa.me/85268557181" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
 
 <script>
+// ===== DARK MODE =====
+(function(){
+  var saved = localStorage.getItem('panda_theme');
+  if(saved === 'dark'){
+    document.documentElement.setAttribute('data-theme', 'dark');
+    var btn = document.getElementById('darkToggle');
+    if(btn) btn.textContent = '☀️';
+  }
+})();
+function toggleDark(){
+  var html = document.documentElement;
+  var btn = document.getElementById('darkToggle');
+  var isDark = html.getAttribute('data-theme') === 'dark';
+  if(isDark){
+    html.removeAttribute('data-theme');
+    localStorage.setItem('panda_theme', 'light');
+    if(btn) btn.textContent = '🌙';
+  } else {
+    html.setAttribute('data-theme', 'dark');
+    localStorage.setItem('panda_theme', 'dark');
+    if(btn) btn.textContent = '☀️';
+  }
+}
+
 // ===== BRAND PICKER =====
 function scrollToService(brand){
   var section = document.getElementById('services');
