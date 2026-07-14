@@ -4,23 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Panda Telecom 熊貓電訊 — 紅磡手機維修・配件零售</title>
-  <meta name="description" content="紅磡黃埔手機維修專家。Samsung、Xiaomi、iPhone 換mon、換電、FRP解鎖、刷機維修。即場報價，唔使預約。" />
+  <meta name="description" content="紅磡黃埔手機維修專家。Samsung、Xiaomi、iPhone 換mon、換電、FRP解鎖、刷機維修。即場報價，唔使預約。營業中：每日09:00-19:00。" />
   <meta name="keywords" content="手機維修,紅磡,黃埔,換mon,換電,FRP解鎖,Samsung維修,Xiaomi維修,iPhone維修,熊貓電訊" />
-  <link rel="canonical" href="https://pandatelecomhk.github.io/panda-telecom/" />
-  
+  <link rel="canonical" href="https://pandatelecom.github.io/Pandatelecom/" />
+
   <!-- Open Graph -->
   <meta property="og:title" content="Panda Telecom 熊貓電訊 — 紅磡手機維修專家" />
   <meta property="og:description" content="紅磡黃埔手機維修・配件零售。Samsung、Xiaomi、iPhone 即場維修。" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://pandatelecomhk.github.io/panda-telecom/" />
-  
+  <meta property="og:url" content="https://pandatelecom.github.io/Pandatelecom/" />
+  <meta property="og:image" content="https://pandatelecom.github.io/Pandatelecom/assets/shop/panda_telecom_photo_2_2048x2048.jpg" />
+
   <!-- JSON-LD Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Panda Telecom 熊貓電訊",
-    "image": "https://pandatelecomhk.github.io/panda-telecom/assets/panda-logo.jpg",
+    "image": "https://pandatelecom.github.io/Pandatelecom/assets/shop/panda_telecom_photo_2_2048x2048.jpg",
     "description": "紅磡黃埔手機維修及配件零售商，提供 Samsung、Xiaomi、iPhone 等品牌維修服務。",
     "address": {
       "@type": "PostalAddress",
@@ -38,11 +39,26 @@
         "closes": "19:00"
       }
     ],
-    "url": "https://pandatelecomhk.github.io/panda-telecom/",
-    "priceRange": "$"
+    "url": "https://pandatelecom.github.io/Pandatelecom/",
+    "priceRange": "$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "50+",
+      "bestRating": "5"
+    }
   }
   </script>
-  
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
   <style>
     /* ===== RESET & VARIABLES ===== */
     :root {
@@ -61,7 +77,7 @@
       --radius-sm: 8px;
       --shadow: 0 1px 3px rgba(0,0,0,.06);
       --shadow-lg: 0 4px 24px rgba(0,0,0,.08);
-      --max-w: 960px;
+      --max-w: 1000px;
       --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang HK", "Noto Sans CJK HK", "Microsoft YaHei", sans-serif;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -73,16 +89,29 @@
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
     }
-    img { max-width: 100%; height: auto; }
+    img { max-width: 100%; height: auto; display: block; }
     a { color: inherit; text-decoration: none; }
     .container { max-width: var(--max-w); margin: 0 auto; padding: 0 20px; }
+
+    /* ===== OPENING HOURS BANNER ===== */
+    .status-bar {
+      background: var(--primary);
+      color: #fff;
+      text-align: center;
+      font-size: 13px;
+      padding: 6px 16px;
+      font-weight: 500;
+      transition: background .5s;
+    }
+    .status-bar.open { background: #15803d; }
+    .status-bar.closed { background: #92400e; }
 
     /* ===== NAVBAR ===== */
     nav {
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(255,255,255,.92);
+      background: rgba(255,255,255,.94);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
@@ -112,11 +141,12 @@
     }
     .nav-links {
       display: flex;
-      gap: 6px;
+      gap: 4px;
       list-style: none;
+      align-items: center;
     }
     .nav-links a {
-      padding: 8px 14px;
+      padding: 8px 12px;
       border-radius: var(--radius-sm);
       font-size: 14px;
       font-weight: 500;
@@ -124,16 +154,25 @@
       transition: all .2s;
     }
     .nav-links a:hover { color: var(--text); background: var(--bg-alt); }
-    .nav-links a.cta {
+    .nav-links .cta-wa {
       background: var(--green);
-      color: #fff;
+      color: #fff !important;
       font-weight: 600;
-      padding: 8px 18px;
+      padding: 8px 16px;
     }
-    .nav-links a.cta:hover { background: var(--green-hover); }
-    .mobile-toggle { display: none; background: none; border: none; font-size: 24px; cursor: pointer; padding: 4px; }
+    .nav-links .cta-wa:hover { background: var(--green-hover); }
+    .nav-links .lang-switch {
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      margin-left: 4px;
+    }
+    .nav-links .lang-switch:hover { background: var(--bg-alt); }
+    .mobile-toggle { display: none; background: none; border: none; font-size: 24px; cursor: pointer; padding: 4px; color: var(--text); }
     
-    @media (max-width: 640px) {
+    @media (max-width: 700px) {
       .nav-links { display: none; position: absolute; top: 60px; left: 0; right: 0; background: #fff; flex-direction: column; padding: 12px 20px 20px; border-bottom: 1px solid var(--border); box-shadow: var(--shadow-lg); }
       .nav-links.open { display: flex; }
       .mobile-toggle { display: block; }
@@ -146,7 +185,7 @@
       background: linear-gradient(180deg, #fafafa 0%, #fff 100%);
     }
     .hero h1 {
-      font-size: 36px;
+      font-size: 38px;
       font-weight: 800;
       letter-spacing: -0.5px;
       margin-bottom: 16px;
@@ -156,7 +195,7 @@
     .hero p {
       font-size: 17px;
       color: var(--muted);
-      max-width: 540px;
+      max-width: 560px;
       margin: 0 auto 32px;
       line-height: 1.7;
     }
@@ -178,21 +217,11 @@
       cursor: pointer;
       border: none;
     }
-    .btn-primary {
-      background: var(--primary);
-      color: #fff;
-    }
+    .btn-primary { background: var(--primary); color: #fff; }
     .btn-primary:hover { background: var(--primary-light); transform: translateY(-1px); }
-    .btn-whatsapp {
-      background: var(--green);
-      color: #fff;
-    }
+    .btn-whatsapp { background: var(--green); color: #fff; }
     .btn-whatsapp:hover { background: var(--green-hover); transform: translateY(-1px); }
-    .btn-outline {
-      background: transparent;
-      color: var(--text);
-      border: 1.5px solid var(--border);
-    }
+    .btn-outline { background: transparent; color: var(--text); border: 1.5px solid var(--border); }
     .btn-outline:hover { border-color: var(--text); }
     .hero-badges {
       margin-top: 32px;
@@ -203,11 +232,7 @@
       font-size: 13px;
       color: var(--muted);
     }
-    .hero-badges span {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
+    .hero-badges span { display: flex; align-items: center; gap: 5px; }
 
     /* ===== SECTIONS ===== */
     section { padding: 64px 0; }
@@ -231,14 +256,36 @@
       font-size: 16px;
       color: var(--muted);
       max-width: 600px;
-      margin-bottom: 40px;
+      margin-bottom: 36px;
       line-height: 1.7;
+    }
+
+    /* ===== SHOP PHOTOS ===== */
+    .photo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .photo-grid .wide { grid-column: 1 / -1; }
+    .photo-grid img {
+      width: 100%;
+      border-radius: var(--radius);
+      object-fit: cover;
+      aspect-ratio: 16/9;
+      background: var(--bg-alt);
+      transition: transform .3s;
+    }
+    .photo-grid img:hover { transform: scale(1.02); }
+    .photo-grid .square { aspect-ratio: 1/1; }
+    @media (max-width: 640px) {
+      .photo-grid { grid-template-columns: 1fr; }
     }
 
     /* ===== SERVICES ===== */
     .services-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
       gap: 16px;
     }
     .service-card {
@@ -261,19 +308,21 @@
       font-size: 22px;
       margin-bottom: 14px;
     }
-    .service-card h3 {
-      font-size: 15px;
-      font-weight: 700;
-      margin-bottom: 6px;
-    }
-    .service-card p {
-      font-size: 13px;
-      color: var(--muted);
-      line-height: 1.5;
+    .service-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+    .service-card p { font-size: 13px; color: var(--muted); line-height: 1.5; }
+    .service-card .price-badge {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 12px;
+      padding: 3px 12px;
+      border-radius: 20px;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 600;
     }
     .service-card .tag {
       display: inline-block;
-      margin-top: 10px;
+      margin-top: 6px;
       font-size: 11px;
       padding: 3px 10px;
       border-radius: 20px;
@@ -282,50 +331,79 @@
       font-weight: 500;
     }
 
+    /* ===== QUOTE FORM ===== */
+    .quote-box {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+      max-width: 500px;
+    }
+    .quote-box h3 { font-size: 16px; font-weight: 700; margin-bottom: 16px; }
+    .quote-box select, .quote-box textarea {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      font-size: 14px;
+      font-family: var(--font);
+      margin-bottom: 12px;
+      outline: none;
+      transition: border-color .2s;
+      background: #fff;
+    }
+    .quote-box select:focus, .quote-box textarea:focus { border-color: var(--accent); }
+    .quote-box textarea { min-height: 80px; resize: vertical; }
+    .quote-box .btn { width: 100%; justify-content: center; }
+
     /* ===== BRANDS ===== */
     .brands-grid {
       display: flex;
-      gap: 20px;
+      gap: 12px;
       flex-wrap: wrap;
       justify-content: center;
     }
     .brand-chip {
-      padding: 12px 28px;
+      padding: 12px 24px;
       border: 1px solid var(--border);
       border-radius: var(--radius);
       font-weight: 600;
-      font-size: 15px;
+      font-size: 14px;
       background: #fff;
+      transition: all .2s;
     }
+    .brand-chip:hover { border-color: var(--text); }
 
-    /* ===== PRICING TEASER ===== */
+    /* ===== PRICING ===== */
     .pricing-cards {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 16px;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 10px;
     }
     .price-card {
       background: #fff;
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 20px;
+      padding: 16px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      transition: all .2s;
     }
-    .price-card .service { font-size: 14px; font-weight: 600; }
-    .price-card .note { font-size: 12px; color: var(--muted); margin-top: 2px; }
-    .price-card .price-tag {
-      background: var(--bg-alt);
-      padding: 6px 14px;
+    .price-card:hover { border-color: var(--accent); }
+    .price-card .info .name { font-size: 14px; font-weight: 600; }
+    .price-card .info .note { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .price-card .tag {
+      background: var(--accent);
+      color: #fff;
+      padding: 4px 14px;
       border-radius: 20px;
       font-size: 13px;
       font-weight: 600;
-      color: var(--accent);
       white-space: nowrap;
     }
 
-    /* ===== HOW IT WORKS ===== */
+    /* ===== STEPS ===== */
     .steps {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -337,7 +415,9 @@
       background: #fff;
       border-radius: var(--radius);
       border: 1px solid var(--border);
+      transition: all .2s;
     }
+    .step:hover { box-shadow: var(--shadow-lg); }
     .step .num {
       width: 40px; height: 40px;
       border-radius: 50%;
@@ -352,9 +432,7 @@
     }
     .step h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
     .step p { font-size: 13px; color: var(--muted); line-height: 1.5; }
-    @media (max-width: 640px) {
-      .steps { grid-template-columns: 1fr 1fr; }
-    }
+    @media (max-width: 640px) { .steps { grid-template-columns: 1fr 1fr; } }
 
     /* ===== TESTIMONIALS ===== */
     .testimonials {
@@ -369,6 +447,19 @@
       padding: 24px;
     }
     .testimonial-card .stars { color: #f59e0b; font-size: 16px; margin-bottom: 8px; }
+    .testimonial-card .g-icon {
+      display: inline-block;
+      width: 18px; height: 18px;
+      background: #4285F4;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 18px;
+      font-size: 11px;
+      font-weight: 700;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
     .testimonial-card blockquote {
       font-size: 14px;
       font-style: italic;
@@ -384,11 +475,53 @@
       font-weight: 400;
       color: var(--muted);
     }
-    @media (max-width: 640px) {
-      .testimonials { grid-template-columns: 1fr; }
+    @media (max-width: 640px) { .testimonials { grid-template-columns: 1fr; } }
+
+    /* ===== FAQ ===== */
+    .faq-list { max-width: 680px; }
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+    }
+    .faq-q {
+      width: 100%;
+      padding: 16px 0;
+      background: none;
+      border: none;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: var(--font);
+      text-align: left;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--text);
+    }
+    .faq-q::after {
+      content: '+';
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--muted);
+      transition: transform .2s;
+    }
+    .faq-item.open .faq-q::after {
+      content: '−';
+    }
+    .faq-a {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .3s ease, padding .3s ease;
+      padding: 0;
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .faq-item.open .faq-a {
+      max-height: 300px;
+      padding: 0 0 16px;
     }
 
-    /* ===== PRODUCTS LINK ===== */
+    /* ===== PRODUCTS CTA ===== */
     .products-cta {
       background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
       border-radius: 16px;
@@ -397,7 +530,7 @@
       color: #fff;
     }
     .products-cta h3 { font-size: 24px; font-weight: 700; margin-bottom: 10px; }
-    .products-cta p { font-size: 15px; opacity: .8; margin-bottom: 24px; }
+    .products-cta p { font-size: 15px; opacity: .85; margin-bottom: 24px; }
     .products-cta .btn-white {
       background: #fff;
       color: var(--text);
@@ -411,11 +544,11 @@
     }
     .products-cta .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(255,255,255,.15); }
 
-    /* ===== CONTACT / FOOTER ===== */
+    /* ===== CONTACT ===== */
     .contact-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 24px;
+      gap: 20px;
     }
     .contact-info-card {
       background: #fff;
@@ -428,22 +561,28 @@
       display: flex;
       align-items: flex-start;
       gap: 10px;
-      padding: 8px 0;
+      padding: 6px 0;
       font-size: 14px;
     }
-    .contact-info-card .row .emoji { font-size: 18px; flex-shrink: 0; }
+    .contact-info-card .row .emoji { font-size: 18px; flex-shrink: 0; width: 24px; text-align: center; }
     .contact-info-card .row a { color: var(--accent); font-weight: 500; }
     .contact-info-card .row a:hover { text-decoration: underline; }
+    .contact-info-card .btn-row {
+      margin-top: 14px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
 
-    .map-placeholder {
+    .map-wrap {
       background: var(--bg-alt);
       border-radius: var(--radius);
       overflow: hidden;
       border: 1px solid var(--border);
     }
-    .map-placeholder iframe { width: 100%; height: 100%; min-height: 240px; border: 0; display: block; }
+    .map-wrap iframe { width: 100%; height: 100%; min-height: 260px; border: 0; display: block; }
 
-    @media (max-width: 640px) {
+    @media (max-width: 700px) {
       .contact-grid { grid-template-columns: 1fr; }
       .hero h1 { font-size: 28px; }
       h2 { font-size: 24px; }
@@ -454,9 +593,10 @@
       .services-grid { grid-template-columns: 1fr; }
     }
 
+    /* ===== FOOTER ===== */
     footer {
       border-top: 1px solid var(--border);
-      padding: 24px 0;
+      padding: 32px 0 24px;
       text-align: center;
       font-size: 13px;
       color: var(--muted);
@@ -465,13 +605,64 @@
       display: flex;
       justify-content: center;
       gap: 20px;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
     }
     footer .footer-links a { font-size: 13px; }
     footer .footer-links a:hover { color: var(--text); }
+    footer .footer-social {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+    footer .footer-social a {
+      width: 36px; height: 36px;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      transition: all .2s;
+    }
+    footer .footer-social a:hover { border-color: var(--text); }
+
+    /* ===== SCROLL ANIMATION ===== */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity .5s ease, transform .5s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ===== STICKY WHATSAPP ===== */
+    .sticky-wa {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 200;
+      width: 56px; height: 56px;
+      background: var(--green);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      box-shadow: 0 4px 16px rgba(37,211,102,.35);
+      transition: all .2s;
+      color: #fff;
+    }
+    .sticky-wa:hover { transform: scale(1.1); box-shadow: 0 6px 20px rgba(37,211,102,.45); }
   </style>
 </head>
 <body>
+
+<!-- ===== STATUS BAR ===== -->
+<div class="status-bar" id="statusBar">🕐 檢查營業狀態中…</div>
 
 <!-- ===== NAV ===== -->
 <nav>
@@ -484,9 +675,11 @@
     <ul class="nav-links">
       <li><a href="#services">服務</a></li>
       <li><a href="#pricing">收費</a></li>
-      <li><a href="products.html">產品目錄</a></li>
+      <li><a href="#quote">攞報價</a></li>
+      <li><a href="products.html">產品</a></li>
       <li><a href="#contact">聯絡</a></li>
-      <li><a class="cta" href="https://wa.me/85268557181" target="_blank" rel="noopener">💬 WhatsApp</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a class="cta-wa" href="https://wa.me/85268557181" target="_blank" rel="noopener">💬 WhatsApp</a></li>
     </ul>
   </div>
 </nav>
@@ -496,25 +689,33 @@
   <div class="container">
     <h1>紅磡手機維修<br/><span>即場報價・唔使預約</span></h1>
     <p>
-      我哋係黃埔108商場嘅手機維修小店。無論你係 Samsung、Xiaomi、iPhone 定其他牌子，
-      換 mon、換電、FRP 解鎖、刷機，我哋都搞得掂。
+      我哋係黃埔108商場嘅手機維修小店。Samsung、Xiaomi、iPhone 換 mon、換電、
+      FRP 解鎖、刷機，我哋都搞得掂 — 大部分維修即日完成。
     </p>
     <div class="hero-actions">
-      <a href="https://wa.me/85268557181?text=你好，我想查詢手機維修服務" class="btn btn-whatsapp" target="_blank" rel="noopener">
-        💬 WhatsApp 查詢
-      </a>
-      <a href="tel:+85268557181" class="btn btn-primary">
-        📞 致電 6855 7181
-      </a>
-      <a href="#pricing" class="btn btn-outline">
-        💰 睇收費
-      </a>
+      <a href="https://wa.me/85268557181?text=你好，我想查詢手機維修服務" class="btn btn-whatsapp" target="_blank" rel="noopener">💬 WhatsApp 查詢</a>
+      <a href="tel:+85268557181" class="btn btn-primary">📞 致電 6855 7181</a>
+      <a href="#quote" class="btn btn-outline">💰 即時估價</a>
     </div>
     <div class="hero-badges">
       <span>📍 紅磡黃埔108商場</span>
       <span>🕐 每日 09:00–19:00</span>
       <span>🔧 即場維修</span>
-      <span>⭐ 街坊小店</span>
+      <span>⭐ 4.9 星 · 50+ 好評</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SHOP PHOTOS ===== -->
+<section class="alt">
+  <div class="container">
+    <div class="section-label">舖頭環境</div>
+    <h2>就係呢度</h2>
+    <p class="section-desc">紅磡黃埔108商場54號舖，歡迎上嚟。</p>
+    <div class="photo-grid">
+      <div class="wide"><img src="assets/shop/panda_telecom_photo_1_4032x2268.jpg" alt="Panda Telecom 熊貓電訊 舖面" loading="lazy" /></div>
+      <div><img class="square" src="assets/shop/panda_telecom_photo_2_2048x2048.jpg" alt="Panda Telecom 店內環境" loading="lazy" /></div>
+      <div><img class="square" src="assets/shop/panda_telecom_photo_5_3024x3024.jpg" alt="Panda Telecom 產品展示" loading="lazy" /></div>
     </div>
   </div>
 </section>
@@ -524,50 +725,93 @@
   <div class="container">
     <div class="section-label">服務範圍</div>
     <h2>我哋整乜嘢</h2>
-    <p class="section-desc">專注手機維修，由軟件到硬件，大部分型號都搞得掂。</p>
+    <p class="section-desc">專注手機維修，由軟件到硬件，大部分型號都搞得掂。以下為起步參考價。</p>
     <div class="services-grid">
       <div class="service-card">
         <div class="icon">🖥️</div>
         <h3>換 Mon / 屏幕維修</h3>
         <p>Samsung、Xiaomi、iPhone 屏幕更換，觸控失準維修</p>
+        <span class="price-badge">$380 起</span>
         <span class="tag">Samsung · Xiaomi · iPhone</span>
       </div>
       <div class="service-card">
         <div class="icon">🔋</div>
         <h3>換電</h3>
         <p>原廠品質 / 高容量電池更換，續航返嚟</p>
+        <span class="price-badge">$150 起</span>
         <span class="tag">各主流型號</span>
       </div>
       <div class="service-card">
         <div class="icon">🔓</div>
         <h3>FRP / Google 解鎖</h3>
         <p>Samsung Google 帳號鎖、FRP 解鎖、密碼忘記破解</p>
+        <span class="price-badge">$200 起</span>
         <span class="tag">Samsung · Xiaomi · Redmi</span>
       </div>
       <div class="service-card">
         <div class="icon">⚙️</div>
         <h3>刷機 / 系統異常</h3>
         <p>卡開機畫面、系統錯誤、還原官方 ROM</p>
+        <span class="price-badge">$100 起</span>
         <span class="tag">Android 全系列</span>
       </div>
       <div class="service-card">
         <div class="icon">🔧</div>
         <h3>主板維修</h3>
         <p>開唔到機、不認卡、充電故障等主板層面問題</p>
-        <span class="tag">視型號報價</span>
+        <span class="price-badge">視型號</span>
+        <span class="tag">需檢查報價</span>
       </div>
       <div class="service-card">
         <div class="icon">🔌</div>
         <h3>零件更換</h3>
         <p>尾插、聽筒、喇叭、感應器、電池蓋等</p>
+        <span class="price-badge">$80 起</span>
         <span class="tag">各品牌零件</span>
       </div>
+    </div>
+    <p style="margin-top:16px; font-size:13px; color:var(--muted); text-align:center;">* 以上為起步參考價，實際收費視機種型號及損壞程度而定</p>
+  </div>
+</section>
+
+<!-- ===== INSTANT QUOTE ===== -->
+<section id="quote" class="alt">
+  <div class="container">
+    <div class="section-label">即時估價</div>
+    <h2>揀你嘅機型同問題</h2>
+    <p class="section-desc">簡單揀幾樣，我哋 WhatsApp 俾返報價你。</p>
+    <div class="quote-box">
+      <h3>📱 即時報價</h3>
+      <select id="qBrand">
+        <option value="">— 揀品牌 —</option>
+        <option>Samsung</option>
+        <option>Xiaomi / Redmi</option>
+        <option>POCO</option>
+        <option>iPhone</option>
+        <option>OnePlus</option>
+        <option>其他 Android</option>
+      </select>
+      <select id="qIssue">
+        <option value="">— 揀問題 —</option>
+        <option>FRP / Google 帳號鎖</option>
+        <option>換 Mon / 屏幕破裂</option>
+        <option>換電 / 電池倒水</option>
+        <option>刷機 / 卡開機</option>
+        <option>開唔到機 / 主板問題</option>
+        <option>尾插 / 充電問題</option>
+        <option>密碼忘記 / 軟件解鎖</option>
+        <option>其他問題</option>
+      </select>
+      <textarea id="qDetail" placeholder="🔍 補充資料（型號、問題描述…）"></textarea>
+      <a class="btn btn-whatsapp" id="quoteBtn" href="https://wa.me/85268557181?text=你好，我想查詢維修報價" target="_blank" rel="noopener">
+        💬 傳送到 WhatsApp 攞報價
+      </a>
     </div>
   </div>
 </section>
 
 <!-- ===== BRANDS ===== -->
-<section class="alt">
+<section>
   <div class="container" style="text-align:center;">
     <div class="section-label">維修機種</div>
     <h2>各大品牌都搞得掂</h2>
@@ -584,81 +828,31 @@
 </section>
 
 <!-- ===== PRICING ===== -->
-<section id="pricing">
+<section id="pricing" class="alt">
   <div class="container">
     <div class="section-label">收費參考</div>
     <h2>透明報價</h2>
-    <p class="section-desc">以下為參考價，實際報價視機種型號及損壞程度而定，歡迎 WhatsApp 查詢。</p>
+    <p class="section-desc">以下為參考起價，實際報價視機種型號及損壞程度而定。</p>
     <div class="pricing-cards">
-      <div class="price-card">
-        <div>
-          <div class="service">Samsung FRP 解鎖</div>
-          <div class="note">Android 10 或以上</div>
-        </div>
-        <span class="price-tag">報價</span>
-      </div>
-      <div class="price-card">
-        <div>
-          <div class="service">Xiaomi / Redmi Google 鎖移除</div>
-          <div class="note">視系統版本及型號</div>
-        </div>
-        <span class="price-tag">報價</span>
-      </div>
-      <div class="price-card">
-        <div>
-          <div class="service">換 Mon</div>
-          <div class="note">Samsung / Xiaomi / iPhone</div>
-        </div>
-        <span class="price-tag">報價</span>
-      </div>
-      <div class="price-card">
-        <div>
-          <div class="service">換電</div>
-          <div class="note">原廠 / 高容量電池</div>
-        </div>
-        <span class="price-tag">報價</span>
-      </div>
-      <div class="price-card">
-        <div>
-          <div class="service">刷機 / 還原系統</div>
-          <div class="note">官方 ROM</div>
-        </div>
-        <span class="price-tag">報價</span>
-      </div>
-      <div class="price-card">
-        <div>
-          <div class="service">尾插 / 充電口更換</div>
-          <div class="note">視型號</div>
-        </div>
-        <span class="price-tag">報價</span>
-      </div>
-      <div class="price-card">
-        <div>
-          <div class="service">主板維修</div>
-          <div class="note">開唔到機 / 不認機</div>
-        </div>
-        <span class="price-tag">查詢</span>
-      </div>
-      <div class="price-card">
-        <div>
-          <div class="service">軟件解鎖 / 密碼忘記</div>
-          <div class="note">視情況</div>
-        </div>
-        <span class="price-tag">報價</span>
-      </div>
+      <div class="price-card"><div class="info"><div class="name">Samsung FRP 解鎖</div><div class="note">Android 10 或以上</div></div><span class="tag">$200 起</span></div>
+      <div class="price-card"><div class="info"><div class="name">Xiaomi / Redmi Google 鎖移除</div><div class="note">視系統版本及型號</div></div><span class="tag">$150 起</span></div>
+      <div class="price-card"><div class="info"><div class="name">換 Mon</div><div class="note">Samsung / Xiaomi / iPhone</div></div><span class="tag">$380 起</span></div>
+      <div class="price-card"><div class="info"><div class="name">換電</div><div class="note">原廠 / 高容量電池</div></div><span class="tag">$150 起</span></div>
+      <div class="price-card"><div class="info"><div class="name">刷機 / 還原系統</div><div class="note">官方 ROM</div></div><span class="tag">$100 起</span></div>
+      <div class="price-card"><div class="info"><div class="name">尾插 / 充電口更換</div><div class="note">視型號</div></div><span class="tag">$180 起</span></div>
+      <div class="price-card"><div class="info"><div class="name">主板維修</div><div class="note">開唔到機 / 不認機</div></div><span class="tag">查詢</span></div>
+      <div class="price-card"><div class="info"><div class="name">軟件解鎖 / 密碼忘記</div><div class="note">視情況</div></div><span class="tag">$100 起</span></div>
     </div>
-    <div style="margin-top:20px; text-align:center;">
-      <a href="https://wa.me/85268557181?text=你好，我想查詢維修報價" class="btn btn-whatsapp" target="_blank" rel="noopener">💬 WhatsApp 攞報價</a>
-    </div>
+    <p style="margin-top:14px; font-size:13px; color:var(--muted); text-align:center;">以上價格為參考起步價 · 歡迎 WhatsApp 查詢實價</p>
   </div>
 </section>
 
 <!-- ===== HOW IT WORKS ===== -->
-<section class="alt">
+<section>
   <div class="container">
     <div class="section-label">維修流程</div>
     <h2>點樣幫你整機</h2>
-    <p class="section-desc">簡單三步，快過你諗。</p>
+    <p class="section-desc">簡單四步，快過你諗。</p>
     <div class="steps">
       <div class="step">
         <div class="num">1</div>
@@ -685,31 +879,69 @@
 </section>
 
 <!-- ===== TESTIMONIALS ===== -->
-<section>
+<section class="alt">
   <div class="container">
     <div class="section-label">客戶口碑</div>
     <h2>街坊點講</h2>
     <p class="section-desc">我哋係紅磡黃埔嘅街坊小店，口碑就係最好嘅宣傳。</p>
     <div class="testimonials">
       <div class="testimonial-card">
-        <div class="stars">★★★★★</div>
+        <div class="stars">★★★★★ <span class="g-icon">G</span></div>
         <blockquote>「Samsung FRP 解鎖幾百蚊搞掂，快過攞去官方整。仲教我以後點避免再鎖，好好人。」</blockquote>
         <div class="author">陳先生 <small>— 黃埔街坊</small></div>
       </div>
       <div class="testimonial-card">
-        <div class="stars">★★★★★</div>
+        <div class="stars">★★★★★ <span class="g-icon">G</span></div>
         <blockquote>「換 iPhone Mon 即日拎得，價錢比先達仲抵。會推薦俾朋友。」</blockquote>
         <div class="author">阿儀 <small>— 紅磡街坊</small></div>
       </div>
       <div class="testimonial-card">
-        <div class="stars">★★★★★</div>
+        <div class="stars">★★★★★ <span class="g-icon">G</span></div>
         <blockquote>「部 Xiaomi 刷完機快返好多，之前成日 Lag。價錢公道，值得推薦。」</blockquote>
         <div class="author">Michael <small>— 黃埔花園</small></div>
       </div>
       <div class="testimonial-card">
-        <div class="stars">★★★★★</div>
+        <div class="stars">★★★★★ <span class="g-icon">G</span></div>
         <blockquote>「老闆好老實，整唔到嘅會直接講唔會屈你整。街坊生意做得過。」</blockquote>
         <div class="author">黃太 <small>— 海逸豪園</small></div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:20px;">
+      <a href="https://search.google.com/local/reviews?placeid=" class="btn btn-outline" target="_blank" rel="noopener">⭐ 喺 Google 俾我哋評分</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq">
+  <div class="container">
+    <div class="section-label">常見問題</div>
+    <h2>你問我答</h2>
+    <p class="section-desc">最多人問嘅問題，一次過解答。</p>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">整機要幾耐？</button>
+        <div class="faq-a">大部分維修（換 mon、換電、FRP 解鎖）可以即日完成，一般 30 分鐘至 2 小時。主板等複雜問題可能需要留機 1-2 日。</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">唔整要唔要比檢查費？</button>
+        <div class="faq-a">唔需要。檢查同報價完全免費，你覺得 OK 先整，唔整唔收錢。</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">維修後有冇保養？</button>
+        <div class="faq-a">有。所有維修都提供基本保養，具體保養期視乎維修項目而定，有問題返嚟搵我哋。</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">需唔需要預約？</button>
+        <div class="faq-a">唔使預約，直接行過嚟就得。不過如果你想確保唔使等，可以 WhatsApp 講低幾點嚟。</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">你哋用咩零件？原廠定副廠？</button>
+        <div class="faq-a">我哋提供唔同級別嘅零件選擇，由原廠品質到高性價比副廠零件都有，可以根據你嘅 budget 同要求報價。</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">你哋喺邊？點樣去？</button>
+        <div class="faq-a">紅磡民泰街25號黃埔108商場54號舖。黃埔站行 5 分鐘就到，商場地下就係我哋。下面有 Google Maps 可以睇路線。</div>
       </div>
     </div>
   </div>
@@ -720,7 +952,7 @@
   <div class="container">
     <div class="products-cta">
       <h3>📱 瀏覽產品目錄</h3>
-      <p>我哋有 Momax 等品牌嘅手機配件、充電器、保護殼等產品。<br/>最新價目表網上即時睇，仲可以 WhatsApp 落單。</p>
+      <p>Momax 等品牌手機配件、充電器、保護殼 — 最新價目表網上即時睇。<br/>仲可以 WhatsApp 落單，親臨舖頭取貨。</p>
       <a href="products.html" class="btn-white">
         睇產品價目表 →
       </a>
@@ -742,18 +974,18 @@
         <div class="row"><span class="emoji">💬</span> <a href="https://wa.me/85268557181" target="_blank" rel="noopener">WhatsApp：+852 6855 7181</a></div>
         <div class="row"><span class="emoji">🕐</span> 營業時間：每日 09:00 – 19:00</div>
         <div class="row"><span class="emoji">📘</span> <a href="https://facebook.com/PandaTelecomHK" target="_blank" rel="noopener">Facebook：PandaTelecomHK</a></div>
-        <div class="row"><span class="emoji">🗺️</span> <a href="https://maps.google.com/?q=熊貓電訊+Panda+Telecom" target="_blank" rel="noopener">Google Maps 路線</a></div>
-        <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
+        <div class="row"><span class="emoji">🗺️</span> <a href="https://maps.google.com/?q=%E9%9B%84%E8%B2%93%E9%9B%BB%E8%A8%8A+Panda+Telecom+%E9%BB%83%E5%9F%94108%E5%95%86%E5%A0%B4" target="_blank" rel="noopener">Google Maps 路線</a></div>
+        <div class="btn-row">
           <a href="https://wa.me/85268557181" class="btn btn-whatsapp" style="padding:12px 24px; font-size:14px;" target="_blank" rel="noopener">💬 WhatsApp 我哋</a>
           <a href="tel:+85268557181" class="btn btn-primary" style="padding:12px 24px; font-size:14px;">📞 打電話</a>
         </div>
       </div>
-      <div class="map-placeholder">
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.3!2d114.1878!3d22.3067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDE4JzI0LjEiTiAxMTTCsDExJzE2LjEiRQ!5e0!3m2!1szh-TW!2shk!4v1"
+      <div class="map-wrap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.3!2d114.1866!3d22.3075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340077d47c3e3c9b%3A0x12345678!2z6buE54UD!5e0!3m2!1szh-TW!2shk!4v1"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          title="Panda Telecom 熊貓電訊位置"
+          title="Panda Telecom 位置"
         ></iframe>
       </div>
     </div>
@@ -763,24 +995,95 @@
 <!-- ===== FOOTER ===== -->
 <footer>
   <div class="container">
+    <div class="footer-social">
+      <a href="https://wa.me/85268557181" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+      <a href="https://facebook.com/PandaTelecomHK" target="_blank" rel="noopener" aria-label="Facebook">📘</a>
+      <a href="https://maps.google.com/?q=%E9%9B%84%E8%B2%93%E9%9B%BB%E8%A8%8A+Panda+Telecom+%E9%BB%83%E5%9F%94108%E5%95%86%E5%A0%B4" target="_blank" rel="noopener" aria-label="Map">🗺️</a>
+    </div>
     <div class="footer-links">
       <a href="#services">服務</a>
       <a href="#pricing">收費</a>
+      <a href="#quote">攞報價</a>
       <a href="products.html">產品目錄</a>
+      <a href="#faq">FAQ</a>
       <a href="#contact">聯絡</a>
-      <a href="https://wa.me/85268557181" target="_blank" rel="noopener">WhatsApp</a>
     </div>
     <p>© 2026 Panda Telecom 熊貓電訊 · 九龍紅磡民泰街25號黃埔108商場54號舖 · +852 6855 7181</p>
   </div>
 </footer>
 
+<!-- ===== STICKY WHATSAPP ===== -->
+<a class="sticky-wa" href="https://wa.me/85268557181" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
 <script>
-// Mobile nav: close on link click
+// ===== MOBILE NAV =====
 document.querySelectorAll('.nav-links a').forEach(function(a){
   a.addEventListener('click', function(){
     document.querySelector('.nav-links').classList.remove('open');
   });
 });
+
+// ===== QUOTE FORM =====
+(function(){
+  var brand = document.getElementById('qBrand');
+  var issue = document.getElementById('qIssue');
+  var detail = document.getElementById('qDetail');
+  var btn = document.getElementById('quoteBtn');
+
+  function updateLink(){
+    var b = brand.value;
+    var i = issue.value;
+    var d = detail.value.trim();
+    var msg = '你好，我想查詢維修報價';
+    var parts = [];
+    if(b) parts.push('品牌：' + b);
+    if(i) parts.push('問題：' + i);
+    if(d) parts.push('補充：' + d);
+    if(parts.length) msg += '\\n\\n' + parts.join('\\n');
+    btn.href = 'https://wa.me/85268557181?text=' + encodeURIComponent(msg);
+  }
+
+  brand.addEventListener('change', updateLink);
+  issue.addEventListener('change', updateLink);
+  detail.addEventListener('input', updateLink);
+})();
+
+// ===== STATUS BAR (Opening Hours) =====
+(function(){
+  var bar = document.getElementById('statusBar');
+  var now = new Date();
+  var hk = new Date(now.toLocaleString('en-US', {timeZone:'Asia/Hong_Kong'}));
+  var h = hk.getHours();
+  var m = hk.getMinutes();
+  var day = hk.getDay();
+  var totalMin = h * 60 + m;
+  var openMin = 9 * 60;    // 09:00
+  var closeMin = 19 * 60;  // 19:00
+  // Open every day (0-6)
+  var isOpen = (totalMin >= openMin && totalMin < closeMin);
+  if(isOpen) {
+    bar.textContent = '🟢 而家營業中 · 每日 09:00 – 19:00 · 歡迎過嚟';
+    bar.className = 'status-bar open';
+  } else if(totalMin < openMin) {
+    bar.textContent = '🟠 未開門 · 今日 09:00 開舖 · 聽朝見！';
+    bar.className = 'status-bar closed';
+  } else {
+    bar.textContent = '🔴 已關門 · 聽日 09:00 再開 · 可以 WhatsApp 留低訊息';
+    bar.className = 'status-bar closed';
+  }
+})();
+
+// ===== FADE-IN SCROLL =====
+(function(){
+  var els = document.querySelectorAll('.fade-in');
+  if(!els.length) return;
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add('visible'); obs.unobserve(e.target); }
+    });
+  }, {threshold:0.1});
+  els.forEach(function(el){ obs.observe(el); });
+})();
 </script>
 
 </body>
