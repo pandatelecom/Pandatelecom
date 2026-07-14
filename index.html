@@ -281,6 +281,47 @@
       .stats-banner { grid-template-columns: 1fr; }
     }
 
+    /* ===== BRAND PICKER ===== */
+    .brand-picker {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .bp-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      padding: 14px 22px;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      background: #fff;
+      cursor: pointer;
+      transition: all .2s;
+      font-family: var(--font);
+      min-width: 90px;
+    }
+    .bp-btn:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+    }
+    .bp-btn.active {
+      border-color: var(--accent);
+      background: #fff0f3;
+    }
+    .bp-icon { font-size: 28px; }
+    .bp-name {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .service-card.highlight {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 1px var(--accent), var(--shadow-lg);
+    }
+
     /* ===== SECTIONS ===== */
     section { padding: 64px 0; }
     section + section { border-top: 1px solid var(--border); }
@@ -795,6 +836,42 @@
   </div>
 </section>
 
+<!-- ===== BRAND PICKER ===== -->
+<section style="padding:20px 0 0;">
+  <div class="container">
+    <div class="brand-picker">
+      <button class="bp-btn" data-brand="samsung" onclick="scrollToService('samsung')">
+        <span class="bp-icon">📱</span>
+        <span class="bp-name">Samsung</span>
+      </button>
+      <button class="bp-btn" data-brand="xiaomi" onclick="scrollToService('xiaomi')">
+        <span class="bp-icon">📱</span>
+        <span class="bp-name">Xiaomi</span>
+      </button>
+      <button class="bp-btn" data-brand="iphone" onclick="scrollToService('iphone')">
+        <span class="bp-icon">📱</span>
+        <span class="bp-name">iPhone</span>
+      </button>
+      <button class="bp-btn" data-brand="redmi" onclick="scrollToService('redmi')">
+        <span class="bp-icon">📱</span>
+        <span class="bp-name">Redmi</span>
+      </button>
+      <button class="bp-btn" data-brand="poco" onclick="scrollToService('poco')">
+        <span class="bp-icon">📱</span>
+        <span class="bp-name">POCO</span>
+      </button>
+      <button class="bp-btn" data-brand="oneplus" onclick="scrollToService('oneplus')">
+        <span class="bp-icon">📱</span>
+        <span class="bp-name">OnePlus</span>
+      </button>
+    </div>
+    <p style="text-align:center;font-size:12px;color:var(--muted);margin-top:8px;">
+      <span class="lang-zh">👆 㩒品牌跳到你嘅服務</span>
+      <span class="lang-en">👆 Pick your device brand</span>
+    </p>
+  </div>
+</section>
+
 <!-- ===== SHOP PHOTOS ===== -->
 <section class="alt">
   <div class="container">
@@ -845,42 +922,42 @@
     <p class="section-desc"><span class="lang-zh">專注手機維修，由軟件到硬件，大部分型號都搞得掂。以下為起步參考價。</span>
       <span class="lang-en">Phone repair specialists — software to hardware. Most models supported. Starting prices below.</span></p>
     <div class="services-grid">
-      <div class="service-card">
+      <div class="service-card" data-brands="samsung,xiaomi,iphone,redmi,poco,oneplus">
         <div class="icon">🖥️</div>
         <h3>換 Mon / 屏幕維修</h3>
         <p>Samsung、Xiaomi、iPhone 屏幕更換，觸控失準維修</p>
         <span class="price-badge">$380 起</span>
         <span class="tag">Samsung · Xiaomi · iPhone</span>
       </div>
-      <div class="service-card">
+      <div class="service-card" data-brands="samsung,xiaomi,iphone,redmi,poco,oneplus">
         <div class="icon">🔋</div>
         <h3>換電</h3>
         <p>原廠品質 / 高容量電池更換，續航返嚟</p>
         <span class="price-badge">$150 起</span>
         <span class="tag">各主流型號</span>
       </div>
-      <div class="service-card">
+      <div class="service-card" data-brands="samsung,xiaomi,redmi">
         <div class="icon">🔓</div>
         <h3>FRP / Google 解鎖</h3>
         <p>Samsung Google 帳號鎖、FRP 解鎖、密碼忘記破解</p>
         <span class="price-badge">$200 起</span>
         <span class="tag">Samsung · Xiaomi · Redmi</span>
       </div>
-      <div class="service-card">
+      <div class="service-card" data-brands="samsung,xiaomi,redmi,poco,oneplus">
         <div class="icon">⚙️</div>
         <h3>刷機 / 系統異常</h3>
         <p>卡開機畫面、系統錯誤、還原官方 ROM</p>
         <span class="price-badge">$100 起</span>
         <span class="tag">Android 全系列</span>
       </div>
-      <div class="service-card">
+      <div class="service-card" data-brands="samsung,xiaomi,iphone,redmi,poco,oneplus">
         <div class="icon">🔧</div>
         <h3>主板維修</h3>
         <p>開唔到機、不認卡、充電故障等主板層面問題</p>
         <span class="price-badge">視型號</span>
         <span class="tag">需檢查報價</span>
       </div>
-      <div class="service-card">
+      <div class="service-card" data-brands="samsung,xiaomi,iphone,redmi,poco,oneplus">
         <div class="icon">🔌</div>
         <h3>零件更換</h3>
         <p>尾插、聽筒、喇叭、感應器、電池蓋等</p>
@@ -1139,6 +1216,26 @@
 <a class="sticky-wa" href="https://wa.me/85268557181" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
 
 <script>
+// ===== BRAND PICKER =====
+function scrollToService(brand){
+  var section = document.getElementById('services');
+  if(section){
+    section.scrollIntoView({behavior:'smooth', block:'start'});
+  }
+  // Highlight matching cards
+  document.querySelectorAll('.service-card').forEach(function(card){
+    card.classList.remove('highlight');
+    var tags = (card.getAttribute('data-brands') || '').toLowerCase();
+    if(tags.split(',').indexOf(brand) !== -1){
+      card.classList.add('highlight');
+    }
+  });
+  // Update active button
+  document.querySelectorAll('.bp-btn').forEach(function(b){
+    b.classList.toggle('active', b.getAttribute('data-brand') === brand);
+  });
+}
+
 // ===== LANGUAGE TOGGLE =====
 var currentLang = 'zh';
 function toggleLang(){
