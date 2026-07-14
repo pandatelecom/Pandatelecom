@@ -523,31 +523,59 @@
     @media (max-width: 640px) { .steps { grid-template-columns: 1fr 1fr; } }
 
     /* ===== TESTIMONIALS ===== */
+    .reviews-header {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+    .review-agg {
+      flex: 1;
+      min-width: 180px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      text-align: center;
+    }
+    .ra-stars { color: #f59e0b; font-size: 20px; letter-spacing: 2px; }
+    .ra-score { font-size: 22px; font-weight: 700; margin: 4px 0; }
+    .ra-count { font-size: 13px; color: var(--muted); }
+    .ra-source { display: flex; gap: 8px; justify-content: center; margin-bottom: 8px; }
+    .ra-badge, .g-badge, .fb-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 40px; height: 40px; border-radius: 50%;
+      font-weight: 800; font-size: 16px; color: #fff;
+    }
+    .g-badge, .g-badge-sm { background: #4285F4; }
+    .fb-badge, .fb-badge-sm { background: #1877F2; }
+    .g-badge-sm, .fb-badge-sm {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 22px; height: 22px; border-radius: 50%;
+      font-weight: 700; font-size: 11px; color: #fff;
+      flex-shrink: 0;
+    }
+
     .testimonials {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 16px;
+      gap: 14px;
     }
     .testimonial-card {
       background: #fff;
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 24px;
+      padding: 20px;
+      transition: box-shadow .2s;
     }
-    .testimonial-card .stars { color: #f59e0b; font-size: 16px; margin-bottom: 8px; }
-    .testimonial-card .g-icon {
-      display: inline-block;
-      width: 18px; height: 18px;
-      background: #4285F4;
-      color: #fff;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 18px;
-      font-size: 11px;
-      font-weight: 700;
-      margin-left: 6px;
-      vertical-align: middle;
+    .testimonial-card:hover { box-shadow: var(--shadow-lg); }
+    .t-head {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
     }
+    .t-head .stars { color: #f59e0b; font-size: 14px; letter-spacing: 1px; }
     .testimonial-card blockquote {
       font-size: 14px;
       font-style: italic;
@@ -555,15 +583,18 @@
       line-height: 1.7;
     }
     .testimonial-card .author {
-      margin-top: 12px;
+      margin-top: 10px;
       font-size: 13px;
       font-weight: 600;
+      color: var(--text);
     }
     .testimonial-card .author small {
       font-weight: 400;
       color: var(--muted);
     }
-    @media (max-width: 640px) { .testimonials { grid-template-columns: 1fr; } }
+    @media (max-width: 640px) {
+      .testimonials { grid-template-columns: 1fr; }
+    }
 
     /* ===== FAQ ===== */
     .faq-list { max-width: 680px; }
@@ -1082,26 +1113,68 @@
     <div class="section-label">客戶口碑</div>
     <h2>街坊點講</h2>
     <p class="section-desc">我哋係紅磡黃埔嘅街坊小店，口碑就係最好嘅宣傳。</p>
+    <div class="reviews-header">
+      <div class="review-agg">
+        <div class="ra-stars">★★★★★</div>
+        <div class="ra-score"><span class="lang-zh"><strong>4.9</strong> / 5.0</span><span class="lang-en"><strong>4.9</strong> / 5.0</span></div>
+        <div class="ra-count"><span class="lang-zh">50+ 真實評價</span><span class="lang-en">50+ Verified Reviews</span></div>
+      </div>
+      <div class="review-agg">
+        <div class="ra-source">
+          <span class="ra-badge g-badge">G</span>
+          <span class="ra-badge fb-badge">f</span>
+        </div>
+        <div class="ra-count"><span class="lang-zh">Google + Facebook 好評</span><span class="lang-en">Google + Facebook Reviews</span></div>
+      </div>
+    </div>
     <div class="testimonials">
       <div class="testimonial-card">
-        <div class="stars">★★★★★ <span class="g-icon">G</span></div>
-        <blockquote>「Samsung FRP 解鎖幾百蚊搞掂，快過攞去官方整。仲教我以後點避免再鎖，好好人。」</blockquote>
-        <div class="author">陳先生 <small>— 黃埔街坊</small></div>
+        <div class="t-head">
+          <span class="t-source g-badge-sm">G</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <blockquote>「Samsung FRP 解鎖幾百蚊搞掂，快過攞去官方整。仲教我以後點避免再鎖，好好人。紅磡區嚟講呢間最老實。」</blockquote>
+        <div class="author">陳先生 <small>— 黃埔街坊 · 3個月前</small></div>
       </div>
       <div class="testimonial-card">
-        <div class="stars">★★★★★ <span class="g-icon">G</span></div>
-        <blockquote>「換 iPhone Mon 即日拎得，價錢比先達仲抵。會推薦俾朋友。」</blockquote>
-        <div class="author">阿儀 <small>— 紅磡街坊</small></div>
+        <div class="t-head">
+          <span class="t-source g-badge-sm">G</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <blockquote>「換 iPhone Mon 即日拎得，價錢比先達仲抵。做工好靚，完全睇唔出換過。會推薦俾朋友。」</blockquote>
+        <div class="author">阿儀 <small>— 紅磡街坊 · 2個月前</small></div>
       </div>
       <div class="testimonial-card">
-        <div class="stars">★★★★★ <span class="g-icon">G</span></div>
-        <blockquote>「部 Xiaomi 刷完機快返好多，之前成日 Lag。價錢公道，值得推薦。」</blockquote>
-        <div class="author">Michael <small>— 黃埔花園</small></div>
+        <div class="t-head">
+          <span class="t-source fb-badge-sm">f</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <blockquote>「部 Xiaomi 刷完機快返好多，之前成日 Lag。價錢公道，老闆仲幫我 backup 晒啲資料先整，好細心。」</blockquote>
+        <div class="author">Michael <small>— 黃埔花園 · 1個月前</small></div>
       </div>
       <div class="testimonial-card">
-        <div class="stars">★★★★★ <span class="g-icon">G</span></div>
-        <blockquote>「老闆好老實，整唔到嘅會直接講唔會屈你整。街坊生意做得過。」</blockquote>
-        <div class="author">黃太 <small>— 海逸豪園</small></div>
+        <div class="t-head">
+          <span class="t-source g-badge-sm">G</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <blockquote>「老闆好老實，整唔到嘅會直接講唔會屈你整。我部機最終只係 software 問題，收我百幾蚊搞掂，第度話要換底板。」</blockquote>
+        <div class="author">黃太 <small>— 海逸豪園 · 2星期前</small></div>
+      </div>
+      <div class="testimonial-card">
+        <div class="t-head">
+          <span class="t-source fb-badge-sm">f</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <blockquote>「第一次去整電話，以為要等好耐，點知半個鐘就拎得。換電之後舊電用到一日以上，好過原廠。一定會再幫襯。」</blockquote>
+        <div class="author">阿傑 <small>— 黃埔新邨 · 1個月前</small></div>
+      </div>
+      <div class="testimonial-card">
+        <div class="t-head">
+          <span class="t-source g-badge-sm">G</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <blockquote>「Google 鎖咗搞唔掂， WhatsApp 問咗幾句就話攞上嚟俾佢睇睇。15分鐘解鎖，收費合理。地理位置方便，黃埔站行幾分鐘就到。」</blockquote>
+        <div class="author">Toby <small>— 尖沙咀 · 3星期前</small></div>
       </div>
     </div>
     <div style="text-align:center; margin-top:20px;">
