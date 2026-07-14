@@ -161,15 +161,26 @@
       padding: 8px 16px;
     }
     .nav-links .cta-wa:hover { background: var(--green-hover); }
-    .nav-links .lang-switch {
+    .nav-links .lang-btn {
       padding: 6px 10px;
       font-size: 12px;
       font-weight: 600;
       border: 1px solid var(--border);
       border-radius: 6px;
+      background: none;
+      cursor: pointer;
+      font-family: var(--font);
+      color: var(--muted);
       margin-left: 4px;
+      transition: all .2s;
     }
-    .nav-links .lang-switch:hover { background: var(--bg-alt); }
+    .nav-links .lang-btn:hover { background: var(--bg-alt); color: var(--text); }
+    .lang-zh, .lang-en { transition: opacity .2s; }
+    .lang-en { display: none; }
+    body.en .lang-zh { display: none; }
+    body.en .lang-en { display: inline; }
+    body.en .lang-en-block { display: block; }
+    .lang-en-block { display: none; }
     .mobile-toggle { display: none; background: none; border: none; font-size: 24px; cursor: pointer; padding: 4px; color: var(--text); }
     
     @media (max-width: 700px) {
@@ -673,13 +684,14 @@
     </a>
     <button class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Toggle menu">☰</button>
     <ul class="nav-links">
-      <li><a href="#services">服務</a></li>
-      <li><a href="#pricing">收費</a></li>
-      <li><a href="#quote">攞報價</a></li>
-      <li><a href="products.html">產品</a></li>
-      <li><a href="#contact">聯絡</a></li>
+      <li><a href="#services"><span class="lang-zh">服務</span><span class="lang-en">Services</span></a></li>
+      <li><a href="#pricing"><span class="lang-zh">收費</span><span class="lang-en">Pricing</span></a></li>
+      <li><a href="#quote"><span class="lang-zh">攞報價</span><span class="lang-en">Get Quote</span></a></li>
+      <li><a href="products.html"><span class="lang-zh">產品</span><span class="lang-en">Products</span></a></li>
+      <li><a href="#contact"><span class="lang-zh">聯絡</span><span class="lang-en">Contact</span></a></li>
       <li><a href="#faq">FAQ</a></li>
       <li><a class="cta-wa" href="https://wa.me/85268557181" target="_blank" rel="noopener">💬 WhatsApp</a></li>
+      <li><button class="lang-btn" id="langToggle" onclick="toggleLang()">EN</button></li>
     </ul>
   </div>
 </nav>
@@ -687,21 +699,27 @@
 <!-- ===== HERO ===== -->
 <section class="hero">
   <div class="container">
-    <h1>紅磡手機維修<br/><span>即場報價・唔使預約</span></h1>
-    <p>
+    <h1><span class="lang-zh">紅磡手機維修<br/><span>即場報價・唔使預約</span></span>
+        <span class="lang-en">Phone Repair in Hung Hom<br/><span>Walk-in · Instant Quote · No Appointment Needed</span></span></h1>
+    <p class="lang-zh">
       我哋係黃埔108商場嘅手機維修小店。Samsung、Xiaomi、iPhone 換 mon、換電、
       FRP 解鎖、刷機，我哋都搞得掂 — 大部分維修即日完成。
     </p>
+    <p class="lang-en">
+      We're a family-run phone repair shop at Whampoa 108 Shopping Centre.
+      Samsung, Xiaomi, iPhone — screen replacement, battery, FRP unlock, firmware issues.
+      Most repairs done same day.
+    </p>
     <div class="hero-actions">
-      <a href="https://wa.me/85268557181?text=你好，我想查詢手機維修服務" class="btn btn-whatsapp" target="_blank" rel="noopener">💬 WhatsApp 查詢</a>
-      <a href="tel:+85268557181" class="btn btn-primary">📞 致電 6855 7181</a>
-      <a href="#quote" class="btn btn-outline">💰 即時估價</a>
+      <a href="https://wa.me/85268557181?text=你好，我想查詢手機維修服務" class="btn btn-whatsapp" target="_blank" rel="noopener">💬 <span class="lang-zh">WhatsApp 查詢</span><span class="lang-en">WhatsApp Us</span></a>
+      <a href="tel:+852****7181" class="btn btn-primary">📞 <span class="lang-zh">致電 6855 7181</span><span class="lang-en">Call 6855 7181</span></a>
+      <a href="#quote" class="btn btn-outline">💰 <span class="lang-zh">即時估價</span><span class="lang-en">Get Quote</span></a>
     </div>
     <div class="hero-badges">
-      <span>📍 紅磡黃埔108商場</span>
-      <span>🕐 每日 09:00–19:00</span>
-      <span>🔧 即場維修</span>
-      <span>⭐ 4.9 星 · 50+ 好評</span>
+      <span>📍 <span class="lang-zh">紅磡黃埔108商場</span><span class="lang-en">Whampoa 108, Hung Hom</span></span>
+      <span>🕐 <span class="lang-zh">每日 09:00–19:00</span><span class="lang-en">Daily 9am–7pm</span></span>
+      <span>🔧 <span class="lang-zh">即場維修</span><span class="lang-en">Walk-in Repairs</span></span>
+      <span>⭐ <span class="lang-zh">4.9 星 · 50+ 好評</span><span class="lang-en">4.9 Stars · 50+ Reviews</span></span>
     </div>
   </div>
 </section>
@@ -709,9 +727,9 @@
 <!-- ===== SHOP PHOTOS ===== -->
 <section class="alt">
   <div class="container">
-    <div class="section-label">舖頭環境</div>
-    <h2>就係呢度</h2>
-    <p class="section-desc">紅磡黃埔108商場54號舖，歡迎上嚟。</p>
+    <div class="section-label"><span class="lang-zh">舖頭環境</span><span class="lang-en">Our Shop</span></div>
+    <h2><span class="lang-zh">就係呢度</span><span class="lang-en">Come Find Us</span></h2>
+    <p class="section-desc">紅磡黃埔108商場54號舖，歡迎上嚟。 <span class="lang-en">Whampoa 108 Shopping Centre, Shop 54. Come visit us!</span></p>
     <div class="photo-grid">
       <div class="wide"><img src="assets/shop/panda_telecom_photo_1_4032x2268.jpg" alt="Panda Telecom 熊貓電訊 舖面" loading="lazy" /></div>
       <div><img class="square" src="assets/shop/panda_telecom_photo_2_2048x2048.jpg" alt="Panda Telecom 店內環境" loading="lazy" /></div>
@@ -720,12 +738,41 @@
   </div>
 </section>
 
+<!-- ===== REPAIR GALLERY ===== -->
+<section>
+  <div class="container">
+    <div class="section-label"><span class="lang-zh">維修案例</span><span class="lang-en">Repair Gallery</span></div>
+    <h2><span class="lang-zh">維修前後對比</span><span class="lang-en">Before &amp; After</span></h2>
+    <p class="section-desc">
+      <span class="lang-zh">睇下我哋嘅實際維修案例。想睇更多相？</span>
+      <span class="lang-en">See our actual repair work. Want more?</span>
+    </p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;">
+      <a href="https://www.facebook.com/PandaTelecomHK/photos" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;justify-content:center;border:2px dashed var(--border);border-radius:var(--radius);padding:40px 20px;text-align:center;transition:all .2s;color:var(--muted);text-decoration:none;min-height:200px;">
+        <span style="font-size:36px;margin-bottom:8px;">📘</span>
+        <strong style="font-size:15px;color:var(--text);margin-bottom:4px;"><span class="lang-zh">Facebook 睇更多維修相</span><span class="lang-en">See more on Facebook</span></strong>
+        <span style="font-size:12px;">@PandaTelecomHK</span>
+      </a>
+      <a href="https://www.instagram.com/pandatelecom/" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;justify-content:center;border:2px dashed var(--border);border-radius:var(--radius);padding:40px 20px;text-align:center;transition:all .2s;color:var(--muted);text-decoration:none;min-height:200px;">
+        <span style="font-size:36px;margin-bottom:8px;">📷</span>
+        <strong style="font-size:15px;color:var(--text);margin-bottom:4px;"><span class="lang-zh">Instagram 睇更多</span><span class="lang-en">See more on Instagram</span></strong>
+        <span style="font-size:12px;">@pandatelecom</span>
+      </a>
+    </div>
+    <p style="margin-top:14px;font-size:13px;color:var(--muted);text-align:center;">
+      <span class="lang-zh">🔜 維修前後對比相陸續更新中</span>
+      <span class="lang-en">🔜 Before &amp; after photos coming soon</span>
+    </p>
+  </div>
+</section>
+
 <!-- ===== SERVICES ===== -->
 <section id="services">
   <div class="container">
-    <div class="section-label">服務範圍</div>
-    <h2>我哋整乜嘢</h2>
-    <p class="section-desc">專注手機維修，由軟件到硬件，大部分型號都搞得掂。以下為起步參考價。</p>
+    <div class="section-label"><span class="lang-zh">服務範圍</span><span class="lang-en">Services</span></div>
+    <h2><span class="lang-zh">我哋整乜嘢</span><span class="lang-en">What We Fix</span></h2>
+    <p class="section-desc"><span class="lang-zh">專注手機維修，由軟件到硬件，大部分型號都搞得掂。以下為起步參考價。</span>
+      <span class="lang-en">Phone repair specialists — software to hardware. Most models supported. Starting prices below.</span></p>
     <div class="services-grid">
       <div class="service-card">
         <div class="icon">🖥️</div>
@@ -770,7 +817,10 @@
         <span class="tag">各品牌零件</span>
       </div>
     </div>
-    <p style="margin-top:16px; font-size:13px; color:var(--muted); text-align:center;">* 以上為起步參考價，實際收費視機種型號及損壞程度而定</p>
+    <p style="margin-top:16px; font-size:13px; color:var(--muted); text-align:center;">
+      <span class="lang-zh">* 以上為起步參考價，實際收費視機種型號及損壞程度而定</span>
+      <span class="lang-en">* Starting prices only. Final quote depends on model &amp; damage.</span>
+    </p>
   </div>
 </section>
 
@@ -951,10 +1001,11 @@
 <section class="alt">
   <div class="container">
     <div class="products-cta">
-      <h3>📱 瀏覽產品目錄</h3>
-      <p>Momax 等品牌手機配件、充電器、保護殼 — 最新價目表網上即時睇。<br/>仲可以 WhatsApp 落單，親臨舖頭取貨。</p>
+      <h3><span class="lang-zh">📱 瀏覽產品目錄</span><span class="lang-en">📱 Browse Our Products</span></h3>
+      <p class="lang-zh">Momax 等品牌手機配件、充電器、保護殼 — 最新價目表網上即時睇。<br/>仲可以 WhatsApp 落單，親臨舖頭取貨。</p>
+      <p class="lang-en">Momax phone accessories, chargers, cases — browse the latest catalog online.<br/>Order via WhatsApp, pick up at our shop.</p>
       <a href="products.html" class="btn-white">
-        睇產品價目表 →
+        <span class="lang-zh">睇產品價目表 →</span><span class="lang-en">View Product Catalog →</span>
       </a>
     </div>
   </div>
@@ -963,9 +1014,10 @@
 <!-- ===== CONTACT ===== -->
 <section id="contact">
   <div class="container">
-    <div class="section-label">聯絡我哋</div>
-    <h2>上嚟搵我哋</h2>
-    <p class="section-desc">唔使預約，直接行過嚟就得。或者 WhatsApp / 打電話都得。</p>
+    <div class="section-label"><span class="lang-zh">聯絡我哋</span><span class="lang-en">Contact Us</span></div>
+    <h2><span class="lang-zh">上嚟搵我哋</span><span class="lang-en">Come Visit Us</span></h2>
+    <p class="section-desc"><span class="lang-zh">唔使預約，直接行過嚟就得。或者 WhatsApp / 打電話都得。</span>
+      <span class="lang-en">No appointment needed. Walk-in, WhatsApp, or give us a call.</span></p>
     <div class="contact-grid">
       <div class="contact-info-card">
         <h3>📞 聯絡方式</h3>
@@ -982,7 +1034,7 @@
       </div>
       <div class="map-wrap">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.3!2d114.1866!3d22.3075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340077d47c3e3c9b%3A0x12345678!2z6buE54UD!5e0!3m2!1szh-TW!2shk!4v1"
+          src="https://www.google.com/maps?q=%E7%B4%85%E7%A3%A1%E6%B0%91%E6%B3%B0%E8%A1%9725%E8%99%9F%E9%BB%83%E5%9F%94108%E5%95%86%E5%A0%B454%E8%99%9F%E8%88%96+Hong+Kong&output=embed"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           title="Panda Telecom 位置"
@@ -1001,12 +1053,12 @@
       <a href="https://maps.google.com/?q=%E9%9B%84%E8%B2%93%E9%9B%BB%E8%A8%8A+Panda+Telecom+%E9%BB%83%E5%9F%94108%E5%95%86%E5%A0%B4" target="_blank" rel="noopener" aria-label="Map">🗺️</a>
     </div>
     <div class="footer-links">
-      <a href="#services">服務</a>
-      <a href="#pricing">收費</a>
-      <a href="#quote">攞報價</a>
-      <a href="products.html">產品目錄</a>
+      <a href="#services"><span class="lang-zh">服務</span><span class="lang-en">Services</span></a>
+      <a href="#pricing"><span class="lang-zh">收費</span><span class="lang-en">Pricing</span></a>
+      <a href="#quote"><span class="lang-zh">攞報價</span><span class="lang-en">Get Quote</span></a>
+      <a href="products.html"><span class="lang-zh">產品目錄</span><span class="lang-en">Products</span></a>
       <a href="#faq">FAQ</a>
-      <a href="#contact">聯絡</a>
+      <a href="#contact"><span class="lang-zh">聯絡</span><span class="lang-en">Contact</span></a>
     </div>
     <p>© 2026 Panda Telecom 熊貓電訊 · 九龍紅磡民泰街25號黃埔108商場54號舖 · +852 6855 7181</p>
   </div>
@@ -1016,6 +1068,38 @@
 <a class="sticky-wa" href="https://wa.me/85268557181" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
 
 <script>
+// ===== LANGUAGE TOGGLE =====
+var currentLang = 'zh';
+function toggleLang(){
+  var body = document.body;
+  var btn = document.getElementById('langToggle');
+  var statusBar = document.getElementById('statusBar');
+  if(currentLang === 'zh'){
+    body.classList.add('en');
+    btn.textContent = '中';
+    currentLang = 'en';
+    if(statusBar && statusBar.getAttribute('data-en')){
+      statusBar.textContent = statusBar.getAttribute('data-en');
+    }
+  } else {
+    body.classList.remove('en');
+    btn.textContent = 'EN';
+    currentLang = 'zh';
+    // Reset to Chinese status - re-run status check
+    var now = new Date();
+    var hk = new Date(now.toLocaleString('en-US', {timeZone:'Asia/Hong_Kong'}));
+    var h = hk.getHours(), m = hk.getMinutes();
+    var totalMin = h * 60 + m;
+    if(totalMin >= 540 && totalMin < 1140){
+      statusBar.textContent = '🟢 而家營業中 · 每日 09:00 – 19:00 · 歡迎過嚟';
+    } else if(totalMin < 540){
+      statusBar.textContent = '🟠 未開門 · 今日 09:00 開舖 · 聽朝見！';
+    } else {
+      statusBar.textContent = '🔴 已關門 · 聽日 09:00 再開 · 可以 WhatsApp 留低訊息';
+    }
+  }
+}
+
 // ===== MOBILE NAV =====
 document.querySelectorAll('.nav-links a').forEach(function(a){
   a.addEventListener('click', function(){
@@ -1064,12 +1148,15 @@ document.querySelectorAll('.nav-links a').forEach(function(a){
   if(isOpen) {
     bar.textContent = '🟢 而家營業中 · 每日 09:00 – 19:00 · 歡迎過嚟';
     bar.className = 'status-bar open';
+    bar.setAttribute('data-en', '🟢 Open Now · Daily 9am–7pm · Walk-ins Welcome');
   } else if(totalMin < openMin) {
     bar.textContent = '🟠 未開門 · 今日 09:00 開舖 · 聽朝見！';
     bar.className = 'status-bar closed';
+    bar.setAttribute('data-en', '🟠 Not yet open · Opens at 9am today');
   } else {
     bar.textContent = '🔴 已關門 · 聽日 09:00 再開 · 可以 WhatsApp 留低訊息';
     bar.className = 'status-bar closed';
+    bar.setAttribute('data-en', '🔴 Closed · Opens tomorrow 9am · Leave us a WhatsApp');
   }
 })();
 
