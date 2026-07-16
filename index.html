@@ -930,24 +930,199 @@
       transform: translateY(0);
     }
 
-    /* ===== STICKY WHATSAPP ===== */
-    .sticky-wa {
+    /* ===== LIVE CHAT WIDGET ===== */
+    .chat-widget {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      z-index: 200;
+      z-index: 9999;
+      font-family: var(--font);
+    }
+    .chat-toggle {
       width: 56px; height: 56px;
       background: var(--green);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 28px;
+      font-size: 26px;
       box-shadow: 0 4px 16px rgba(37,211,102,.35);
+      border: none;
+      cursor: pointer;
       transition: all .2s;
       color: #fff;
+      position: relative;
     }
-    .sticky-wa:hover { transform: scale(1.1); box-shadow: 0 6px 20px rgba(37,211,102,.45); }
+    .chat-toggle:hover { transform: scale(1.1); box-shadow: 0 6px 20px rgba(37,211,102,.45); }
+    .chat-toggle .dot {
+      position: absolute;
+      top: 4px; right: 4px;
+      width: 12px; height: 12px;
+      background: #ef4444;
+      border-radius: 50%;
+      animation: pulse-dot 2s infinite;
+    }
+    @keyframes pulse-dot {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.4); opacity: .6; }
+    }
+    .chat-toggle .close-icon { display: none; }
+    .chat-widget.open .chat-toggle .chat-icon { display: none; }
+    .chat-widget.open .chat-toggle .close-icon { display: inline; }
+    .chat-widget.open .chat-toggle .dot { display: none; }
+
+    .chat-panel {
+      position: absolute;
+      bottom: 70px;
+      right: 0;
+      width: 340px;
+      max-height: 520px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 40px rgba(0,0,0,.15);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .chat-widget.open .chat-panel { display: flex; }
+    [data-theme="dark"] .chat-panel { background: #1a1a1a; border-color: #2a2a2a; }
+    @media (max-width: 400px) {
+      .chat-panel { width: calc(100vw - 40px); right: -4px; }
+    }
+
+    .chat-header {
+      background: var(--green);
+      color: #fff;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+    .chat-header .avatar {
+      width: 40px; height: 40px;
+      background: rgba(255,255,255,.2);
+      border-radius: 50%;
+      display: grid; place-items: center;
+      font-size: 18px;
+    }
+    .chat-header .info { flex: 1; }
+    .chat-header .name { font-weight: 700; font-size: 14px; line-height: 1.2; }
+    .chat-header .status { font-size: 11px; opacity: .85; }
+    .chat-close-btn {
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 22px;
+      cursor: pointer;
+      padding: 4px 8px;
+      opacity: .8;
+      transition: opacity .2s;
+    }
+    .chat-close-btn:hover { opacity: 1; }
+
+    .chat-messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      min-height: 200px;
+      max-height: 300px;
+      background: var(--bg-alt);
+    }
+    [data-theme="dark"] .chat-messages { background: #111; }
+    .chat-msg {
+      display: flex;
+      gap: 8px;
+      animation: msgSlide .3s ease;
+    }
+    @keyframes msgSlide {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .chat-msg.bot .bubble {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 2px 14px 14px 14px;
+      padding: 10px 14px;
+      font-size: 13px;
+      line-height: 1.5;
+      max-width: 85%;
+      color: var(--text);
+    }
+    [data-theme="dark"] .chat-msg.bot .bubble { background: #2a2a2a; border-color: #333; }
+    .chat-msg.user .bubble {
+      background: var(--green);
+      color: #fff;
+      border-radius: 14px 2px 14px 14px;
+      padding: 10px 14px;
+      font-size: 13px;
+      line-height: 1.5;
+      max-width: 85%;
+      margin-left: auto;
+    }
+    .chat-msg .time {
+      font-size: 10px;
+      color: var(--muted);
+      margin-top: 2px;
+      margin-left: 4px;
+    }
+    .chat-msg.user .time { text-align: right; color: rgba(255,255,255,.6); margin-right: 4px; margin-left: 0; }
+
+    .chat-quick-replies {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding: 0 16px 10px;
+      flex-shrink: 0;
+      background: var(--bg-alt);
+    }
+    [data-theme="dark"] .chat-quick-replies { background: #111; }
+    .chat-quick-replies button {
+      padding: 8px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all .2s;
+      font-family: var(--font);
+      color: var(--text);
+      white-space: nowrap;
+    }
+    [data-theme="dark"] .chat-quick-replies button { background: #2a2a2a; border-color: #333; }
+    .chat-quick-replies button:hover {
+      background: var(--green);
+      color: #fff;
+      border-color: var(--green);
+    }
+
+    .chat-footer {
+      padding: 12px 16px;
+      border-top: 1px solid var(--border);
+      flex-shrink: 0;
+      background: #fff;
+    }
+    [data-theme="dark"] .chat-footer { background: #1a1a1a; border-color: #2a2a2a; }
+    .chat-footer .wa-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px;
+      background: var(--green);
+      color: #fff;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background .2s;
+    }
+    .chat-footer .wa-link:hover { background: var(--green-hover); }
   </style>
 </head>
 <body>
@@ -1610,8 +1785,46 @@
   </div>
 </footer>
 
-<!-- ===== STICKY WHATSAPP ===== -->
-<a class="sticky-wa" href="https://wa.me/85268557181" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+<!-- ===== LIVE CHAT WIDGET ===== -->
+<div class="chat-widget" id="chatWidget">
+  <button class="chat-toggle" id="chatToggle" aria-label="Live Chat">
+    <span class="chat-icon">💬</span>
+    <span class="close-icon">✕</span>
+    <span class="dot"></span>
+  </button>
+  <div class="chat-panel" id="chatPanel">
+    <div class="chat-header">
+      <div class="avatar">🐼</div>
+      <div class="info">
+        <div class="name">Panda Telecom</div>
+        <div class="status" id="chatStatus">🟢 在線 · 通常幾分鐘內回覆</div>
+      </div>
+      <button class="chat-close-btn" id="chatClose" aria-label="Close chat">✕</button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="chat-msg bot">
+        <div class="bubble">
+          <span class="lang-zh">你好！有咩可以幫你？👋<br>揀以下常見問題，或者直接 WhatsApp 我哋啦～</span>
+          <span class="lang-en">Hello! How can we help? 👋<br>Pick a question below or WhatsApp us directly!</span>
+          <div class="time" id="chatTime"></div>
+        </div>
+      </div>
+    </div>
+    <div class="chat-quick-replies" id="chatQuickReplies">
+      <button data-q="screen">📱 <span class="lang-zh">換mon幾錢？</span><span class="lang-en">Screen repair?</span></button>
+      <button data-q="battery">🔋 <span class="lang-zh">換電池幾錢？</span><span class="lang-en">Battery replacement?</span></button>
+      <button data-q="frp">🔓 <span class="lang-zh">FRP解鎖幾錢？</span><span class="lang-en">FRP unlock?</span></button>
+      <button data-q="hours">🕐 <span class="lang-zh">營業時間</span><span class="lang-en">Opening hours</span></button>
+      <button data-q="location">📍 <span class="lang-zh">舖頭喺邊？</span><span class="lang-en">Where are you?</span></button>
+      <button data-q="other">💬 <span class="lang-zh">其他問題</span><span class="lang-en">Other questions</span></button>
+    </div>
+    <div class="chat-footer">
+      <a href="https://wa.me/85268557181" class="wa-link" target="_blank" rel="noopener" id="chatWaLink">
+        💬 <span class="lang-zh">WhatsApp 直接查詢</span><span class="lang-en">Chat on WhatsApp</span>
+      </a>
+    </div>
+  </div>
+</div>
 
 <script>
 // ===== DARK MODE =====
@@ -1830,6 +2043,119 @@ document.querySelectorAll('.nav-links a').forEach(function(a){
     });
   }, {threshold:0.1});
   els.forEach(function(el){ obs.observe(el); });
+})();
+
+// ===== LIVE CHAT WIDGET =====
+(function(){
+  var widget = document.getElementById('chatWidget');
+  var toggle = document.getElementById('chatToggle');
+  var closeBtn = document.getElementById('chatClose');
+  var msgs = document.getElementById('chatMessages');
+  var replies = document.getElementById('chatQuickReplies');
+  var waLink = document.getElementById('chatWaLink');
+  var chatTime = document.getElementById('chatTime');
+
+  // Set current time
+  var now = new Date();
+  chatTime.textContent = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
+
+  function isEn(){ return document.body.classList.contains('en'); }
+
+  var botResponses = {
+    screen: {
+      zh: '換mon價錢視乎型號：Samsung $380-800、Xiaomi $280-600、iPhone $480-1,200。想知你部機確實報價？👆㩒下面 WhatsApp 問我哋啦！',
+      en: 'Screen repair costs vary by model: Samsung $380-800, Xiaomi $280-600, iPhone $480-1,200. Want an exact quote? 👆 Click WhatsApp below!'
+    },
+    battery: {
+      zh: '換電池價錢：Samsung $150-300、Xiaomi $120-250、iPhone $150-350。大部份機款即場30分鐘內換好！👆 WhatsApp 確認型號有貨～',
+      en: 'Battery replacement: Samsung $150-300, Xiaomi $120-250, iPhone $150-350. Most models done in 30 mins! 👆 WhatsApp to check stock.'
+    },
+    frp: {
+      zh: 'FRP解鎖（Google賬號鎖）：Samsung $150-200、Xiaomi $150-250。需要帶機上嚟舖頭即場解鎖，唔使等。👆 WhatsApp 確認型號先！',
+      en: 'FRP unlock (Google account lock): Samsung $150-200, Xiaomi $150-250. Bring your phone to our shop for instant unlock. 👆 WhatsApp to confirm model!'
+    },
+    hours: {
+      zh: '🕐 營業時間：每日 09:00 - 19:00（包括星期六日同公眾假期）。唔使預約，直接行過嚟就得！📍 紅磡民泰街25號黃埔108商場54號舖',
+      en: '🕐 Hours: Daily 9am - 7pm (incl. weekends & holidays). No appointment needed — just walk in! 📍 Shop 54, 108 Whampoa Mall, 25 Man Tai St, Hung Hom'
+    },
+    location: {
+      zh: '📍 我哋喺紅磡黃埔：民泰街25號黃埔108商場54號舖。黃埔站A出口行3分鐘就到。👆 WhatsApp 我可以 send Google Map 定位俾你！',
+      en: '📍 We\'re in Hung Hom: Shop 54, 108 Whampoa Mall, 25 Man Tai St. 3-min walk from Whampoa MTR Exit A. 👆 WhatsApp me for a Google Maps pin!'
+    },
+    other: {
+      zh: '有咩問題都可以 WhatsApp 我哋！📞 +852 6855 7181。維修、配件、解鎖、刷機 — 咩都得，即問即答！',
+      en: 'Any questions? WhatsApp us! 📞 +852 6855 7181. Repairs, accessories, unlocking, flashing — ask away!'
+    }
+  };
+
+  var waMessages = {
+    screen: { zh: '你好，我想查詢換mon報價', en: 'Hi, I\'d like to ask about screen repair pricing' },
+    battery: { zh: '你好，我想查詢換電池報價', en: 'Hi, I\'d like to ask about battery replacement pricing' },
+    frp: { zh: '你好，我想查詢FRP解鎖報價', en: 'Hi, I\'d like to ask about FRP unlock pricing' },
+    hours: { zh: '你好，想確認營業時間', en: 'Hi, would like to confirm opening hours' },
+    location: { zh: '你好，想知道舖頭確實位置', en: 'Hi, I\'d like to know your exact location' },
+    other: { zh: '你好，我有問題想查詢', en: 'Hi, I have a question' }
+  };
+
+  function addMsg(type, text){
+    var div = document.createElement('div');
+    div.className = 'chat-msg ' + type;
+    div.innerHTML = '<div class="bubble">' + text + '<div class="time">' + now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0') + '</div></div>';
+    msgs.appendChild(div);
+    msgs.scrollTop = msgs.scrollHeight;
+  }
+
+  function handleQuickReply(q){
+    // Add user message
+    var btn = replies.querySelector('[data-q="' + q + '"]');
+    var userText = btn ? btn.textContent.trim().replace(/^[📱🔋🔓🕐📍💬]\s*/, '') : q;
+    addMsg('user', userText);
+
+    // Show typing indicator after a short delay
+    setTimeout(function(){
+      // Remove old typing if exists
+      var typing = document.getElementById('typingIndicator');
+      if(typing) typing.remove();
+
+      var resp = botResponses[q];
+      var text = resp ? (isEn() ? resp.en : resp.zh) : (isEn() ? 'Let me help you on WhatsApp! 👇' : '等我喺 WhatsApp 幫你！👇');
+      addMsg('bot', text);
+
+      // Update WhatsApp link
+      var waMsg = waMessages[q];
+      var msg = waMsg ? (isEn() ? waMsg.en : waMsg.zh) : (isEn() ? 'Hi, I have a question' : '你好，我有問題想查詢');
+      waLink.href = 'https://wa.me/85268557181?text=' + encodeURIComponent(msg);
+
+      // Highlight the WhatsApp button briefly
+      waLink.style.transform = 'scale(1.03)';
+      setTimeout(function(){ waLink.style.transform = ''; }, 300);
+    }, 600);
+  }
+
+  function toggleChat(){
+    widget.classList.toggle('open');
+  }
+
+  function closeChat(){
+    widget.classList.remove('open');
+  }
+
+  toggle.addEventListener('click', toggleChat);
+  closeBtn.addEventListener('click', closeChat);
+
+  // Quick reply handlers
+  replies.querySelectorAll('button').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      handleQuickReply(this.getAttribute('data-q'));
+    });
+  });
+
+  // Close on Escape
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && widget.classList.contains('open')) {
+      closeChat();
+    }
+  });
 })();
 </script>
 
