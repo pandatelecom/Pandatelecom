@@ -871,6 +871,32 @@
     }
     .products-cta .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(255,255,255,.15); }
 
+    /* ===== BRAND GRID ===== */
+    .brand-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 12px;
+      margin-top: 8px;
+    }
+    .brand-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 16px;
+      text-align: center;
+      cursor: pointer;
+      transition: all .2s;
+    }
+    .brand-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,.08); border-color: var(--accent); }
+    .brand-emoji { font-size: 36px; margin-bottom: 8px; }
+    .brand-name { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+    .brand-count { font-size: 12px; color: var(--muted); }
+    @media (max-width: 500px) {
+      .brand-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+      .brand-card { padding: 16px 10px; }
+      .brand-emoji { font-size: 28px; }
+    }
+
     /* ===== NEWSLETTER ===== */
     .newsletter-card {
       background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
@@ -1845,12 +1871,48 @@
 <!-- ===== PRODUCTS ===== -->
 <section class="alt">
   <div class="container">
-    <div class="products-cta">
-      <h3><span class="lang-zh">📱 瀏覽產品目錄</span><span class="lang-en">📱 Browse Our Products</span></h3>
-      <p class="lang-zh">Momax 等品牌手機配件、充電器、保護殼 — 最新價目表網上即時睇。<br/>仲可以 WhatsApp 落單，親臨舖頭取貨。</p>
-      <p class="lang-en">Momax phone accessories, chargers, cases — browse the latest catalog online.<br/>Order via WhatsApp, pick up at our shop.</p>
-      <a href="products.html" class="btn-white">
-        <span class="lang-zh">睇產品價目表 →</span><span class="lang-en">View Product Catalog →</span>
+    <div class="section-label"><span class="lang-zh">產品目錄</span><span class="lang-en">Product Catalog</span></div>
+    <h2><span class="lang-zh">精選品牌配件</span><span class="lang-en">Top Brand Accessories</span></h2>
+    <p class="section-desc"><span class="lang-zh">10個品牌 · 440+ 產品 · WhatsApp 查詢庫存及報價</span>
+      <span class="lang-en">10 Brands · 440+ Products · WhatsApp for stock and pricing</span></p>
+
+    <!-- Brand Cards -->
+    <div class="brand-grid" id="brandGrid">
+      <div class="brand-card brand-card--momax" onclick="location.href='products.html'">
+        <div class="brand-emoji">📱</div>
+        <div class="brand-name">Momax</div>
+        <div class="brand-count">375 件產品</div>
+      </div>
+      <div class="brand-card brand-card--argo" onclick="location.href='products.html'">
+        <div class="brand-emoji">🔌</div>
+        <div class="brand-name">ARGO</div>
+        <div class="brand-count">12 件產品</div>
+      </div>
+      <div class="brand-card brand-card--sincos" onclick="location.href='products.html'">
+        <div class="brand-emoji">⌚</div>
+        <div class="brand-name">Sincos</div>
+        <div class="brand-count">27 件產品</div>
+      </div>
+      <div class="brand-card brand-card--smartcoby" onclick="location.href='products.html'">
+        <div class="brand-emoji">🔋</div>
+        <div class="brand-name">SMARTCOBY</div>
+        <div class="brand-count">7 件產品</div>
+      </div>
+      <div class="brand-card brand-card--ismartdigi" onclick="location.href='products.html'">
+        <div class="brand-emoji">⚡</div>
+        <div class="brand-name">Ismartdigi</div>
+        <div class="brand-count">12 件產品</div>
+      </div>
+      <div class="brand-card brand-card--more" onclick="location.href='products.html'">
+        <div class="brand-emoji">📦</div>
+        <div class="brand-name"><span class="lang-zh">更多品牌</span><span class="lang-en">More Brands</span></div>
+        <div class="brand-count">Rhythm · 10Denki · MOTOROLA · 等</div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:20px;">
+      <a href="products.html" class="btn btn-accent" style="padding:14px 36px;font-size:15px;">
+        <span class="lang-zh">📦 瀏覽全部產品 →</span><span class="lang-en">📦 Browse All Products →</span>
       </a>
     </div>
   </div>

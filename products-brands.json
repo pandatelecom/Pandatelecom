@@ -1,0 +1,104 @@
+{
+  "Momax": {
+    "count": 375,
+    "with_img": 153,
+    "categories": [
+      "Wearable",
+      "個人護理",
+      "充電器",
+      "充電線",
+      "其他",
+      "定位器 / FindMy",
+      "家居",
+      "按摩 / 健康",
+      "支架 / 座",
+      "旅行充電器",
+      "流動電源",
+      "空氣淨化",
+      "耳機 / 音響",
+      "觸控筆",
+      "車充",
+      "車載支架",
+      "配件",
+      "風扇 / 冷風"
+    ]
+  },
+  "ARGO": {
+    "count": 12,
+    "with_img": 0,
+    "categories": [
+      "充電器",
+      "充電線",
+      "行動電源",
+      "配件"
+    ]
+  },
+  "Sincos": {
+    "count": 27,
+    "with_img": 0,
+    "categories": [
+      "工具",
+      "按摩器",
+      "智能家居",
+      "智能手錶",
+      "智能翻譯設備",
+      "水壺/保溫",
+      "相機",
+      "耳機",
+      "配件",
+      "醫療健康",
+      "風扇"
+    ]
+  },
+  "SMARTCOBY": {
+    "count": 7,
+    "with_img": 0,
+    "categories": [
+      "行動電源"
+    ]
+  },
+  "10Denki": {
+    "count": 2,
+    "with_img": 0,
+    "categories": [
+      "行動電源"
+    ]
+  },
+  "Lonzuer": {
+    "count": 1,
+    "with_img": 0,
+    "categories": [
+      "喇叭"
+    ]
+  },
+  "Ismartdigi": {
+    "count": 12,
+    "with_img": 0,
+    "categories": [
+      "充電器",
+      "充電線",
+      "行動電源"
+    ]
+  },
+  "Rhythm": {
+    "count": 2,
+    "with_img": 0,
+    "categories": [
+      "風扇"
+    ]
+  },
+  "Heal Force": {
+    "count": 1,
+    "with_img": 0,
+    "categories": [
+      "醫療健康"
+    ]
+  },
+  "MOTOROLA": {
+    "count": 1,
+    "with_img": 0,
+    "categories": [
+      "醫療健康"
+    ]
+  }
+}
