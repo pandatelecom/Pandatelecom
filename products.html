@@ -282,6 +282,17 @@ nav .inner {
 <script>
 (function(){
   var P = ALL_PRODUCTS || [];
+
+  // Global image error handler
+  document.addEventListener('error', function(e){
+    if (e.target.tagName === 'IMG') {
+      e.target.style.display = 'none';
+      var span = document.createElement('span');
+      span.className = 'no-img';
+      span.textContent = '📦';
+      e.target.parentElement.appendChild(span);
+    }
+  }, true);
   
   // Brand data
   var brands = {};
@@ -385,7 +396,7 @@ nav .inner {
     var out = '<div class="grid">';
     src.forEach(function(p){
       var imgHtml = p.image 
-        ? '<img src="'+p.image+'" alt="'+p.name+'" loading="lazy" onerror="this.parentElement.innerHTML=\\'<span class=no-img>📦</span>\\'" />'
+        ? '<img src="'+p.image+'" alt="'+p.name+'" loading="lazy" />'
         : '<span class="no-img">📦</span>';
       
       var srpHtml = p.msrp && p.srp && p.msrp < p.srp 
