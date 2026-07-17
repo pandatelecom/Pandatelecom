@@ -270,6 +270,8 @@
     .btn-whatsapp:hover { background: var(--green-hover); transform: translateY(-1px); }
     .btn-outline { background: transparent; color: var(--text); border: 1.5px solid var(--border); }
     .btn-outline:hover { border-color: var(--text); }
+    .btn-accent { background: var(--accent); color: #fff; }
+    .btn-accent:hover { background: var(--accent-hover); transform: translateY(-1px); }
     .hero-badges {
       margin-top: 32px;
       display: flex;
@@ -834,6 +836,79 @@
       transition: all .2s;
     }
     .products-cta .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(255,255,255,.15); }
+
+    /* ===== NEWSLETTER ===== */
+    .newsletter-card {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      border-radius: 16px;
+      padding: 48px 40px;
+      text-align: center;
+      color: #fff;
+    }
+    .newsletter-badge {
+      font-size: 40px;
+      margin-bottom: 12px;
+    }
+    .newsletter-card h2 {
+      color: #fff;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .newsletter-card p {
+      font-size: 15px;
+      opacity: .85;
+      max-width: 520px;
+      margin: 0 auto 24px;
+      line-height: 1.6;
+    }
+    .newsletter-form {
+      display: flex;
+      gap: 10px;
+      max-width: 440px;
+      margin: 0 auto;
+    }
+    .newsletter-form input {
+      flex: 1;
+      padding: 14px 18px;
+      border-radius: var(--radius);
+      border: 2px solid rgba(255,255,255,.15);
+      background: rgba(255,255,255,.1);
+      color: #fff;
+      font-size: 15px;
+      outline: none;
+      transition: border-color .2s;
+    }
+    .newsletter-form input::placeholder { color: rgba(255,255,255,.45); }
+    .newsletter-form input:focus { border-color: var(--accent); }
+    .newsletter-form .btn {
+      padding: 14px 28px;
+      white-space: nowrap;
+    }
+    .newsletter-hint {
+      font-size: 12px;
+      opacity: .5;
+      margin-top: 14px;
+      margin-bottom: 0;
+    }
+    .newsletter-success {
+      margin-top: 16px;
+      padding: 12px 20px;
+      background: rgba(37,211,102,.15);
+      border: 1px solid rgba(37,211,102,.3);
+      border-radius: var(--radius-sm);
+      font-size: 14px;
+      color: #4ade80;
+    }
+    @media (max-width: 500px) {
+      .newsletter-card { padding: 36px 24px; }
+      .newsletter-form {
+        flex-direction: column;
+      }
+      .newsletter-form .btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
 
     /* ===== CONTACT ===== */
     .contact-grid {
@@ -1731,6 +1806,32 @@
   </div>
 </section>
 
+<!-- ===== NEWSLETTER ===== -->
+<section id="newsletter">
+  <div class="container">
+    <div class="newsletter-card">
+      <div class="newsletter-badge">📬</div>
+      <h2><span class="lang-zh">訂閱熊貓通訊</span><span class="lang-en">Panda Newsletter</span></h2>
+      <p><span class="lang-zh">獨家優惠、新到配件、維修貼士 — 不定期發送，唔會 spam。</span>
+        <span class="lang-en">Exclusive deals, new accessories, repair tips — sent occasionally, no spam.</span></p>
+      <div class="newsletter-form">
+        <input type="email" id="nlEmail" placeholder="your@email.com" aria-label="Email" autocomplete="email" />
+        <button type="button" class="btn btn-accent" onclick="subscribeNewsletter()">
+          <span class="lang-zh">✉️ 訂閱</span><span class="lang-en">✉️ Subscribe</span>
+        </button>
+      </div>
+      <p class="newsletter-hint">
+        <span class="lang-zh">我哋尊重你嘅私隱，絕不濫發。</span>
+        <span class="lang-en">We respect your privacy. No spam, ever.</span>
+      </p>
+      <div id="nlSuccess" class="newsletter-success" style="display:none;">
+        <span class="lang-zh">✅ 多謝訂閱！你將會收到我哋嘅最新消息。</span>
+        <span class="lang-en">✅ Thanks for subscribing! You'll hear from us soon.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ===== CONTACT ===== -->
 <section id="contact">
   <div class="container">
@@ -1779,6 +1880,7 @@
       <a href="products.html"><span class="lang-zh">產品目錄</span><span class="lang-en">Products</span></a>
       <a href="#blog"><span class="lang-zh">貼士</span><span class="lang-en">Tips</span></a>
       <a href="#faq">FAQ</a>
+      <a href="#newsletter"><span class="lang-zh">通訊</span><span class="lang-en">Newsletter</span></a>
       <a href="#contact"><span class="lang-zh">聯絡</span><span class="lang-en">Contact</span></a>
     </div>
     <p>© 2026 Panda Telecom 熊貓電訊 · 九龍紅磡民泰街25號黃埔108商場54號舖 · +852 6855 7181</p>
@@ -2157,6 +2259,38 @@ document.querySelectorAll('.nav-links a').forEach(function(a){
     }
   });
 })();
+
+  // ===== NEWSLETTER =====
+  function subscribeNewsletter() {
+    var email = document.getElementById('nlEmail').value.trim();
+    if (!email || email.indexOf('@') === -1) {
+      // Simple validation - flash the input red
+      var input = document.getElementById('nlEmail');
+      input.style.borderColor = '#ef4444';
+      input.style.animation = 'none';
+      input.offsetHeight; // force reflow
+      input.style.animation = 'shake 0.4s ease';
+      setTimeout(function(){ input.style.borderColor = ''; }, 1500);
+      return;
+    }
+    // Show success message
+    document.getElementById('nlSuccess').style.display = 'block';
+    document.getElementById('nlEmail').value = '';
+    // Build WhatsApp message with the email
+    var msg = '我想訂閱熊貓電訊通訊，電郵：' + encodeURIComponent(email);
+    var waUrl = 'https://wa.me/85268557181?text=' + msg;
+    // Hide success after 4 seconds
+    setTimeout(function(){
+      document.getElementById('nlSuccess').style.display = 'none';
+    }, 5000);
+    // Open WhatsApp in new tab
+    window.open(waUrl, '_blank');
+  }
+
+  // Shake animation keyframes (injected via JS since it's a one-off)
+  var shakeStyle = document.createElement('style');
+  shakeStyle.textContent = '@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}';
+  document.head.appendChild(shakeStyle);
 </script>
 
 </body>
