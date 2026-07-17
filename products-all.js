@@ -456,7 +456,7 @@ const ALL_PRODUCTS = [
     "srp": 59.0,
     "msrp": 49.0,
     "res": 24.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC23W.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC23W.webp",
     "desc": "",
     "features": []
   },
@@ -468,7 +468,7 @@ const ALL_PRODUCTS = [
     "srp": 59.0,
     "msrp": 49.0,
     "res": 24.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC23P.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC23P.webp",
     "desc": "",
     "features": []
   },
@@ -480,7 +480,7 @@ const ALL_PRODUCTS = [
     "srp": 59.0,
     "msrp": 49.0,
     "res": 24.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC23G.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC23G.webp",
     "desc": "",
     "features": []
   },
@@ -492,7 +492,7 @@ const ALL_PRODUCTS = [
     "srp": 59.0,
     "msrp": 49.0,
     "res": 24.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC23D.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC23D.webp",
     "desc": "",
     "features": []
   },
@@ -528,7 +528,7 @@ const ALL_PRODUCTS = [
     "srp": 99.0,
     "msrp": 89.0,
     "res": 58.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DL53W.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DL53W.webp",
     "desc": "",
     "features": []
   },
@@ -540,7 +540,7 @@ const ALL_PRODUCTS = [
     "srp": 99.0,
     "msrp": 89.0,
     "res": 58.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DL53P.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DL53P.webp",
     "desc": "",
     "features": []
   },
@@ -552,7 +552,7 @@ const ALL_PRODUCTS = [
     "srp": 99.0,
     "msrp": 89.0,
     "res": 58.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DL53G.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DL53G.webp",
     "desc": "",
     "features": []
   },
@@ -564,7 +564,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 179.0,
     "res": 98.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DL56W.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DL56W.webp",
     "desc": "",
     "features": []
   },
@@ -576,7 +576,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 179.0,
     "res": 98.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DL56D.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DL56D.webp",
     "desc": "",
     "features": []
   },
@@ -600,7 +600,7 @@ const ALL_PRODUCTS = [
     "srp": 69.0,
     "msrp": 62.0,
     "res": 28.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC30L.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC30L.webp",
     "desc": "",
     "features": []
   },
@@ -612,7 +612,7 @@ const ALL_PRODUCTS = [
     "srp": 69.0,
     "msrp": 62.0,
     "res": 28.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC30W.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC30W.webp",
     "desc": "",
     "features": []
   },
@@ -624,7 +624,7 @@ const ALL_PRODUCTS = [
     "srp": 69.0,
     "msrp": 62.0,
     "res": 28.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC30D.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC30D.webp",
     "desc": "",
     "features": []
   },
@@ -636,7 +636,7 @@ const ALL_PRODUCTS = [
     "srp": 89.0,
     "msrp": 69.0,
     "res": 44.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC52M.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC52M.jpg",
     "desc": "",
     "features": []
   },
@@ -648,7 +648,7 @@ const ALL_PRODUCTS = [
     "srp": 89.0,
     "msrp": 69.0,
     "res": 44.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC52R.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC52R.jpg",
     "desc": "",
     "features": []
   },
@@ -660,7 +660,7 @@ const ALL_PRODUCTS = [
     "srp": 89.0,
     "msrp": 69.0,
     "res": 44.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC52G.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC52G.jpg",
     "desc": "",
     "features": []
   },
@@ -672,7 +672,7 @@ const ALL_PRODUCTS = [
     "srp": 89.0,
     "msrp": 69.0,
     "res": 44.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC52B.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC52B.jpg",
     "desc": "",
     "features": []
   },
@@ -684,7 +684,7 @@ const ALL_PRODUCTS = [
     "srp": 89.0,
     "msrp": 69.0,
     "res": 44.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC52D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC52D.jpg",
     "desc": "",
     "features": []
   },
@@ -696,7 +696,7 @@ const ALL_PRODUCTS = [
     "srp": 119.0,
     "msrp": 99.0,
     "res": 59.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC62D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC62D.jpg",
     "desc": "",
     "features": []
   },
@@ -708,7 +708,7 @@ const ALL_PRODUCTS = [
     "srp": 149.0,
     "msrp": 129.0,
     "res": 75.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC71D.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC71D.webp",
     "desc": "",
     "features": []
   },
@@ -720,7 +720,7 @@ const ALL_PRODUCTS = [
     "srp": 39.0,
     "msrp": 39.0,
     "res": 27.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC60L2.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC60L2.webp",
     "desc": "",
     "features": []
   },
@@ -732,7 +732,7 @@ const ALL_PRODUCTS = [
     "srp": 39.0,
     "msrp": 39.0,
     "res": 27.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC60D.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC60D.webp",
     "desc": "",
     "features": []
   },
@@ -744,7 +744,7 @@ const ALL_PRODUCTS = [
     "srp": 89.0,
     "msrp": 79.0,
     "res": 53.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC61L2.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC61L2.webp",
     "desc": "",
     "features": []
   },
@@ -756,7 +756,7 @@ const ALL_PRODUCTS = [
     "srp": 89.0,
     "msrp": 79.0,
     "res": 53.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC61D.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC61D.webp",
     "desc": "",
     "features": []
   },
@@ -768,7 +768,7 @@ const ALL_PRODUCTS = [
     "srp": 69.0,
     "msrp": 59.0,
     "res": 41.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DA57D.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DA57D.webp",
     "desc": "",
     "features": []
   },
@@ -780,7 +780,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 149.0,
     "res": 95.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DC56D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DC56D.jpg",
     "desc": "",
     "features": []
   },
@@ -792,7 +792,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 179.0,
     "res": 100.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DL58D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DL58D.jpg",
     "desc": "",
     "features": []
   },
@@ -804,7 +804,7 @@ const ALL_PRODUCTS = [
     "srp": 229.0,
     "msrp": 209.0,
     "res": 115.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DL60D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DL60D.jpg",
     "desc": "",
     "features": []
   },
@@ -816,7 +816,7 @@ const ALL_PRODUCTS = [
     "srp": 149.0,
     "msrp": 129.0,
     "res": 89.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DL57D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DL57D.jpg",
     "desc": "",
     "features": []
   },
@@ -828,7 +828,7 @@ const ALL_PRODUCTS = [
     "srp": 179.0,
     "msrp": 159.0,
     "res": 108.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/DL59D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/DL59D.jpg",
     "desc": "",
     "features": []
   },
@@ -924,7 +924,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 179.0,
     "res": 120.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/CM29W.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/CM29W.webp",
     "desc": "",
     "features": []
   },
@@ -996,7 +996,7 @@ const ALL_PRODUCTS = [
     "srp": 379.0,
     "msrp": 225.0,
     "res": 225.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/US25UKW.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/US25UKW.jpg",
     "desc": "",
     "features": []
   },
@@ -1008,7 +1008,7 @@ const ALL_PRODUCTS = [
     "srp": 89.0,
     "msrp": 69.0,
     "res": 48.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM68UKL2.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM68UKL2.webp",
     "desc": "",
     "features": []
   },
@@ -1020,7 +1020,7 @@ const ALL_PRODUCTS = [
     "srp": 129.0,
     "msrp": 109.0,
     "res": 75.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM58UKL2.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM58UKL2.webp",
     "desc": "",
     "features": []
   },
@@ -1044,7 +1044,7 @@ const ALL_PRODUCTS = [
     "srp": 129.0,
     "msrp": 76.0,
     "res": 76.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM73UKM.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM73UKM.jpg",
     "desc": "",
     "features": []
   },
@@ -1056,7 +1056,7 @@ const ALL_PRODUCTS = [
     "srp": 129.0,
     "msrp": 76.0,
     "res": 76.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM73UKW.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM73UKW.jpg",
     "desc": "",
     "features": []
   },
@@ -1068,7 +1068,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 85.0,
     "res": 85.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM81UKW.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM81UKW.jpg",
     "desc": "",
     "features": []
   },
@@ -1080,7 +1080,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 85.0,
     "res": 85.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM81UKM.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM81UKM.jpg",
     "desc": "",
     "features": []
   },
@@ -1092,7 +1092,7 @@ const ALL_PRODUCTS = [
     "srp": 219.0,
     "msrp": 179.0,
     "res": 115.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM69UKL2.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM69UKL2.jpg",
     "desc": "",
     "features": []
   },
@@ -1104,7 +1104,7 @@ const ALL_PRODUCTS = [
     "srp": 239.0,
     "msrp": 189.0,
     "res": 128.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM52UKW.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM52UKW.webp",
     "desc": "",
     "features": []
   },
@@ -1116,7 +1116,7 @@ const ALL_PRODUCTS = [
     "srp": 239.0,
     "msrp": 209.0,
     "res": 128.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM53UKW.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM53UKW.jpg",
     "desc": "",
     "features": []
   },
@@ -1128,7 +1128,7 @@ const ALL_PRODUCTS = [
     "srp": 439.0,
     "msrp": 389.0,
     "res": 238.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM55UKW.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM55UKW.jpg",
     "desc": "",
     "features": []
   },
@@ -1140,7 +1140,7 @@ const ALL_PRODUCTS = [
     "srp": 1099.0,
     "msrp": 660.0,
     "res": 660.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UD31Q22UKM.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UD31Q22UKM.jpg",
     "desc": "",
     "features": []
   },
@@ -1152,7 +1152,7 @@ const ALL_PRODUCTS = [
     "srp": 149.0,
     "msrp": 139.0,
     "res": 89.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/US17UKW.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/US17UKW.webp",
     "desc": "",
     "features": []
   },
@@ -1164,7 +1164,7 @@ const ALL_PRODUCTS = [
     "srp": 189.0,
     "msrp": 169.0,
     "res": 113.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/US19UKW.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/US19UKW.webp",
     "desc": "",
     "features": []
   },
@@ -1176,7 +1176,7 @@ const ALL_PRODUCTS = [
     "srp": 239.0,
     "msrp": 209.0,
     "res": 143.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/US20UKW.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/US20UKW.webp",
     "desc": "",
     "features": []
   },
@@ -1188,7 +1188,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 269.0,
     "res": 180.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/US21UKW.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/US21UKW.jpg",
     "desc": "",
     "features": []
   },
@@ -1200,7 +1200,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 149.0,
     "res": 102.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM72UKM.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM72UKM.jpg",
     "desc": "",
     "features": []
   },
@@ -1212,7 +1212,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 149.0,
     "res": 102.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM72UKG.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM72UKG.jpg",
     "desc": "",
     "features": []
   },
@@ -1224,7 +1224,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 149.0,
     "res": 102.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM72UKD.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM72UKD.jpg",
     "desc": "",
     "features": []
   },
@@ -1236,7 +1236,7 @@ const ALL_PRODUCTS = [
     "srp": 219.0,
     "msrp": 199.0,
     "res": 132.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM76UKM.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM76UKM.jpg",
     "desc": "",
     "features": []
   },
@@ -1248,7 +1248,7 @@ const ALL_PRODUCTS = [
     "srp": 219.0,
     "msrp": 199.0,
     "res": 132.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM76UKG.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM76UKG.jpg",
     "desc": "",
     "features": []
   },
@@ -1260,7 +1260,7 @@ const ALL_PRODUCTS = [
     "srp": 219.0,
     "msrp": 199.0,
     "res": 132.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UM76UKD.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UM76UKD.jpg",
     "desc": "",
     "features": []
   },
@@ -1488,7 +1488,7 @@ const ALL_PRODUCTS = [
     "srp": 1099.0,
     "msrp": 699.0,
     "res": 650.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/RO7UKD1.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/RO7UKD1.webp",
     "desc": "",
     "features": []
   },
@@ -1500,7 +1500,7 @@ const ALL_PRODUCTS = [
     "srp": 1499.0,
     "msrp": 1199.0,
     "res": 780.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/RO8UKE.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/RO8UKE.webp",
     "desc": "",
     "features": []
   },
@@ -1824,7 +1824,7 @@ const ALL_PRODUCTS = [
     "srp": 429.0,
     "msrp": 257.0,
     "res": 257.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/HL19L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/HL19L.jpg",
     "desc": "",
     "features": []
   },
@@ -1836,7 +1836,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 299.0,
     "res": 299.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/HL18UKL.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/HL18UKL.jpg",
     "desc": "",
     "features": []
   },
@@ -1848,7 +1848,7 @@ const ALL_PRODUCTS = [
     "srp": 469.0,
     "msrp": 399.0,
     "res": 238.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/HL13UKW.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/HL13UKW.webp",
     "desc": "",
     "features": []
   },
@@ -1860,7 +1860,7 @@ const ALL_PRODUCTS = [
     "srp": 469.0,
     "msrp": 399.0,
     "res": 238.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/HL13UKG.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/HL13UKG.webp",
     "desc": "",
     "features": []
   },
@@ -1884,7 +1884,7 @@ const ALL_PRODUCTS = [
     "srp": 360.0,
     "msrp": 203.0,
     "res": 203.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BT15M.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BT15M.jpg",
     "desc": "",
     "features": []
   },
@@ -1896,7 +1896,7 @@ const ALL_PRODUCTS = [
     "srp": 360.0,
     "msrp": 203.0,
     "res": 203.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BT15L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BT15L.jpg",
     "desc": "",
     "features": []
   },
@@ -1908,7 +1908,7 @@ const ALL_PRODUCTS = [
     "srp": 360.0,
     "msrp": 203.0,
     "res": 203.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BT15D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BT15D.jpg",
     "desc": "",
     "features": []
   },
@@ -1920,7 +1920,7 @@ const ALL_PRODUCTS = [
     "srp": 249.0,
     "msrp": 125.0,
     "res": 125.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BT13M.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BT13M.jpg",
     "desc": "",
     "features": []
   },
@@ -1932,7 +1932,7 @@ const ALL_PRODUCTS = [
     "srp": 249.0,
     "msrp": 219.0,
     "res": 125.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BT13L2.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BT13L2.jpg",
     "desc": "",
     "features": []
   },
@@ -1944,7 +1944,7 @@ const ALL_PRODUCTS = [
     "srp": 249.0,
     "msrp": 219.0,
     "res": 125.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BT13L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BT13L.jpg",
     "desc": "",
     "features": []
   },
@@ -1956,7 +1956,7 @@ const ALL_PRODUCTS = [
     "srp": 249.0,
     "msrp": 219.0,
     "res": 125.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BT13D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BT13D.jpg",
     "desc": "",
     "features": []
   },
@@ -2472,7 +2472,7 @@ const ALL_PRODUCTS = [
     "srp": 209.0,
     "msrp": 189.0,
     "res": 125.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP156D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP156D.jpg",
     "desc": "",
     "features": []
   },
@@ -2484,7 +2484,7 @@ const ALL_PRODUCTS = [
     "srp": 239.0,
     "msrp": 135.0,
     "res": 135.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP166P.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP166P.jpg",
     "desc": "",
     "features": []
   },
@@ -2496,7 +2496,7 @@ const ALL_PRODUCTS = [
     "srp": 239.0,
     "msrp": 135.0,
     "res": 135.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP166U.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP166U.jpg",
     "desc": "",
     "features": []
   },
@@ -2508,7 +2508,7 @@ const ALL_PRODUCTS = [
     "srp": 239.0,
     "msrp": 135.0,
     "res": 135.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP166S.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP166S.jpg",
     "desc": "",
     "features": []
   },
@@ -2556,7 +2556,7 @@ const ALL_PRODUCTS = [
     "srp": 229.0,
     "msrp": 138.0,
     "res": 138.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP115M.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP115M.jpg",
     "desc": "",
     "features": []
   },
@@ -2568,7 +2568,7 @@ const ALL_PRODUCTS = [
     "srp": 229.0,
     "msrp": 138.0,
     "res": 138.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP115L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP115L.jpg",
     "desc": "",
     "features": []
   },
@@ -2580,7 +2580,7 @@ const ALL_PRODUCTS = [
     "srp": 229.0,
     "msrp": 138.0,
     "res": 138.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP115D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP115D.jpg",
     "desc": "",
     "features": []
   },
@@ -2592,7 +2592,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 269.0,
     "res": 178.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP158L2.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP158L2.jpg",
     "desc": "",
     "features": []
   },
@@ -2604,7 +2604,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 269.0,
     "res": 178.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP158L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP158L.jpg",
     "desc": "",
     "features": []
   },
@@ -2616,7 +2616,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 269.0,
     "res": 178.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP158D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP158D.jpg",
     "desc": "",
     "features": []
   },
@@ -2628,7 +2628,7 @@ const ALL_PRODUCTS = [
     "srp": 229.0,
     "msrp": 209.0,
     "res": 138.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP157L2.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP157L2.jpg",
     "desc": "",
     "features": []
   },
@@ -2640,7 +2640,7 @@ const ALL_PRODUCTS = [
     "srp": 229.0,
     "msrp": 209.0,
     "res": 138.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP157L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP157L.jpg",
     "desc": "",
     "features": []
   },
@@ -2652,7 +2652,7 @@ const ALL_PRODUCTS = [
     "srp": 229.0,
     "msrp": 209.0,
     "res": 138.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP157D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP157D.jpg",
     "desc": "",
     "features": []
   },
@@ -2664,7 +2664,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 369.0,
     "res": 235.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP159D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP159D.jpg",
     "desc": "",
     "features": []
   },
@@ -2676,7 +2676,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 369.0,
     "res": 235.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP159L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP159L.jpg",
     "desc": "",
     "features": []
   },
@@ -2688,7 +2688,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 120.0,
     "res": 120.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP160D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP160D.jpg",
     "desc": "",
     "features": []
   },
@@ -2700,7 +2700,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 120.0,
     "res": 120.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP160L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP160L.jpg",
     "desc": "",
     "features": []
   },
@@ -2712,7 +2712,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 129.0,
     "res": 100.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP130M.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP130M.webp",
     "desc": "",
     "features": []
   },
@@ -2724,7 +2724,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 129.0,
     "res": 100.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP130W.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP130W.webp",
     "desc": "",
     "features": []
   },
@@ -2736,7 +2736,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 129.0,
     "res": 100.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP130G.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP130G.webp",
     "desc": "",
     "features": []
   },
@@ -2748,7 +2748,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 129.0,
     "res": 100.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP130B.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP130B.webp",
     "desc": "",
     "features": []
   },
@@ -2760,7 +2760,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 129.0,
     "res": 100.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP130D.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP130D.webp",
     "desc": "",
     "features": []
   },
@@ -2808,7 +2808,7 @@ const ALL_PRODUCTS = [
     "srp": 249.0,
     "msrp": 138.0,
     "res": 138.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP135AP.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP135AP.jpg",
     "desc": "",
     "features": []
   },
@@ -2820,7 +2820,7 @@ const ALL_PRODUCTS = [
     "srp": 249.0,
     "msrp": 138.0,
     "res": 138.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP135AB.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP135AB.jpg",
     "desc": "",
     "features": []
   },
@@ -2832,7 +2832,7 @@ const ALL_PRODUCTS = [
     "srp": 249.0,
     "msrp": 138.0,
     "res": 138.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP135L1.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP135L1.jpg",
     "desc": "",
     "features": []
   },
@@ -2844,7 +2844,7 @@ const ALL_PRODUCTS = [
     "srp": 379.0,
     "msrp": 339.0,
     "res": 228.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP129Q2L2.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP129Q2L2.jpg",
     "desc": "",
     "features": []
   },
@@ -2856,7 +2856,7 @@ const ALL_PRODUCTS = [
     "srp": 379.0,
     "msrp": 339.0,
     "res": 228.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP129Q2L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP129Q2L.jpg",
     "desc": "",
     "features": []
   },
@@ -2868,7 +2868,7 @@ const ALL_PRODUCTS = [
     "srp": 379.0,
     "msrp": 339.0,
     "res": 228.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP129Q2D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP129Q2D.jpg",
     "desc": "",
     "features": []
   },
@@ -2880,7 +2880,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 288.0,
     "res": 288.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP168Q22M.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP168Q22M.jpg",
     "desc": "",
     "features": []
   },
@@ -2892,7 +2892,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 288.0,
     "res": 288.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP168Q22L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP168Q22L.jpg",
     "desc": "",
     "features": []
   },
@@ -2904,7 +2904,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 288.0,
     "res": 288.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP168Q22D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP168Q22D.jpg",
     "desc": "",
     "features": []
   },
@@ -2952,7 +2952,7 @@ const ALL_PRODUCTS = [
     "srp": 569.0,
     "msrp": 341.0,
     "res": 341.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP163Q22M.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP163Q22M.jpg",
     "desc": "",
     "features": []
   },
@@ -2964,7 +2964,7 @@ const ALL_PRODUCTS = [
     "srp": 569.0,
     "msrp": 341.0,
     "res": 341.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP163Q22L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP163Q22L.jpg",
     "desc": "",
     "features": []
   },
@@ -2976,7 +2976,7 @@ const ALL_PRODUCTS = [
     "srp": 569.0,
     "msrp": 341.0,
     "res": 341.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP163Q22Y.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP163Q22Y.jpg",
     "desc": "",
     "features": []
   },
@@ -2988,7 +2988,7 @@ const ALL_PRODUCTS = [
     "srp": 569.0,
     "msrp": 341.0,
     "res": 341.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP163Q22D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP163Q22D.jpg",
     "desc": "",
     "features": []
   },
@@ -3000,7 +3000,7 @@ const ALL_PRODUCTS = [
     "srp": 139.0,
     "msrp": 119.0,
     "res": 84.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP155W.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP155W.jpg",
     "desc": "",
     "features": []
   },
@@ -3012,7 +3012,7 @@ const ALL_PRODUCTS = [
     "srp": 139.0,
     "msrp": 119.0,
     "res": 84.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP155D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP155D.jpg",
     "desc": "",
     "features": []
   },
@@ -3024,7 +3024,7 @@ const ALL_PRODUCTS = [
     "srp": 209.0,
     "msrp": 189.0,
     "res": 125.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP156W.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP156W.jpg",
     "desc": "",
     "features": []
   },
@@ -3036,7 +3036,7 @@ const ALL_PRODUCTS = [
     "srp": 249.0,
     "msrp": 219.0,
     "res": 135.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP138W.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP138W.webp",
     "desc": "",
     "features": []
   },
@@ -3048,7 +3048,7 @@ const ALL_PRODUCTS = [
     "srp": 249.0,
     "msrp": 219.0,
     "res": 135.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP138D.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP138D.webp",
     "desc": "",
     "features": []
   },
@@ -3060,7 +3060,7 @@ const ALL_PRODUCTS = [
     "srp": 319.0,
     "msrp": 289.0,
     "res": 175.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP139W.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP139W.jpg",
     "desc": "",
     "features": []
   },
@@ -3072,7 +3072,7 @@ const ALL_PRODUCTS = [
     "srp": 319.0,
     "msrp": 289.0,
     "res": 175.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP139D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP139D.jpg",
     "desc": "",
     "features": []
   },
@@ -3084,7 +3084,7 @@ const ALL_PRODUCTS = [
     "srp": 179.0,
     "msrp": 159.0,
     "res": 108.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP152D.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP152D.webp",
     "desc": "",
     "features": []
   },
@@ -3096,7 +3096,7 @@ const ALL_PRODUCTS = [
     "srp": 179.0,
     "msrp": 159.0,
     "res": 108.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP152W.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP152W.webp",
     "desc": "",
     "features": []
   },
@@ -3108,7 +3108,7 @@ const ALL_PRODUCTS = [
     "srp": 179.0,
     "msrp": 159.0,
     "res": 108.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP152Y.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP152Y.webp",
     "desc": "",
     "features": []
   },
@@ -3240,7 +3240,7 @@ const ALL_PRODUCTS = [
     "srp": 369.0,
     "msrp": 200.0,
     "res": 200.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP117D.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP117D.webp",
     "desc": "",
     "features": []
   },
@@ -3252,7 +3252,7 @@ const ALL_PRODUCTS = [
     "srp": 449.0,
     "msrp": 399.0,
     "res": 245.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP136Q2L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP136Q2L.jpg",
     "desc": "",
     "features": []
   },
@@ -3264,7 +3264,7 @@ const ALL_PRODUCTS = [
     "srp": 449.0,
     "msrp": 399.0,
     "res": 245.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP136Q2D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP136Q2D.jpg",
     "desc": "",
     "features": []
   },
@@ -3276,7 +3276,7 @@ const ALL_PRODUCTS = [
     "srp": 489.0,
     "msrp": 439.0,
     "res": 290.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP133E.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP133E.jpg",
     "desc": "",
     "features": []
   },
@@ -3288,7 +3288,7 @@ const ALL_PRODUCTS = [
     "srp": 489.0,
     "msrp": 439.0,
     "res": 290.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP133D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP133D.jpg",
     "desc": "",
     "features": []
   },
@@ -3300,7 +3300,7 @@ const ALL_PRODUCTS = [
     "srp": 489.0,
     "msrp": 439.0,
     "res": 290.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP133L2.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP133L2.jpg",
     "desc": "",
     "features": []
   },
@@ -3312,7 +3312,7 @@ const ALL_PRODUCTS = [
     "srp": 459.0,
     "msrp": 265.0,
     "res": 265.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP162Q2M.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP162Q2M.webp",
     "desc": "",
     "features": []
   },
@@ -3324,7 +3324,7 @@ const ALL_PRODUCTS = [
     "srp": 459.0,
     "msrp": 265.0,
     "res": 265.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP162Q2L.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP162Q2L.webp",
     "desc": "",
     "features": []
   },
@@ -3336,7 +3336,7 @@ const ALL_PRODUCTS = [
     "srp": 459.0,
     "msrp": 265.0,
     "res": 265.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP162Q2D.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP162Q2D.webp",
     "desc": "",
     "features": []
   },
@@ -3348,7 +3348,7 @@ const ALL_PRODUCTS = [
     "srp": 389.0,
     "msrp": 240.0,
     "res": 240.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP161Q2M.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP161Q2M.jpg",
     "desc": "",
     "features": []
   },
@@ -3360,7 +3360,7 @@ const ALL_PRODUCTS = [
     "srp": 389.0,
     "msrp": 240.0,
     "res": 240.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP161Q2L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP161Q2L.jpg",
     "desc": "",
     "features": []
   },
@@ -3372,7 +3372,7 @@ const ALL_PRODUCTS = [
     "srp": 389.0,
     "msrp": 240.0,
     "res": 240.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/IP161Q2D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/IP161Q2D.jpg",
     "desc": "",
     "features": []
   },
@@ -3384,7 +3384,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 235.0,
     "res": 235.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/UD35YTW.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/UD35YTW.jpg",
     "desc": "",
     "features": []
   },
@@ -3492,7 +3492,7 @@ const ALL_PRODUCTS = [
     "srp": 229.0,
     "msrp": 137.0,
     "res": 137.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/HL20L.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/HL20L.jpg",
     "desc": "",
     "features": []
   },
@@ -3552,7 +3552,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 98.0,
     "res": 98.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS8B2.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS8B2.jpg",
     "desc": "",
     "features": []
   },
@@ -3576,7 +3576,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 98.0,
     "res": 98.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS8P.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS8P.jpg",
     "desc": "",
     "features": []
   },
@@ -3588,7 +3588,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 98.0,
     "res": 98.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS8U.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS8U.jpg",
     "desc": "",
     "features": []
   },
@@ -3600,7 +3600,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 98.0,
     "res": 98.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS8B1.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS8B1.jpg",
     "desc": "",
     "features": []
   },
@@ -3612,7 +3612,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 98.0,
     "res": 98.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS8B.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS8B.jpg",
     "desc": "",
     "features": []
   },
@@ -3624,7 +3624,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 98.0,
     "res": 98.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS8Y.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS8Y.jpg",
     "desc": "",
     "features": []
   },
@@ -3648,7 +3648,7 @@ const ALL_PRODUCTS = [
     "srp": 329.0,
     "msrp": 299.0,
     "res": 181.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS9S.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS9S.jpg",
     "desc": "",
     "features": []
   },
@@ -3660,7 +3660,7 @@ const ALL_PRODUCTS = [
     "srp": 329.0,
     "msrp": 299.0,
     "res": 181.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS9D.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS9D.jpg",
     "desc": "",
     "features": []
   },
@@ -3732,7 +3732,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 189.0,
     "res": 110.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS6HKP.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS6HKP.jpg",
     "desc": "",
     "features": []
   },
@@ -3744,7 +3744,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 189.0,
     "res": 110.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS6HKU.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS6HKU.jpg",
     "desc": "",
     "features": []
   },
@@ -3756,7 +3756,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 189.0,
     "res": 110.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS6HKB.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS6HKB.jpg",
     "desc": "",
     "features": []
   },
@@ -3804,7 +3804,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 279.0,
     "res": 145.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS6GSL2.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS6GSL2.jpg",
     "desc": "",
     "features": []
   },
@@ -3816,7 +3816,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 279.0,
     "res": 145.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/BS6GSD.jpg",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/BS6GSD.jpg",
     "desc": "",
     "features": []
   },
@@ -3972,7 +3972,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 179.0,
     "res": 110.0,
-    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/Pandatelecom/products-img/TP11W.png",
+    "image": "https://raw.githubusercontent.com/pandatelecom/pandatelecom.github.io/main/products-img/TP11W.webp",
     "desc": "",
     "features": []
   },
