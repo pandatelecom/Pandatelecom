@@ -6,14 +6,31 @@
   <title>Panda Telecom 熊貓電訊 — 紅磡手機維修・配件零售</title>
   <meta name="description" content="紅磡黃埔手機維修專家。Samsung、Xiaomi、iPhone 換mon、換電、FRP解鎖、刷機維修。即場報價，唔使預約。營業中：每日09:00-19:00。" />
   <meta name="keywords" content="手機維修,紅磡,黃埔,換mon,換電,FRP解鎖,Samsung維修,Xiaomi維修,iPhone維修,熊貓電訊" />
-  <link rel="canonical" href="https://pandatelecom.github.io/Pandatelecom/" />
+  <link rel="canonical" href="https://pandatelecom.github.io/" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐼</text></svg>" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Panda Telecom 熊貓電訊 — 紅磡手機維修專家" />
   <meta property="og:description" content="紅磡黃埔手機維修・配件零售。Samsung、Xiaomi、iPhone 即場維修。" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://pandatelecom.github.io/Pandatelecom/" />
-  <meta property="og:image" content="https://pandatelecom.github.io/Pandatelecom/assets/shop/panda_telecom_photo_2_2048x2048.jpg" />
+  <meta property="og:url" content="https://pandatelecom.github.io/" />
+  <meta property="og:image" content="https://pandatelecom.github.io/assets/shop/panda_telecom_photo_2_2048x2048.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="1200" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Panda Telecom 熊貓電訊 — 紅磡手機維修專家" />
+  <meta name="twitter:description" content="紅磡黃埔手機維修・配件零售。Samsung、Xiaomi、iPhone 即場維修。" />
+  <meta name="twitter:image" content="https://pandatelecom.github.io/assets/shop/panda_telecom_photo_2_2048x2048.jpg" />
+
+  <!-- Resource hints -->
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="https://www.google.com" />
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+  <link rel="preconnect" href="https://www.google.com" crossorigin />
 
   <!-- JSON-LD Schema -->
   <script type="application/ld+json">
@@ -21,7 +38,7 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Panda Telecom 熊貓電訊",
-    "image": "https://pandatelecom.github.io/Pandatelecom/assets/shop/panda_telecom_photo_2_2048x2048.jpg",
+    "image": "https://pandatelecom.github.io/assets/shop/panda_telecom_photo_2_2048x2048.jpg",
     "description": "紅磡黃埔手機維修及配件零售商，提供 Samsung、Xiaomi、iPhone 等品牌維修服務。",
     "address": {
       "@type": "PostalAddress",
@@ -39,7 +56,7 @@
         "closes": "19:00"
       }
     ],
-    "url": "https://pandatelecom.github.io/Pandatelecom/",
+    "url": "https://pandatelecom.github.io/",
     "priceRange": "$",
     "aggregateRating": {
       "@type": "AggregateRating",
@@ -404,6 +421,23 @@
     }
     .photo-grid img:hover { transform: scale(1.02); }
     .photo-grid .square { aspect-ratio: 1/1; }
+    .photo-grid picture { display: block; width: 100%; }
+
+    /* ===== SKIP LINK ===== */
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 16px;
+      background: var(--primary);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+      z-index: 10000;
+      font-size: 14px;
+      font-weight: 600;
+      transition: top .2s;
+    }
+    .skip-link:focus { top: 0; }
     @media (max-width: 640px) {
       .photo-grid { grid-template-columns: 1fr; }
     }
@@ -1201,6 +1235,7 @@
   </style>
 </head>
 <body>
+<a href="#main-content" class="skip-link">跳去內容 →</a>
 
 <!-- ===== STATUS BAR ===== -->
 <div class="status-bar" id="statusBar">🕐 檢查營業狀態中…</div>
@@ -1229,7 +1264,7 @@
 </nav>
 
 <!-- ===== HERO ===== -->
-<section class="hero">
+<section class="hero" id="main-content">
   <div class="container">
     <h1><span class="lang-zh">紅磡手機維修<br/><span>即場報價・唔使預約</span></span>
         <span class="lang-en">Phone Repair in Hung Hom<br/><span>Walk-in · Instant Quote · No Appointment Needed</span></span></h1>
@@ -1334,9 +1369,24 @@
     <h2><span class="lang-zh">就係呢度</span><span class="lang-en">Come Find Us</span></h2>
     <p class="section-desc">紅磡黃埔108商場54號舖，歡迎上嚟。 <span class="lang-en">Whampoa 108 Shopping Centre, Shop 54. Come visit us!</span></p>
     <div class="photo-grid">
-      <div class="wide"><img src="assets/shop/panda_telecom_photo_1_4032x2268.jpg" alt="Panda Telecom 熊貓電訊 舖面" loading="lazy" /></div>
-      <div><img class="square" src="assets/shop/panda_telecom_photo_2_2048x2048.jpg" alt="Panda Telecom 店內環境" loading="lazy" /></div>
-      <div><img class="square" src="assets/shop/panda_telecom_photo_5_3024x3024.jpg" alt="Panda Telecom 產品展示" loading="lazy" /></div>
+      <div class="wide">
+        <picture>
+          <source srcset="assets/shop/panda_telecom_photo_1_4032x2268_400w.webp 400w, assets/shop/panda_telecom_photo_1_4032x2268_800w.webp 800w" sizes="(max-width: 600px) 400px, 800px" type="image/webp">
+          <img src="assets/shop/panda_telecom_photo_1_4032x2268.jpg" alt="Panda Telecom 熊貓電訊 舖面" loading="lazy" width="1200" height="675" fetchpriority="high" />
+        </picture>
+      </div>
+      <div>
+        <picture>
+          <source srcset="assets/shop/panda_telecom_photo_2_2048x2048_400w.webp 400w, assets/shop/panda_telecom_photo_2_2048x2048_800w.webp 800w" sizes="(max-width: 600px) 400px, 400px" type="image/webp">
+          <img class="square" src="assets/shop/panda_telecom_photo_2_2048x2048.jpg" alt="Panda Telecom 店內環境" loading="lazy" width="1200" height="1200" />
+        </picture>
+      </div>
+      <div>
+        <picture>
+          <source srcset="assets/shop/panda_telecom_photo_5_3024x3024_400w.webp 400w, assets/shop/panda_telecom_photo_5_3024x3024_800w.webp 800w" sizes="(max-width: 600px) 400px, 400px" type="image/webp">
+          <img class="square" src="assets/shop/panda_telecom_photo_5_3024x3024.jpg" alt="Panda Telecom 產品展示" loading="lazy" width="1200" height="1200" />
+        </picture>
+      </div>
     </div>
   </div>
 </section>
