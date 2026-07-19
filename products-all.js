@@ -1,7 +1,7 @@
 // Panda Telecom - Unified Product Catalog
 // Auto-generated - DO NOT EDIT
-// 440 products across 10 brands
-// Generated: 2026-07-18T02:08:37.568506
+// 854 products across 54 brands
+// Generated: 2026-07-19
 
 const ALL_PRODUCTS = [
   {
@@ -5754,6 +5754,5728 @@ const ALL_PRODUCTS = [
     "desc": "ARGO MD10 Plus配件產品。",
     "features": [
       "ARGO品牌產品"
+    ]
+  },
+  {
+    "id": "superv-便攜式移動電源-qrcode-ccc版本",
+    "name": "便攜式移動電源 (Qrcode CCC版本)",
+    "brand": "SUPERV",
+    "category": "行動電源",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/qrcode-ccc.png",
+    "desc": "🌟10000mAh電量 夠晒⽤🌟PD22.5W Max快速充電🌟 | 內置15cm快充Type-C線🌟內置線可輸入或輸出兩⽤🌟 | LED電量顯示屏🌟尺⼨僅58*28.9*69.7mm🌟重量:",
+    "features": [
+      "🌟10000mAh電量 夠晒⽤🌟PD22.5W Max快速充電🌟",
+      "內置15cm快充Type-C線🌟內置線可輸入或輸出兩⽤🌟",
+      "LED電量顯示屏🌟尺⼨僅58*28.9*69.7mm🌟重量:"
+    ]
+  },
+  {
+    "id": "superv-20w-移動電源-實時溫度監測-ccc-qrcode版",
+    "name": "20W 移動電源 實時溫度監測  (CCC QRCODE版)",
+    "brand": "SUPERV",
+    "category": "行動電源",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/20w-ccc-qrcode.png",
+    "desc": "1. 15W 磁吸無線充電: 兼容 MagSafe 裝置",
+    "features": [
+      "1. 15W 磁吸無線充電: 兼容 MagSafe 裝置"
+    ]
+  },
+  {
+    "id": "superv-6-安心使ccc證書碼-ccc追溯碼-qr-code",
+    "name": "6. 安心使⽤：CCC證書碼 & CCC追溯碼 (QR Code)",
+    "brand": "SUPERV",
+    "category": "其他",
+    "srp": 228.0,
+    "msrp": 228.0,
+    "res": 0.0,
+    "image": "products-img/6-ccc-ccc-qr-code.png",
+    "desc": "16GB/32GB",
+    "features": [
+      "16GB/32GB"
+    ]
+  },
+  {
+    "id": "hedonic-電池-第三代-ccc-中國強制性產品認證",
+    "name": "電池 (第三代, CCC 中國強制性產品認證)",
+    "brand": "Hedonic",
+    "category": "行動電源",
+    "srp": 278.0,
+    "msrp": 278.0,
+    "res": 0.0,
+    "image": "products-img/ccc.png",
+    "desc": "XPower MagFlight10 M17 半固態TFT",
+    "features": [
+      "XPower MagFlight10 M17 半固態TFT"
+    ]
+  },
+  {
+    "id": "hedonic-10000mah-磁吸行動電源",
+    "name": "10000mAh 磁吸行動電源",
+    "brand": "Hedonic",
+    "category": "行動電源",
+    "srp": 336.0,
+    "msrp": 336.0,
+    "res": 0.0,
+    "image": "products-img/10000mah.png",
+    "desc": "•全球最細 30W PD & QI2.2認證外置電 | •QI2.2 認證,支援25W超快無線充,30分鐘充60%電量 | •通過最新CCC認證,V0防火級別,耐高溫測試",
+    "features": [
+      "•全球最細 30W PD & QI2.2認證外置電",
+      "•QI2.2 認證,支援25W超快無線充,30分鐘充60%電量",
+      "•通過最新CCC認證,V0防火級別,耐高溫測試",
+      "•PD27W 極速輸入,30W極速輸出, 兼容不同裝置",
+      "•TFT 顯示速度,電量,電壓"
+    ]
+  },
+  {
+    "id": "hedonic-多功能qi2無線充電行動電源",
+    "name": "多功能Qi2無線充電行動電源",
+    "brand": "Hedonic",
+    "category": "行動電源",
+    "srp": 498.0,
+    "msrp": 498.0,
+    "res": 0.0,
+    "image": "products-img/qi2.png",
+    "desc": "SAVEWO MagCell Ultra Qi2",
+    "features": [
+      "SAVEWO MagCell Ultra Qi2"
+    ]
+  },
+  {
+    "id": "hedonic-10000mah-powerbank-ccc-qrcode版",
+    "name": "10000mAh Powerbank (CCC QRCODE版)",
+    "brand": "Hedonic",
+    "category": "行動電源",
+    "srp": 338.0,
+    "msrp": 338.0,
+    "res": 0.0,
+    "image": "products-img/10000mah-powerbank-ccc-qrcode.png",
+    "desc": "純鈷高密度電池，安全耐用且。機身僅15mm厚、209g",
+    "features": [
+      "純鈷高密度電池，安全耐用且。機身僅15mm厚、209g"
+    ]
+  },
+  {
+    "id": "argo-自拍神器免充電磁吸後置鏡頭",
+    "name": "自拍神器免充電磁吸後置鏡頭",
+    "brand": "ARGO",
+    "category": "充電器",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Argo SSB10 Qi2.2",
+    "features": [
+      "Argo SSB10 Qi2.2"
+    ]
+  },
+  {
+    "id": "argo-35w-半固態電池",
+    "name": "35w 半固態電池",
+    "brand": "ARGO",
+    "category": "行動電源",
+    "srp": 388.0,
+    "msrp": 388.0,
+    "res": 0.0,
+    "image": "products-img/35w.png",
+    "desc": "ARGO  SSB5 固態電池行動電源",
+    "features": [
+      "ARGO  SSB5 固態電池行動電源"
+    ]
+  },
+  {
+    "id": "argo-argo-ssb5-固態電池行動電源",
+    "name": "ARGO  SSB5 固態電池行動電源",
+    "brand": "ARGO",
+    "category": "行動電源",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/argo-ssb5.png",
+    "desc": "6pcs up $168 | ARGO  MiniQ 10000mAh",
+    "features": [
+      "6pcs up $168",
+      "ARGO  MiniQ 10000mAh"
+    ]
+  },
+  {
+    "id": "argo-超迷你快充神器",
+    "name": "超迷你快充神器",
+    "brand": "ARGO",
+    "category": "其他",
+    "srp": 228.0,
+    "msrp": 228.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "ARGO 5in1 Power Bank 自帶Type-C",
+    "features": [
+      "ARGO 5in1 Power Bank 自帶Type-C"
+    ]
+  },
+  {
+    "id": "argo-線移動電源-10000mah-tfc10",
+    "name": "線移動電源 10000mAh TFC10",
+    "brand": "ARGO",
+    "category": "行動電源",
+    "srp": 268.0,
+    "msrp": 268.0,
+    "res": 0.0,
+    "image": "products-img/10000mah-tfc10.png",
+    "desc": "ARGO  EARBUDS",
+    "features": [
+      "ARGO  EARBUDS"
+    ]
+  },
+  {
+    "id": "argo-hi-res-藍牙60-真無線耳機",
+    "name": "Hi-Res 藍牙6.0 真無線耳機",
+    "brand": "ARGO",
+    "category": "充電線",
+    "srp": 228.0,
+    "msrp": 228.0,
+    "res": 0.0,
+    "image": "products-img/hi-res-6-0.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "argo-70wgan急速充電器",
+    "name": "70wGaN急速充電器",
+    "brand": "ARGO",
+    "category": "充電器",
+    "srp": 278.0,
+    "msrp": 278.0,
+    "res": 0.0,
+    "image": "products-img/70wgan.png",
+    "desc": "ARGO PowerZap14 X140S",
+    "features": [
+      "ARGO PowerZap14 X140S"
+    ]
+  },
+  {
+    "id": "argo-140w-gan-旗艦充電器",
+    "name": "140W GaN 旗艦充電器",
+    "brand": "ARGO",
+    "category": "充電器",
+    "srp": 358.0,
+    "msrp": 358.0,
+    "res": 0.0,
+    "image": "products-img/140w-gan.png",
+    "desc": "5pcs up $248 | ARGO TRO Charger",
+    "features": [
+      "5pcs up $248",
+      "ARGO TRO Charger"
+    ]
+  },
+  {
+    "id": "argo-3合1-製冷磁吸無線充電座",
+    "name": "3合1 製冷磁吸無線充電座",
+    "brand": "ARGO",
+    "category": "充電器",
+    "srp": 368.0,
+    "msrp": 368.0,
+    "res": 0.0,
+    "image": "products-img/3-1.png",
+    "desc": "5pcs up $225 | ARGO GD80 6IN1無線充電座 | ARGO CC140 C to C 一開二 雙快充數顯",
+    "features": [
+      "5pcs up $225",
+      "ARGO GD80 6IN1無線充電座",
+      "ARGO CC140 C to C 一開二 雙快充數顯"
+    ]
+  },
+  {
+    "id": "argo-argo-gd80-6in1無線充電座",
+    "name": "ARGO GD80 6IN1無線充電座",
+    "brand": "ARGO",
+    "category": "充電器",
+    "srp": 88.0,
+    "msrp": 88.0,
+    "res": 0.0,
+    "image": "products-img/argo-gd80-6in1.png",
+    "desc": "ARGO CC140 C to C 一開二 雙快充數顯",
+    "features": [
+      "ARGO CC140 C to C 一開二 雙快充數顯"
+    ]
+  },
+  {
+    "id": "argo-數據線-100cm-200cm",
+    "name": "數據線 100cm / 200cm",
+    "brand": "ARGO",
+    "category": "充電線",
+    "srp": 255.0,
+    "msrp": 255.0,
+    "res": 0.0,
+    "image": "products-img/100cm-200cm.png",
+    "desc": "ARGO-LC23 3IN2 充電線",
+    "features": [
+      "ARGO-LC23 3IN2 充電線"
+    ]
+  },
+  {
+    "id": "argo-3in2-手錶充電線",
+    "name": "3in2 手錶充電線",
+    "brand": "ARGO",
+    "category": "充電器",
+    "srp": 128.0,
+    "msrp": 128.0,
+    "res": 0.0,
+    "image": "products-img/3in2.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "argo-100w磁力收納充電線",
+    "name": "100W磁力收納充電線",
+    "brand": "ARGO",
+    "category": "充電器",
+    "srp": 118.0,
+    "msrp": 118.0,
+    "res": 0.0,
+    "image": "products-img/100w.png",
+    "desc": "ARGO PQ001 USB4.0 PD240W 8K",
+    "features": [
+      "ARGO PQ001 USB4.0 PD240W 8K"
+    ]
+  },
+  {
+    "id": "argo-螢幕輸出usb-c-數據充電線-15米",
+    "name": "螢幕輸出USB-C 數據充電線 (1.5米)",
+    "brand": "ARGO",
+    "category": "充電器",
+    "srp": 168.0,
+    "msrp": 168.0,
+    "res": 0.0,
+    "image": "products-img/usb-c-1-5.png",
+    "desc": "ARGO CC240  240W「數顯純充之王」",
+    "features": [
+      "ARGO CC240  240W「數顯純充之王」"
+    ]
+  },
+  {
+    "id": "argo-超軟神線-12m-2m",
+    "name": "超軟神線 1.2M / 2M",
+    "brand": "ARGO",
+    "category": "充電線",
+    "srp": 98.0,
+    "msrp": 98.0,
+    "res": 0.0,
+    "image": "products-img/1-2m-2m.png",
+    "desc": "ARGO TC240 240W 8K USB3.2",
+    "features": [
+      "ARGO TC240 240W 8K USB3.2"
+    ]
+  },
+  {
+    "id": "argo-gen2一線通殺視訊神線-15m3m",
+    "name": "Gen2「一線通殺」視訊神線 1.5m,/3m",
+    "brand": "ARGO",
+    "category": "充電線",
+    "srp": 128.0,
+    "msrp": 128.0,
+    "res": 0.0,
+    "image": "products-img/gen2-1-5m-3m.png",
+    "desc": "ARGO  Pixel Cable PIC100",
+    "features": [
+      "ARGO  Pixel Cable PIC100"
+    ]
+  },
+  {
+    "id": "argo-即時速度顯示充電線-1米",
+    "name": "即時速度顯示充電線  1米",
+    "brand": "ARGO",
+    "category": "充電器",
+    "srp": 128.0,
+    "msrp": 128.0,
+    "res": 0.0,
+    "image": "products-img/1.png",
+    "desc": "ARGO Pixel Cable PIC100",
+    "features": [
+      "ARGO Pixel Cable PIC100"
+    ]
+  },
+  {
+    "id": "argo-即時速度顯示充電線-2米",
+    "name": "即時速度顯示充電線 2米",
+    "brand": "ARGO",
+    "category": "充電器",
+    "srp": 138.0,
+    "msrp": 138.0,
+    "res": 0.0,
+    "image": "products-img/2.png",
+    "desc": "ARGO KC240",
+    "features": [
+      "ARGO KC240"
+    ]
+  },
+  {
+    "id": "argo-240w傳輸匙扣充電線-12cm",
+    "name": "240W傳輸匙扣充電線 12cm",
+    "brand": "ARGO",
+    "category": "充電器",
+    "srp": 118.0,
+    "msrp": 118.0,
+    "res": 0.0,
+    "image": "products-img/240w-12cm.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "argo-智能無線ai翻譯滑鼠-第二代",
+    "name": "智能無線AI翻譯滑鼠 第二代",
+    "brand": "ARGO",
+    "category": "充電線",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/ai.png",
+    "desc": "SIINCOS SC-DC06",
+    "features": [
+      "SIINCOS SC-DC06"
+    ]
+  },
+  {
+    "id": "argo-極速電機颶風便攜風扇pro",
+    "name": "極速電機颶風便攜風扇Pro",
+    "brand": "ARGO",
+    "category": "風扇",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/pro.png",
+    "desc": "SINCOS SC-G3",
+    "features": [
+      "SINCOS SC-G3"
+    ]
+  },
+  {
+    "id": "argo-運動商務專用單耳藍牙耳機",
+    "name": "運動商務專用單耳藍牙耳機",
+    "brand": "ARGO",
+    "category": "耳機",
+    "srp": 166.0,
+    "msrp": 166.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SINCOS A40 Lite",
+    "features": [
+      "SINCOS A40 Lite"
+    ]
+  },
+  {
+    "id": "argo-ai智能翻譯機",
+    "name": "AI智能翻譯機",
+    "brand": "ARGO",
+    "category": "其他",
+    "srp": 599.0,
+    "msrp": 599.0,
+    "res": 0.0,
+    "image": "products-img/ai.png",
+    "desc": "SINCOS S15-LTE",
+    "features": [
+      "SINCOS S15-LTE"
+    ]
+  },
+  {
+    "id": "argo-4g全網通智能ai多功能翻譯機",
+    "name": "4G全網通智能AI多功能翻譯機",
+    "brand": "ARGO",
+    "category": "其他",
+    "srp": 788.0,
+    "msrp": 788.0,
+    "res": 0.0,
+    "image": "products-img/4g-ai.png",
+    "desc": "6pcs up $539 | SINCOS EB01",
+    "features": [
+      "6pcs up $539",
+      "SINCOS EB01"
+    ]
+  },
+  {
+    "id": "argo-多合一迷你電動鏍絲批",
+    "name": "多合一迷你電動鏍絲批",
+    "brand": "ARGO",
+    "category": "其他",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SINCOS QD-688",
+    "features": [
+      "SINCOS QD-688"
+    ]
+  },
+  {
+    "id": "argo-自發電無線鈴",
+    "name": "自發電無線⾨鈴",
+    "brand": "ARGO",
+    "category": "充電線",
+    "srp": 398.0,
+    "msrp": 398.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SIINCOS SC-PSCC",
+    "features": [
+      "SIINCOS SC-PSCC"
+    ]
+  },
+  {
+    "id": "argo-二合螺旋機掛繩充電線",
+    "name": "二合⼀螺旋⼿機掛繩充電線",
+    "brand": "ARGO",
+    "category": "充電器",
+    "srp": 128.0,
+    "msrp": 128.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "50pcs up $16 | SINCOS SC-MB650",
+    "features": [
+      "50pcs up $16",
+      "SINCOS SC-MB650"
+    ]
+  },
+  {
+    "id": "argo-不鏽鋼磁吸運動保溫壺650ml",
+    "name": "不鏽鋼磁吸運動保溫壺650ml",
+    "brand": "ARGO",
+    "category": "配件",
+    "srp": 235.0,
+    "msrp": 235.0,
+    "res": 0.0,
+    "image": "products-img/650ml.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "dse-廣東話語音臂式壓計",
+    "name": "廣東話語音⼿臂式⾎壓計",
+    "brand": "DSE",
+    "category": "其他",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SINCOS SC-Y4000",
+    "features": [
+      "SINCOS SC-Y4000"
+    ]
+  },
+  {
+    "id": "dse-復古便攜式閃光燈智能相機",
+    "name": "復古便攜式閃光燈智能相機",
+    "brand": "DSE",
+    "category": "家居",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SINCOS SC-NM360",
+    "features": [
+      "SINCOS SC-NM360"
+    ]
+  },
+  {
+    "id": "dse-智能恆溫四手頸部按摩儀",
+    "name": "智能恆溫四手頸部按摩儀",
+    "brand": "DSE",
+    "category": "家居",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SINCOS SC-AIX8",
+    "features": [
+      "SINCOS SC-AIX8"
+    ]
+  },
+  {
+    "id": "dse-ai智能鬧鐘喇叭",
+    "name": "AI智能鬧鐘喇叭",
+    "brand": "DSE",
+    "category": "喇叭",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/ai.png",
+    "desc": "SINCOS SC-WMC01",
+    "features": [
+      "SINCOS SC-WMC01"
+    ]
+  },
+  {
+    "id": "dse-多系統智能無線同屏器",
+    "name": "多系統智能無線同屏器",
+    "brand": "DSE",
+    "category": "充電線",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SINCOS SC-PW01",
+    "features": [
+      "SINCOS SC-PW01"
+    ]
+  },
+  {
+    "id": "dse-仿生蝶形雙翼止鼻鼾枕",
+    "name": "仿生蝶形雙翼止鼻鼾枕",
+    "brand": "DSE",
+    "category": "其他",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SINCOS SC-HP01",
+    "features": [
+      "SINCOS SC-HP01"
+    ]
+  },
+  {
+    "id": "yachi-便攜式智能語音空氣循環風扇",
+    "name": "便攜式智能語音空氣循環風扇",
+    "brand": "YACHI",
+    "category": "風扇",
+    "srp": 498.0,
+    "msrp": 498.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "YACHI 小型3D循環扇風機 | YACHI N6",
+    "features": [
+      "YACHI 小型3D循環扇風機",
+      "YACHI N6"
+    ]
+  },
+  {
+    "id": "yachi-yachi-小型3d循環扇風機",
+    "name": "YACHI 小型3D循環扇風機",
+    "brand": "YACHI",
+    "category": "其他",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/yachi-3d.png",
+    "desc": "YACHI N6 | YACHI HeatBuddy",
+    "features": [
+      "YACHI N6",
+      "YACHI HeatBuddy"
+    ]
+  },
+  {
+    "id": "yachi-火焰暖風機",
+    "name": "火焰暖風機",
+    "brand": "YACHI",
+    "category": "其他",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "YACHI HeatBuddy",
+    "features": [
+      "YACHI HeatBuddy"
+    ]
+  },
+  {
+    "id": "yachi-智能陶瓷暖風機",
+    "name": "智能陶瓷暖風機",
+    "brand": "YACHI",
+    "category": "其他",
+    "srp": 288.0,
+    "msrp": 288.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "cio-10000mah",
+    "name": "10000mAh",
+    "brand": "CIO",
+    "category": "行動電源",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/10000mah.png",
+    "desc": "SMARTCOBY PRO SLIM 35W",
+    "features": [
+      "SMARTCOBY PRO SLIM 35W"
+    ]
+  },
+  {
+    "id": "cio-10000mah-original-ver",
+    "name": "10000mAh Original Ver.",
+    "brand": "CIO",
+    "category": "行動電源",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/10000mah-original-ver.png",
+    "desc": "SMARTCOBY PRO SLIM 35W",
+    "features": [
+      "SMARTCOBY PRO SLIM 35W"
+    ]
+  },
+  {
+    "id": "cio-10000mah-sakura-ver",
+    "name": "10000mAh Sakura Ver.",
+    "brand": "CIO",
+    "category": "行動電源",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/10000mah-sakura-ver.png",
+    "desc": "SMARTCOBY Pro Slim Cable 35W",
+    "features": [
+      "SMARTCOBY Pro Slim Cable 35W"
+    ]
+  },
+  {
+    "id": "cio-20000mah",
+    "name": "20000mAh",
+    "brand": "CIO",
+    "category": "行動電源",
+    "srp": 449.0,
+    "msrp": 449.0,
+    "res": 0.0,
+    "image": "products-img/20000mah.png",
+    "desc": "SMARTCOBY DUO 40W",
+    "features": [
+      "SMARTCOBY DUO 40W"
+    ]
+  },
+  {
+    "id": "cio-10000mah-45w-qi2",
+    "name": "10000mAh 45W Qi2",
+    "brand": "CIO",
+    "category": "行動電源",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/10000mah-45w-qi2.png",
+    "desc": "10Denki JD-D2",
+    "features": [
+      "10Denki JD-D2"
+    ]
+  },
+  {
+    "id": "cio-10000mah-45w",
+    "name": "10000mAh 45W",
+    "brand": "CIO",
+    "category": "行動電源",
+    "srp": 268.0,
+    "msrp": 268.0,
+    "res": 0.0,
+    "image": "products-img/10000mah-45w.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "chillbuds-多功能gps定位兒童智能手錶",
+    "name": "多功能GPS定位兒童智能手錶",
+    "brand": "CHILLBUDS",
+    "category": "其他",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/gps.png",
+    "desc": "Chillbuds EB-CON-23",
+    "features": [
+      "Chillbuds EB-CON-23"
+    ]
+  },
+  {
+    "id": "chillbuds-空氣傳導無線藍牙耳機耳夾式",
+    "name": "空氣傳導無線藍牙耳機(耳夾式)",
+    "brand": "CHILLBUDS",
+    "category": "充電線",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Chillbuds Co-20",
+    "features": [
+      "Chillbuds Co-20"
+    ]
+  },
+  {
+    "id": "chillbuds-anc-真無線藍牙耳機",
+    "name": "ANC 真無線藍牙耳機",
+    "brand": "CHILLBUDS",
+    "category": "充電線",
+    "srp": 599.0,
+    "msrp": 599.0,
+    "res": 0.0,
+    "image": "products-img/anc.png",
+    "desc": "Chillbuds Co-21",
+    "features": [
+      "Chillbuds Co-21"
+    ]
+  },
+  {
+    "id": "chillbuds-多功能高清屏幕藍牙耳機",
+    "name": "多功能高清屏幕藍牙耳機",
+    "brand": "CHILLBUDS",
+    "category": "耳機",
+    "srp": 599.0,
+    "msrp": 599.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "首6件送1件Demo | Chillbuds S03 USB-C",
+    "features": [
+      "首6件送1件Demo",
+      "Chillbuds S03 USB-C"
+    ]
+  },
+  {
+    "id": "chillbuds-有線帶咪耳機",
+    "name": "有線帶咪耳機",
+    "brand": "CHILLBUDS",
+    "category": "充電線",
+    "srp": 98.0,
+    "msrp": 98.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Chillbuds x 老夫子 F15",
+    "features": [
+      "Chillbuds x 老夫子 F15"
+    ]
+  },
+  {
+    "id": "chillbuds-5000mah-3合1多功能無線移動電源",
+    "name": "5000mAh 3合1多功能無線移動電源",
+    "brand": "CHILLBUDS",
+    "category": "行動電源",
+    "srp": 258.0,
+    "msrp": 258.0,
+    "res": 0.0,
+    "image": "products-img/5000mah-3-1.png",
+    "desc": "Chillbuds x 老夫子 OLD MASTER Q",
+    "features": [
+      "Chillbuds x 老夫子 OLD MASTER Q"
+    ]
+  },
+  {
+    "id": "chillbuds-3合1掛線充電線",
+    "name": "3合1掛線充電線",
+    "brand": "CHILLBUDS",
+    "category": "充電器",
+    "srp": 128.0,
+    "msrp": 128.0,
+    "res": 0.0,
+    "image": "products-img/3-1.png",
+    "desc": "Chillbuds A100",
+    "features": [
+      "Chillbuds A100"
+    ]
+  },
+  {
+    "id": "chillbuds-迷你action-camera",
+    "name": "迷你Action Camera",
+    "brand": "CHILLBUDS",
+    "category": "智能家居",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/action-camera.png",
+    "desc": "First 6 free 1 demo | Chillbuds XL10",
+    "features": [
+      "First 6 free 1 demo",
+      "Chillbuds XL10"
+    ]
+  },
+  {
+    "id": "chillbuds-智能健康定位手環",
+    "name": "智能健康定位手環",
+    "brand": "CHILLBUDS",
+    "category": "其他",
+    "srp": 698.0,
+    "msrp": 698.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "First 6 free 1 demo",
+    "features": [
+      "First 6 free 1 demo"
+    ]
+  },
+  {
+    "id": "lonzuer-ancenc降噪真無線耳機",
+    "name": "ANC+ENC降噪真無線耳機",
+    "brand": "Lonzuer",
+    "category": "充電線",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/anc-enc.png",
+    "desc": "Sunjom XSpace",
+    "features": [
+      "Sunjom XSpace"
+    ]
+  },
+  {
+    "id": "lonzuer-真無線enc耳機-馬卡龍系",
+    "name": "真無線ENC耳機 馬卡龍⾊系",
+    "brand": "Lonzuer",
+    "category": "充電線",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/enc.png",
+    "desc": "Sunjom Flip",
+    "features": [
+      "Sunjom Flip"
+    ]
+  },
+  {
+    "id": "lonzuer-hi-res指尖解壓納米真無線藍牙耳機",
+    "name": "Hi-Res指尖解壓納米真無線藍牙耳機",
+    "brand": "Lonzuer",
+    "category": "充電線",
+    "srp": 228.0,
+    "msrp": 228.0,
+    "res": 0.0,
+    "image": "products-img/hi-res.png",
+    "desc": "Sunjom Inspire",
+    "features": [
+      "Sunjom Inspire"
+    ]
+  },
+  {
+    "id": "lonzuer-高解析度效頭戴式藍牙耳機",
+    "name": "高解析度⾳效頭戴式藍牙耳機",
+    "brand": "Lonzuer",
+    "category": "耳機",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Sunjom Free Pods",
+    "features": [
+      "Sunjom Free Pods"
+    ]
+  },
+  {
+    "id": "lonzuer-ancenc主動降噪頭戴式藍牙耳機",
+    "name": "ANC+ENC主動降噪頭戴式藍牙耳機",
+    "brand": "Lonzuer",
+    "category": "耳機",
+    "srp": 880.0,
+    "msrp": 880.0,
+    "res": 0.0,
+    "image": "products-img/anc-enc.png",
+    "desc": "Lonzuer Leap",
+    "features": [
+      "Lonzuer Leap"
+    ]
+  },
+  {
+    "id": "lonzuer-便攜式防水藍牙喇叭",
+    "name": "便攜式防水藍牙喇叭",
+    "brand": "Lonzuer",
+    "category": "喇叭",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Lonzuer Action",
+    "features": [
+      "Lonzuer Action"
+    ]
+  },
+  {
+    "id": "lonzuer-木製便攜式藍牙喇叭",
+    "name": "木製⽪⾰便攜式藍牙喇叭",
+    "brand": "Lonzuer",
+    "category": "喇叭",
+    "srp": 888.0,
+    "msrp": 888.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "case-8000mah-超強磁吸magsafe-移動電源",
+    "name": "8000mAh 超強磁吸MagSafe 移動電源",
+    "brand": "Case",
+    "category": "行動電源",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/8000mah-magsafe.png",
+    "desc": "ISMARTDIGI  IS-PPS23",
+    "features": [
+      "ISMARTDIGI  IS-PPS23"
+    ]
+  },
+  {
+    "id": "case-10000mah-30w-行動電源",
+    "name": "10000MAH 30W 行動電源",
+    "brand": "Case",
+    "category": "行動電源",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/10000mah-30w.png",
+    "desc": "ismartdigi IS-SQ15",
+    "features": [
+      "ismartdigi IS-SQ15"
+    ]
+  },
+  {
+    "id": "case-8000mah-15w-急充超輕薄行動電源",
+    "name": "8000mAh 15W 急充超輕薄行動電源",
+    "brand": "Case",
+    "category": "行動電源",
+    "srp": 198.0,
+    "msrp": 198.0,
+    "res": 0.0,
+    "image": "products-img/8000mah-15w.png",
+    "desc": "ismartdigi IS-SQ16 (迷彩版)",
+    "features": [
+      "ismartdigi IS-SQ16 (迷彩版)"
+    ]
+  },
+  {
+    "id": "case-3in1-cable-120cm",
+    "name": "3IN1 Cable 120cm",
+    "brand": "Case",
+    "category": "充電線",
+    "srp": 78.0,
+    "msrp": 78.0,
+    "res": 0.0,
+    "image": "products-img/3in1-cable-120cm.png",
+    "desc": "Ismartdigi PD Type-C Cto C cable",
+    "features": [
+      "Ismartdigi PD Type-C Cto C cable"
+    ]
+  },
+  {
+    "id": "case-60w-dlp-38-100w-dlp-45",
+    "name": "60W DLP $38 / 100W DLP $45",
+    "brand": "Case",
+    "category": "其他",
+    "srp": 78.0,
+    "msrp": 78.0,
+    "res": 0.0,
+    "image": "products-img/60w-dlp-38-100w-dlp-45.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "qi2-qi2無線充電底座小燈塔",
+    "name": "Qi2無線充電底座小燈塔",
+    "brand": "Qi2",
+    "category": "充電器",
+    "srp": 398.0,
+    "msrp": 398.0,
+    "res": 0.0,
+    "image": "products-img/qi2.png",
+    "desc": "PowerRider WS26",
+    "features": [
+      "PowerRider WS26"
+    ]
+  },
+  {
+    "id": "qi2-螢石暖暖蛋",
+    "name": "螢石暖暖蛋",
+    "brand": "Qi2",
+    "category": "家居",
+    "srp": 198.0,
+    "msrp": 198.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "PowerRider T3 Mini",
+    "features": [
+      "PowerRider T3 Mini"
+    ]
+  },
+  {
+    "id": "qi2-無線手機後置拍神器-iosandroid-可",
+    "name": "無線手機後置⾃拍神器 (iOS/Android 可⽤)",
+    "brand": "Qi2",
+    "category": "充電線",
+    "srp": 398.0,
+    "msrp": 398.0,
+    "res": 0.0,
+    "image": "products-img/ios-android.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "treely-usb-a-快充40w火牛",
+    "name": "USB-A 快充40W火牛",
+    "brand": "Treely",
+    "category": "充電器",
+    "srp": 118.0,
+    "msrp": 118.0,
+    "res": 0.0,
+    "image": "products-img/usb-a-40w.png",
+    "desc": "50 get 8 free",
+    "features": [
+      "50 get 8 free"
+    ]
+  },
+  {
+    "id": "treely-勾掛式無線便攜風扇",
+    "name": "勾掛式無線便攜風扇",
+    "brand": "Treely",
+    "category": "充電線",
+    "srp": 188.0,
+    "msrp": 188.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Treely Air Treely Fan TF-01",
+    "features": [
+      "Treely Air Treely Fan TF-01"
+    ]
+  },
+  {
+    "id": "treely-空氣淨化四季循環風扇",
+    "name": "空氣淨化四季循環風扇",
+    "brand": "Treely",
+    "category": "風扇",
+    "srp": 548.0,
+    "msrp": 548.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Yachi WT-F70",
+    "features": [
+      "Yachi WT-F70"
+    ]
+  },
+  {
+    "id": "treely-小型3d循環扇風機",
+    "name": "小型3D循環扇風機",
+    "brand": "Treely",
+    "category": "其他",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/3d.png",
+    "desc": "YACHI F188",
+    "features": [
+      "YACHI F188"
+    ]
+  },
+  {
+    "id": "treely-便攜式智能-語音-空氣循環風扇",
+    "name": "便攜式智能 語音 空氣循環風扇",
+    "brand": "Treely",
+    "category": "風扇",
+    "srp": 498.0,
+    "msrp": 498.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Ismartdigi  GS-W65A0946D",
+    "features": [
+      "Ismartdigi  GS-W65A0946D"
+    ]
+  },
+  {
+    "id": "treely-65w-gan-2c1u快速插牆式充電器",
+    "name": "65W GaN 2C1U快速插牆式充電器",
+    "brand": "Treely",
+    "category": "充電器",
+    "srp": 268.0,
+    "msrp": 268.0,
+    "res": 0.0,
+    "image": "products-img/65w-gan-2c1u.png",
+    "desc": "Heal ForceB01/B07",
+    "features": [
+      "Heal ForceB01/B07"
+    ]
+  },
+  {
+    "id": "treely-粵語真人發聲電壓計",
+    "name": "粵語真人發聲電⼦⾎壓計",
+    "brand": "Treely",
+    "category": "其他",
+    "srp": 450.0,
+    "msrp": 450.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "audio-technica-sound-burger-便攜式藍牙唱盤",
+    "name": "Sound Burger 便攜式藍牙唱盤",
+    "brand": "Audio-Technica",
+    "category": "喇叭",
+    "srp": 1399.0,
+    "msrp": 1399.0,
+    "res": 0.0,
+    "image": "products-img/sound-burger.png",
+    "desc": "Audio-Technica AT-LP70XBT",
+    "features": [
+      "Audio-Technica AT-LP70XBT"
+    ]
+  },
+  {
+    "id": "audio-technica-全自動無線膠唱盤",
+    "name": "全自動無線⿊膠唱盤",
+    "brand": "Audio-Technica",
+    "category": "充電線",
+    "srp": 1998.0,
+    "msrp": 1998.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio-Technica AT-LP120XBT-",
+    "features": [
+      "Audio-Technica AT-LP120XBT-"
+    ]
+  },
+  {
+    "id": "audio-technica-無線直接驅動唱盤",
+    "name": "無線直接驅動唱盤",
+    "brand": "Audio-Technica",
+    "category": "充電線",
+    "srp": 3998.0,
+    "msrp": 3998.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio-Technica AT-LP3XBT",
+    "features": [
+      "Audio-Technica AT-LP3XBT"
+    ]
+  },
+  {
+    "id": "audio-technica-自動無線膠唱盤",
+    "name": "自動無線⿊膠唱盤",
+    "brand": "Audio-Technica",
+    "category": "充電線",
+    "srp": 2880.0,
+    "msrp": 2880.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio-Technica AT-LPW50BT RW",
+    "features": [
+      "Audio-Technica AT-LPW50BT RW"
+    ]
+  },
+  {
+    "id": "audio-technica-皮帶驅動式唱盤機",
+    "name": "皮帶驅動式唱盤機",
+    "brand": "Audio-Technica",
+    "category": "喇叭",
+    "srp": 3398.0,
+    "msrp": 3398.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio Technica AT-LP8X",
+    "features": [
+      "Audio Technica AT-LP8X"
+    ]
+  },
+  {
+    "id": "audio-technica-半自動直接傳動膠唱盤",
+    "name": "半自動直接傳動⿊膠唱盤",
+    "brand": "Audio-Technica",
+    "category": "喇叭",
+    "srp": 8650.0,
+    "msrp": 8650.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "soundwiser-全手動直接驅動膠唱盤",
+    "name": "全手動直接驅動⿊膠唱盤",
+    "brand": "Soundwiser",
+    "category": "喇叭",
+    "srp": 3950.0,
+    "msrp": 3950.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio Technica AT-LPW30BK",
+    "features": [
+      "Audio Technica AT-LPW30BK"
+    ]
+  },
+  {
+    "id": "soundwiser-全手動帶驅動唱盤機",
+    "name": "全手動⽪帶驅動唱盤機",
+    "brand": "Soundwiser",
+    "category": "喇叭",
+    "srp": 2885.0,
+    "msrp": 2885.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio Technica  ATN3600L",
+    "features": [
+      "Audio Technica  ATN3600L"
+    ]
+  },
+  {
+    "id": "soundwiser-dj專業直接驅動式唱盤機",
+    "name": "DJ專業直接驅動式唱盤機",
+    "brand": "Soundwiser",
+    "category": "喇叭",
+    "srp": 4380.0,
+    "msrp": 4380.0,
+    "res": 0.0,
+    "image": "products-img/dj.png",
+    "desc": "SoundWiser VRP-7",
+    "features": [
+      "SoundWiser VRP-7"
+    ]
+  },
+  {
+    "id": "soundwiser-無線藍牙黑膠唱盤",
+    "name": "無線藍牙黑膠唱盤",
+    "brand": "Soundwiser",
+    "category": "充電線",
+    "srp": 788.0,
+    "msrp": 788.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SoundWiser SP8X",
+    "features": [
+      "SoundWiser SP8X"
+    ]
+  },
+  {
+    "id": "soundwiser-多功能書架式音箱",
+    "name": "多功能書架式音箱",
+    "brand": "Soundwiser",
+    "category": "其他",
+    "srp": 799.0,
+    "msrp": 799.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "microphone-真無線降噪耳機",
+    "name": "真無線降噪耳機",
+    "brand": "Microphone",
+    "category": "充電線",
+    "srp": 1998.0,
+    "msrp": 1998.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio Technica ATH-CKS30TW+",
+    "features": [
+      "Audio Technica ATH-CKS30TW+"
+    ]
+  },
+  {
+    "id": "microphone-真無線藍牙耳機",
+    "name": "真無線藍牙耳機",
+    "brand": "Microphone",
+    "category": "充電線",
+    "srp": 780.0,
+    "msrp": 780.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio Technica ATH-AC5TW",
+    "features": [
+      "Audio Technica ATH-AC5TW"
+    ]
+  },
+  {
+    "id": "microphone-入耳式真無線藍牙耳機",
+    "name": "入耳式真無線藍牙耳機",
+    "brand": "Microphone",
+    "category": "充電線",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio-Technica XM5S",
+    "features": [
+      "Audio-Technica XM5S"
+    ]
+  },
+  {
+    "id": "microphone-單指向性動圈式咪高峰",
+    "name": "單指向性動圈式咪高峰",
+    "brand": "Microphone",
+    "category": "其他",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio Technica AT2040CP / | AT2020CP MICROPHONE 錄音咪套裝",
+    "features": [
+      "Audio Technica AT2040CP /",
+      "AT2020CP MICROPHONE 錄音咪套裝"
+    ]
+  },
+  {
+    "id": "microphone-at2020cp-microphone-錄音咪套裝",
+    "name": "AT2020CP MICROPHONE 錄音咪套裝",
+    "brand": "Microphone",
+    "category": "其他",
+    "srp": 1580.0,
+    "msrp": 1580.0,
+    "res": 0.0,
+    "image": "products-img/at2020cp-microphone.png",
+    "desc": "Audio Technica ATH-SPORT7TW",
+    "features": [
+      "Audio Technica ATH-SPORT7TW"
+    ]
+  },
+  {
+    "id": "microphone-真無線運動耳機",
+    "name": "真無線運動耳機",
+    "brand": "Microphone",
+    "category": "充電線",
+    "srp": 1580.0,
+    "msrp": 1580.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio Technica AT2020USB-X",
+    "features": [
+      "Audio Technica AT2020USB-X"
+    ]
+  },
+  {
+    "id": "microphone-心形指向-usb電腦錄咪",
+    "name": "心形指向 USB電腦錄⾳咪",
+    "brand": "Microphone",
+    "category": "其他",
+    "srp": 1399.0,
+    "msrp": 1399.0,
+    "res": 0.0,
+    "image": "products-img/usb.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "audio-technica-無線耳罩式耳機",
+    "name": "無線耳罩式耳機",
+    "brand": "Audio-Technica",
+    "category": "充電線",
+    "srp": 580.0,
+    "msrp": 580.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio Technica ATH-M50xBT2",
+    "features": [
+      "Audio Technica ATH-M50xBT2"
+    ]
+  },
+  {
+    "id": "audio-technica-無線頭戴式耳機",
+    "name": "無線頭戴式耳機",
+    "brand": "Audio-Technica",
+    "category": "充電線",
+    "srp": 1580.0,
+    "msrp": 1580.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio-Technica ATH-R50x",
+    "features": [
+      "Audio-Technica ATH-R50x"
+    ]
+  },
+  {
+    "id": "audio-technica-專業開放式監聽耳機",
+    "name": "專業開放式監聽耳機",
+    "brand": "Audio-Technica",
+    "category": "耳機",
+    "srp": 820.0,
+    "msrp": 820.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio-Technica ATH-R70xa",
+    "features": [
+      "Audio-Technica ATH-R70xa"
+    ]
+  },
+  {
+    "id": "audio-technica-專業級耳機",
+    "name": "專業級耳機",
+    "brand": "Audio-Technica",
+    "category": "耳機",
+    "srp": 1380.0,
+    "msrp": 1380.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio-Technica ATH-A550Z",
+    "features": [
+      "Audio-Technica ATH-A550Z"
+    ]
+  },
+  {
+    "id": "audio-technica-藝術監聽耳筒",
+    "name": "藝術監聽耳筒",
+    "brand": "Audio-Technica",
+    "category": "耳機",
+    "srp": 1099.0,
+    "msrp": 1099.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio-Technica ATH-AWKT/f",
+    "features": [
+      "Audio-Technica ATH-AWKT/f"
+    ]
+  },
+  {
+    "id": "audio-technica-空氣動圈耳筒",
+    "name": "空氣動圈耳筒",
+    "brand": "Audio-Technica",
+    "category": "耳機",
+    "srp": 17330.0,
+    "msrp": 17330.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "audio-technica-usb-type-c-耳塞式耳機",
+    "name": "USB Type-C 耳塞式耳機",
+    "brand": "Audio-Technica",
+    "category": "耳機",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/usb-type-c.png",
+    "desc": "Audio Technica ATH-CKS770iS",
+    "features": [
+      "Audio Technica ATH-CKS770iS"
+    ]
+  },
+  {
+    "id": "audio-technica-入耳式通話耳機",
+    "name": "入耳式通話耳機",
+    "brand": "Audio-Technica",
+    "category": "耳機",
+    "srp": 198.0,
+    "msrp": 198.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio Technica ATH-CHX5",
+    "features": [
+      "Audio Technica ATH-CHX5"
+    ]
+  },
+  {
+    "id": "audio-technica-入耳式耳塞",
+    "name": "入耳式耳塞",
+    "brand": "Audio-Technica",
+    "category": "耳機",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio Technica ATH-CKX7iS",
+    "features": [
+      "Audio Technica ATH-CKX7iS"
+    ]
+  },
+  {
+    "id": "audio-technica-智能手機專入耳式耳塞咪峰",
+    "name": "智能手機專⽤入耳式耳塞咪⾼峰",
+    "brand": "Audio-Technica",
+    "category": "耳機",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio Technica ATH-CHX7",
+    "features": [
+      "Audio Technica ATH-CHX7"
+    ]
+  },
+  {
+    "id": "soundwiser-專業入耳式監聽耳機",
+    "name": "專業入耳式監聽耳機",
+    "brand": "Soundwiser",
+    "category": "耳機",
+    "srp": 1640.0,
+    "msrp": 1640.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Audio Technica ATH-E70",
+    "features": [
+      "Audio Technica ATH-E70"
+    ]
+  },
+  {
+    "id": "soundwiser-氣動式傳導無線耳機麥克風",
+    "name": "氣動式傳導無線耳機麥克風",
+    "brand": "Soundwiser",
+    "category": "充電線",
+    "srp": 168.0,
+    "msrp": 168.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "havit-時尚多功能智能運動手錶",
+    "name": "時尚多功能智能運動手錶",
+    "brand": "HAVIT",
+    "category": "其他",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "HAVIT M9030 PRO",
+    "features": [
+      "HAVIT M9030 PRO"
+    ]
+  },
+  {
+    "id": "havit-smart-watch-專業版智能手錶",
+    "name": "Smart Watch 專業版智能手錶",
+    "brand": "HAVIT",
+    "category": "智能家居",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/smart-watch.png",
+    "desc": "HAVIT M9031  PRO",
+    "features": [
+      "HAVIT M9031  PRO"
+    ]
+  },
+  {
+    "id": "havit-旗艦級型號運動手錶",
+    "name": "旗艦級型號運動手錶",
+    "brand": "HAVIT",
+    "category": "其他",
+    "srp": 528.0,
+    "msrp": 528.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "HAVIT Tw958 Pro",
+    "features": [
+      "HAVIT Tw958 Pro"
+    ]
+  },
+  {
+    "id": "havit-ancenc降噪真無線耳機",
+    "name": "ANC+ENC降噪真無線耳機",
+    "brand": "HAVIT",
+    "category": "充電線",
+    "srp": 398.0,
+    "msrp": 398.0,
+    "res": 0.0,
+    "image": "products-img/anc-enc.png",
+    "desc": "Havit Openbuds OWS916",
+    "features": [
+      "Havit Openbuds OWS916"
+    ]
+  },
+  {
+    "id": "havit-耳骨傳導真無線",
+    "name": "耳骨傳導真無線",
+    "brand": "HAVIT",
+    "category": "充電線",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "HAVIT TW969 True Wireless Earbuds",
+    "features": [
+      "HAVIT TW969 True Wireless Earbuds"
+    ]
+  },
+  {
+    "id": "havit-超迷你真無線耳機",
+    "name": "超迷你真無線耳機",
+    "brand": "HAVIT",
+    "category": "充電線",
+    "srp": 198.0,
+    "msrp": 198.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Havit Openbuds OWS907",
+    "features": [
+      "Havit Openbuds OWS907"
+    ]
+  },
+  {
+    "id": "havit-開放穿戴式立體聲藍牙耳機",
+    "name": "開放穿戴式立體聲藍牙耳機",
+    "brand": "HAVIT",
+    "category": "耳機",
+    "srp": 229.0,
+    "msrp": 229.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "havit-半入耳真無線耳機",
+    "name": "半入耳真無線耳機",
+    "brand": "HAVIT",
+    "category": "充電線",
+    "srp": 128.0,
+    "msrp": 128.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "HAVIT PB37 PD65W",
+    "features": [
+      "HAVIT PB37 PD65W"
+    ]
+  },
+  {
+    "id": "havit-10000mah-三合一移動電源插座",
+    "name": "10000mAh 三合一移動電源插座",
+    "brand": "HAVIT",
+    "category": "行動電源",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/10000mah.png",
+    "desc": "HAVIT PB5212 100W High-Power",
+    "features": [
+      "HAVIT PB5212 100W High-Power"
+    ]
+  },
+  {
+    "id": "havit-built-in-type-c-cable",
+    "name": "Built In Type-C Cable",
+    "brand": "HAVIT",
+    "category": "充電線",
+    "srp": 229.0,
+    "msrp": 229.0,
+    "res": 0.0,
+    "image": "products-img/built-in-type-c-cable.png",
+    "desc": "HAVIT UC220",
+    "features": [
+      "HAVIT UC220"
+    ]
+  },
+  {
+    "id": "havit-pd20w-gan快速充電火牛1u1c",
+    "name": "PD20W GaN快速充電火牛(1U1C)",
+    "brand": "HAVIT",
+    "category": "充電器",
+    "srp": 98.0,
+    "msrp": 98.0,
+    "res": 0.0,
+    "image": "products-img/pd20w-gan-1u1c.png",
+    "desc": "50 get 8 free | HAVIT UC30 Pro",
+    "features": [
+      "50 get 8 free",
+      "HAVIT UC30 Pro"
+    ]
+  },
+  {
+    "id": "havit-pd30w快充火牛",
+    "name": "PD30W快充火牛",
+    "brand": "HAVIT",
+    "category": "充電器",
+    "srp": 99.0,
+    "msrp": 99.0,
+    "res": 0.0,
+    "image": "products-img/pd30w.png",
+    "desc": "HAVIT PB50 183w",
+    "features": [
+      "HAVIT PB50 183w"
+    ]
+  },
+  {
+    "id": "havit-27000mah-led智能顯示移動電源",
+    "name": "27000mAH LED智能顯示移動電源",
+    "brand": "HAVIT",
+    "category": "行動電源",
+    "srp": 599.0,
+    "msrp": 599.0,
+    "res": 0.0,
+    "image": "products-img/27000mah-led.png",
+    "desc": "HAVIT UC252 PD65W",
+    "features": [
+      "HAVIT UC252 PD65W"
+    ]
+  },
+  {
+    "id": "havit-快充火牛內置伸縮充電線及錶無線充電器",
+    "name": "快充火牛內置伸縮充電線及⼿錶無線充電器",
+    "brand": "HAVIT",
+    "category": "充電器",
+    "srp": 268.0,
+    "msrp": 268.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "havit-旅行萬轉插",
+    "name": "旅行萬⽤轉插",
+    "brand": "HAVIT",
+    "category": "其他",
+    "srp": 138.0,
+    "msrp": 138.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "30pcs up $69 | HAVIT W3038",
+    "features": [
+      "30pcs up $69",
+      "HAVIT W3038"
+    ]
+  },
+  {
+    "id": "havit-15w-三合一無線充電座",
+    "name": "15W 三合一無線充電座",
+    "brand": "HAVIT",
+    "category": "充電線",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/15w.png",
+    "desc": "HAVIT MS61WB",
+    "features": [
+      "HAVIT MS61WB"
+    ]
+  },
+  {
+    "id": "havit-pd24w-汽車專usb充電器",
+    "name": "PD24W 汽車專⽤USB充電器",
+    "brand": "HAVIT",
+    "category": "充電器",
+    "srp": 128.0,
+    "msrp": 128.0,
+    "res": 0.0,
+    "image": "products-img/pd24w-usb.png",
+    "desc": "HAVIT UC220",
+    "features": [
+      "HAVIT UC220"
+    ]
+  },
+  {
+    "id": "havit-半透明24ghz藍牙雙模滑鼠",
+    "name": "半透明2.4Ghz+藍牙雙模滑鼠",
+    "brand": "HAVIT",
+    "category": "配件",
+    "srp": 168.0,
+    "msrp": 168.0,
+    "res": 0.0,
+    "image": "products-img/2-4ghz.png",
+    "desc": "20 get 3 free | HAVIT KB378 USB直插鍵盤",
+    "features": [
+      "20 get 3 free",
+      "HAVIT KB378 USB直插鍵盤"
+    ]
+  },
+  {
+    "id": "havit-一插即免安裝",
+    "name": "一插即⽤免安裝",
+    "brand": "HAVIT",
+    "category": "其他",
+    "srp": 99.0,
+    "msrp": 99.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "havit-空氣傳導無線藍牙耳機",
+    "name": "空氣傳導無線藍牙耳機",
+    "brand": "HAVIT",
+    "category": "充電線",
+    "srp": 218.0,
+    "msrp": 218.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "havit-anc主動降噪耳機",
+    "name": "ANC主動降噪耳機",
+    "brand": "HAVIT",
+    "category": "耳機",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/anc.png",
+    "desc": "HAVIT SK889BT",
+    "features": [
+      "HAVIT SK889BT"
+    ]
+  },
+  {
+    "id": "havit-多色氣氛燈360藍芽喇叭",
+    "name": "多色氣氛燈360藍芽⽔⺟喇叭",
+    "brand": "HAVIT",
+    "category": "喇叭",
+    "srp": 218.0,
+    "msrp": 218.0,
+    "res": 0.0,
+    "image": "products-img/360.png",
+    "desc": "Havit SK832BT",
+    "features": [
+      "Havit SK832BT"
+    ]
+  },
+  {
+    "id": "havit-bass-waterproof-wireless-speaker",
+    "name": "Bass Waterproof Wireless Speaker",
+    "brand": "HAVIT",
+    "category": "喇叭",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/bass-waterproof-wireless-speaker.png",
+    "desc": "HAVIT SK838BT",
+    "features": [
+      "HAVIT SK838BT"
+    ]
+  },
+  {
+    "id": "havit-無線防水藍牙喇叭",
+    "name": "無線防水藍牙喇叭",
+    "brand": "HAVIT",
+    "category": "充電線",
+    "srp": 168.0,
+    "msrp": 168.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Havit SK862BT",
+    "features": [
+      "Havit SK862BT"
+    ]
+  },
+  {
+    "id": "havit-戶外低音提無線箱",
+    "name": "戶外低音⼿提無線⾳箱",
+    "brand": "HAVIT",
+    "category": "充電線",
+    "srp": 229.0,
+    "msrp": 229.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "havit-唱k神器連一咪",
+    "name": "唱K神器(連一⽀咪）",
+    "brand": "HAVIT",
+    "category": "其他",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/k.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "havit-半入耳式線控typec耳機",
+    "name": "半入耳式線控TypeC耳機",
+    "brand": "HAVIT",
+    "category": "充電線",
+    "srp": 128.0,
+    "msrp": 128.0,
+    "res": 0.0,
+    "image": "products-img/typec.png",
+    "desc": "20 get 5 free",
+    "features": [
+      "20 get 5 free"
+    ]
+  },
+  {
+    "id": "havit-智能4k-高清投影儀",
+    "name": "智能4K 高清投影儀",
+    "brand": "HAVIT",
+    "category": "其他",
+    "srp": 1699.0,
+    "msrp": 1699.0,
+    "res": 0.0,
+    "image": "products-img/4k.png",
+    "desc": "Havit PJ215 Pro",
+    "features": [
+      "Havit PJ215 Pro"
+    ]
+  },
+  {
+    "id": "havit-4k智能projector",
+    "name": "4K智能Projector",
+    "brand": "HAVIT",
+    "category": "其他",
+    "srp": 1298.0,
+    "msrp": 1298.0,
+    "res": 0.0,
+    "image": "products-img/4k-projector.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "havit-numpad-mini-數字鍵盤",
+    "name": "Numpad Mini 數字鍵盤",
+    "brand": "HAVIT",
+    "category": "配件",
+    "srp": 99.0,
+    "msrp": 99.0,
+    "res": 0.0,
+    "image": "products-img/numpad-mini.png",
+    "desc": "HAVIT ST7151",
+    "features": [
+      "HAVIT ST7151"
+    ]
+  },
+  {
+    "id": "havit-汽車機架",
+    "name": "汽車⼿機⽀架",
+    "brand": "HAVIT",
+    "category": "其他",
+    "srp": 78.0,
+    "msrp": 78.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "HAVIT H717",
+    "features": [
+      "HAVIT H717"
+    ]
+  },
+  {
+    "id": "havit-360度旋轉車架",
+    "name": "360度旋轉車架",
+    "brand": "HAVIT",
+    "category": "其他",
+    "srp": 58.0,
+    "msrp": 58.0,
+    "res": 0.0,
+    "image": "products-img/360.png",
+    "desc": "HAVIT VC019",
+    "features": [
+      "HAVIT VC019"
+    ]
+  },
+  {
+    "id": "havit-二合吸塵機-充氣泵",
+    "name": "二合⼀吸塵機 + 充氣泵",
+    "brand": "HAVIT",
+    "category": "其他",
+    "srp": 428.0,
+    "msrp": 428.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "HAVIT   VC015 AirLite",
+    "features": [
+      "HAVIT   VC015 AirLite"
+    ]
+  },
+  {
+    "id": "havit-強力持式無線吸塵機",
+    "name": "強力⼿持式無線吸塵機",
+    "brand": "HAVIT",
+    "category": "充電線",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "HAVIT NM1702",
+    "features": [
+      "HAVIT NM1702"
+    ]
+  },
+  {
+    "id": "havit-石墨烯發熱雙層按摩頸枕",
+    "name": "石墨烯發熱雙層按摩頸枕",
+    "brand": "HAVIT",
+    "category": "家居",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Havit HB4040",
+    "features": [
+      "Havit HB4040"
+    ]
+  },
+  {
+    "id": "havit-mini-6-in-1-combo-card-reader",
+    "name": "Mini 6-in-1 Combo Card Reader",
+    "brand": "HAVIT",
+    "category": "配件",
+    "srp": 108.0,
+    "msrp": 108.0,
+    "res": 0.0,
+    "image": "products-img/mini-6-in-1-combo-card-reader.png",
+    "desc": "Havit MG1508",
+    "features": [
+      "Havit MG1508"
+    ]
+  },
+  {
+    "id": "havit-迷你肌肉按摩槍",
+    "name": "迷你肌肉按摩槍",
+    "brand": "HAVIT",
+    "category": "家居",
+    "srp": 248.0,
+    "msrp": 248.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "plantronics-單耳掛式專業通話藍牙耳機-行貨貨",
+    "name": "單耳掛式專業通話藍牙耳機 行貨/⽔貨",
+    "brand": "Plantronics",
+    "category": "耳機",
+    "srp": 799.0,
+    "msrp": 799.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Poly  Voyager",
+    "features": [
+      "Poly  Voyager"
+    ]
+  },
+  {
+    "id": "plantronics-legend-30-單耳式藍牙耳機",
+    "name": "Legend 30 單耳式藍牙耳機",
+    "brand": "Plantronics",
+    "category": "耳機",
+    "srp": 798.0,
+    "msrp": 798.0,
+    "res": 0.0,
+    "image": "products-img/legend-30.png",
+    "desc": "Poly Voyager Legend",
+    "features": [
+      "Poly Voyager Legend"
+    ]
+  },
+  {
+    "id": "plantronics-貼耳式無線耳機",
+    "name": "貼耳式無線耳機",
+    "brand": "Plantronics",
+    "category": "耳機",
+    "srp": 599.0,
+    "msrp": 599.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Sony  MDR-ZX110AP",
+    "features": [
+      "Sony  MDR-ZX110AP"
+    ]
+  },
+  {
+    "id": "plantronics-頭戴式立體聲耳機",
+    "name": "頭戴式立體聲耳機",
+    "brand": "Plantronics",
+    "category": "耳機",
+    "srp": 168.0,
+    "msrp": 168.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "sabbat-雲石系列-真無線半入耳式藍牙耳機",
+    "name": "雲石系列 真無線半入耳式藍牙耳機",
+    "brand": "Sabbat",
+    "category": "耳機",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Sabbat G12 Elite",
+    "features": [
+      "Sabbat G12 Elite"
+    ]
+  },
+  {
+    "id": "sabbat-入耳式電競藍牙耳機",
+    "name": "入耳式電競藍牙耳機",
+    "brand": "Sabbat",
+    "category": "耳機",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Sabbat X12 Pro",
+    "features": [
+      "Sabbat X12 Pro"
+    ]
+  },
+  {
+    "id": "sabbat-真無線藍牙耳機-2024-ver",
+    "name": "真無線藍牙耳機 2024 Ver.",
+    "brand": "Sabbat",
+    "category": "耳機",
+    "srp": 398.0,
+    "msrp": 398.0,
+    "res": 0.0,
+    "image": "products-img/2024-ver.png",
+    "desc": "Sabbat E12 Ultra Chips (高通無缐充電",
+    "features": [
+      "Sabbat E12 Ultra Chips (高通無缐充電"
+    ]
+  },
+  {
+    "id": "sabbat-版-入耳式真無線50藍牙耳機",
+    "name": "版) 入耳式真無線5.0藍牙耳機",
+    "brand": "Sabbat",
+    "category": "耳機",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/5-0.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "trueaudio-最新anc智能觸控屏幕耳機",
+    "name": "最新ANC智能觸控屏幕耳機",
+    "brand": "TRUEAUDIO",
+    "category": "耳機",
+    "srp": 388.0,
+    "msrp": 388.0,
+    "res": 0.0,
+    "image": "products-img/anc.png",
+    "desc": "TrueAudio S31 Pro",
+    "features": [
+      "TrueAudio S31 Pro"
+    ]
+  },
+  {
+    "id": "trueaudio-電量顯示半入耳式耳機",
+    "name": "電量顯示半入耳式耳機",
+    "brand": "TRUEAUDIO",
+    "category": "耳機",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "TrueAudio L320AP",
+    "features": [
+      "TrueAudio L320AP"
+    ]
+  },
+  {
+    "id": "trueaudio-type-c-入耳式有線耳機",
+    "name": "Type-C 入耳式有線耳機",
+    "brand": "TRUEAUDIO",
+    "category": "耳機",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/type-c.png",
+    "desc": "TrueAudio ACK-S2L",
+    "features": [
+      "TrueAudio ACK-S2L"
+    ]
+  },
+  {
+    "id": "trueaudio-lightning-入耳式有線耳機",
+    "name": "Lightning 入耳式有線耳機",
+    "brand": "TRUEAUDIO",
+    "category": "耳機",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/lightning.png",
+    "desc": "TrueAudio MF01 C",
+    "features": [
+      "TrueAudio MF01 C"
+    ]
+  },
+  {
+    "id": "trueaudio-type-c-掛耳有線耳機",
+    "name": "Type-C 掛耳有線耳機",
+    "brand": "TRUEAUDIO",
+    "category": "耳機",
+    "srp": 249.0,
+    "msrp": 249.0,
+    "res": 0.0,
+    "image": "products-img/type-c.png",
+    "desc": "TrueAudio MF01 L",
+    "features": [
+      "TrueAudio MF01 L"
+    ]
+  },
+  {
+    "id": "trueaudio-lightning-掛耳有線耳機",
+    "name": "Lightning 掛耳有線耳機",
+    "brand": "TRUEAUDIO",
+    "category": "耳機",
+    "srp": 279.0,
+    "msrp": 279.0,
+    "res": 0.0,
+    "image": "products-img/lightning.png",
+    "desc": "TrueAudio MF01 J",
+    "features": [
+      "TrueAudio MF01 J"
+    ]
+  },
+  {
+    "id": "jbl-真無線降噪豆形入耳式耳機",
+    "name": "真無線降噪豆形入耳式耳機",
+    "brand": "JBL",
+    "category": "耳機",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "JBL Wave Beam 2",
+    "features": [
+      "JBL Wave Beam 2"
+    ]
+  },
+  {
+    "id": "jbl-真無線降噪耳柄形入耳式耳機",
+    "name": "真無線降噪耳柄形入耳式耳機",
+    "brand": "JBL",
+    "category": "耳機",
+    "srp": 549.0,
+    "msrp": 549.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "JBL Wave Flex 2",
+    "features": [
+      "JBL Wave Flex 2"
+    ]
+  },
+  {
+    "id": "jbl-真無線降噪豆形入耳式耳機-透明版",
+    "name": "真無線降噪豆形入耳式耳機 透明版",
+    "brand": "JBL",
+    "category": "耳機",
+    "srp": 798.0,
+    "msrp": 798.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "JBL Wave Beam 2 Ghost Edition",
+    "features": [
+      "JBL Wave Beam 2 Ghost Edition"
+    ]
+  },
+  {
+    "id": "jbl-真無線降噪耳柄形入耳式耳機-透明版",
+    "name": "真無線降噪耳柄形入耳式耳機 透明版",
+    "brand": "JBL",
+    "category": "耳機",
+    "srp": 798.0,
+    "msrp": 798.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "JBL Wave Flex 2 Ghost Edition",
+    "features": [
+      "JBL Wave Flex 2 Ghost Edition"
+    ]
+  },
+  {
+    "id": "jbl-真無線耳柄形開放式耳機-透明版",
+    "name": "真無線耳柄形開放式耳機 透明版",
+    "brand": "JBL",
+    "category": "耳機",
+    "srp": 899.0,
+    "msrp": 899.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "jbl-usb-c-有線高解析度入耳式耳機",
+    "name": "USB-C 有線高解析度入耳式耳機",
+    "brand": "JBL",
+    "category": "耳機",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/usb-c.png",
+    "desc": "JBL Endurance Run 2 Wireless",
+    "features": [
+      "JBL Endurance Run 2 Wireless"
+    ]
+  },
+  {
+    "id": "jbl-防水無線藍牙入耳式耳機",
+    "name": "防水無線藍牙入耳式耳機",
+    "brand": "JBL",
+    "category": "耳機",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "JBL Tube 530BT",
+    "features": [
+      "JBL Tube 530BT"
+    ]
+  },
+  {
+    "id": "jbl-無線頭戴式耳機",
+    "name": "無線頭戴式耳機",
+    "brand": "JBL",
+    "category": "耳機",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "JBL Tune 730BT",
+    "features": [
+      "JBL Tune 730BT"
+    ]
+  },
+  {
+    "id": "jbl-無線頭戴式藍牙耳機",
+    "name": "無線頭戴式藍牙耳機",
+    "brand": "JBL",
+    "category": "耳機",
+    "srp": 549.0,
+    "msrp": 549.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "JBL TUNE 680NC",
+    "features": [
+      "JBL TUNE 680NC"
+    ]
+  },
+  {
+    "id": "jbl-無線頭戴式降噪耳機",
+    "name": "無線頭戴式降噪耳機",
+    "brand": "JBL",
+    "category": "耳機",
+    "srp": 649.0,
+    "msrp": 649.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "JBL TUNE 780NC",
+    "features": [
+      "JBL TUNE 780NC"
+    ]
+  },
+  {
+    "id": "jbl-便攜式防水藍牙喇叭",
+    "name": "便攜式防水藍牙喇叭",
+    "brand": "JBL",
+    "category": "喇叭",
+    "srp": 998.0,
+    "msrp": 998.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "JBL Charge 6",
+    "features": [
+      "JBL Charge 6"
+    ]
+  },
+  {
+    "id": "jbl-防水掛勾可攜式藍牙喇叭",
+    "name": "防水掛勾可攜式藍牙喇叭",
+    "brand": "JBL",
+    "category": "喇叭",
+    "srp": 549.0,
+    "msrp": 549.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "JBL Grip",
+    "features": [
+      "JBL Grip"
+    ]
+  },
+  {
+    "id": "jbl-霓虹罐便攜式防水藍牙喇叭",
+    "name": "霓虹罐便攜式防水藍牙喇叭",
+    "brand": "JBL",
+    "category": "喇叭",
+    "srp": 799.0,
+    "msrp": 799.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "JBL Partybox Encore Essential",
+    "features": [
+      "JBL Partybox Encore Essential"
+    ]
+  },
+  {
+    "id": "jbl-手提式派對藍牙喇叭",
+    "name": "手提式派對藍牙喇叭",
+    "brand": "JBL",
+    "category": "喇叭",
+    "srp": 2499.0,
+    "msrp": 2499.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "JBL PartyBox 110",
+    "features": [
+      "JBL PartyBox 110"
+    ]
+  },
+  {
+    "id": "jbl-便攜式藍牙派對喇叭",
+    "name": "便攜式藍牙派對喇叭",
+    "brand": "JBL",
+    "category": "喇叭",
+    "srp": 3199.0,
+    "msrp": 3199.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "nakamichi-入耳雙磁單動圈耳機",
+    "name": "入耳雙磁單動圈耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Nakamichi MV200",
+    "features": [
+      "Nakamichi MV200"
+    ]
+  },
+  {
+    "id": "nakamichi-入耳式圈鐵混動hi-fi耳機",
+    "name": "入耳式圈鐵混動Hi-Fi耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/hi-fi.png",
+    "desc": "Nakamichi MV500",
+    "features": [
+      "Nakamichi MV500"
+    ]
+  },
+  {
+    "id": "nakamichi-動圈入耳式監聽有線耳機",
+    "name": "動圈入耳式監聽有線耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 198.0,
+    "msrp": 198.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Nakamichi  TW018ENC Plus",
+    "features": [
+      "Nakamichi  TW018ENC Plus"
+    ]
+  },
+  {
+    "id": "nakamichi-降噪真無線耳機",
+    "name": "降噪真無線耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 598.0,
+    "msrp": 598.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Nakamichi Elite TW150NC",
+    "features": [
+      "Nakamichi Elite TW150NC"
+    ]
+  },
+  {
+    "id": "nakamichi-主動降噪真無線耳機",
+    "name": "主動降噪真無線耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 498.0,
+    "msrp": 498.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Nakamichi OP-TW007",
+    "features": [
+      "Nakamichi OP-TW007"
+    ]
+  },
+  {
+    "id": "nakamichi-耳夾式真無線耳機",
+    "name": "耳夾式真無線耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Nakamichi My Music Hue Orchid",
+    "features": [
+      "Nakamichi My Music Hue Orchid"
+    ]
+  },
+  {
+    "id": "nakamichi-藍牙53半開放式真無線耳機",
+    "name": "藍牙5.3半開放式真無線耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/5-3.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "nakamichi-air-conduction-藍牙運動耳機",
+    "name": "Air Conduction 藍牙運動耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 268.0,
+    "msrp": 268.0,
+    "res": 0.0,
+    "image": "products-img/air-conduction.png",
+    "desc": "Nakamichi N2",
+    "features": [
+      "Nakamichi N2"
+    ]
+  },
+  {
+    "id": "nakamichi-單耳式掛耳藍牙耳機",
+    "name": "單耳式掛耳藍牙耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 398.0,
+    "msrp": 398.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Nakamichi  My Music Hue Hear",
+    "features": [
+      "Nakamichi  My Music Hue Hear"
+    ]
+  },
+  {
+    "id": "nakamichi-無線藍牙可折疊耳機",
+    "name": "無線藍牙可折疊耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Nakamichi  OW1100ANC",
+    "features": [
+      "Nakamichi  OW1100ANC"
+    ]
+  },
+  {
+    "id": "nakamichi-主動式降噪藍牙真無綫耳機",
+    "name": "主動式降噪藍牙真無綫耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 348.0,
+    "msrp": 348.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Nakamichi  NHP-X2",
+    "features": [
+      "Nakamichi  NHP-X2"
+    ]
+  },
+  {
+    "id": "nakamichi-頭戴式藍牙耳機",
+    "name": "頭戴式藍牙耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 349.0,
+    "msrp": 349.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Nakamichi  OW1500ANC",
+    "features": [
+      "Nakamichi  OW1500ANC"
+    ]
+  },
+  {
+    "id": "nakamichi-主動式降噪藍牙真無線耳機",
+    "name": "主動式降噪藍牙真無線耳機",
+    "brand": "NAKAMICHI",
+    "category": "耳機",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "First 6 get 1 free demo | Nakamichi   N-Power-Lite",
+    "features": [
+      "First 6 get 1 free demo",
+      "Nakamichi   N-Power-Lite"
+    ]
+  },
+  {
+    "id": "nakamichi-無線藍牙便攜式喇叭",
+    "name": "無線藍牙便攜式喇叭",
+    "brand": "NAKAMICHI",
+    "category": "喇叭",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Nakamichi Soundstation Mars",
+    "features": [
+      "Nakamichi Soundstation Mars"
+    ]
+  },
+  {
+    "id": "creative-hi-fi-20-桌上無線藍牙喇叭",
+    "name": "Hi-Fi 2.0 桌上無線藍牙喇叭",
+    "brand": "CREATIVE",
+    "category": "喇叭",
+    "srp": 688.0,
+    "msrp": 688.0,
+    "res": 0.0,
+    "image": "products-img/hi-fi-2-0.png",
+    "desc": "Creative T100",
+    "features": [
+      "Creative T100"
+    ]
+  },
+  {
+    "id": "creative-compact-hi-fi-20-無線藍牙音箱",
+    "name": "Compact Hi-Fi 2.0 無線藍牙音箱",
+    "brand": "CREATIVE",
+    "category": "充電線",
+    "srp": 899.0,
+    "msrp": 899.0,
+    "res": 0.0,
+    "image": "products-img/compact-hi-fi-2-0.png",
+    "desc": "Creative BT-W6",
+    "features": [
+      "Creative BT-W6"
+    ]
+  },
+  {
+    "id": "creative-藍牙喇叭連低音喇叭響組合",
+    "name": "藍牙喇叭連低音喇叭⾳響組合",
+    "brand": "CREATIVE",
+    "category": "喇叭",
+    "srp": 899.0,
+    "msrp": 899.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Creative  Stage Air V2",
+    "features": [
+      "Creative  Stage Air V2"
+    ]
+  },
+  {
+    "id": "creative-soundbar-便攜式型藍牙喇叭",
+    "name": "SoundBar 便攜式型藍牙喇叭",
+    "brand": "CREATIVE",
+    "category": "喇叭",
+    "srp": 398.0,
+    "msrp": 398.0,
+    "res": 0.0,
+    "image": "products-img/soundbar.png",
+    "desc": "Creative  Stage SE mini",
+    "features": [
+      "Creative  Stage SE mini"
+    ]
+  },
+  {
+    "id": "creative-緊湊型顯示器下條形喇叭",
+    "name": "緊湊型顯示器下條形喇叭",
+    "brand": "CREATIVE",
+    "category": "喇叭",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Creative GS3 SUPERWIDE™",
+    "features": [
+      "Creative GS3 SUPERWIDE™"
+    ]
+  },
+  {
+    "id": "creative-rgb-電競條形喇叭",
+    "name": "RGB 電競條形喇叭",
+    "brand": "CREATIVE",
+    "category": "喇叭",
+    "srp": 428.0,
+    "msrp": 428.0,
+    "res": 0.0,
+    "image": "products-img/rgb.png",
+    "desc": "Creative Sound Blaster GS5",
+    "features": [
+      "Creative Sound Blaster GS5"
+    ]
+  },
+  {
+    "id": "creative-遊戲條型音箱",
+    "name": "遊戲條型音箱",
+    "brand": "CREATIVE",
+    "category": "其他",
+    "srp": 588.0,
+    "msrp": 588.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Creative Stage Pro 2.1 Soundbar",
+    "features": [
+      "Creative Stage Pro 2.1 Soundbar"
+    ]
+  },
+  {
+    "id": "creative-電視電腦環繞音效連藍牙喇叭",
+    "name": "電視電腦環繞音效連藍牙喇叭",
+    "brand": "CREATIVE",
+    "category": "喇叭",
+    "srp": 1388.0,
+    "msrp": 1388.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "monster-開放式藍芽真無線耳機",
+    "name": "開放式藍芽真無線耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 198.0,
+    "msrp": 198.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Monster Open Ear AC530 OWS開",
+    "features": [
+      "Monster Open Ear AC530 OWS開"
+    ]
+  },
+  {
+    "id": "monster-放式可摺疊耳掛藍牙無線耳機",
+    "name": "放式可摺疊耳掛藍牙無線耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Monster GAIRMARS SG03 PRO",
+    "features": [
+      "Monster GAIRMARS SG03 PRO"
+    ]
+  },
+  {
+    "id": "monster-頸掛式無線藍牙耳機",
+    "name": "頸掛式無線藍牙耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 178.0,
+    "msrp": 178.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Monster MISSION 100",
+    "features": [
+      "Monster MISSION 100"
+    ]
+  },
+  {
+    "id": "monster-頭戴式無線耳機",
+    "name": "頭戴式無線耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "MONSTER  MQO37",
+    "features": [
+      "MONSTER  MQO37"
+    ]
+  },
+  {
+    "id": "monster-藍牙60-開放式藍牙耳機",
+    "name": "藍牙6.0 開放式藍牙耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 228.0,
+    "msrp": 228.0,
+    "res": 0.0,
+    "image": "products-img/6-0.png",
+    "desc": "Monster GT17",
+    "features": [
+      "Monster GT17"
+    ]
+  },
+  {
+    "id": "monster-anc真無線耳機",
+    "name": "ANC真無線耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/anc.png",
+    "desc": "Monster M8 唱K神器",
+    "features": [
+      "Monster M8 唱K神器"
+    ]
+  },
+  {
+    "id": "monster-rgb燈光效果",
+    "name": "RGB燈光效果",
+    "brand": "MONSTER",
+    "category": "家居",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/rgb.png",
+    "desc": "Monster Aura Fit D02",
+    "features": [
+      "Monster Aura Fit D02"
+    ]
+  },
+  {
+    "id": "monster-真無線耳機",
+    "name": "真無線耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 258.0,
+    "msrp": 258.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "monster-入耳真無線耳機",
+    "name": "入耳真無線耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Monster XKT20",
+    "features": [
+      "Monster XKT20"
+    ]
+  },
+  {
+    "id": "monster-主動降噪半入耳真無線藍牙耳機",
+    "name": "主動降噪半入耳真無線藍牙耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Monster XKT22",
+    "features": [
+      "Monster XKT22"
+    ]
+  },
+  {
+    "id": "monster-減壓陀螺降噪半入耳藍牙54-電競耳機",
+    "name": "減壓陀螺降噪半入耳藍牙5.4 電競耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/5-4.png",
+    "desc": "Monster Openear 101",
+    "features": [
+      "Monster Openear 101"
+    ]
+  },
+  {
+    "id": "monster-夾耳式運動藍牙耳機",
+    "name": "夾耳式運動藍牙耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Monster Airmars N3",
+    "features": [
+      "Monster Airmars N3"
+    ]
+  },
+  {
+    "id": "monster-usb-71-頭戴式電競耳機",
+    "name": "USB  7.1 頭戴式電競耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 579.0,
+    "msrp": 579.0,
+    "res": 0.0,
+    "image": "products-img/usb-7-1.png",
+    "desc": "Monster Open Ear HP",
+    "features": [
+      "Monster Open Ear HP"
+    ]
+  },
+  {
+    "id": "monster-骨聲傳導耳機",
+    "name": "骨聲傳導耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 899.0,
+    "msrp": 899.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Monster Clarity 101 Airlinks",
+    "features": [
+      "Monster Clarity 101 Airlinks"
+    ]
+  },
+  {
+    "id": "monster-真無線藍牙耳機",
+    "name": "真無線藍牙耳機",
+    "brand": "MONSTER",
+    "category": "耳機",
+    "srp": 559.0,
+    "msrp": 559.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "philips-真無線半入耳耳機",
+    "name": "真無線半入耳耳機",
+    "brand": "PHILIPS",
+    "category": "耳機",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Philips TAT1199 | PHILIPS TAE2146/97",
+    "features": [
+      "Philips TAT1199",
+      "PHILIPS TAE2146/97"
+    ]
+  },
+  {
+    "id": "philips-耳塞式耳筒",
+    "name": "耳塞式耳筒",
+    "brand": "PHILIPS",
+    "category": "耳機",
+    "srp": 240.0,
+    "msrp": 240.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "PHILIPS TAE2146/97",
+    "features": [
+      "PHILIPS TAE2146/97"
+    ]
+  },
+  {
+    "id": "philips-入耳式type-c耳機附麥克風",
+    "name": "入耳式Type C耳機附麥克風",
+    "brand": "PHILIPS",
+    "category": "耳機",
+    "srp": 88.0,
+    "msrp": 88.0,
+    "res": 0.0,
+    "image": "products-img/type-c.png",
+    "desc": "50 get 10 free | Philips TAS2505",
+    "features": [
+      "50 get 10 free",
+      "Philips TAS2505"
+    ]
+  },
+  {
+    "id": "philips-藍牙音箱無線喇叭",
+    "name": "藍牙音箱無線喇叭",
+    "brand": "PHILIPS",
+    "category": "喇叭",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Philips SHM1900 3.5mm",
+    "features": [
+      "Philips SHM1900 3.5mm"
+    ]
+  },
+  {
+    "id": "philips-電腦耳筒-耳罩式-封閉式-頭戴式耳機",
+    "name": "電腦耳筒 耳罩式 封閉式 頭戴式耳機",
+    "brand": "PHILIPS",
+    "category": "耳機",
+    "srp": 198.0,
+    "msrp": 198.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Philips SHP2500 3.5mm / 6.3mm",
+    "features": [
+      "Philips SHP2500 3.5mm / 6.3mm"
+    ]
+  },
+  {
+    "id": "philips-電腦耳筒蓋耳式-頭戴式耳機",
+    "name": "電腦耳筒蓋耳式 頭戴式耳機",
+    "brand": "PHILIPS",
+    "category": "耳機",
+    "srp": 198.0,
+    "msrp": 198.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Philips HTL1508",
+    "features": [
+      "Philips HTL1508"
+    ]
+  },
+  {
+    "id": "philips-sound-bar-20聲道藍牙無線環繞音響",
+    "name": "Sound Bar 2.0聲道藍牙無線環繞音響",
+    "brand": "PHILIPS",
+    "category": "喇叭",
+    "srp": 1299.0,
+    "msrp": 1299.0,
+    "res": 0.0,
+    "image": "products-img/sound-bar-2-0.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "philips-便攜式收音機",
+    "name": "便攜式收音機",
+    "brand": "PHILIPS",
+    "category": "其他",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Philips TAR1506",
+    "features": [
+      "Philips TAR1506"
+    ]
+  },
+  {
+    "id": "uniwa-4g功能手機",
+    "name": "4G功能手機",
+    "brand": "UNIWA",
+    "category": "其他",
+    "srp": 598.0,
+    "msrp": 598.0,
+    "res": 0.0,
+    "image": "products-img/4g.png",
+    "desc": "Nokia 3210",
+    "features": [
+      "Nokia 3210"
+    ]
+  },
+  {
+    "id": "uniwa-4g-2024復刻版",
+    "name": "4G (2024復刻版)",
+    "brand": "UNIWA",
+    "category": "其他",
+    "srp": 698.0,
+    "msrp": 698.0,
+    "res": 0.0,
+    "image": "products-img/4g-2024.png",
+    "desc": "Nokia  2720 Flip",
+    "features": [
+      "Nokia  2720 Flip"
+    ]
+  },
+  {
+    "id": "uniwa-4g-2021復刻版",
+    "name": "4G 2021復刻版",
+    "brand": "UNIWA",
+    "category": "其他",
+    "srp": 348.0,
+    "msrp": 348.0,
+    "res": 0.0,
+    "image": "products-img/4g-2021.png",
+    "desc": "UNIWA 909T",
+    "features": [
+      "UNIWA 909T"
+    ]
+  },
+  {
+    "id": "uniwa-老年人按鍵機",
+    "name": "老年人按鍵⼿機",
+    "brand": "UNIWA",
+    "category": "其他",
+    "srp": 458.0,
+    "msrp": 458.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "voca-耳背式助聽器",
+    "name": "耳背式助聽器",
+    "brand": "VOCA",
+    "category": "其他",
+    "srp": 360.0,
+    "msrp": 360.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Voca HA20",
+    "features": [
+      "Voca HA20"
+    ]
+  },
+  {
+    "id": "voca-128db-dsp-助聽器耳塞米色-v284",
+    "name": "128DB DSP 助聽器耳塞米色 (V284)",
+    "brand": "VOCA",
+    "category": "耳機",
+    "srp": 680.0,
+    "msrp": 680.0,
+    "res": 0.0,
+    "image": "products-img/128db-dsp-v284.png",
+    "desc": "VOCA HA30",
+    "features": [
+      "VOCA HA30"
+    ]
+  },
+  {
+    "id": "voca-耳機型充電式助聽器-120db",
+    "name": "耳機型充電式助聽器 (+120dB)",
+    "brand": "VOCA",
+    "category": "耳機",
+    "srp": 1250.0,
+    "msrp": 1250.0,
+    "res": 0.0,
+    "image": "products-img/120db.png",
+    "desc": "Voca HA40  DSP 數位降噪",
+    "features": [
+      "Voca HA40  DSP 數位降噪"
+    ]
+  },
+  {
+    "id": "voca-頸帶式藍牙助聽器",
+    "name": "頸帶式藍牙助聽器",
+    "brand": "VOCA",
+    "category": "耳機",
+    "srp": 1600.0,
+    "msrp": 1600.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "nokia-主動降噪頭戴式藍牙耳機",
+    "name": "主動降噪頭戴式藍牙耳機",
+    "brand": "NOKIA",
+    "category": "耳機",
+    "srp": 639.0,
+    "msrp": 639.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Nokia E1200  Essential",
+    "features": [
+      "Nokia E1200  Essential"
+    ]
+  },
+  {
+    "id": "nokia-頭戴式藍牙耳機",
+    "name": "頭戴式藍牙耳機",
+    "brand": "NOKIA",
+    "category": "耳機",
+    "srp": 498.0,
+    "msrp": 498.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Nokia E1300  Essential",
+    "features": [
+      "Nokia E1300  Essential"
+    ]
+  },
+  {
+    "id": "mon-3d-全覆蓋-康寧玻璃貼-美國製造",
+    "name": "3D 全覆蓋 康寧玻璃貼 (美國製造)",
+    "brand": "MON",
+    "category": "配件",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/3d.png",
+    "desc": "Casestudi  三鏡頭9H康寧貼",
+    "features": [
+      "Casestudi  三鏡頭9H康寧貼"
+    ]
+  },
+  {
+    "id": "mon-55-防偷窺藍光-55-防藍光",
+    "name": "$55 防偷窺+藍光 $ 55 防藍光",
+    "brand": "MON",
+    "category": "配件",
+    "srp": 198.0,
+    "msrp": 198.0,
+    "res": 0.0,
+    "image": "products-img/55-55.png",
+    "desc": "AMG-CT 超高清保護貼(韓國制造) | AMG iPhone 16 系列磁吸保護套",
+    "features": [
+      "AMG-CT 超高清保護貼(韓國制造)",
+      "AMG iPhone 16 系列磁吸保護套"
+    ]
+  },
+  {
+    "id": "amg-amg-ct-超高清保護貼韓國制造",
+    "name": "AMG-CT 超高清保護貼(韓國制造)",
+    "brand": "AMG",
+    "category": "配件",
+    "srp": 99.0,
+    "msrp": 99.0,
+    "res": 0.0,
+    "image": "products-img/amg-ct.png",
+    "desc": "AMG iPhone 16 系列磁吸保護套 | GARMMA iPhone 17系列",
+    "features": [
+      "AMG iPhone 16 系列磁吸保護套",
+      "GARMMA iPhone 17系列"
+    ]
+  },
+  {
+    "id": "amg-amg-iphone-16-系列磁吸保護套",
+    "name": "AMG iPhone 16 系列磁吸保護套",
+    "brand": "AMG",
+    "category": "配件",
+    "srp": 178.0,
+    "msrp": 178.0,
+    "res": 0.0,
+    "image": "products-img/amg-iphone-16.png",
+    "desc": "GARMMA iPhone 17系列",
+    "features": [
+      "GARMMA iPhone 17系列"
+    ]
+  },
+  {
+    "id": "garmma-garmma-iphone-17系列",
+    "name": "GARMMA iPhone 17系列",
+    "brand": "GARMMA",
+    "category": "其他",
+    "srp": 328.0,
+    "msrp": 328.0,
+    "res": 0.0,
+    "image": "products-img/garmma-iphone-17.png",
+    "desc": "*卡通手機殼系列產品款式眾多，如需個別圖⽂請向本公司SALES查詢.",
+    "features": [
+      "*卡通手機殼系列產品款式眾多，如需個別圖⽂請向本公司SALES查詢."
+    ]
+  },
+  {
+    "id": "savewo-magcell-5000mah-移動電源",
+    "name": "MagCell 5000mAh 移動電源",
+    "brand": "SAVEWO",
+    "category": "行動電源",
+    "srp": 368.0,
+    "msrp": 368.0,
+    "res": 0.0,
+    "image": "products-img/magcell-5000mah.png",
+    "desc": "SAVEWO MagCell Ultra",
+    "features": [
+      "SAVEWO MagCell Ultra"
+    ]
+  },
+  {
+    "id": "savewo-多功能qi2無線充電行動電源",
+    "name": "多功能Qi2無線充電行動電源",
+    "brand": "SAVEWO",
+    "category": "充電線",
+    "srp": 498.0,
+    "msrp": 498.0,
+    "res": 0.0,
+    "image": "products-img/qi2.png",
+    "desc": "SAVEWO MagCell MC509",
+    "features": [
+      "SAVEWO MagCell MC509"
+    ]
+  },
+  {
+    "id": "savewo-qi2無線充電行動電源",
+    "name": "Qi2無線充電行動電源",
+    "brand": "SAVEWO",
+    "category": "充電線",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/qi2.png",
+    "desc": "SAVEWO MagCell MC511QF 世界最細",
+    "features": [
+      "SAVEWO MagCell MC511QF 世界最細"
+    ]
+  },
+  {
+    "id": "savewo-高性能容量動電源",
+    "name": "高性能⼤容量⾏動電源",
+    "brand": "SAVEWO",
+    "category": "其他",
+    "srp": 498.0,
+    "msrp": 498.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Savewo MagCell MC1003",
+    "features": [
+      "Savewo MagCell MC1003"
+    ]
+  },
+  {
+    "id": "savewo-10000mah-磁吸無線行動電源",
+    "name": "10000mAh 磁吸無線行動電源",
+    "brand": "SAVEWO",
+    "category": "充電線",
+    "srp": 368.0,
+    "msrp": 368.0,
+    "res": 0.0,
+    "image": "products-img/10000mah.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "savewo-智能車載充電器",
+    "name": "智能車載充電器",
+    "brand": "SAVEWO",
+    "category": "充電器",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Savewo MagMount PRO 2",
+    "features": [
+      "Savewo MagMount PRO 2"
+    ]
+  },
+  {
+    "id": "savewo-mm-w15q2-qi2磁吸充電支架",
+    "name": "MM-W15Q2 Qi2磁吸充電支架",
+    "brand": "SAVEWO",
+    "category": "充電器",
+    "srp": 398.0,
+    "msrp": 398.0,
+    "res": 0.0,
+    "image": "products-img/mm-w15q2-qi2.png",
+    "desc": "SAVEWO MagMount MM-01",
+    "features": [
+      "SAVEWO MagMount MM-01"
+    ]
+  },
+  {
+    "id": "savewo-汽車伸縮旋轉可摺叠架",
+    "name": "汽車伸縮旋轉可摺叠⽀架",
+    "brand": "SAVEWO",
+    "category": "其他",
+    "srp": 168.0,
+    "msrp": 168.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SAVEWO FlipDock Qi2",
+    "features": [
+      "SAVEWO FlipDock Qi2"
+    ]
+  },
+  {
+    "id": "savewo-三合一磁吸摺疊旋轉無線充電座",
+    "name": "三合一磁吸摺疊旋轉無線充電座",
+    "brand": "SAVEWO",
+    "category": "充電線",
+    "srp": 498.0,
+    "msrp": 498.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SAVEWO UniPlug UP100S PD3.0",
+    "features": [
+      "SAVEWO UniPlug UP100S PD3.0"
+    ]
+  },
+  {
+    "id": "savewo-100w-5-usb-全球旅行快充插頭",
+    "name": "[100W] 5 USB 全球旅行快充插頭",
+    "brand": "SAVEWO",
+    "category": "充電線",
+    "srp": 498.0,
+    "msrp": 498.0,
+    "res": 0.0,
+    "image": "products-img/100w-5-usb.png",
+    "desc": "SAVEWO UniPlug UP35",
+    "features": [
+      "SAVEWO UniPlug UP35"
+    ]
+  },
+  {
+    "id": "savewo-極速充電傳輸線-1m-2m",
+    "name": "極速充電傳輸線 1M / 2M",
+    "brand": "SAVEWO",
+    "category": "充電線",
+    "srp": 158.0,
+    "msrp": 158.0,
+    "res": 0.0,
+    "image": "products-img/1m-2m.png",
+    "desc": "SAVEWO ProCable USB-C CoAxial",
+    "features": [
+      "SAVEWO ProCable USB-C CoAxial"
+    ]
+  },
+  {
+    "id": "savewo-usb4-thunderbolt-4-極速全能線-1m-2m",
+    "name": "USB4 Thunderbolt 4 極速全能線 1M /2M",
+    "brand": "SAVEWO",
+    "category": "充電線",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/usb4-thunderbolt-4-1m-2m.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "savewo-240w-pd31-磁吸自卷超速充電線-1m",
+    "name": "240W PD3.1 磁吸自卷超⾼速充電線 (1m)",
+    "brand": "SAVEWO",
+    "category": "充電線",
+    "srp": 128.0,
+    "msrp": 128.0,
+    "res": 0.0,
+    "image": "products-img/240w-pd3-1-1m.png",
+    "desc": "SAVEWO PowerCable ECO",
+    "features": [
+      "SAVEWO PowerCable ECO"
+    ]
+  },
+  {
+    "id": "savewo-100w-pd30-usb-c-救世高速充電線",
+    "name": "100W PD3.0 USB-C 救世高速充電線",
+    "brand": "SAVEWO",
+    "category": "充電線",
+    "srp": 128.0,
+    "msrp": 128.0,
+    "res": 0.0,
+    "image": "products-img/100w-pd3-0-usb-c.png",
+    "desc": "50 get 8 free | SAVEWO  ProCable USB-C LED USB4",
+    "features": [
+      "50 get 8 free",
+      "SAVEWO  ProCable USB-C LED USB4"
+    ]
+  },
+  {
+    "id": "savewo-thunderbolt-4-極速充電傳輸線-1m",
+    "name": "Thunderbolt 4 極速充電傳輸線 (1m)",
+    "brand": "SAVEWO",
+    "category": "充電線",
+    "srp": 338.0,
+    "msrp": 338.0,
+    "res": 0.0,
+    "image": "products-img/thunderbolt-4-1m.png",
+    "desc": "SAVEWO PowerCable MIX",
+    "features": [
+      "SAVEWO PowerCable MIX"
+    ]
+  },
+  {
+    "id": "savewo-240w-pd31-救世-4合1-極速充電線",
+    "name": "\\240W PD3.1 救世 4合1 極速充電線",
+    "brand": "SAVEWO",
+    "category": "充電線",
+    "srp": 1289.0,
+    "msrp": 1289.0,
+    "res": 0.0,
+    "image": "products-img/240w-pd3-1-4-1.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "m2k-gan36w-輕便版",
+    "name": "GaN36W (輕便版)",
+    "brand": "M2K",
+    "category": "充電器",
+    "srp": 139.0,
+    "msrp": 139.0,
+    "res": 0.0,
+    "image": "products-img/gan36w.png",
+    "desc": "M2K 『 夾充 』GaN 37W",
+    "features": [
+      "M2K 『 夾充 』GaN 37W"
+    ]
+  },
+  {
+    "id": "m2k-夾枱迷你快速充電器",
+    "name": "夾枱迷你快速充電器",
+    "brand": "M2K",
+    "category": "充電器",
+    "srp": 168.0,
+    "msrp": 168.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "M2K 『 夾充 』GaN 65W",
+    "features": [
+      "M2K 『 夾充 』GaN 65W"
+    ]
+  },
+  {
+    "id": "m2k-夾枱迷你快速充電器-3c1a",
+    "name": "夾枱迷你快速充電器 (3C1A)",
+    "brand": "M2K",
+    "category": "充電器",
+    "srp": 328.0,
+    "msrp": 328.0,
+    "res": 0.0,
+    "image": "products-img/3c1a.png",
+    "desc": "M2K『摺充』 摺腳雙TYPE-C GaN45W",
+    "features": [
+      "M2K『摺充』 摺腳雙TYPE-C GaN45W"
+    ]
+  },
+  {
+    "id": "m2k-迷你快速充電器",
+    "name": "迷你快速充電器",
+    "brand": "M2K",
+    "category": "充電器",
+    "srp": 220.0,
+    "msrp": 220.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "M2K PDQC 30.5w T蘇",
+    "features": [
+      "M2K PDQC 30.5w T蘇"
+    ]
+  },
+  {
+    "id": "m2k-pd20w快充版防雷保護",
+    "name": "【PD20W快充版】＋【防雷保護】",
+    "brand": "M2K",
+    "category": "其他",
+    "srp": 198.0,
+    "msrp": 198.0,
+    "res": 0.0,
+    "image": "products-img/pd20w.png",
+    "desc": "M2K GaN50.5W T蘇 (PD快充)",
+    "features": [
+      "M2K GaN50.5W T蘇 (PD快充)"
+    ]
+  },
+  {
+    "id": "m2k-m2k-gan505w-t蘇-pd快充",
+    "name": "M2K GaN50.5W T蘇 (PD快充)",
+    "brand": "M2K",
+    "category": "充電器",
+    "srp": 220.0,
+    "msrp": 220.0,
+    "res": 0.0,
+    "image": "products-img/m2k-gan50-5w-t-pd.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "qi2-w17-mt-pro",
+    "name": "W17-MT PRO",
+    "brand": "Qi2",
+    "category": "其他",
+    "srp": 358.0,
+    "msrp": 358.0,
+    "res": 0.0,
+    "image": "products-img/w17-mt-pro.png",
+    "desc": "PowLord PowerPad",
+    "features": [
+      "PowLord PowerPad"
+    ]
+  },
+  {
+    "id": "qi2-m4-多功能充電器",
+    "name": "M4 多功能充電器",
+    "brand": "Qi2",
+    "category": "充電器",
+    "srp": 328.0,
+    "msrp": 328.0,
+    "res": 0.0,
+    "image": "products-img/m4.png",
+    "desc": "Powlord 快充數據線",
+    "features": [
+      "Powlord 快充數據線"
+    ]
+  },
+  {
+    "id": "qi2-10000mah-半固態電池",
+    "name": "10000mAh 半固態電池",
+    "brand": "Qi2",
+    "category": "行動電源",
+    "srp": 368.0,
+    "msrp": 368.0,
+    "res": 0.0,
+    "image": "products-img/10000mah.png",
+    "desc": "PowLord Q2MaG Air",
+    "features": [
+      "PowLord Q2MaG Air"
+    ]
+  },
+  {
+    "id": "qi2-10000mah-powerbank",
+    "name": "10000mAh PowerBank",
+    "brand": "Qi2",
+    "category": "行動電源",
+    "srp": 288.0,
+    "msrp": 288.0,
+    "res": 0.0,
+    "image": "products-img/10000mah-powerbank.png",
+    "desc": "$20/$22/$25/$28 | PowLord Mag-Fold Qi2.2 25W 3-",
+    "features": [
+      "$20/$22/$25/$28",
+      "PowLord Mag-Fold Qi2.2 25W 3-"
+    ]
+  },
+  {
+    "id": "qi2-in-1-鋅合金無線充電座",
+    "name": "in-1 鋅合金無線充電座",
+    "brand": "Qi2",
+    "category": "充電線",
+    "srp": 368.0,
+    "msrp": 368.0,
+    "res": 0.0,
+    "image": "products-img/in-1.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "belkin-type-c插頭",
+    "name": "(TYPE-C插頭)",
+    "brand": "Belkin",
+    "category": "其他",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/type-c.png",
+    "desc": "Belkin SOUNDFORM™ MINI",
+    "features": [
+      "Belkin SOUNDFORM™ MINI"
+    ]
+  },
+  {
+    "id": "belkin-頭戴式兒童無線耳機",
+    "name": "頭戴式兒童無線耳機",
+    "brand": "Belkin",
+    "category": "充電線",
+    "srp": 268.0,
+    "msrp": 268.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Belkin SoundForm Surround",
+    "features": [
+      "Belkin SoundForm Surround"
+    ]
+  },
+  {
+    "id": "belkin-開放式耳機",
+    "name": "開放式耳機",
+    "brand": "Belkin",
+    "category": "耳機",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Belkin Rhythm AUC012",
+    "features": [
+      "Belkin Rhythm AUC012"
+    ]
+  },
+  {
+    "id": "belkin-無線入耳式藍牙耳機",
+    "name": "無線入耳式藍牙耳機",
+    "brand": "Belkin",
+    "category": "充電線",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Belkin SoundForm Anywhere",
+    "features": [
+      "Belkin SoundForm Anywhere"
+    ]
+  },
+  {
+    "id": "belkin-真無線藍牙耳機",
+    "name": "真無線藍牙耳機",
+    "brand": "Belkin",
+    "category": "充電線",
+    "srp": 268.0,
+    "msrp": 268.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Belkin  SoundForm ANC 主動降噪有線",
+    "features": [
+      "Belkin  SoundForm ANC 主動降噪有線"
+    ]
+  },
+  {
+    "id": "belkin-耳機usb-c-接頭-g3h0003fq",
+    "name": "耳機(USB-C 接頭) G3H0003fq",
+    "brand": "Belkin",
+    "category": "充電線",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/usb-c-g3h0003fq.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "belkin-10000mah-bpb011bt",
+    "name": "10000mAh BPB011BT",
+    "brand": "Belkin",
+    "category": "行動電源",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/10000mah-bpb011bt.png",
+    "desc": "Belkin BOOST↑CHARGE™ 行動電源",
+    "features": [
+      "Belkin BOOST↑CHARGE™ 行動電源"
+    ]
+  },
+  {
+    "id": "belkin-10k-帶整合式電線-bpb021bt",
+    "name": "10K 帶整合式電線 BPB021BT",
+    "brand": "Belkin",
+    "category": "充電線",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/10k-bpb021bt.png",
+    "desc": "Belkin UltraCharge Qi2 2合1 可折疊磁",
+    "features": [
+      "Belkin UltraCharge Qi2 2合1 可折疊磁"
+    ]
+  },
+  {
+    "id": "belkin-吸充電器25w-wiz039",
+    "name": "吸充電器25W WIZ039",
+    "brand": "Belkin",
+    "category": "充電器",
+    "srp": 549.0,
+    "msrp": 549.0,
+    "res": 0.0,
+    "image": "products-img/25w-wiz039.png",
+    "desc": "Belkin UltraCharge Qi2 3合1",
+    "features": [
+      "Belkin UltraCharge Qi2 3合1"
+    ]
+  },
+  {
+    "id": "belkin-可折疊磁吸充電器25w-wiz037",
+    "name": "可折疊磁吸充電器25W WIZ037",
+    "brand": "Belkin",
+    "category": "充電器",
+    "srp": 899.0,
+    "msrp": 899.0,
+    "res": 0.0,
+    "image": "products-img/25w-wiz037.png",
+    "desc": "Belkin UltraCharge Pro Qi2",
+    "features": [
+      "Belkin UltraCharge Pro Qi2"
+    ]
+  },
+  {
+    "id": "belkin-3合1-磁吸充電座-25w-wiz040",
+    "name": "3合1 磁吸充電座 25W WIZ040",
+    "brand": "Belkin",
+    "category": "充電器",
+    "srp": 999.0,
+    "msrp": 999.0,
+    "res": 0.0,
+    "image": "products-img/3-1-25w-wiz040.png",
+    "desc": "Belkin HDMI Cable with Ethernet",
+    "features": [
+      "Belkin HDMI Cable with Ethernet"
+    ]
+  },
+  {
+    "id": "belkin-4kultra-hd-compatible",
+    "name": "4K/Ultra HD Compatible",
+    "brand": "Belkin",
+    "category": "其他",
+    "srp": 98.0,
+    "msrp": 98.0,
+    "res": 0.0,
+    "image": "products-img/4k-ultra-hd-compatible.png",
+    "desc": "Belkin BOOST↑CHARGE PRO",
+    "features": [
+      "Belkin BOOST↑CHARGE PRO"
+    ]
+  },
+  {
+    "id": "belkin-65w-家用式充電器",
+    "name": "65W 家用式充電器",
+    "brand": "Belkin",
+    "category": "充電器",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/65w.png",
+    "desc": "Belkin 混合式家用充電器 25W + 行動電源",
+    "features": [
+      "Belkin 混合式家用充電器 25W + 行動電源"
+    ]
+  },
+  {
+    "id": "belkin-5k-旅行適配器套件",
+    "name": "5K + 旅行適配器套件",
+    "brand": "Belkin",
+    "category": "其他",
+    "srp": 268.0,
+    "msrp": 268.0,
+    "res": 0.0,
+    "image": "products-img/5k.png",
+    "desc": "Belkin WCH018 BoostCharge Pro",
+    "features": [
+      "Belkin WCH018 BoostCharge Pro"
+    ]
+  },
+  {
+    "id": "belkin-7合1-多埠擴充座",
+    "name": "7合1 多埠擴充座",
+    "brand": "Belkin",
+    "category": "其他",
+    "srp": 469.0,
+    "msrp": 469.0,
+    "res": 0.0,
+    "image": "products-img/7-1.png",
+    "desc": "Belkin CONNECT™ USB-C",
+    "features": [
+      "Belkin CONNECT™ USB-C"
+    ]
+  },
+  {
+    "id": "amg-amg-ct-充電傳輸線",
+    "name": "AMG-CT 充電傳輸線",
+    "brand": "AMG",
+    "category": "充電線",
+    "srp": 138.0,
+    "msrp": 138.0,
+    "res": 0.0,
+    "image": "products-img/amg-ct.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "amg-qi2-磁吸5合1三摺合式無線座充",
+    "name": "Qi2 磁吸5合1三摺合式無線座充",
+    "brand": "AMG",
+    "category": "充電線",
+    "srp": 398.0,
+    "msrp": 398.0,
+    "res": 0.0,
+    "image": "products-img/qi2-5-1.png",
+    "desc": "AMG-CT",
+    "features": [
+      "AMG-CT"
+    ]
+  },
+  {
+    "id": "amg-vx-3-車載磁吸無線充電架",
+    "name": "VX-3 車載磁吸無線充電⽀架",
+    "brand": "AMG",
+    "category": "充電線",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/vx-3.png",
+    "desc": "AMG-CT VX-5",
+    "features": [
+      "AMG-CT VX-5"
+    ]
+  },
+  {
+    "id": "amg-gan-65w-快速充電器",
+    "name": "GaN 65W 快速充電器",
+    "brand": "AMG",
+    "category": "充電器",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/gan-65w.png",
+    "desc": "AMG TX75",
+    "features": [
+      "AMG TX75"
+    ]
+  },
+  {
+    "id": "amg-75w-全球旅行轉插火",
+    "name": "75W 全球旅行轉插火⽜",
+    "brand": "AMG",
+    "category": "其他",
+    "srp": 328.0,
+    "msrp": 328.0,
+    "res": 0.0,
+    "image": "products-img/75w.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "amg-10000mah-powerbank-ccc-qrcode版",
+    "name": "10000mAh Powerbank (CCC QRCODE版)",
+    "brand": "AMG",
+    "category": "行動電源",
+    "srp": 338.0,
+    "msrp": 338.0,
+    "res": 0.0,
+    "image": "products-img/10000mah-powerbank-ccc-qrcode.png",
+    "desc": "AMG-CT EX-R 10000mAh",
+    "features": [
+      "AMG-CT EX-R 10000mAh"
+    ]
+  },
+  {
+    "id": "amg-magsafe-磁吸行動電源",
+    "name": "Magsafe 磁吸行動電源",
+    "brand": "AMG",
+    "category": "行動電源",
+    "srp": 368.0,
+    "msrp": 368.0,
+    "res": 0.0,
+    "image": "products-img/magsafe.png",
+    "desc": "AMG-CTMi-35W",
+    "features": [
+      "AMG-CTMi-35W"
+    ]
+  },
+  {
+    "id": "amg-65w-20000-mah",
+    "name": "65W 20000 mah",
+    "brand": "AMG",
+    "category": "行動電源",
+    "srp": 328.0,
+    "msrp": 328.0,
+    "res": 0.0,
+    "image": "products-img/65w-20000-mah.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "amg-magsafe-外置電-5000mah",
+    "name": "MagSafe 外置電 5000mah",
+    "brand": "AMG",
+    "category": "行動電源",
+    "srp": 208.0,
+    "msrp": 208.0,
+    "res": 0.0,
+    "image": "products-img/magsafe-5000mah.png",
+    "desc": "AMG SU-12+ MagSafe 外置電",
+    "features": [
+      "AMG SU-12+ MagSafe 外置電"
+    ]
+  },
+  {
+    "id": "amg-magsafe-powerbank",
+    "name": "Magsafe Powerbank",
+    "brand": "AMG",
+    "category": "行動電源",
+    "srp": 288.0,
+    "msrp": 288.0,
+    "res": 0.0,
+    "image": "products-img/magsafe-powerbank.png",
+    "desc": "AMG-CT DX-35 qi2 Certified",
+    "features": [
+      "AMG-CT DX-35 qi2 Certified"
+    ]
+  },
+  {
+    "id": "borofone-10000mah",
+    "name": "(10000mAh).",
+    "brand": "BOROFONE",
+    "category": "行動電源",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/10000mah.png",
+    "desc": "JTec JX-10 MagSafe",
+    "features": [
+      "JTec JX-10 MagSafe"
+    ]
+  },
+  {
+    "id": "borofone-磁吸帶4線無線充電",
+    "name": "磁吸帶4線無線充電",
+    "brand": "BOROFONE",
+    "category": "充電線",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/4.png",
+    "desc": "JTec 7000mAh Powerbank",
+    "features": [
+      "JTec 7000mAh Powerbank"
+    ]
+  },
+  {
+    "id": "borofone-magsafe-外置電-5000-mah",
+    "name": "MagSafe 外置電 5000 mah",
+    "brand": "BOROFONE",
+    "category": "行動電源",
+    "srp": 158.0,
+    "msrp": 158.0,
+    "res": 0.0,
+    "image": "products-img/magsafe-5000-mah.png",
+    "desc": "BOROFONE DH3",
+    "features": [
+      "BOROFONE DH3"
+    ]
+  },
+  {
+    "id": "borofone-3usb-adapter",
+    "name": "3USB ADAPTER",
+    "brand": "BOROFONE",
+    "category": "充電線",
+    "srp": 68.0,
+    "msrp": 68.0,
+    "res": 0.0,
+    "image": "products-img/3usb-adapter.png",
+    "desc": "BOROFONE BA100B",
+    "features": [
+      "BOROFONE BA100B"
+    ]
+  },
+  {
+    "id": "borofone-bq16-無線充電桌面架",
+    "name": "BQ16 無線充電桌面⽀架",
+    "brand": "BOROFONE",
+    "category": "充電線",
+    "srp": 168.0,
+    "msrp": 168.0,
+    "res": 0.0,
+    "image": "products-img/bq16.png",
+    "desc": "BOROFONE BG14",
+    "features": [
+      "BOROFONE BG14"
+    ]
+  },
+  {
+    "id": "borofone-pd20w-充電器",
+    "name": "PD20W 充電器",
+    "brand": "BOROFONE",
+    "category": "充電器",
+    "srp": 68.0,
+    "msrp": 68.0,
+    "res": 0.0,
+    "image": "products-img/pd20w.png",
+    "desc": "20 get 3, 50 get 8 free",
+    "features": [
+      "20 get 3, 50 get 8 free"
+    ]
+  },
+  {
+    "id": "borofone-閃燈藍牙喇叭",
+    "name": "閃燈藍牙喇叭",
+    "brand": "BOROFONE",
+    "category": "喇叭",
+    "srp": 68.0,
+    "msrp": 68.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "20 get 3, 50 get 8 free | BOROFONE BV16",
+    "features": [
+      "20 get 3, 50 get 8 free",
+      "BOROFONE BV16"
+    ]
+  },
+  {
+    "id": "borofone-type-c-to-35mm-音訊轉換器",
+    "name": "Type-C to 3.5mm 音訊轉換器",
+    "brand": "BOROFONE",
+    "category": "充電線",
+    "srp": 68.0,
+    "msrp": 68.0,
+    "res": 0.0,
+    "image": "products-img/type-c-to-3-5mm.png",
+    "desc": "BOROFONE BW39",
+    "features": [
+      "BOROFONE BW39"
+    ]
+  },
+  {
+    "id": "borofone-半入耳真無線耳機",
+    "name": "半入耳真無線耳機",
+    "brand": "BOROFONE",
+    "category": "充電線",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Borofone BM88 TypeC",
+    "features": [
+      "Borofone BM88 TypeC"
+    ]
+  },
+  {
+    "id": "borofone-通用帶麥耳機有線耳機",
+    "name": "通用帶麥耳機有線耳機",
+    "brand": "BOROFONE",
+    "category": "充電線",
+    "srp": 99.0,
+    "msrp": 99.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "20 get 3, 50 get 8 free | BOROFONE BM100",
+    "features": [
+      "20 get 3, 50 get 8 free",
+      "BOROFONE BM100"
+    ]
+  },
+  {
+    "id": "borofone-數字解碼版本type-c-有線耳機",
+    "name": "數字解碼版本Type C 有線耳機",
+    "brand": "BOROFONE",
+    "category": "充電線",
+    "srp": 99.0,
+    "msrp": 99.0,
+    "res": 0.0,
+    "image": "products-img/type-c.png",
+    "desc": "50 get 8 free | BOROFONE BO37",
+    "features": [
+      "50 get 8 free",
+      "BOROFONE BO37"
+    ]
+  },
+  {
+    "id": "garmma-airpods-pro-pro2-保護套",
+    "name": "AirPods Pro/ Pro2 保護套",
+    "brand": "GARMMA",
+    "category": "卡通精品",
+    "srp": 209.0,
+    "msrp": 209.0,
+    "res": 0.0,
+    "image": "products-img/airpods-pro-pro2.png",
+    "desc": "GARMMA CHIIKAWA",
+    "features": [
+      "GARMMA CHIIKAWA"
+    ]
+  },
+  {
+    "id": "garmma-pd快充多合一伸縮充電線",
+    "name": "PD快充多合一伸縮充電線",
+    "brand": "GARMMA",
+    "category": "卡通精品",
+    "srp": 128.0,
+    "msrp": 128.0,
+    "res": 0.0,
+    "image": "products-img/pd.png",
+    "desc": "GARMMA CHIIKAWA",
+    "features": [
+      "GARMMA CHIIKAWA"
+    ]
+  },
+  {
+    "id": "garmma-磁吸氣囊支架",
+    "name": "磁吸氣囊支架",
+    "brand": "GARMMA",
+    "category": "卡通精品",
+    "srp": 108.0,
+    "msrp": 108.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "GARMMA Chiikawa 系列 Type-c to",
+    "features": [
+      "GARMMA Chiikawa 系列 Type-c to"
+    ]
+  },
+  {
+    "id": "garmma-10000mah-磁吸帶線五合一動電源",
+    "name": "10000mAh 磁吸帶線五合一⾏動電源",
+    "brand": "GARMMA",
+    "category": "卡通精品",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/10000mah.png",
+    "desc": "GARMMA iPhone 17系列 | CHIIKAWA卡通磁吸款保護殼",
+    "features": [
+      "GARMMA iPhone 17系列",
+      "CHIIKAWA卡通磁吸款保護殼"
+    ]
+  },
+  {
+    "id": "chiikawa-chiikawa卡通磁吸款保護殼",
+    "name": "CHIIKAWA卡通磁吸款保護殼",
+    "brand": "CHIIKAWA",
+    "category": "卡通精品",
+    "srp": 328.0,
+    "msrp": 328.0,
+    "res": 0.0,
+    "image": "products-img/chiikawa.png",
+    "desc": "GARMMA CHIIKAWA",
+    "features": [
+      "GARMMA CHIIKAWA"
+    ]
+  },
+  {
+    "id": "garmma-桌墊款滑鼠墊-80-x-40cm",
+    "name": "桌墊款滑鼠墊 80 x 40cm",
+    "brand": "GARMMA",
+    "category": "卡通精品",
+    "srp": 178.0,
+    "msrp": 178.0,
+    "res": 0.0,
+    "image": "products-img/80-x-40cm.png",
+    "desc": "GARMMA CHIIKAWA",
+    "features": [
+      "GARMMA CHIIKAWA"
+    ]
+  },
+  {
+    "id": "garmma-大頭滑鼠墊",
+    "name": "大頭滑鼠墊",
+    "brand": "GARMMA",
+    "category": "卡通精品",
+    "srp": 68.0,
+    "msrp": 68.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "garmma-珍珠吊飾手機防丟掛繩",
+    "name": "珍珠吊飾手機防丟掛繩",
+    "brand": "GARMMA",
+    "category": "卡通精品",
+    "srp": 148.0,
+    "msrp": 148.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "GARMMA SANRIO/小新",
+    "features": [
+      "GARMMA SANRIO/小新"
+    ]
+  },
+  {
+    "id": "sanrio-sanrio拍拍燈盲盒-馬卡龍系列-盒",
+    "name": "SANRIO拍拍燈盲盒 馬卡龍系列 ⼩盒",
+    "brand": "SANRIO",
+    "category": "卡通精品",
+    "srp": 145.0,
+    "msrp": 145.0,
+    "res": 0.0,
+    "image": "products-img/sanrio.png",
+    "desc": "6pcs up $78 | GARMMA SANRIO",
+    "features": [
+      "6pcs up $78",
+      "GARMMA SANRIO"
+    ]
+  },
+  {
+    "id": "garmma-公仔吊飾編織手機背帶-160cm-防丟掛繩-36cm",
+    "name": "公仔吊飾編織手機⻑背帶 (160cm) / 防丟掛繩 (36cm)",
+    "brand": "GARMMA",
+    "category": "卡通精品",
+    "srp": 178.0,
+    "msrp": 178.0,
+    "res": 0.0,
+    "image": "products-img/160cm-36cm.png",
+    "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢. | GARMMA 蠟筆小新",
+    "features": [
+      "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
+      "GARMMA 蠟筆小新"
+    ]
+  },
+  {
+    "id": "garmma-公仔二合可拆式背帶",
+    "name": "公仔二合⼀可拆式背帶",
+    "brand": "GARMMA",
+    "category": "卡通精品",
+    "srp": 249.0,
+    "msrp": 249.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "GARMMA SANRIO",
+    "features": [
+      "GARMMA SANRIO"
+    ]
+  },
+  {
+    "id": "garmma-磁吸皮架卡包",
+    "name": "磁吸皮⾰⽀架卡包",
+    "brand": "GARMMA",
+    "category": "卡通精品",
+    "srp": 268.0,
+    "msrp": 268.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "GARMMA Hello Kitty",
+    "features": [
+      "GARMMA Hello Kitty"
+    ]
+  },
+  {
+    "id": "garmma-布偶吊飾手機架",
+    "name": "布偶吊飾手機⽀架",
+    "brand": "GARMMA",
+    "category": "卡通精品",
+    "srp": 118.0,
+    "msrp": 118.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "GARMMA SANRIO",
+    "features": [
+      "GARMMA SANRIO"
+    ]
+  },
+  {
+    "id": "garmma-立體款-airpods-pro-pro2-保護套",
+    "name": "立體款 AirPods Pro/ Pro2 保護套",
+    "brand": "GARMMA",
+    "category": "卡通精品",
+    "srp": 209.0,
+    "msrp": 209.0,
+    "res": 0.0,
+    "image": "products-img/airpods-pro-pro2.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "sanrio-真無線耳機tws-24",
+    "name": "真無線耳機TWS-24",
+    "brand": "SANRIO",
+    "category": "卡通精品",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/tws-24.jpeg",
+    "desc": "Disney 系列",
+    "features": [
+      "Disney 系列"
+    ]
+  },
+  {
+    "id": "sanrio-ipad-專電容筆",
+    "name": "iPad 專⽤電容筆",
+    "brand": "SANRIO",
+    "category": "卡通精品",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/ipad.jpeg",
+    "desc": "i-Smart x Hong Man",
+    "features": [
+      "i-Smart x Hong Man"
+    ]
+  },
+  {
+    "id": "sanrio-i-smart-x-hong-man",
+    "name": "i-Smart x Hong Man",
+    "brand": "SANRIO",
+    "category": "卡通精品",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/i-smart-x-hong-man.jpeg",
+    "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
+    "features": [
+      "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢."
+    ]
+  },
+  {
+    "id": "sanrio-智能電煮鍋",
+    "name": "智能電煮鍋",
+    "brand": "SANRIO",
+    "category": "卡通精品",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "專用蒸架 $20 | Sanrio x Mone",
+    "features": [
+      "專用蒸架 $20",
+      "Sanrio x Mone"
+    ]
+  },
+  {
+    "id": "sanrio-鋰電池防爆袋",
+    "name": "鋰電池防爆袋",
+    "brand": "SANRIO",
+    "category": "卡通精品",
+    "srp": 328.0,
+    "msrp": 328.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "小燦 x Mone",
+    "features": [
+      "小燦 x Mone"
+    ]
+  },
+  {
+    "id": "sanrio-15吋手提理喼",
+    "name": "15吋手提⾏理喼",
+    "brand": "SANRIO",
+    "category": "卡通精品",
+    "srp": 168.0,
+    "msrp": 168.0,
+    "res": 0.0,
+    "image": "products-img/15.png",
+    "desc": "Sanrio x Mone",
+    "features": [
+      "Sanrio x Mone"
+    ]
+  },
+  {
+    "id": "sanrio-360度轉頭全方位清洗牙線機",
+    "name": "360度轉頭全方位清洗⽔牙線機",
+    "brand": "SANRIO",
+    "category": "卡通精品",
+    "srp": 198.0,
+    "msrp": 198.0,
+    "res": 0.0,
+    "image": "products-img/360.png",
+    "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢. | Sanrio x Mone",
+    "features": [
+      "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
+      "Sanrio x Mone"
+    ]
+  },
+  {
+    "id": "sanrio-usb-電熱暖毯",
+    "name": "USB 電熱暖毯",
+    "brand": "SANRIO",
+    "category": "卡通精品",
+    "srp": 338.0,
+    "msrp": 338.0,
+    "res": 0.0,
+    "image": "products-img/usb.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "cluebox-cb-pbl2-6800mah-流動快速充電池",
+    "name": "CB-PBL2 6800mAh 流動快速充電池",
+    "brand": "CLUEBOX",
+    "category": "卡通精品",
+    "srp": 239.0,
+    "msrp": 239.0,
+    "res": 0.0,
+    "image": "products-img/cb-pbl2-6800mah.png",
+    "desc": "(Lightning 及 TypeC款)",
+    "features": [
+      "(Lightning 及 TypeC款)"
+    ]
+  },
+  {
+    "id": "sparrow-3合1雙面暖手蛋",
+    "name": "3合1雙面暖手蛋",
+    "brand": "SPARROW",
+    "category": "卡通精品",
+    "srp": 89.0,
+    "msrp": 89.0,
+    "res": 0.0,
+    "image": "products-img/3-1.png",
+    "desc": "Sparrow Kids KM01-BT",
+    "features": [
+      "Sparrow Kids KM01-BT"
+    ]
+  },
+  {
+    "id": "cluebox-人氣兒童無線karaoke藍牙喇叭連咪",
+    "name": "人氣兒童無線Karaoke藍牙喇叭連咪",
+    "brand": "CLUEBOX",
+    "category": "卡通精品",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/karaoke.png",
+    "desc": "Clue Box x Sanrio Character 串珠吊",
+    "features": [
+      "Clue Box x Sanrio Character 串珠吊"
+    ]
+  },
+  {
+    "id": "cluebox-飾手帶暖器-cb-phb-l2",
+    "name": "飾手帶暖⼿器 CB-PHB-L2",
+    "brand": "CLUEBOX",
+    "category": "卡通精品",
+    "srp": 169.0,
+    "msrp": 169.0,
+    "res": 0.0,
+    "image": "products-img/cb-phb-l2.png",
+    "desc": "Clue Box x Sanrio 2合1 充電器& SD讀",
+    "features": [
+      "Clue Box x Sanrio 2合1 充電器& SD讀"
+    ]
+  },
+  {
+    "id": "cluebox-卡器5000mah-cb-pbl3",
+    "name": "卡器5000mAh CB-PBL3",
+    "brand": "CLUEBOX",
+    "category": "卡通精品",
+    "srp": 239.0,
+    "msrp": 239.0,
+    "res": 0.0,
+    "image": "products-img/5000mah-cb-pbl3.png",
+    "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
+    "features": [
+      "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢."
+    ]
+  },
+  {
+    "id": "cluebox-手器-強光電筒連可愛屬吊飾掛鏈-cb-phb-l3",
+    "name": "手器 + 強光電筒連可愛⾦屬吊飾掛鏈 CB-PHB-L3",
+    "brand": "CLUEBOX",
+    "category": "卡通精品",
+    "srp": 189.0,
+    "msrp": 189.0,
+    "res": 0.0,
+    "image": "products-img/cb-phb-l3.png",
+    "desc": "ClueBox x Sanrio 6合1 數據/充電電線",
+    "features": [
+      "ClueBox x Sanrio 6合1 數據/充電電線"
+    ]
+  },
+  {
+    "id": "cluebox-套件連鏡盒-cb-usb-kit",
+    "name": "套件連鏡盒 CB-USB-KIT",
+    "brand": "CLUEBOX",
+    "category": "卡通精品",
+    "srp": 159.0,
+    "msrp": 159.0,
+    "res": 0.0,
+    "image": "products-img/cb-usb-kit.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "miffy-4合1-淨滑剃毛器",
+    "name": "4合1 淨滑剃毛器",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 244.0,
+    "msrp": 244.0,
+    "res": 0.0,
+    "image": "products-img/4-1.png",
+    "desc": "20pcs up $140 | Miffy MIF21",
+    "features": [
+      "20pcs up $140",
+      "Miffy MIF21"
+    ]
+  },
+  {
+    "id": "miffy-多功能鏡面鬧鐘",
+    "name": "多功能鏡面鬧鐘",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 159.0,
+    "msrp": 159.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Miffy MIF23 快速 PD3.0 65W USB-C",
+    "features": [
+      "Miffy MIF23 快速 PD3.0 65W USB-C"
+    ]
+  },
+  {
+    "id": "miffy-及-usb-a-gan-三接口充電器",
+    "name": "及 USB-A GaN 三接口充電器",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 258.0,
+    "msrp": 258.0,
+    "res": 0.0,
+    "image": "products-img/usb-a-gan.png",
+    "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢. | Miffy MIF20",
+    "features": [
+      "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
+      "Miffy MIF20"
+    ]
+  },
+  {
+    "id": "miffy-pd30-2a1c-4位電源拖板",
+    "name": "PD3.0 2A1C 4位電源拖板",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 219.0,
+    "msrp": 219.0,
+    "res": 0.0,
+    "image": "products-img/pd3-0-2a1c-4.png",
+    "desc": "Miffy MIF25",
+    "features": [
+      "Miffy MIF25"
+    ]
+  },
+  {
+    "id": "miffy-led-75-子化妝鏡",
+    "name": "LED 7.5\" 子⺟化妝鏡",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 258.0,
+    "msrp": 258.0,
+    "res": 0.0,
+    "image": "products-img/led-7-5.png",
+    "desc": "20pcs up $140 | Miffy MIF33",
+    "features": [
+      "20pcs up $140",
+      "Miffy MIF33"
+    ]
+  },
+  {
+    "id": "miffy-usb-type-c-旅行直髮器",
+    "name": "USB Type-C 旅行直髮器",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 189.0,
+    "msrp": 189.0,
+    "res": 0.0,
+    "image": "products-img/usb-type-c.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "miffy-防狼追蹤警報器-air-tracker-tag",
+    "name": "防狼追蹤警報器 Air Tracker Tag",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 168.0,
+    "msrp": 168.0,
+    "res": 0.0,
+    "image": "products-img/air-tracker-tag.png",
+    "desc": "Miffy MM03",
+    "features": [
+      "Miffy MM03"
+    ]
+  },
+  {
+    "id": "miffy-數位踏步高精準度體重秤",
+    "name": "數位踏步高精準度體重秤",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 229.0,
+    "msrp": 229.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "20pcs $130, 40pcs up $120 | Miffy MBS100",
+    "features": [
+      "20pcs $130, 40pcs up $120",
+      "Miffy MBS100"
+    ]
+  },
+  {
+    "id": "miffy-造型藍牙音響",
+    "name": "造型藍牙音響",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Miffy MIF29",
+    "features": [
+      "Miffy MIF29"
+    ]
+  },
+  {
+    "id": "miffy-坐檯雙風扇",
+    "name": "坐檯雙風扇",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 149.0,
+    "msrp": 149.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢. | Miffy MIF19",
+    "features": [
+      "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
+      "Miffy MIF19"
+    ]
+  },
+  {
+    "id": "miffy-水晶球加濕機",
+    "name": "水晶球加濕機",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Miffy BTL001",
+    "features": [
+      "Miffy BTL001"
+    ]
+  },
+  {
+    "id": "miffy-充電感應夜燈",
+    "name": "充電感應夜燈",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 149.0,
+    "msrp": 149.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Miffy TD18",
+    "features": [
+      "Miffy TD18"
+    ]
+  },
+  {
+    "id": "miffy-藍牙無線耳機-pro-粉紅色",
+    "name": "藍牙無線耳機 Pro 粉紅色",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 189.0,
+    "msrp": 189.0,
+    "res": 0.0,
+    "image": "products-img/pro.png",
+    "desc": "三折式藍牙鍵盤",
+    "features": [
+      "三折式藍牙鍵盤"
+    ]
+  },
+  {
+    "id": "miffy-三折式藍牙鍵盤",
+    "name": "三折式藍牙鍵盤",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 218.0,
+    "msrp": 218.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "miffy-煙囪小屋加濕器",
+    "name": "煙囪小屋加濕器",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 179.0,
+    "msrp": 179.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Miffy  BTA700",
+    "features": [
+      "Miffy  BTA700"
+    ]
+  },
+  {
+    "id": "miffy-雙噴霧加濕器",
+    "name": "雙噴霧加濕器",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 171.0,
+    "msrp": 171.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Miffy CI502-MF-PK",
+    "features": [
+      "Miffy CI502-MF-PK"
+    ]
+  },
+  {
+    "id": "miffy-可折疊3d眼部按摩器",
+    "name": "可折疊3D眼部按摩器",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 319.0,
+    "msrp": 319.0,
+    "res": 0.0,
+    "image": "products-img/3d.png",
+    "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
+    "features": [
+      "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢."
+    ]
+  },
+  {
+    "id": "miffy-eva-earphone-001",
+    "name": "EVA EARPHONE 001",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 899.0,
+    "msrp": 899.0,
+    "res": 0.0,
+    "image": "products-img/eva-earphone-001.png",
+    "desc": "E Audio x EVANGELION",
+    "features": [
+      "E Audio x EVANGELION"
+    ]
+  },
+  {
+    "id": "miffy-6890139",
+    "name": "$68/$90/$139",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 98.0,
+    "msrp": 98.0,
+    "res": 0.0,
+    "image": "products-img/68-90-139.png",
+    "desc": "E AUDIO x EVANGELION",
+    "features": [
+      "E AUDIO x EVANGELION"
+    ]
+  },
+  {
+    "id": "miffy-新世紀福音戰旋風持風扇",
+    "name": "新世紀福音戰⼠⼩旋風⼿持風扇",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Miffy MIF28",
+    "features": [
+      "Miffy MIF28"
+    ]
+  },
+  {
+    "id": "miffy-迷你手持風扇",
+    "name": "迷你手持風扇",
+    "brand": "MIFFY",
+    "category": "卡通精品",
+    "srp": 119.0,
+    "msrp": 119.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "yohome-勾掛式無線便攜風扇",
+    "name": "勾掛式無線便攜風扇",
+    "brand": "YOHOME",
+    "category": "風扇",
+    "srp": 188.0,
+    "msrp": 188.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SAVEWO  AirFlow | SAVEWO AirFlow ClipFan",
+    "features": [
+      "SAVEWO  AirFlow",
+      "SAVEWO AirFlow ClipFan"
+    ]
+  },
+  {
+    "id": "yohome-af-mf01-多功能夾扇",
+    "name": "AF-MF01 多功能夾扇",
+    "brand": "YOHOME",
+    "category": "家電",
+    "srp": 99.0,
+    "msrp": 99.0,
+    "res": 0.0,
+    "image": "products-img/af-mf01.png",
+    "desc": "SAVEWO AirFlow Cool Fan",
+    "features": [
+      "SAVEWO AirFlow Cool Fan"
+    ]
+  },
+  {
+    "id": "yohome-便攜式冰感風扇",
+    "name": "便攜式冰感風扇",
+    "brand": "YOHOME",
+    "category": "風扇",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "RHYTHM Silky Wind Mini",
+    "features": [
+      "RHYTHM Silky Wind Mini"
+    ]
+  },
+  {
+    "id": "yohome-雙扇葉坐枱風扇",
+    "name": "雙扇葉坐枱風扇",
+    "brand": "YOHOME",
+    "category": "風扇",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SAVEWO AirFlow Cool Fan 2",
+    "features": [
+      "SAVEWO AirFlow Cool Fan 2"
+    ]
+  },
+  {
+    "id": "yohome-高速風扇-gf04",
+    "name": "高速⼩風扇 GF04",
+    "brand": "YOHOME",
+    "category": "風扇",
+    "srp": 109.0,
+    "msrp": 109.0,
+    "res": 0.0,
+    "image": "products-img/gf04.png",
+    "desc": "SIINCOS SC-DC06",
+    "features": [
+      "SIINCOS SC-DC06"
+    ]
+  },
+  {
+    "id": "yohome-極速電機颶風便攜風扇pro",
+    "name": "極速電機颶風便攜風扇Pro",
+    "brand": "YOHOME",
+    "category": "風扇",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/pro.png",
+    "desc": "Miffy MIF29",
+    "features": [
+      "Miffy MIF29"
+    ]
+  },
+  {
+    "id": "yohome-坐檯雙風扇",
+    "name": "坐檯雙風扇",
+    "brand": "YOHOME",
+    "category": "風扇",
+    "srp": 149.0,
+    "msrp": 149.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "yohome-智能語音伸縮循環扇pro",
+    "name": "智能語音伸縮循環扇PRO",
+    "brand": "YOHOME",
+    "category": "家電",
+    "srp": 899.0,
+    "msrp": 899.0,
+    "res": 0.0,
+    "image": "products-img/pro.png",
+    "desc": "Yohome",
+    "features": [
+      "Yohome"
+    ]
+  },
+  {
+    "id": "yohome-4d-全方位淨化直流循環扇-經典款",
+    "name": "4D 全方位淨化直流循環扇 (經典款)",
+    "brand": "YOHOME",
+    "category": "家電",
+    "srp": 469.0,
+    "msrp": 469.0,
+    "res": 0.0,
+    "image": "products-img/4d.png",
+    "desc": "Miffy MIF28",
+    "features": [
+      "Miffy MIF28"
+    ]
+  },
+  {
+    "id": "yohome-迷你手持風扇",
+    "name": "迷你手持風扇",
+    "brand": "YOHOME",
+    "category": "風扇",
+    "srp": 119.0,
+    "msrp": 119.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Yohome",
+    "features": [
+      "Yohome"
+    ]
+  },
+  {
+    "id": "yohome-4d全方位淨化直流伸縮循環扇-款",
+    "name": "4D全方位淨化直流伸縮循環扇 (⾼⽤款)",
+    "brand": "YOHOME",
+    "category": "家電",
+    "srp": 599.0,
+    "msrp": 599.0,
+    "res": 0.0,
+    "image": "products-img/4d.png",
+    "desc": "JNC - 5寸負離子座檯風扇",
+    "features": [
+      "JNC - 5寸負離子座檯風扇"
+    ]
+  },
+  {
+    "id": "yohome-hello-kitty",
+    "name": "(Hello Kitty)",
+    "brand": "YOHOME",
+    "category": "家電",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/hello-kitty.png",
+    "desc": "Jisulife Life5 Plus FA27",
+    "features": [
+      "Jisulife Life5 Plus FA27"
+    ]
+  },
+  {
+    "id": "yohome-桌上型充電風扇",
+    "name": "桌上型充電風扇",
+    "brand": "YOHOME",
+    "category": "風扇",
+    "srp": 298.0,
+    "msrp": 298.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "YACHI Smart Wind",
+    "features": [
+      "YACHI Smart Wind"
+    ]
+  },
+  {
+    "id": "yohome-便攜式智能語音空氣循環風扇",
+    "name": "便攜式智能語音空氣循環風扇",
+    "brand": "YOHOME",
+    "category": "風扇",
+    "srp": 498.0,
+    "msrp": 498.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "YACHI 小型3D循環扇風機 | Treely Air Treely Fan TF-01",
+    "features": [
+      "YACHI 小型3D循環扇風機",
+      "Treely Air Treely Fan TF-01"
+    ]
+  },
+  {
+    "id": "yohome-空氣淨化四季循環風扇",
+    "name": "空氣淨化四季循環風扇",
+    "brand": "YOHOME",
+    "category": "風扇",
+    "srp": 548.0,
+    "msrp": 548.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "yohome-暖風乾衣4l空間抽濕機-hl200",
+    "name": "暖風乾衣4L⼤空間抽濕機 HL200",
+    "brand": "YOHOME",
+    "category": "家電",
+    "srp": 569.0,
+    "msrp": 569.0,
+    "res": 0.0,
+    "image": "products-img/4l-hl200.png",
+    "desc": "Yohome",
+    "features": [
+      "Yohome"
+    ]
+  },
+  {
+    "id": "yohome-直立智能安全收納拖板",
+    "name": "直立智能安全收納拖板",
+    "brand": "YOHOME",
+    "category": "家電",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Yohome 多功能泡燒溫控攪拌自清潔高效 | Yohome",
+    "features": [
+      "Yohome 多功能泡燒溫控攪拌自清潔高效",
+      "Yohome"
+    ]
+  },
+  {
+    "id": "yohome-便飲健康杯",
+    "name": "便飲健康杯",
+    "brand": "YOHOME",
+    "category": "家電",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Yohome",
+    "features": [
+      "Yohome"
+    ]
+  },
+  {
+    "id": "yohome-仿生電擊誘驅雙效滅蚊機-pro",
+    "name": "仿生電擊誘驅雙效滅蚊機 PRO",
+    "brand": "YOHOME",
+    "category": "家電",
+    "srp": 259.0,
+    "msrp": 259.0,
+    "res": 0.0,
+    "image": "products-img/pro.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "usatisfy-人臉追蹤全位提攝美拍桿-pro",
+    "name": "人臉追蹤全⽅位提攝美拍桿 Pro",
+    "brand": "USATISFY",
+    "category": "家電",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/pro.png",
+    "desc": "USATISFY SuperCharge快充無線有線多設",
+    "features": [
+      "USATISFY SuperCharge快充無線有線多設"
+    ]
+  },
+  {
+    "id": "usatisfy-探守家對講高清攝錄機pro-30-ct102",
+    "name": "探守家對講高清攝錄機Pro 3.0 (CT102)",
+    "brand": "USATISFY",
+    "category": "家電",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/pro-3-0-ct102.png",
+    "desc": "Dou.Clean智控AirPure雙域大吸力三重強淨改性",
+    "features": [
+      "Dou.Clean智控AirPure雙域大吸力三重強淨改性"
+    ]
+  },
+  {
+    "id": "usatisfy-炭5d祛味除菌靜音寵物級新風空氣淨化機pro",
+    "name": "炭5D祛味除菌靜音寵物級新風空氣淨化機PRO",
+    "brand": "USATISFY",
+    "category": "家電",
+    "srp": 629.0,
+    "msrp": 629.0,
+    "res": 0.0,
+    "image": "products-img/5d-pro.png",
+    "desc": "Dou.Clean",
+    "features": [
+      "Dou.Clean"
+    ]
+  },
+  {
+    "id": "usatisfy-寵物毛微粒吸附空氣極淨機",
+    "name": "寵物毛微粒吸附空氣極淨機",
+    "brand": "USATISFY",
+    "category": "家電",
+    "srp": 999.0,
+    "msrp": 999.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Dou.Clean 萬用電動清潔刷 PRO | Braun BNT400",
+    "features": [
+      "Dou.Clean 萬用電動清潔刷 PRO",
+      "Braun BNT400"
+    ]
+  },
+  {
+    "id": "usatisfy-6刷套",
+    "name": "（6刷套）",
+    "brand": "USATISFY",
+    "category": "家電",
+    "srp": 269.0,
+    "msrp": 269.0,
+    "res": 0.0,
+    "image": "products-img/6.png",
+    "desc": "Braun BNT400",
+    "features": [
+      "Braun BNT400"
+    ]
+  },
+  {
+    "id": "usatisfy-免接觸額溫槍溫度計",
+    "name": "免接觸額溫槍溫度計",
+    "brand": "USATISFY",
+    "category": "家電",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "airbot-雙滾筒無線吸塵機",
+    "name": "雙滾筒無線吸塵機",
+    "brand": "Airbot",
+    "category": "家電",
+    "srp": 1288.0,
+    "msrp": 1288.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "FUTURE LAB",
+    "features": [
+      "FUTURE LAB"
+    ]
+  },
+  {
+    "id": "airbot-脈壓滅汙砲mg1",
+    "name": "脈壓滅汙砲MG1",
+    "brand": "Airbot",
+    "category": "家電",
+    "srp": 569.0,
+    "msrp": 569.0,
+    "res": 0.0,
+    "image": "products-img/mg1.png",
+    "desc": "Future Lab FG15050",
+    "features": [
+      "Future Lab FG15050"
+    ]
+  },
+  {
+    "id": "airbot-gradit-隨行溫控杯",
+    "name": "Gradit 隨行溫控杯",
+    "brand": "Airbot",
+    "category": "家電",
+    "srp": 599.0,
+    "msrp": 599.0,
+    "res": 0.0,
+    "image": "products-img/gradit.png",
+    "desc": "Airbot Hypersonics MAX 33000Pa",
+    "features": [
+      "Airbot Hypersonics MAX 33000Pa"
+    ]
+  },
+  {
+    "id": "airbot-拖地吸塵二合無線吸塵機",
+    "name": "拖地吸塵二合⼀無線吸塵機",
+    "brand": "Airbot",
+    "category": "家電",
+    "srp": 1999.0,
+    "msrp": 1999.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Airbot Hypersonics Pro",
+    "features": [
+      "Airbot Hypersonics Pro"
+    ]
+  },
+  {
+    "id": "airbot-智能無繩吸塵器手持式吸塵器",
+    "name": "智能無繩吸塵器手持式吸塵器",
+    "brand": "Airbot",
+    "category": "家電",
+    "srp": 1499.0,
+    "msrp": 1499.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Airbot Aura VC801",
+    "features": [
+      "Airbot Aura VC801"
+    ]
+  },
+  {
+    "id": "airbot-智能輕音降噪無線提吸塵機",
+    "name": "智能輕音降噪無線⼿提吸塵機",
+    "brand": "Airbot",
+    "category": "家電",
+    "srp": 990.0,
+    "msrp": 990.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "FUTURE LAB",
+    "features": [
+      "FUTURE LAB"
+    ]
+  },
+  {
+    "id": "airbot-omni-air-全域氣流扇",
+    "name": "OMNI AIR 全域氣流扇",
+    "brand": "Airbot",
+    "category": "家電",
+    "srp": 799.0,
+    "msrp": 799.0,
+    "res": 0.0,
+    "image": "products-img/omni-air.png",
+    "desc": "FUTURE LAB",
+    "features": [
+      "FUTURE LAB"
+    ]
+  },
+  {
+    "id": "airbot-vocon-white-音感潔刷",
+    "name": "Vocon White 音感潔⽩刷",
+    "brand": "Airbot",
+    "category": "家電",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/vocon-white.png",
+    "desc": "Future Lab【Prime zone】",
+    "features": [
+      "Future Lab【Prime zone】"
+    ]
+  },
+  {
+    "id": "airbot-stermidi-殺菌除濕機ⅱ",
+    "name": "STERMIDI 殺菌除濕機Ⅱ",
+    "brand": "Airbot",
+    "category": "家電",
+    "srp": 569.0,
+    "msrp": 569.0,
+    "res": 0.0,
+    "image": "products-img/stermidi.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "ipeak-乾濕兩電動剃鬚刨s112141",
+    "name": "乾濕兩⽤電動剃鬚刨S1121/41",
+    "brand": "IPEAK",
+    "category": "家電",
+    "srp": 299.0,
+    "msrp": 299.0,
+    "res": 0.0,
+    "image": "products-img/s1121-41.png",
+    "desc": "FUTURE LAB",
+    "features": [
+      "FUTURE LAB"
+    ]
+  },
+  {
+    "id": "ipeak-gc1-光能清淨機",
+    "name": "GC1 光能清淨機",
+    "brand": "IPEAK",
+    "category": "家電",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/gc1.png",
+    "desc": "FUTURE LAB",
+    "features": [
+      "FUTURE LAB"
+    ]
+  },
+  {
+    "id": "ipeak-gc2-光能清淨機20",
+    "name": "GC2 光能清淨機2.0",
+    "brand": "IPEAK",
+    "category": "家電",
+    "srp": 429.0,
+    "msrp": 429.0,
+    "res": 0.0,
+    "image": "products-img/gc2-2-0.png",
+    "desc": "FUTURE LAB",
+    "features": [
+      "FUTURE LAB"
+    ]
+  },
+  {
+    "id": "ipeak-nx7-空氣清淨吸塵器",
+    "name": "NX7 空氣清淨吸塵器",
+    "brand": "IPEAK",
+    "category": "家電",
+    "srp": 368.0,
+    "msrp": 368.0,
+    "res": 0.0,
+    "image": "products-img/nx7.png",
+    "desc": "FUTURE LAB",
+    "features": [
+      "FUTURE LAB"
+    ]
+  },
+  {
+    "id": "ipeak-purefiltap-淨濾濾芯水龍頭",
+    "name": "PureFilTap 淨濾濾芯水龍頭",
+    "brand": "IPEAK",
+    "category": "家電",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/purefiltap.png",
+    "desc": "Hyundai OC-012 IPX7",
+    "features": [
+      "Hyundai OC-012 IPX7"
+    ]
+  },
+  {
+    "id": "ipeak-雙尖刷毛電動牙刷",
+    "name": "雙尖刷毛電動牙刷",
+    "brand": "IPEAK",
+    "category": "家電",
+    "srp": 118.0,
+    "msrp": 118.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "HYUNDAI",
+    "features": [
+      "HYUNDAI"
+    ]
+  },
+  {
+    "id": "ipeak-伸縮便攜水牙線機",
+    "name": "伸縮便攜水牙線機",
+    "brand": "IPEAK",
+    "category": "家電",
+    "srp": 199.0,
+    "msrp": 199.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Hyundai PMS-016",
+    "features": [
+      "Hyundai PMS-016"
+    ]
+  },
+  {
+    "id": "ipeak-電動磨皮機",
+    "name": "電動磨皮機",
+    "brand": "IPEAK",
+    "category": "家電",
+    "srp": 138.0,
+    "msrp": 138.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "philips-無線直髮夾",
+    "name": "無線直髮夾",
+    "brand": "PHILIPS",
+    "category": "家電",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Hyundai FC051",
+    "features": [
+      "Hyundai FC051"
+    ]
+  },
+  {
+    "id": "philips-三摺式移動代妝鏡",
+    "name": "三摺式移動代妝鏡",
+    "brand": "PHILIPS",
+    "category": "家電",
+    "srp": 258.0,
+    "msrp": 258.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Medicube  Age-R Booster Pro",
+    "features": [
+      "Medicube  Age-R Booster Pro"
+    ]
+  },
+  {
+    "id": "philips-六合一智慧多功能美容儀",
+    "name": "六合一智慧多功能美容儀",
+    "brand": "PHILIPS",
+    "category": "家電",
+    "srp": 1680.0,
+    "msrp": 1680.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SAVEWO Airflow HairDryer X119專",
+    "features": [
+      "SAVEWO Airflow HairDryer X119專"
+    ]
+  },
+  {
+    "id": "philips-業數碼恆溫負離子護髮風筒-基本裝",
+    "name": "業數碼恆溫負離子護髮風筒 基本裝",
+    "brand": "PHILIPS",
+    "category": "家電",
+    "srp": 399.0,
+    "msrp": 399.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "SAVEWO Airflow HairDryer X119專",
+    "features": [
+      "SAVEWO Airflow HairDryer X119專"
+    ]
+  },
+  {
+    "id": "philips-業數碼恆溫負離子護髮風筒-最強套裝",
+    "name": "業數碼恆溫負離子護髮風筒 最強套裝",
+    "brand": "PHILIPS",
+    "category": "家電",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Savewo Ionic Brush",
+    "features": [
+      "Savewo Ionic Brush"
+    ]
+  },
+  {
+    "id": "philips-無線負離子直髮梳",
+    "name": "無線負離子直髮梳",
+    "brand": "PHILIPS",
+    "category": "家電",
+    "srp": 398.0,
+    "msrp": 398.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "huawei-be3-pro-25ge",
+    "name": "BE3 Pro (2.5GE)",
+    "brand": "HUAWEI",
+    "category": "家電",
+    "srp": 899.0,
+    "msrp": 899.0,
+    "res": 0.0,
+    "image": "products-img/be3-pro-2-5ge.png",
+    "desc": "Huawei 4G 隨行WiFi 5",
+    "features": [
+      "Huawei 4G 隨行WiFi 5"
+    ]
+  },
+  {
+    "id": "huawei-雙頻wi-fi-6-八通道信號放大",
+    "name": "(雙頻Wi-Fi 6+ 八通道信號放大)",
+    "brand": "HUAWEI",
+    "category": "家電",
+    "srp": 799.0,
+    "msrp": 799.0,
+    "res": 0.0,
+    "image": "products-img/wi-fi-6.png",
+    "desc": "ZTE 5G 隨身WiFi",
+    "features": [
+      "ZTE 5G 隨身WiFi"
+    ]
+  },
+  {
+    "id": "huawei-u30-air",
+    "name": "U30 Air",
+    "brand": "HUAWEI",
+    "category": "家電",
+    "srp": 898.0,
+    "msrp": 898.0,
+    "res": 0.0,
+    "image": "products-img/u30-air.png",
+    "desc": "ZTE 隨身WiFi",
+    "features": [
+      "ZTE 隨身WiFi"
+    ]
+  },
+  {
+    "id": "huawei-u10s-pro",
+    "name": "U10S Pro.",
+    "brand": "HUAWEI",
+    "category": "家電",
+    "srp": 499.0,
+    "msrp": 499.0,
+    "res": 0.0,
+    "image": "products-img/u10s-pro.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "tp-link-2k-網絡攝影機",
+    "name": "2K 網絡攝影機",
+    "brand": "TP-Link",
+    "category": "家電",
+    "srp": 488.0,
+    "msrp": 488.0,
+    "res": 0.0,
+    "image": "products-img/2k.png",
+    "desc": "TP-LINK 4G全網通插Sim卡IP CAM",
+    "features": [
+      "TP-LINK 4G全網通插Sim卡IP CAM"
+    ]
+  },
+  {
+    "id": "darts-智能4k-高清投影儀",
+    "name": "智能4K 高清投影儀",
+    "brand": "DARTS",
+    "category": "家電",
+    "srp": 1699.0,
+    "msrp": 1699.0,
+    "res": 0.0,
+    "image": "products-img/4k.png",
+    "desc": "GRAN MAT LED 地毯",
+    "features": [
+      "GRAN MAT LED 地毯"
+    ]
+  },
+  {
+    "id": "darts-適用於-gran-board-3",
+    "name": "(適用於 GRAN BOARD 3)",
+    "brand": "DARTS",
+    "category": "家電",
+    "srp": 980.0,
+    "msrp": 980.0,
+    "res": 0.0,
+    "image": "products-img/gran-board-3.png",
+    "desc": "Gran Board Portable Stand",
+    "features": [
+      "Gran Board Portable Stand"
+    ]
+  },
+  {
+    "id": "darts-便攜三腳架",
+    "name": "便攜三腳架",
+    "brand": "DARTS",
+    "category": "家電",
+    "srp": 780.0,
+    "msrp": 780.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "GranBoard Dash",
+    "features": [
+      "GranBoard Dash"
+    ]
+  },
+  {
+    "id": "darts-升級版智能飛標靶",
+    "name": "升級版智能飛標靶",
+    "brand": "DARTS",
+    "category": "家電",
+    "srp": 780.0,
+    "msrp": 780.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "GranBoard 3S",
+    "features": [
+      "GranBoard 3S"
+    ]
+  },
+  {
+    "id": "darts-炫彩智能靜音鏢靶",
+    "name": "炫彩智能靜音鏢靶",
+    "brand": "DARTS",
+    "category": "家電",
+    "srp": 1980.0,
+    "msrp": 1980.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "Havit PJ215 Pro",
+    "features": [
+      "Havit PJ215 Pro"
+    ]
+  },
+  {
+    "id": "darts-4k智能projector",
+    "name": "4K智能Projector",
+    "brand": "DARTS",
+    "category": "家電",
+    "srp": 1298.0,
+    "msrp": 1298.0,
+    "res": 0.0,
+    "image": "products-img/4k-projector.png",
+    "desc": "",
+    "features": []
+  },
+  {
+    "id": "boya-一站式無線降噪收咪",
+    "name": "一站式無線降噪收⾳咪",
+    "brand": "BOYA",
+    "category": "家電",
+    "srp": 1280.0,
+    "msrp": 1280.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "BOYA BOYALINK 2",
+    "features": [
+      "BOYA BOYALINK 2"
+    ]
+  },
+  {
+    "id": "boya-無線降噪收音系統",
+    "name": "無線降噪收音系統",
+    "brand": "BOYA",
+    "category": "家電",
+    "srp": 880.0,
+    "msrp": 880.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "BOYA BOYALINK",
+    "features": [
+      "BOYA BOYALINK"
+    ]
+  },
+  {
+    "id": "boya-全面無線降噪收系統",
+    "name": "全面無線降噪收⾳系統",
+    "brand": "BOYA",
+    "category": "家電",
+    "srp": 880.0,
+    "msrp": 880.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "BOYA mini-17",
+    "features": [
+      "BOYA mini-17"
+    ]
+  },
+  {
+    "id": "boya-夾領式無線降噪收音系統",
+    "name": "夾領式無線降噪收音系統",
+    "brand": "BOYA",
+    "category": "家電",
+    "srp": 238.0,
+    "msrp": 238.0,
+    "res": 0.0,
+    "image": "products-img/.png",
+    "desc": "BOYA mini-12",
+    "features": [
+      "BOYA mini-12"
     ]
   }
 ];

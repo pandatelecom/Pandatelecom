@@ -24,13 +24,16 @@
     ]
   },
   "ARGO": {
-    "count": 12,
-    "with_img": 0,
+    "count": 40,
+    "with_img": 28,
     "categories": [
       "充電器",
       "充電線",
+      "其他",
+      "耳機",
       "行動電源",
-      "配件"
+      "配件",
+      "風扇"
     ]
   },
   "Sincos": {
@@ -65,10 +68,12 @@
     ]
   },
   "Lonzuer": {
-    "count": 1,
-    "with_img": 0,
+    "count": 8,
+    "with_img": 7,
     "categories": [
-      "喇叭"
+      "充電線",
+      "喇叭",
+      "耳機"
     ]
   },
   "Ismartdigi": {
@@ -99,6 +104,373 @@
     "with_img": 0,
     "categories": [
       "醫療健康"
+    ]
+  },
+  "SUPERV": {
+    "count": 3,
+    "with_img": 3,
+    "categories": [
+      "其他",
+      "行動電源"
+    ]
+  },
+  "Hedonic": {
+    "count": 4,
+    "with_img": 4,
+    "categories": [
+      "行動電源"
+    ]
+  },
+  "DSE": {
+    "count": 6,
+    "with_img": 6,
+    "categories": [
+      "充電線",
+      "其他",
+      "喇叭",
+      "家居"
+    ]
+  },
+  "YACHI": {
+    "count": 4,
+    "with_img": 4,
+    "categories": [
+      "其他",
+      "風扇"
+    ]
+  },
+  "CIO": {
+    "count": 6,
+    "with_img": 6,
+    "categories": [
+      "行動電源"
+    ]
+  },
+  "CHILLBUDS": {
+    "count": 9,
+    "with_img": 9,
+    "categories": [
+      "充電器",
+      "充電線",
+      "其他",
+      "智能家居",
+      "耳機",
+      "行動電源"
+    ]
+  },
+  "Case": {
+    "count": 5,
+    "with_img": 5,
+    "categories": [
+      "充電線",
+      "其他",
+      "行動電源"
+    ]
+  },
+  "Qi2": {
+    "count": 8,
+    "with_img": 8,
+    "categories": [
+      "充電器",
+      "充電線",
+      "其他",
+      "家居",
+      "行動電源"
+    ]
+  },
+  "Treely": {
+    "count": 7,
+    "with_img": 7,
+    "categories": [
+      "充電器",
+      "充電線",
+      "其他",
+      "風扇"
+    ]
+  },
+  "Audio-Technica": {
+    "count": 16,
+    "with_img": 16,
+    "categories": [
+      "充電線",
+      "喇叭",
+      "耳機"
+    ]
+  },
+  "Soundwiser": {
+    "count": 7,
+    "with_img": 7,
+    "categories": [
+      "充電線",
+      "其他",
+      "喇叭",
+      "耳機"
+    ]
+  },
+  "Microphone": {
+    "count": 7,
+    "with_img": 7,
+    "categories": [
+      "充電線",
+      "其他"
+    ]
+  },
+  "HAVIT": {
+    "count": 37,
+    "with_img": 37,
+    "categories": [
+      "充電器",
+      "充電線",
+      "其他",
+      "喇叭",
+      "家居",
+      "智能家居",
+      "耳機",
+      "行動電源",
+      "配件"
+    ]
+  },
+  "Plantronics": {
+    "count": 4,
+    "with_img": 4,
+    "categories": [
+      "耳機"
+    ]
+  },
+  "Sabbat": {
+    "count": 4,
+    "with_img": 4,
+    "categories": [
+      "耳機"
+    ]
+  },
+  "TRUEAUDIO": {
+    "count": 6,
+    "with_img": 6,
+    "categories": [
+      "耳機"
+    ]
+  },
+  "JBL": {
+    "count": 15,
+    "with_img": 15,
+    "categories": [
+      "喇叭",
+      "耳機"
+    ]
+  },
+  "NAKAMICHI": {
+    "count": 14,
+    "with_img": 14,
+    "categories": [
+      "喇叭",
+      "耳機"
+    ]
+  },
+  "CREATIVE": {
+    "count": 8,
+    "with_img": 8,
+    "categories": [
+      "充電線",
+      "其他",
+      "喇叭"
+    ]
+  },
+  "MONSTER": {
+    "count": 15,
+    "with_img": 15,
+    "categories": [
+      "家居",
+      "耳機"
+    ]
+  },
+  "PHILIPS": {
+    "count": 14,
+    "with_img": 14,
+    "categories": [
+      "其他",
+      "喇叭",
+      "家電",
+      "耳機"
+    ]
+  },
+  "UNIWA": {
+    "count": 4,
+    "with_img": 4,
+    "categories": [
+      "其他"
+    ]
+  },
+  "VOCA": {
+    "count": 4,
+    "with_img": 4,
+    "categories": [
+      "其他",
+      "耳機"
+    ]
+  },
+  "NOKIA": {
+    "count": 2,
+    "with_img": 2,
+    "categories": [
+      "耳機"
+    ]
+  },
+  "MON": {
+    "count": 2,
+    "with_img": 2,
+    "categories": [
+      "配件"
+    ]
+  },
+  "AMG": {
+    "count": 12,
+    "with_img": 12,
+    "categories": [
+      "充電器",
+      "充電線",
+      "其他",
+      "行動電源",
+      "配件"
+    ]
+  },
+  "GARMMA": {
+    "count": 13,
+    "with_img": 13,
+    "categories": [
+      "其他",
+      "卡通精品"
+    ]
+  },
+  "SAVEWO": {
+    "count": 16,
+    "with_img": 16,
+    "categories": [
+      "充電器",
+      "充電線",
+      "其他",
+      "行動電源"
+    ]
+  },
+  "M2K": {
+    "count": 6,
+    "with_img": 6,
+    "categories": [
+      "充電器",
+      "其他"
+    ]
+  },
+  "Belkin": {
+    "count": 15,
+    "with_img": 15,
+    "categories": [
+      "充電器",
+      "充電線",
+      "其他",
+      "耳機",
+      "行動電源"
+    ]
+  },
+  "BOROFONE": {
+    "count": 11,
+    "with_img": 11,
+    "categories": [
+      "充電器",
+      "充電線",
+      "喇叭",
+      "行動電源"
+    ]
+  },
+  "CHIIKAWA": {
+    "count": 1,
+    "with_img": 1,
+    "categories": [
+      "卡通精品"
+    ]
+  },
+  "SANRIO": {
+    "count": 9,
+    "with_img": 9,
+    "categories": [
+      "卡通精品"
+    ]
+  },
+  "CLUEBOX": {
+    "count": 6,
+    "with_img": 6,
+    "categories": [
+      "卡通精品"
+    ]
+  },
+  "SPARROW": {
+    "count": 1,
+    "with_img": 1,
+    "categories": [
+      "卡通精品"
+    ]
+  },
+  "MIFFY": {
+    "count": 21,
+    "with_img": 21,
+    "categories": [
+      "卡通精品"
+    ]
+  },
+  "YOHOME": {
+    "count": 19,
+    "with_img": 19,
+    "categories": [
+      "家電",
+      "風扇"
+    ]
+  },
+  "USATISFY": {
+    "count": 6,
+    "with_img": 6,
+    "categories": [
+      "家電"
+    ]
+  },
+  "Airbot": {
+    "count": 9,
+    "with_img": 9,
+    "categories": [
+      "家電"
+    ]
+  },
+  "IPEAK": {
+    "count": 8,
+    "with_img": 8,
+    "categories": [
+      "家電"
+    ]
+  },
+  "HUAWEI": {
+    "count": 4,
+    "with_img": 4,
+    "categories": [
+      "家電"
+    ]
+  },
+  "TP-Link": {
+    "count": 1,
+    "with_img": 1,
+    "categories": [
+      "家電"
+    ]
+  },
+  "DARTS": {
+    "count": 6,
+    "with_img": 6,
+    "categories": [
+      "家電"
+    ]
+  },
+  "BOYA": {
+    "count": 4,
+    "with_img": 4,
+    "categories": [
+      "家電"
     ]
   }
 }
