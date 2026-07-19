@@ -4505,6 +4505,484 @@ const ALL_PRODUCTS = [
     "features": []
   },
   {
+    "id": "smartcoby-pro-30w",
+    "name": "SMARTCOBY PRO 30W 10000mAh 外置充電器",
+    "brand": "SMARTCOBY",
+    "category": "行動電源",
+    "srp": 298,
+    "msrp": 298,
+    "res": 0,
+    "image": "",
+    "desc": "全港極細30W超級快充10000mAh外置充電器日本品牌。支援PD、QC4+、PPS輸出，電量百分比顯示屏，黑白色可選。",
+    "features": [
+      "10000mAh 30W",
+      "PD Type-C輸入",
+      "PD、QC4+、PPS輸出",
+      "QC3.0、SCP、S-VOOC輸出",
+      "電量百分比顯示屏",
+      "黑、白兩色"
+    ]
+  },
+  {
+    "id": "smartcoby-pro-slim-35w",
+    "name": "SMARTCOBY PRO SLIM 35W 10000mAh",
+    "brand": "SMARTCOBY",
+    "category": "行動電源",
+    "srp": 299,
+    "msrp": 299,
+    "res": 0,
+    "image": "",
+    "desc": "超薄35W輸出10000mAh外置充電器，LED數字顯示，防刮花物料花紋設計。2C1U同時支援三個裝置，超薄身16mm重量180g，支援iPhone/Galaxy/MacBook Air。",
+    "features": [
+      "最大35W輸出",
+      "LED數字顯示",
+      "防刮花物料花紋設計",
+      "2C1U同時支援三個裝置",
+      "超薄身16mm",
+      "重量180g",
+      "PPS/PD3.0/QC4.0+規格"
+    ]
+  },
+  {
+    "id": "smartcoby-pro-slim-35w-sakura",
+    "name": "SMARTCOBY PRO SLIM 35W (SAKURA Ver.)",
+    "brand": "SMARTCOBY",
+    "category": "行動電源",
+    "srp": 298,
+    "msrp": 298,
+    "res": 0,
+    "image": "",
+    "desc": "櫻花限定版SMARTCOBY PRO SLIM 35W，超薄設計內置LED顯示。防刮花物料花紋，2C1U三裝置同時充電，重量180g。",
+    "features": [
+      "最大35W輸出",
+      "LED數字顯示",
+      "防刮花物料花紋設計",
+      "2C1U同時支援三個裝置",
+      "超薄身16mm",
+      "重量180g",
+      "櫻花Ver.限定版"
+    ]
+  },
+  {
+    "id": "smartcoby-trio-67w",
+    "name": "SMARTCOBY TRIO 67W 20000mAh",
+    "brand": "SMARTCOBY",
+    "category": "行動電源",
+    "srp": 449,
+    "msrp": 449,
+    "res": 0,
+    "image": "",
+    "desc": "最大67W輸出20000mAh大容量外置充電器，LED數字顯示，防刮花物料花紋設計。2C1U同時支援三個裝置，重量333g，提供數位電量顯示。",
+    "features": [
+      "最大67W輸出",
+      "LED數字顯示",
+      "防刮花物料花紋設計",
+      "2C1U同時支援三個裝置",
+      "重量333g",
+      "提供數位電量顯示",
+      "支援iPhone/Galaxy/MacBook Air"
+    ]
+  },
+  {
+    "id": "smartcoby-duo-40w",
+    "name": "SMARTCOBY DUO 40W 10000mAh",
+    "brand": "SMARTCOBY",
+    "category": "行動電源",
+    "srp": 268,
+    "msrp": 268,
+    "res": 0,
+    "image": "",
+    "desc": "大容量10000mAh同時充電時輸出40W，每兩個連接保持20W輸出。高輸出緊湊設計，LED顯示器顯示電量，為兩部智慧型手機快速充電。",
+    "features": [
+      "10000mAh大容量",
+      "總輸出40W，每口20W",
+      "可同時為兩部手機快速充電",
+      "LED顯示器顯示電量"
+    ]
+  },
+  {
+    "id": "smartcoby-pro-slim-cable-35w",
+    "name": "SMARTCOBY Pro Slim Cable 35W 10000mAh",
+    "brand": "SMARTCOBY",
+    "category": "行動電源",
+    "srp": 368,
+    "msrp": 368,
+    "res": 0,
+    "image": "",
+    "desc": "超薄35W輸出內置Type-C線10000mAh行動電源，支援iPhone 16快充。新款LED數量顯示燈，防刮花物料花紋設計，超薄身17.8mm重量189g。",
+    "features": [
+      "超薄35W輸出內置Type-C線",
+      "新款LED數量顯示燈",
+      "防刮花物料花紋設計",
+      "超薄身17.8mm",
+      "重量189g",
+      "支援iPhone 16快充"
+    ]
+  },
+  {
+    "id": "10denki-jd-d1",
+    "name": "10Denki JD-D1 45W 10000mAh磁吸無線快充行動電源",
+    "brand": "10Denki",
+    "category": "行動電源",
+    "srp": 298,
+    "msrp": 298,
+    "res": 0,
+    "image": "",
+    "desc": "提供最大15W磁吸無線快充，內置可拆式Type-C線，PD快充提供最高45W輸出輸入。極速45W輸入約1.5小時充滿，支援同時為三個裝置充電。",
+    "features": [
+      "最大15W磁吸無線快充",
+      "內置可拆式Type-C線",
+      "PD快充最高45W輸出輸入",
+      "極速45W輸入，約1.5小時充滿",
+      "188 LED電量顯示",
+      "支援同時為三個裝置充電",
+      "重量213g，尺寸102×65×18.5mm"
+    ]
+  },
+  {
+    "id": "10denki-j1-d2",
+    "name": "10Denki J1-D2 PD45W 10000mAh 3C頭快充移動電源",
+    "brand": "10Denki",
+    "category": "行動電源",
+    "srp": 268,
+    "msrp": 268,
+    "res": 0,
+    "image": "",
+    "desc": "PD45W 10000mAh 3C頭快充移動電源，同時支援3部裝置快充。內嵌式LED電量顯示，激輕薄設計，附60W C to C網纖扁線，符合國際航班上機標準。",
+    "features": [
+      "總輸出可達PD45W",
+      "Type-C out ×3",
+      "內嵌式LED電量顯示",
+      "附60W C to C網纖扁線",
+      "符合國際航班上機標準",
+      "通過IEC62133-2/IEC62368-1認證"
+    ]
+  },
+  {
+    "id": "cs-pd100",
+    "name": "CS-PD100 100W PD行動電源",
+    "brand": "Ismartdigi",
+    "category": "行動電源",
+    "srp": 368,
+    "msrp": 368,
+    "res": 0,
+    "image": "",
+    "desc": "100W PD大功率行動電源，尺寸約130×77×26mm淨重約360g。可同時輸出三部裝置，支援Macbook Pro 65W、iPhone 30W、iPad Pro 40W、Switch TV MODE 45W，Type-C PD最高輸出100W。",
+    "features": [
+      "可同時輸出三部裝置",
+      "支援Macbook Pro 65W",
+      "支援iPhone 14 30W",
+      "支援iPad Pro 40W",
+      "支援Switch TV MODE 45W",
+      "Type-C PD最高輸出100W",
+      "雙輸入Type-C + Micro",
+      "雙USB最高輸出40W及22.5W"
+    ]
+  },
+  {
+    "id": "flashmini-stand",
+    "name": "FlashMini (Stand) 磁吸無線快充行動電源",
+    "brand": "Ismartdigi",
+    "category": "行動電源",
+    "srp": 298,
+    "msrp": 298,
+    "res": 0,
+    "image": "",
+    "desc": "Tempo紙巾大小的磁吸無線快充行動電源，15W無線快充PD3.0 QC4.0+。最大PD20W Type-C急速充電，電量數字LED顯示，配備金屬製折疊式支架可邊充電邊使用。",
+    "features": [
+      "Tempo紙巾尺寸",
+      "15W無線快充，PD3.0 QC4.0+",
+      "最大PD20W Type-C急速充電",
+      "電量數字LED顯示",
+      "配備金屬製折疊式支架",
+      "深海藍、櫻花粉、鬱金香紫、黑色"
+    ]
+  },
+  {
+    "id": "tl166",
+    "name": "TL166 磁吸無線充電行動電源",
+    "brand": "Ismartdigi",
+    "category": "行動電源",
+    "srp": 388,
+    "msrp": 388,
+    "res": 0,
+    "image": "",
+    "desc": "支援5部裝置同時充電的磁吸行動電源，N52磁吸圈夠實淨。15W磁吸無線充電，PD35W快充兼容大部分手機，內置Type-C及Lightning線，UV亮面材質不怕黏。",
+    "features": [
+      "同時支援5部裝置",
+      "N52磁吸圈",
+      "可帶上飛機",
+      "15W磁吸無線充電",
+      "PD35W快充",
+      "內置Type-C及Lightning線",
+      "UV亮面材質",
+      "LED電量及充電狀態顯示"
+    ]
+  },
+  {
+    "id": "is-pps23",
+    "name": "IS-PPS23 30W 10000mAh 外置充電器",
+    "brand": "Ismartdigi",
+    "category": "行動電源",
+    "srp": 298,
+    "msrp": 298,
+    "res": 0,
+    "image": "",
+    "desc": "SMARTCOBY同款同廠出品30W 10000mAh外置充電器，支援PD QC4+ PPS輸出。電量百分比顯示屏，紫粉兩色，小巧輕便。",
+    "features": [
+      "10000mAh 30W",
+      "PD、QC4+、PPS輸出",
+      "QC3.0、SCP、S-VOOC輸出",
+      "電量百分比顯示屏",
+      "紫、粉兩色"
+    ]
+  },
+  {
+    "id": "ismartdigi-sq15",
+    "name": "Ismartdigi SQ15 8000mAh 行動電源",
+    "brand": "Ismartdigi",
+    "category": "行動電源",
+    "srp": 198,
+    "msrp": 198,
+    "res": 0,
+    "image": "",
+    "desc": "8000mAh輕巧行動電源，總輸出最大15W。140g超輕量，91.5×65×14.5mm超薄設計，1 Type-C + 1 USB輸出，1 Type-C + 1 Lightning輸入，多色可選。",
+    "features": [
+      "8000mAh容量",
+      "總輸出最大15W",
+      "140g超輕量",
+      "91.5×65×14.5mm超薄",
+      "1 Type-C + 1 USB輸出",
+      "1 Type-C + 1 Lightning輸入",
+      "多色：黑灰、粉白、藍白、粉紫、藍紫、白紫"
+    ]
+  },
+  {
+    "id": "ismartdigi-sq16",
+    "name": "Ismartdigi SQ16 8000mAh 行動電源",
+    "brand": "Ismartdigi",
+    "category": "行動電源",
+    "srp": 198,
+    "msrp": 198,
+    "res": 0,
+    "image": "",
+    "desc": "8000mAh輕巧行動電源，總輸出最大15W。140g超輕量超薄設計，多色選擇，Type-C+USB輸出，Type-C+Lightning輸入。",
+    "features": [
+      "8000mAh容量",
+      "總輸出最大15W",
+      "140g超輕量",
+      "91.5×65×14.5mm超薄",
+      "1 Type-C + 1 USB輸出",
+      "1 Type-C + 1 Lightning輸入"
+    ]
+  },
+  {
+    "id": "ismartdigi-40w-charger",
+    "name": "Ismartdigi 40W 2C2U快充火牛",
+    "brand": "Ismartdigi",
+    "category": "充電器",
+    "srp": 98,
+    "msrp": 98,
+    "res": 0,
+    "image": "",
+    "desc": "日本Ismartdigi 40W 2C2U快充充電器，符合國際安全標準防火A0規格。配備1個QC3.0端口及3個2.4A端口，總輸出最高40W，尺寸75×44.5×47mm重量52g。",
+    "features": [
+      "2 USB + 2 Type-C",
+      "QC3.0/PD3.0",
+      "最大輸出40W (20W+20W)",
+      "符合國際安全標準防火A0規格",
+      "尺寸75×44.5×47mm",
+      "重量52g",
+      "輸入100-240V AC 50/60Hz"
+    ]
+  },
+  {
+    "id": "ismartdigi-65w-charger",
+    "name": "Ismartdigi 65W 火牛 (2C1U)",
+    "brand": "Ismartdigi",
+    "category": "充電器",
+    "srp": 128,
+    "msrp": 128,
+    "res": 0,
+    "image": "",
+    "desc": "Ismartdigi 65W 2C1U快充充電器，支援PD3.0快充。USB-C1/C2最高65W輸出，支援PPS 3.3V-20.3V，多口同時充電智能分配功率。",
+    "features": [
+      "USB-C1/C2: 5V/3A, 9V/3A, 12V/3A, 15V/3A, 20V/3.25A",
+      "PPS 3.3V-20.3V-3.25A (65W)",
+      "USB-A: 18W max",
+      "USB-C1(45W)+USB-A(18W)=63W",
+      "USB-C1(45W)+C2(20W)=65W",
+      "輸入100-240V~50/60Hz 1.5A max"
+    ]
+  },
+  {
+    "id": "ismartdigi-is-cll201",
+    "name": "Ismartdigi IS-CLL201 1.2m 3合1充電線",
+    "brand": "Ismartdigi",
+    "category": "充電線",
+    "srp": 98,
+    "msrp": 98,
+    "res": 0,
+    "image": "",
+    "desc": "3合1充電線，Type-C ×1 + Lightning ×2，鋁合金外殼金屬電纜線材超級耐用。支援最大480Mbps數據傳輸，1.2米長，黑、灰、藍三色。",
+    "features": [
+      "3合1 Type-C ×1 + Lightning ×2",
+      "鋁合金外殼",
+      "支援480Mbps數據傳輸",
+      "1.2米長",
+      "黑、灰、藍三色"
+    ]
+  },
+  {
+    "id": "ismartdigi-3in1-cable",
+    "name": "Ismartdigi 1.2m 3合1充電線 (Type-C/Lightning/Micro)",
+    "brand": "Ismartdigi",
+    "category": "充電線",
+    "srp": 68,
+    "msrp": 68,
+    "res": 0,
+    "image": "",
+    "desc": "3合1充電線兼容Type-C、Lightning、Micro接口，金屬外殼尼龍布料材質，1.2米長。",
+    "features": [
+      "3合1 Type-C、Lightning、Micro",
+      "金屬外殼尼龍布料",
+      "1.2米長"
+    ]
+  },
+  {
+    "id": "is-cc301-100w",
+    "name": "IS-CC301 USB3.1 100W C to C充電數據線 20Gbps",
+    "brand": "Ismartdigi",
+    "category": "充電線",
+    "srp": 268,
+    "msrp": 268,
+    "res": 0,
+    "image": "",
+    "desc": "USB3.1 Gen2高速充電數據線，數據傳輸高達20Gbps。內置E-marker晶片支援PD快充，支援4K@60Hz投屏，224根99.99% 4N無氧銅線芯，金屬外殼尼龍布料。",
+    "features": [
+      "USB3.1 Gen2 20Gbps數據傳輸",
+      "內置E-marker晶片支援PD快充",
+      "支援4K@60Hz投屏",
+      "224根99.99% 4N無氧銅線芯",
+      "金屬外殼尼龍布料+鋁合金外殼",
+      "支援iPhone 15/MacBook快充"
+    ]
+  },
+  {
+    "id": "is-cc501-60w",
+    "name": "IS-CC501 USB 60W C to C充電數據線 480Mbps",
+    "brand": "Ismartdigi",
+    "category": "充電線",
+    "srp": 118,
+    "msrp": 118,
+    "res": 0,
+    "image": "",
+    "desc": "USB 60W快速C to C充電數據線，480Mbps數據傳輸，金屬外殼尼龍布料+鋁合金外殼，耐用設計。",
+    "features": [
+      "60W快速充電",
+      "480Mbps數據傳輸",
+      "金屬外殼尼龍布料+鋁合金外殼"
+    ]
+  },
+  {
+    "id": "rhythm-breeze-25",
+    "name": "Rhythm x 10Denki Breeze 25 便攜式直立手提風扇",
+    "brand": "Rhythm",
+    "category": "風扇",
+    "srp": 238,
+    "msrp": 238,
+    "res": 0,
+    "image": "",
+    "desc": "Rhythm聯同日本品牌10Denki推出Breeze 25便攜式直立手提風扇。內置可活動式掛扣可掛袋、直立坐枱或橫放使用，4檔風速最高檔為自然風模式，更慳電更舒適。",
+    "features": [
+      "可活動式掛扣多種使用方式",
+      "4段風速（第4檔自然風）",
+      "保留多種受歡迎顏色",
+      "便攜式直立手提設計"
+    ]
+  },
+  {
+    "id": "rhythm-silky-wind-mini",
+    "name": "RHYTHM Silky Wind Mini 雙扇葉坐枱風扇",
+    "brand": "Rhythm",
+    "category": "風扇",
+    "srp": 548,
+    "msrp": 548,
+    "res": 0,
+    "image": "",
+    "desc": "Silky Wind Mini雙扇葉坐枱風扇，4800+小時使用壽命可用足五年。面板和後蓋方便拆卸易於清潔，內置雙扇葉出風更集中更涼爽，兩段式風速設計，機身可傾斜30度，自動左右搖擺70度，僅重270g。",
+    "features": [
+      "4800+小時使用壽命",
+      "面板和後蓋方便拆卸易於清潔",
+      "內置雙扇葉出風更集中更涼爽",
+      "兩段式風速設計",
+      "機身可手動傾斜30度",
+      "可自動左右搖擺70度",
+      "僅重270g"
+    ]
+  },
+  {
+    "id": "heal-force-b01",
+    "name": "Heal Force B01 手臂式血壓計",
+    "brand": "Heal Force",
+    "category": "醫療健康",
+    "srp": 450,
+    "msrp": 450,
+    "res": 0,
+    "image": "",
+    "desc": "廣東話/英文真人語音血壓計，雙人各90組記憶功能。心律不齊監測，大屏LCD顯示，三次平均值分析，一鍵使用智能加壓，本港醫療機構使用。",
+    "features": [
+      "廣東話/英文真人語音",
+      "雙人各90組記憶功能",
+      "心律不齊監測",
+      "大屏LCD顯示",
+      "三次平均值分析",
+      "一鍵使用",
+      "智能加壓",
+      "本港醫療機構使用"
+    ]
+  },
+  {
+    "id": "motorola-mbp66n",
+    "name": "MOTOROLA MBP66N 3合1非接觸式額溫計",
+    "brand": "MOTOROLA",
+    "category": "醫療健康",
+    "srp": 299,
+    "msrp": 299,
+    "res": 0,
+    "image": "",
+    "desc": "MOTOROLA 3合1非接觸式額溫計，可測量體溫、水溫、物溫。夜間模式可關閉聲響，高溫警示紅燈/正常綠燈，快速測量僅需1秒。AgeSmart年齡選擇按鈕，食物及洗澡水測溫。",
+    "features": [
+      "非接觸式額溫計",
+      "可測量體溫/水溫/物溫",
+      "夜間模式",
+      "高溫警示（紅燈/綠燈）",
+      "快速測量1秒 (±0.2℃)",
+      "AgeSmart年齡選擇按鈕",
+      "靜音模式",
+      "大型液晶顯示屏"
+    ]
+  },
+  {
+    "id": "smartcoby-pro-slim-cable-35w-purple",
+    "name": "SMARTCOBY Pro Slim Cable 35W Purple Ver. 10000mAh",
+    "brand": "SMARTCOBY",
+    "category": "行動電源",
+    "srp": 368,
+    "msrp": 368,
+    "res": 0,
+    "image": "",
+    "desc": "紫色限定版SMARTCOBY Pro Slim Cable 35W，超薄35W輸出內置Type-C線10000mAh行動電源。新款LED數量顯示燈，防刮花物料花紋設計，超薄身17.8mm，支援iPhone 16快充。",
+    "features": [
+      "超薄35W輸出內置Type-C線",
+      "新款LED數量顯示燈",
+      "防刮花物料花紋設計",
+      "超薄身17.8mm",
+      "重量189g",
+      "Purple紫色限定版"
+    ]
+  },
+  {
     "id": "argo-kc240",
     "name": "ARGO KC240 240W傳輸匙扣充電線",
     "brand": "ARGO",
@@ -4922,160 +5400,6 @@ const ALL_PRODUCTS = [
     ]
   },
   {
-    "id": "smartcoby-pro-30w",
-    "name": "SMARTCOBY PRO 30W 10000mAh 外置充電器",
-    "brand": "SMARTCOBY",
-    "category": "行動電源",
-    "srp": 298,
-    "msrp": 298,
-    "res": 0,
-    "image": "",
-    "desc": "全港極細30W超級快充10000mAh外置充電器日本品牌。支援PD、QC4+、PPS輸出，電量百分比顯示屏，黑白色可選。",
-    "features": [
-      "10000mAh 30W",
-      "PD Type-C輸入",
-      "PD、QC4+、PPS輸出",
-      "QC3.0、SCP、S-VOOC輸出",
-      "電量百分比顯示屏",
-      "黑、白兩色"
-    ]
-  },
-  {
-    "id": "smartcoby-pro-slim-35w",
-    "name": "SMARTCOBY PRO SLIM 35W 10000mAh",
-    "brand": "SMARTCOBY",
-    "category": "行動電源",
-    "srp": 299,
-    "msrp": 299,
-    "res": 0,
-    "image": "",
-    "desc": "超薄35W輸出10000mAh外置充電器，LED數字顯示，防刮花物料花紋設計。2C1U同時支援三個裝置，超薄身16mm重量180g，支援iPhone/Galaxy/MacBook Air。",
-    "features": [
-      "最大35W輸出",
-      "LED數字顯示",
-      "防刮花物料花紋設計",
-      "2C1U同時支援三個裝置",
-      "超薄身16mm",
-      "重量180g",
-      "PPS/PD3.0/QC4.0+規格"
-    ]
-  },
-  {
-    "id": "smartcoby-pro-slim-35w-sakura",
-    "name": "SMARTCOBY PRO SLIM 35W (SAKURA Ver.)",
-    "brand": "SMARTCOBY",
-    "category": "行動電源",
-    "srp": 298,
-    "msrp": 298,
-    "res": 0,
-    "image": "",
-    "desc": "櫻花限定版SMARTCOBY PRO SLIM 35W，超薄設計內置LED顯示。防刮花物料花紋，2C1U三裝置同時充電，重量180g。",
-    "features": [
-      "最大35W輸出",
-      "LED數字顯示",
-      "防刮花物料花紋設計",
-      "2C1U同時支援三個裝置",
-      "超薄身16mm",
-      "重量180g",
-      "櫻花Ver.限定版"
-    ]
-  },
-  {
-    "id": "smartcoby-trio-67w",
-    "name": "SMARTCOBY TRIO 67W 20000mAh",
-    "brand": "SMARTCOBY",
-    "category": "行動電源",
-    "srp": 449,
-    "msrp": 449,
-    "res": 0,
-    "image": "",
-    "desc": "最大67W輸出20000mAh大容量外置充電器，LED數字顯示，防刮花物料花紋設計。2C1U同時支援三個裝置，重量333g，提供數位電量顯示。",
-    "features": [
-      "最大67W輸出",
-      "LED數字顯示",
-      "防刮花物料花紋設計",
-      "2C1U同時支援三個裝置",
-      "重量333g",
-      "提供數位電量顯示",
-      "支援iPhone/Galaxy/MacBook Air"
-    ]
-  },
-  {
-    "id": "smartcoby-duo-40w",
-    "name": "SMARTCOBY DUO 40W 10000mAh",
-    "brand": "SMARTCOBY",
-    "category": "行動電源",
-    "srp": 268,
-    "msrp": 268,
-    "res": 0,
-    "image": "",
-    "desc": "大容量10000mAh同時充電時輸出40W，每兩個連接保持20W輸出。高輸出緊湊設計，LED顯示器顯示電量，為兩部智慧型手機快速充電。",
-    "features": [
-      "10000mAh大容量",
-      "總輸出40W，每口20W",
-      "可同時為兩部手機快速充電",
-      "LED顯示器顯示電量"
-    ]
-  },
-  {
-    "id": "smartcoby-pro-slim-cable-35w",
-    "name": "SMARTCOBY Pro Slim Cable 35W 10000mAh",
-    "brand": "SMARTCOBY",
-    "category": "行動電源",
-    "srp": 368,
-    "msrp": 368,
-    "res": 0,
-    "image": "",
-    "desc": "超薄35W輸出內置Type-C線10000mAh行動電源，支援iPhone 16快充。新款LED數量顯示燈，防刮花物料花紋設計，超薄身17.8mm重量189g。",
-    "features": [
-      "超薄35W輸出內置Type-C線",
-      "新款LED數量顯示燈",
-      "防刮花物料花紋設計",
-      "超薄身17.8mm",
-      "重量189g",
-      "支援iPhone 16快充"
-    ]
-  },
-  {
-    "id": "10denki-jd-d1",
-    "name": "10Denki JD-D1 45W 10000mAh磁吸無線快充行動電源",
-    "brand": "10Denki",
-    "category": "行動電源",
-    "srp": 298,
-    "msrp": 298,
-    "res": 0,
-    "image": "",
-    "desc": "提供最大15W磁吸無線快充，內置可拆式Type-C線，PD快充提供最高45W輸出輸入。極速45W輸入約1.5小時充滿，支援同時為三個裝置充電。",
-    "features": [
-      "最大15W磁吸無線快充",
-      "內置可拆式Type-C線",
-      "PD快充最高45W輸出輸入",
-      "極速45W輸入，約1.5小時充滿",
-      "188 LED電量顯示",
-      "支援同時為三個裝置充電",
-      "重量213g，尺寸102×65×18.5mm"
-    ]
-  },
-  {
-    "id": "10denki-j1-d2",
-    "name": "10Denki J1-D2 PD45W 10000mAh 3C頭快充移動電源",
-    "brand": "10Denki",
-    "category": "行動電源",
-    "srp": 268,
-    "msrp": 268,
-    "res": 0,
-    "image": "",
-    "desc": "PD45W 10000mAh 3C頭快充移動電源，同時支援3部裝置快充。內嵌式LED電量顯示，激輕薄設計，附60W C to C網纖扁線，符合國際航班上機標準。",
-    "features": [
-      "總輸出可達PD45W",
-      "Type-C out ×3",
-      "內嵌式LED電量顯示",
-      "附60W C to C網纖扁線",
-      "符合國際航班上機標準",
-      "通過IEC62133-2/IEC62368-1認證"
-    ]
-  },
-  {
     "id": "t9-kids-watch",
     "name": "T9 多功能定位兒童智能手錶",
     "brand": "Sincos",
@@ -5321,232 +5645,6 @@ const ALL_PRODUCTS = [
     ]
   },
   {
-    "id": "cs-pd100",
-    "name": "CS-PD100 100W PD行動電源",
-    "brand": "Ismartdigi",
-    "category": "行動電源",
-    "srp": 368,
-    "msrp": 368,
-    "res": 0,
-    "image": "",
-    "desc": "100W PD大功率行動電源，尺寸約130×77×26mm淨重約360g。可同時輸出三部裝置，支援Macbook Pro 65W、iPhone 30W、iPad Pro 40W、Switch TV MODE 45W，Type-C PD最高輸出100W。",
-    "features": [
-      "可同時輸出三部裝置",
-      "支援Macbook Pro 65W",
-      "支援iPhone 14 30W",
-      "支援iPad Pro 40W",
-      "支援Switch TV MODE 45W",
-      "Type-C PD最高輸出100W",
-      "雙輸入Type-C + Micro",
-      "雙USB最高輸出40W及22.5W"
-    ]
-  },
-  {
-    "id": "flashmini-stand",
-    "name": "FlashMini (Stand) 磁吸無線快充行動電源",
-    "brand": "Ismartdigi",
-    "category": "行動電源",
-    "srp": 298,
-    "msrp": 298,
-    "res": 0,
-    "image": "",
-    "desc": "Tempo紙巾大小的磁吸無線快充行動電源，15W無線快充PD3.0 QC4.0+。最大PD20W Type-C急速充電，電量數字LED顯示，配備金屬製折疊式支架可邊充電邊使用。",
-    "features": [
-      "Tempo紙巾尺寸",
-      "15W無線快充，PD3.0 QC4.0+",
-      "最大PD20W Type-C急速充電",
-      "電量數字LED顯示",
-      "配備金屬製折疊式支架",
-      "深海藍、櫻花粉、鬱金香紫、黑色"
-    ]
-  },
-  {
-    "id": "tl166",
-    "name": "TL166 磁吸無線充電行動電源",
-    "brand": "Ismartdigi",
-    "category": "行動電源",
-    "srp": 388,
-    "msrp": 388,
-    "res": 0,
-    "image": "",
-    "desc": "支援5部裝置同時充電的磁吸行動電源，N52磁吸圈夠實淨。15W磁吸無線充電，PD35W快充兼容大部分手機，內置Type-C及Lightning線，UV亮面材質不怕黏。",
-    "features": [
-      "同時支援5部裝置",
-      "N52磁吸圈",
-      "可帶上飛機",
-      "15W磁吸無線充電",
-      "PD35W快充",
-      "內置Type-C及Lightning線",
-      "UV亮面材質",
-      "LED電量及充電狀態顯示"
-    ]
-  },
-  {
-    "id": "is-pps23",
-    "name": "IS-PPS23 30W 10000mAh 外置充電器",
-    "brand": "Ismartdigi",
-    "category": "行動電源",
-    "srp": 298,
-    "msrp": 298,
-    "res": 0,
-    "image": "",
-    "desc": "SMARTCOBY同款同廠出品30W 10000mAh外置充電器，支援PD QC4+ PPS輸出。電量百分比顯示屏，紫粉兩色，小巧輕便。",
-    "features": [
-      "10000mAh 30W",
-      "PD、QC4+、PPS輸出",
-      "QC3.0、SCP、S-VOOC輸出",
-      "電量百分比顯示屏",
-      "紫、粉兩色"
-    ]
-  },
-  {
-    "id": "ismartdigi-sq15",
-    "name": "Ismartdigi SQ15 8000mAh 行動電源",
-    "brand": "Ismartdigi",
-    "category": "行動電源",
-    "srp": 198,
-    "msrp": 198,
-    "res": 0,
-    "image": "",
-    "desc": "8000mAh輕巧行動電源，總輸出最大15W。140g超輕量，91.5×65×14.5mm超薄設計，1 Type-C + 1 USB輸出，1 Type-C + 1 Lightning輸入，多色可選。",
-    "features": [
-      "8000mAh容量",
-      "總輸出最大15W",
-      "140g超輕量",
-      "91.5×65×14.5mm超薄",
-      "1 Type-C + 1 USB輸出",
-      "1 Type-C + 1 Lightning輸入",
-      "多色：黑灰、粉白、藍白、粉紫、藍紫、白紫"
-    ]
-  },
-  {
-    "id": "ismartdigi-sq16",
-    "name": "Ismartdigi SQ16 8000mAh 行動電源",
-    "brand": "Ismartdigi",
-    "category": "行動電源",
-    "srp": 198,
-    "msrp": 198,
-    "res": 0,
-    "image": "",
-    "desc": "8000mAh輕巧行動電源，總輸出最大15W。140g超輕量超薄設計，多色選擇，Type-C+USB輸出，Type-C+Lightning輸入。",
-    "features": [
-      "8000mAh容量",
-      "總輸出最大15W",
-      "140g超輕量",
-      "91.5×65×14.5mm超薄",
-      "1 Type-C + 1 USB輸出",
-      "1 Type-C + 1 Lightning輸入"
-    ]
-  },
-  {
-    "id": "ismartdigi-40w-charger",
-    "name": "Ismartdigi 40W 2C2U快充火牛",
-    "brand": "Ismartdigi",
-    "category": "充電器",
-    "srp": 98,
-    "msrp": 98,
-    "res": 0,
-    "image": "",
-    "desc": "日本Ismartdigi 40W 2C2U快充充電器，符合國際安全標準防火A0規格。配備1個QC3.0端口及3個2.4A端口，總輸出最高40W，尺寸75×44.5×47mm重量52g。",
-    "features": [
-      "2 USB + 2 Type-C",
-      "QC3.0/PD3.0",
-      "最大輸出40W (20W+20W)",
-      "符合國際安全標準防火A0規格",
-      "尺寸75×44.5×47mm",
-      "重量52g",
-      "輸入100-240V AC 50/60Hz"
-    ]
-  },
-  {
-    "id": "ismartdigi-65w-charger",
-    "name": "Ismartdigi 65W 火牛 (2C1U)",
-    "brand": "Ismartdigi",
-    "category": "充電器",
-    "srp": 128,
-    "msrp": 128,
-    "res": 0,
-    "image": "",
-    "desc": "Ismartdigi 65W 2C1U快充充電器，支援PD3.0快充。USB-C1/C2最高65W輸出，支援PPS 3.3V-20.3V，多口同時充電智能分配功率。",
-    "features": [
-      "USB-C1/C2: 5V/3A, 9V/3A, 12V/3A, 15V/3A, 20V/3.25A",
-      "PPS 3.3V-20.3V-3.25A (65W)",
-      "USB-A: 18W max",
-      "USB-C1(45W)+USB-A(18W)=63W",
-      "USB-C1(45W)+C2(20W)=65W",
-      "輸入100-240V~50/60Hz 1.5A max"
-    ]
-  },
-  {
-    "id": "ismartdigi-is-cll201",
-    "name": "Ismartdigi IS-CLL201 1.2m 3合1充電線",
-    "brand": "Ismartdigi",
-    "category": "充電線",
-    "srp": 98,
-    "msrp": 98,
-    "res": 0,
-    "image": "",
-    "desc": "3合1充電線，Type-C ×1 + Lightning ×2，鋁合金外殼金屬電纜線材超級耐用。支援最大480Mbps數據傳輸，1.2米長，黑、灰、藍三色。",
-    "features": [
-      "3合1 Type-C ×1 + Lightning ×2",
-      "鋁合金外殼",
-      "支援480Mbps數據傳輸",
-      "1.2米長",
-      "黑、灰、藍三色"
-    ]
-  },
-  {
-    "id": "ismartdigi-3in1-cable",
-    "name": "Ismartdigi 1.2m 3合1充電線 (Type-C/Lightning/Micro)",
-    "brand": "Ismartdigi",
-    "category": "充電線",
-    "srp": 68,
-    "msrp": 68,
-    "res": 0,
-    "image": "",
-    "desc": "3合1充電線兼容Type-C、Lightning、Micro接口，金屬外殼尼龍布料材質，1.2米長。",
-    "features": [
-      "3合1 Type-C、Lightning、Micro",
-      "金屬外殼尼龍布料",
-      "1.2米長"
-    ]
-  },
-  {
-    "id": "is-cc301-100w",
-    "name": "IS-CC301 USB3.1 100W C to C充電數據線 20Gbps",
-    "brand": "Ismartdigi",
-    "category": "充電線",
-    "srp": 268,
-    "msrp": 268,
-    "res": 0,
-    "image": "",
-    "desc": "USB3.1 Gen2高速充電數據線，數據傳輸高達20Gbps。內置E-marker晶片支援PD快充，支援4K@60Hz投屏，224根99.99% 4N無氧銅線芯，金屬外殼尼龍布料。",
-    "features": [
-      "USB3.1 Gen2 20Gbps數據傳輸",
-      "內置E-marker晶片支援PD快充",
-      "支援4K@60Hz投屏",
-      "224根99.99% 4N無氧銅線芯",
-      "金屬外殼尼龍布料+鋁合金外殼",
-      "支援iPhone 15/MacBook快充"
-    ]
-  },
-  {
-    "id": "is-cc501-60w",
-    "name": "IS-CC501 USB 60W C to C充電數據線 480Mbps",
-    "brand": "Ismartdigi",
-    "category": "充電線",
-    "srp": 118,
-    "msrp": 118,
-    "res": 0,
-    "image": "",
-    "desc": "USB 60W快速C to C充電數據線，480Mbps數據傳輸，金屬外殼尼龍布料+鋁合金外殼，耐用設計。",
-    "features": [
-      "60W快速充電",
-      "480Mbps數據傳輸",
-      "金屬外殼尼龍布料+鋁合金外殼"
-    ]
-  },
-  {
     "id": "tf-01",
     "name": "TF-01 座枱風扇",
     "brand": "Sincos",
@@ -5564,43 +5662,6 @@ const ALL_PRODUCTS = [
       "手動調節上下送風",
       "配備香薰蓋",
       "定時關機功能"
-    ]
-  },
-  {
-    "id": "rhythm-breeze-25",
-    "name": "Rhythm x 10Denki Breeze 25 便攜式直立手提風扇",
-    "brand": "Rhythm",
-    "category": "風扇",
-    "srp": 238,
-    "msrp": 238,
-    "res": 0,
-    "image": "",
-    "desc": "Rhythm聯同日本品牌10Denki推出Breeze 25便攜式直立手提風扇。內置可活動式掛扣可掛袋、直立坐枱或橫放使用，4檔風速最高檔為自然風模式，更慳電更舒適。",
-    "features": [
-      "可活動式掛扣多種使用方式",
-      "4段風速（第4檔自然風）",
-      "保留多種受歡迎顏色",
-      "便攜式直立手提設計"
-    ]
-  },
-  {
-    "id": "rhythm-silky-wind-mini",
-    "name": "RHYTHM Silky Wind Mini 雙扇葉坐枱風扇",
-    "brand": "Rhythm",
-    "category": "風扇",
-    "srp": 548,
-    "msrp": 548,
-    "res": 0,
-    "image": "",
-    "desc": "Silky Wind Mini雙扇葉坐枱風扇，4800+小時使用壽命可用足五年。面板和後蓋方便拆卸易於清潔，內置雙扇葉出風更集中更涼爽，兩段式風速設計，機身可傾斜30度，自動左右搖擺70度，僅重270g。",
-    "features": [
-      "4800+小時使用壽命",
-      "面板和後蓋方便拆卸易於清潔",
-      "內置雙扇葉出風更集中更涼爽",
-      "兩段式風速設計",
-      "機身可手動傾斜30度",
-      "可自動左右搖擺70度",
-      "僅重270g"
     ]
   },
   {
@@ -5649,48 +5710,6 @@ const ALL_PRODUCTS = [
     ]
   },
   {
-    "id": "heal-force-b01",
-    "name": "Heal Force B01 手臂式血壓計",
-    "brand": "Heal Force",
-    "category": "醫療健康",
-    "srp": 450,
-    "msrp": 450,
-    "res": 0,
-    "image": "",
-    "desc": "廣東話/英文真人語音血壓計，雙人各90組記憶功能。心律不齊監測，大屏LCD顯示，三次平均值分析，一鍵使用智能加壓，本港醫療機構使用。",
-    "features": [
-      "廣東話/英文真人語音",
-      "雙人各90組記憶功能",
-      "心律不齊監測",
-      "大屏LCD顯示",
-      "三次平均值分析",
-      "一鍵使用",
-      "智能加壓",
-      "本港醫療機構使用"
-    ]
-  },
-  {
-    "id": "motorola-mbp66n",
-    "name": "MOTOROLA MBP66N 3合1非接觸式額溫計",
-    "brand": "MOTOROLA",
-    "category": "醫療健康",
-    "srp": 299,
-    "msrp": 299,
-    "res": 0,
-    "image": "",
-    "desc": "MOTOROLA 3合1非接觸式額溫計，可測量體溫、水溫、物溫。夜間模式可關閉聲響，高溫警示紅燈/正常綠燈，快速測量僅需1秒。AgeSmart年齡選擇按鈕，食物及洗澡水測溫。",
-    "features": [
-      "非接觸式額溫計",
-      "可測量體溫/水溫/物溫",
-      "夜間模式",
-      "高溫警示（紅燈/綠燈）",
-      "快速測量1秒 (±0.2℃)",
-      "AgeSmart年齡選擇按鈕",
-      "靜音模式",
-      "大型液晶顯示屏"
-    ]
-  },
-  {
     "id": "pe03-stylus",
     "name": "PE03 透明設計iPad觸控筆",
     "brand": "Sincos",
@@ -5707,25 +5726,6 @@ const ALL_PRODUCTS = [
       "全屏/分屏防觸碰",
       "藍牙實時電池顯示",
       "金屬感應環開關"
-    ]
-  },
-  {
-    "id": "smartcoby-pro-slim-cable-35w-purple",
-    "name": "SMARTCOBY Pro Slim Cable 35W Purple Ver. 10000mAh",
-    "brand": "SMARTCOBY",
-    "category": "行動電源",
-    "srp": 368,
-    "msrp": 368,
-    "res": 0,
-    "image": "",
-    "desc": "紫色限定版SMARTCOBY Pro Slim Cable 35W，超薄35W輸出內置Type-C線10000mAh行動電源。新款LED數量顯示燈，防刮花物料花紋設計，超薄身17.8mm，支援iPhone 16快充。",
-    "features": [
-      "超薄35W輸出內置Type-C線",
-      "新款LED數量顯示燈",
-      "防刮花物料花紋設計",
-      "超薄身17.8mm",
-      "重量189g",
-      "Purple紫色限定版"
     ]
   },
   {
@@ -5764,7 +5764,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/qrcode-ccc.png",
+    "image": "products-img/superv-%E4%BE%BF%E6%94%9C%E5%BC%8F%E7%A7%BB%E5%8B%95%E9%9B%BB%E6%BA%90-qrcode-ccc%E7%89%88%E6%9C%AC.png",
     "desc": "🌟10000mAh電量 夠晒⽤🌟PD22.5W Max快速充電🌟 | 內置15cm快充Type-C線🌟內置線可輸入或輸出兩⽤🌟 | LED電量顯示屏🌟尺⼨僅58*28.9*69.7mm🌟重量:",
     "features": [
       "🌟10000mAh電量 夠晒⽤🌟PD22.5W Max快速充電🌟",
@@ -5780,7 +5780,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/20w-ccc-qrcode.png",
+    "image": "products-img/superv-20w-%E7%A7%BB%E5%8B%95%E9%9B%BB%E6%BA%90-%E5%AF%A6%E6%99%82%E6%BA%AB%E5%BA%A6%E7%9B%A3%E6%B8%AC-ccc-qrcode%E7%89%88.png",
     "desc": "1. 15W 磁吸無線充電: 兼容 MagSafe 裝置",
     "features": [
       "1. 15W 磁吸無線充電: 兼容 MagSafe 裝置"
@@ -5794,7 +5794,7 @@ const ALL_PRODUCTS = [
     "srp": 228.0,
     "msrp": 228.0,
     "res": 0.0,
-    "image": "products-img/6-ccc-ccc-qr-code.png",
+    "image": "products-img/superv-6-%E5%AE%89%E5%BF%83%E4%BD%BFccc%E8%AD%89%E6%9B%B8%E7%A2%BC-ccc%E8%BF%BD%E6%BA%AF%E7%A2%BC-qr-code.png",
     "desc": "16GB/32GB",
     "features": [
       "16GB/32GB"
@@ -5808,7 +5808,7 @@ const ALL_PRODUCTS = [
     "srp": 278.0,
     "msrp": 278.0,
     "res": 0.0,
-    "image": "products-img/ccc.png",
+    "image": "products-img/hedonic-%E9%9B%BB%E6%B1%A0-%E7%AC%AC%E4%B8%89%E4%BB%A3-ccc-%E4%B8%AD%E5%9C%8B%E5%BC%B7%E5%88%B6%E6%80%A7%E7%94%A2%E5%93%81%E8%AA%8D%E8%AD%89.png",
     "desc": "XPower MagFlight10 M17 半固態TFT",
     "features": [
       "XPower MagFlight10 M17 半固態TFT"
@@ -5822,7 +5822,7 @@ const ALL_PRODUCTS = [
     "srp": 336.0,
     "msrp": 336.0,
     "res": 0.0,
-    "image": "products-img/10000mah.png",
+    "image": "products-img/hedonic-10000mah-%E7%A3%81%E5%90%B8%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "•全球最細 30W PD & QI2.2認證外置電 | •QI2.2 認證,支援25W超快無線充,30分鐘充60%電量 | •通過最新CCC認證,V0防火級別,耐高溫測試",
     "features": [
       "•全球最細 30W PD & QI2.2認證外置電",
@@ -5840,7 +5840,7 @@ const ALL_PRODUCTS = [
     "srp": 498.0,
     "msrp": 498.0,
     "res": 0.0,
-    "image": "products-img/qi2.png",
+    "image": "products-img/hedonic-%E5%A4%9A%E5%8A%9F%E8%83%BDqi2%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "SAVEWO MagCell Ultra Qi2",
     "features": [
       "SAVEWO MagCell Ultra Qi2"
@@ -5854,7 +5854,7 @@ const ALL_PRODUCTS = [
     "srp": 338.0,
     "msrp": 338.0,
     "res": 0.0,
-    "image": "products-img/10000mah-powerbank-ccc-qrcode.png",
+    "image": "products-img/hedonic-10000mah-powerbank-ccc-qrcode%E7%89%88.png",
     "desc": "純鈷高密度電池，安全耐用且。機身僅15mm厚、209g",
     "features": [
       "純鈷高密度電池，安全耐用且。機身僅15mm厚、209g"
@@ -5868,7 +5868,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/argo-%E8%87%AA%E6%8B%8D%E7%A5%9E%E5%99%A8%E5%85%8D%E5%85%85%E9%9B%BB%E7%A3%81%E5%90%B8%E5%BE%8C%E7%BD%AE%E9%8F%A1%E9%A0%AD.png",
     "desc": "Argo SSB10 Qi2.2",
     "features": [
       "Argo SSB10 Qi2.2"
@@ -5882,7 +5882,7 @@ const ALL_PRODUCTS = [
     "srp": 388.0,
     "msrp": 388.0,
     "res": 0.0,
-    "image": "products-img/35w.png",
+    "image": "products-img/argo-35w-%E5%8D%8A%E5%9B%BA%E6%85%8B%E9%9B%BB%E6%B1%A0.png",
     "desc": "ARGO  SSB5 固態電池行動電源",
     "features": [
       "ARGO  SSB5 固態電池行動電源"
@@ -5896,7 +5896,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/argo-ssb5.png",
+    "image": "products-img/argo-argo-ssb5-%E5%9B%BA%E6%85%8B%E9%9B%BB%E6%B1%A0%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "6pcs up $168 | ARGO  MiniQ 10000mAh",
     "features": [
       "6pcs up $168",
@@ -5911,7 +5911,7 @@ const ALL_PRODUCTS = [
     "srp": 228.0,
     "msrp": 228.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/argo-%E8%B6%85%E8%BF%B7%E4%BD%A0%E5%BF%AB%E5%85%85%E7%A5%9E%E5%99%A8.png",
     "desc": "ARGO 5in1 Power Bank 自帶Type-C",
     "features": [
       "ARGO 5in1 Power Bank 自帶Type-C"
@@ -5925,7 +5925,7 @@ const ALL_PRODUCTS = [
     "srp": 268.0,
     "msrp": 268.0,
     "res": 0.0,
-    "image": "products-img/10000mah-tfc10.png",
+    "image": "products-img/argo-%E7%B7%9A%E7%A7%BB%E5%8B%95%E9%9B%BB%E6%BA%90-10000mah-tfc10.png",
     "desc": "ARGO  EARBUDS",
     "features": [
       "ARGO  EARBUDS"
@@ -5939,7 +5939,7 @@ const ALL_PRODUCTS = [
     "srp": 228.0,
     "msrp": 228.0,
     "res": 0.0,
-    "image": "products-img/hi-res-6-0.png",
+    "image": "products-img/argo-hi-res-%E8%97%8D%E7%89%9960-%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "",
     "features": []
   },
@@ -5951,7 +5951,7 @@ const ALL_PRODUCTS = [
     "srp": 278.0,
     "msrp": 278.0,
     "res": 0.0,
-    "image": "products-img/70wgan.png",
+    "image": "products-img/argo-70wgan%E6%80%A5%E9%80%9F%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "ARGO PowerZap14 X140S",
     "features": [
       "ARGO PowerZap14 X140S"
@@ -5965,7 +5965,7 @@ const ALL_PRODUCTS = [
     "srp": 358.0,
     "msrp": 358.0,
     "res": 0.0,
-    "image": "products-img/140w-gan.png",
+    "image": "products-img/argo-140w-gan-%E6%97%97%E8%89%A6%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "5pcs up $248 | ARGO TRO Charger",
     "features": [
       "5pcs up $248",
@@ -5980,7 +5980,7 @@ const ALL_PRODUCTS = [
     "srp": 368.0,
     "msrp": 368.0,
     "res": 0.0,
-    "image": "products-img/3-1.png",
+    "image": "products-img/argo-3%E5%90%881-%E8%A3%BD%E5%86%B7%E7%A3%81%E5%90%B8%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB%E5%BA%A7.png",
     "desc": "5pcs up $225 | ARGO GD80 6IN1無線充電座 | ARGO CC140 C to C 一開二 雙快充數顯",
     "features": [
       "5pcs up $225",
@@ -5996,7 +5996,7 @@ const ALL_PRODUCTS = [
     "srp": 88.0,
     "msrp": 88.0,
     "res": 0.0,
-    "image": "products-img/argo-gd80-6in1.png",
+    "image": "products-img/argo-argo-gd80-6in1%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB%E5%BA%A7.png",
     "desc": "ARGO CC140 C to C 一開二 雙快充數顯",
     "features": [
       "ARGO CC140 C to C 一開二 雙快充數顯"
@@ -6010,7 +6010,7 @@ const ALL_PRODUCTS = [
     "srp": 255.0,
     "msrp": 255.0,
     "res": 0.0,
-    "image": "products-img/100cm-200cm.png",
+    "image": "products-img/argo-%E6%95%B8%E6%93%9A%E7%B7%9A-100cm-200cm.png",
     "desc": "ARGO-LC23 3IN2 充電線",
     "features": [
       "ARGO-LC23 3IN2 充電線"
@@ -6024,7 +6024,7 @@ const ALL_PRODUCTS = [
     "srp": 128.0,
     "msrp": 128.0,
     "res": 0.0,
-    "image": "products-img/3in2.png",
+    "image": "products-img/argo-3in2-%E6%89%8B%E9%8C%B6%E5%85%85%E9%9B%BB%E7%B7%9A.png",
     "desc": "",
     "features": []
   },
@@ -6036,7 +6036,7 @@ const ALL_PRODUCTS = [
     "srp": 118.0,
     "msrp": 118.0,
     "res": 0.0,
-    "image": "products-img/100w.png",
+    "image": "products-img/argo-100w%E7%A3%81%E5%8A%9B%E6%94%B6%E7%B4%8D%E5%85%85%E9%9B%BB%E7%B7%9A.png",
     "desc": "ARGO PQ001 USB4.0 PD240W 8K",
     "features": [
       "ARGO PQ001 USB4.0 PD240W 8K"
@@ -6050,7 +6050,7 @@ const ALL_PRODUCTS = [
     "srp": 168.0,
     "msrp": 168.0,
     "res": 0.0,
-    "image": "products-img/usb-c-1-5.png",
+    "image": "products-img/argo-%E8%9E%A2%E5%B9%95%E8%BC%B8%E5%87%BAusb-c-%E6%95%B8%E6%93%9A%E5%85%85%E9%9B%BB%E7%B7%9A-15%E7%B1%B3.png",
     "desc": "ARGO CC240  240W「數顯純充之王」",
     "features": [
       "ARGO CC240  240W「數顯純充之王」"
@@ -6064,7 +6064,7 @@ const ALL_PRODUCTS = [
     "srp": 98.0,
     "msrp": 98.0,
     "res": 0.0,
-    "image": "products-img/1-2m-2m.png",
+    "image": "products-img/argo-%E8%B6%85%E8%BB%9F%E7%A5%9E%E7%B7%9A-12m-2m.png",
     "desc": "ARGO TC240 240W 8K USB3.2",
     "features": [
       "ARGO TC240 240W 8K USB3.2"
@@ -6078,7 +6078,7 @@ const ALL_PRODUCTS = [
     "srp": 128.0,
     "msrp": 128.0,
     "res": 0.0,
-    "image": "products-img/gen2-1-5m-3m.png",
+    "image": "products-img/argo-gen2%E4%B8%80%E7%B7%9A%E9%80%9A%E6%AE%BA%E8%A6%96%E8%A8%8A%E7%A5%9E%E7%B7%9A-15m3m.png",
     "desc": "ARGO  Pixel Cable PIC100",
     "features": [
       "ARGO  Pixel Cable PIC100"
@@ -6092,7 +6092,7 @@ const ALL_PRODUCTS = [
     "srp": 128.0,
     "msrp": 128.0,
     "res": 0.0,
-    "image": "products-img/1.png",
+    "image": "products-img/argo-%E5%8D%B3%E6%99%82%E9%80%9F%E5%BA%A6%E9%A1%AF%E7%A4%BA%E5%85%85%E9%9B%BB%E7%B7%9A-1%E7%B1%B3.png",
     "desc": "ARGO Pixel Cable PIC100",
     "features": [
       "ARGO Pixel Cable PIC100"
@@ -6106,7 +6106,7 @@ const ALL_PRODUCTS = [
     "srp": 138.0,
     "msrp": 138.0,
     "res": 0.0,
-    "image": "products-img/2.png",
+    "image": "products-img/argo-%E5%8D%B3%E6%99%82%E9%80%9F%E5%BA%A6%E9%A1%AF%E7%A4%BA%E5%85%85%E9%9B%BB%E7%B7%9A-2%E7%B1%B3.png",
     "desc": "ARGO KC240",
     "features": [
       "ARGO KC240"
@@ -6120,7 +6120,7 @@ const ALL_PRODUCTS = [
     "srp": 118.0,
     "msrp": 118.0,
     "res": 0.0,
-    "image": "products-img/240w-12cm.png",
+    "image": "",
     "desc": "",
     "features": []
   },
@@ -6132,7 +6132,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/ai.png",
+    "image": "products-img/argo-%E6%99%BA%E8%83%BD%E7%84%A1%E7%B7%9Aai%E7%BF%BB%E8%AD%AF%E6%BB%91%E9%BC%A0-%E7%AC%AC%E4%BA%8C%E4%BB%A3.png",
     "desc": "SIINCOS SC-DC06",
     "features": [
       "SIINCOS SC-DC06"
@@ -6146,7 +6146,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/pro.png",
+    "image": "products-img/argo-%E6%A5%B5%E9%80%9F%E9%9B%BB%E6%A9%9F%E9%A2%B6%E9%A2%A8%E4%BE%BF%E6%94%9C%E9%A2%A8%E6%89%87pro.png",
     "desc": "SINCOS SC-G3",
     "features": [
       "SINCOS SC-G3"
@@ -6160,7 +6160,7 @@ const ALL_PRODUCTS = [
     "srp": 166.0,
     "msrp": 166.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/argo-%E9%81%8B%E5%8B%95%E5%95%86%E5%8B%99%E5%B0%88%E7%94%A8%E5%96%AE%E8%80%B3%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "SINCOS A40 Lite",
     "features": [
       "SINCOS A40 Lite"
@@ -6174,7 +6174,7 @@ const ALL_PRODUCTS = [
     "srp": 599.0,
     "msrp": 599.0,
     "res": 0.0,
-    "image": "products-img/ai.png",
+    "image": "products-img/argo-ai%E6%99%BA%E8%83%BD%E7%BF%BB%E8%AD%AF%E6%A9%9F.png",
     "desc": "SINCOS S15-LTE",
     "features": [
       "SINCOS S15-LTE"
@@ -6188,7 +6188,7 @@ const ALL_PRODUCTS = [
     "srp": 788.0,
     "msrp": 788.0,
     "res": 0.0,
-    "image": "products-img/4g-ai.png",
+    "image": "products-img/argo-4g%E5%85%A8%E7%B6%B2%E9%80%9A%E6%99%BA%E8%83%BDai%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%BF%BB%E8%AD%AF%E6%A9%9F.png",
     "desc": "6pcs up $539 | SINCOS EB01",
     "features": [
       "6pcs up $539",
@@ -6203,7 +6203,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/argo-%E5%A4%9A%E5%90%88%E4%B8%80%E8%BF%B7%E4%BD%A0%E9%9B%BB%E5%8B%95%E9%8F%8D%E7%B5%B2%E6%89%B9.png",
     "desc": "SINCOS QD-688",
     "features": [
       "SINCOS QD-688"
@@ -6217,7 +6217,7 @@ const ALL_PRODUCTS = [
     "srp": 398.0,
     "msrp": 398.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/argo-%E8%87%AA%E7%99%BC%E9%9B%BB%E7%84%A1%E7%B7%9A%E9%88%B4.png",
     "desc": "SIINCOS SC-PSCC",
     "features": [
       "SIINCOS SC-PSCC"
@@ -6231,7 +6231,7 @@ const ALL_PRODUCTS = [
     "srp": 128.0,
     "msrp": 128.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/argo-%E4%BA%8C%E5%90%88%E8%9E%BA%E6%97%8B%E6%A9%9F%E6%8E%9B%E7%B9%A9%E5%85%85%E9%9B%BB%E7%B7%9A.png",
     "desc": "50pcs up $16 | SINCOS SC-MB650",
     "features": [
       "50pcs up $16",
@@ -6246,7 +6246,7 @@ const ALL_PRODUCTS = [
     "srp": 235.0,
     "msrp": 235.0,
     "res": 0.0,
-    "image": "products-img/650ml.png",
+    "image": "products-img/argo-%E4%B8%8D%E9%8F%BD%E9%8B%BC%E7%A3%81%E5%90%B8%E9%81%8B%E5%8B%95%E4%BF%9D%E6%BA%AB%E5%A3%BA650ml.png",
     "desc": "",
     "features": []
   },
@@ -6258,7 +6258,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/dse-%E5%BB%A3%E6%9D%B1%E8%A9%B1%E8%AA%9E%E9%9F%B3%E8%87%82%E5%BC%8F%E5%A3%93%E8%A8%88.png",
     "desc": "SINCOS SC-Y4000",
     "features": [
       "SINCOS SC-Y4000"
@@ -6272,7 +6272,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/dse-%E5%BE%A9%E5%8F%A4%E4%BE%BF%E6%94%9C%E5%BC%8F%E9%96%83%E5%85%89%E7%87%88%E6%99%BA%E8%83%BD%E7%9B%B8%E6%A9%9F.png",
     "desc": "SINCOS SC-NM360",
     "features": [
       "SINCOS SC-NM360"
@@ -6286,7 +6286,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/dse-%E6%99%BA%E8%83%BD%E6%81%86%E6%BA%AB%E5%9B%9B%E6%89%8B%E9%A0%B8%E9%83%A8%E6%8C%89%E6%91%A9%E5%84%80.png",
     "desc": "SINCOS SC-AIX8",
     "features": [
       "SINCOS SC-AIX8"
@@ -6300,7 +6300,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/ai.png",
+    "image": "products-img/dse-ai%E6%99%BA%E8%83%BD%E9%AC%A7%E9%90%98%E5%96%87%E5%8F%AD.png",
     "desc": "SINCOS SC-WMC01",
     "features": [
       "SINCOS SC-WMC01"
@@ -6314,7 +6314,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/dse-%E5%A4%9A%E7%B3%BB%E7%B5%B1%E6%99%BA%E8%83%BD%E7%84%A1%E7%B7%9A%E5%90%8C%E5%B1%8F%E5%99%A8.png",
     "desc": "SINCOS SC-PW01",
     "features": [
       "SINCOS SC-PW01"
@@ -6328,7 +6328,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/dse-%E4%BB%BF%E7%94%9F%E8%9D%B6%E5%BD%A2%E9%9B%99%E7%BF%BC%E6%AD%A2%E9%BC%BB%E9%BC%BE%E6%9E%95.png",
     "desc": "SINCOS SC-HP01",
     "features": [
       "SINCOS SC-HP01"
@@ -6342,7 +6342,7 @@ const ALL_PRODUCTS = [
     "srp": 498.0,
     "msrp": 498.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/yachi-%E4%BE%BF%E6%94%9C%E5%BC%8F%E6%99%BA%E8%83%BD%E8%AA%9E%E9%9F%B3%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E9%A2%A8%E6%89%87.png",
     "desc": "YACHI 小型3D循環扇風機 | YACHI N6",
     "features": [
       "YACHI 小型3D循環扇風機",
@@ -6357,7 +6357,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/yachi-3d.png",
+    "image": "products-img/yachi-yachi-%E5%B0%8F%E5%9E%8B3d%E5%BE%AA%E7%92%B0%E6%89%87%E9%A2%A8%E6%A9%9F.png",
     "desc": "YACHI N6 | YACHI HeatBuddy",
     "features": [
       "YACHI N6",
@@ -6372,7 +6372,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/yachi-%E7%81%AB%E7%84%B0%E6%9A%96%E9%A2%A8%E6%A9%9F.png",
     "desc": "YACHI HeatBuddy",
     "features": [
       "YACHI HeatBuddy"
@@ -6386,7 +6386,7 @@ const ALL_PRODUCTS = [
     "srp": 288.0,
     "msrp": 288.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/yachi-%E6%99%BA%E8%83%BD%E9%99%B6%E7%93%B7%E6%9A%96%E9%A2%A8%E6%A9%9F.png",
     "desc": "",
     "features": []
   },
@@ -6398,7 +6398,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/10000mah.png",
+    "image": "products-img/cio-10000mah.png",
     "desc": "SMARTCOBY PRO SLIM 35W",
     "features": [
       "SMARTCOBY PRO SLIM 35W"
@@ -6412,7 +6412,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/10000mah-original-ver.png",
+    "image": "products-img/cio-10000mah-original-ver.png",
     "desc": "SMARTCOBY PRO SLIM 35W",
     "features": [
       "SMARTCOBY PRO SLIM 35W"
@@ -6426,7 +6426,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/10000mah-sakura-ver.png",
+    "image": "products-img/cio-10000mah-sakura-ver.png",
     "desc": "SMARTCOBY Pro Slim Cable 35W",
     "features": [
       "SMARTCOBY Pro Slim Cable 35W"
@@ -6440,7 +6440,7 @@ const ALL_PRODUCTS = [
     "srp": 449.0,
     "msrp": 449.0,
     "res": 0.0,
-    "image": "products-img/20000mah.png",
+    "image": "products-img/cio-20000mah.png",
     "desc": "SMARTCOBY DUO 40W",
     "features": [
       "SMARTCOBY DUO 40W"
@@ -6454,7 +6454,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/10000mah-45w-qi2.png",
+    "image": "products-img/cio-10000mah-45w-qi2.png",
     "desc": "10Denki JD-D2",
     "features": [
       "10Denki JD-D2"
@@ -6468,7 +6468,7 @@ const ALL_PRODUCTS = [
     "srp": 268.0,
     "msrp": 268.0,
     "res": 0.0,
-    "image": "products-img/10000mah-45w.png",
+    "image": "products-img/cio-10000mah-45w.png",
     "desc": "",
     "features": []
   },
@@ -6480,7 +6480,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/gps.png",
+    "image": "products-img/chillbuds-%E5%A4%9A%E5%8A%9F%E8%83%BDgps%E5%AE%9A%E4%BD%8D%E5%85%92%E7%AB%A5%E6%99%BA%E8%83%BD%E6%89%8B%E9%8C%B6.png",
     "desc": "Chillbuds EB-CON-23",
     "features": [
       "Chillbuds EB-CON-23"
@@ -6494,7 +6494,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/chillbuds-%E7%A9%BA%E6%B0%A3%E5%82%B3%E5%B0%8E%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F%E8%80%B3%E5%A4%BE%E5%BC%8F.png",
     "desc": "Chillbuds Co-20",
     "features": [
       "Chillbuds Co-20"
@@ -6508,7 +6508,7 @@ const ALL_PRODUCTS = [
     "srp": 599.0,
     "msrp": 599.0,
     "res": 0.0,
-    "image": "products-img/anc.png",
+    "image": "products-img/chillbuds-anc-%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Chillbuds Co-21",
     "features": [
       "Chillbuds Co-21"
@@ -6522,7 +6522,7 @@ const ALL_PRODUCTS = [
     "srp": 599.0,
     "msrp": 599.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/chillbuds-%E5%A4%9A%E5%8A%9F%E8%83%BD%E9%AB%98%E6%B8%85%E5%B1%8F%E5%B9%95%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "首6件送1件Demo | Chillbuds S03 USB-C",
     "features": [
       "首6件送1件Demo",
@@ -6537,7 +6537,7 @@ const ALL_PRODUCTS = [
     "srp": 98.0,
     "msrp": 98.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/chillbuds-%E6%9C%89%E7%B7%9A%E5%B8%B6%E5%92%AA%E8%80%B3%E6%A9%9F.png",
     "desc": "Chillbuds x 老夫子 F15",
     "features": [
       "Chillbuds x 老夫子 F15"
@@ -6551,7 +6551,7 @@ const ALL_PRODUCTS = [
     "srp": 258.0,
     "msrp": 258.0,
     "res": 0.0,
-    "image": "products-img/5000mah-3-1.png",
+    "image": "products-img/chillbuds-5000mah-3%E5%90%881%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%84%A1%E7%B7%9A%E7%A7%BB%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "Chillbuds x 老夫子 OLD MASTER Q",
     "features": [
       "Chillbuds x 老夫子 OLD MASTER Q"
@@ -6565,7 +6565,7 @@ const ALL_PRODUCTS = [
     "srp": 128.0,
     "msrp": 128.0,
     "res": 0.0,
-    "image": "products-img/3-1.png",
+    "image": "products-img/chillbuds-3%E5%90%881%E6%8E%9B%E7%B7%9A%E5%85%85%E9%9B%BB%E7%B7%9A.png",
     "desc": "Chillbuds A100",
     "features": [
       "Chillbuds A100"
@@ -6579,7 +6579,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/action-camera.png",
+    "image": "products-img/chillbuds-%E8%BF%B7%E4%BD%A0action-camera.png",
     "desc": "First 6 free 1 demo | Chillbuds XL10",
     "features": [
       "First 6 free 1 demo",
@@ -6594,7 +6594,7 @@ const ALL_PRODUCTS = [
     "srp": 698.0,
     "msrp": 698.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/chillbuds-%E6%99%BA%E8%83%BD%E5%81%A5%E5%BA%B7%E5%AE%9A%E4%BD%8D%E6%89%8B%E7%92%B0.png",
     "desc": "First 6 free 1 demo",
     "features": [
       "First 6 free 1 demo"
@@ -6608,7 +6608,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/anc-enc.png",
+    "image": "products-img/lonzuer-ancenc%E9%99%8D%E5%99%AA%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Sunjom XSpace",
     "features": [
       "Sunjom XSpace"
@@ -6622,7 +6622,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/enc.png",
+    "image": "products-img/lonzuer-%E7%9C%9F%E7%84%A1%E7%B7%9Aenc%E8%80%B3%E6%A9%9F-%E9%A6%AC%E5%8D%A1%E9%BE%8D%E7%B3%BB.png",
     "desc": "Sunjom Flip",
     "features": [
       "Sunjom Flip"
@@ -6636,7 +6636,7 @@ const ALL_PRODUCTS = [
     "srp": 228.0,
     "msrp": 228.0,
     "res": 0.0,
-    "image": "products-img/hi-res.png",
+    "image": "products-img/lonzuer-hi-res%E6%8C%87%E5%B0%96%E8%A7%A3%E5%A3%93%E7%B4%8D%E7%B1%B3%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Sunjom Inspire",
     "features": [
       "Sunjom Inspire"
@@ -6650,7 +6650,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/lonzuer-%E9%AB%98%E8%A7%A3%E6%9E%90%E5%BA%A6%E6%95%88%E9%A0%AD%E6%88%B4%E5%BC%8F%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Sunjom Free Pods",
     "features": [
       "Sunjom Free Pods"
@@ -6664,7 +6664,7 @@ const ALL_PRODUCTS = [
     "srp": 880.0,
     "msrp": 880.0,
     "res": 0.0,
-    "image": "products-img/anc-enc.png",
+    "image": "products-img/lonzuer-ancenc%E4%B8%BB%E5%8B%95%E9%99%8D%E5%99%AA%E9%A0%AD%E6%88%B4%E5%BC%8F%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Lonzuer Leap",
     "features": [
       "Lonzuer Leap"
@@ -6678,7 +6678,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/lonzuer-%E4%BE%BF%E6%94%9C%E5%BC%8F%E9%98%B2%E6%B0%B4%E8%97%8D%E7%89%99%E5%96%87%E5%8F%AD.png",
     "desc": "Lonzuer Action",
     "features": [
       "Lonzuer Action"
@@ -6692,7 +6692,7 @@ const ALL_PRODUCTS = [
     "srp": 888.0,
     "msrp": 888.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/lonzuer-%E6%9C%A8%E8%A3%BD%E4%BE%BF%E6%94%9C%E5%BC%8F%E8%97%8D%E7%89%99%E5%96%87%E5%8F%AD.png",
     "desc": "",
     "features": []
   },
@@ -6704,7 +6704,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/8000mah-magsafe.png",
+    "image": "products-img/case-8000mah-%E8%B6%85%E5%BC%B7%E7%A3%81%E5%90%B8magsafe-%E7%A7%BB%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "ISMARTDIGI  IS-PPS23",
     "features": [
       "ISMARTDIGI  IS-PPS23"
@@ -6718,7 +6718,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/10000mah-30w.png",
+    "image": "products-img/case-10000mah-30w-%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "ismartdigi IS-SQ15",
     "features": [
       "ismartdigi IS-SQ15"
@@ -6732,7 +6732,7 @@ const ALL_PRODUCTS = [
     "srp": 198.0,
     "msrp": 198.0,
     "res": 0.0,
-    "image": "products-img/8000mah-15w.png",
+    "image": "products-img/case-8000mah-15w-%E6%80%A5%E5%85%85%E8%B6%85%E8%BC%95%E8%96%84%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90.jpeg",
     "desc": "ismartdigi IS-SQ16 (迷彩版)",
     "features": [
       "ismartdigi IS-SQ16 (迷彩版)"
@@ -6746,7 +6746,7 @@ const ALL_PRODUCTS = [
     "srp": 78.0,
     "msrp": 78.0,
     "res": 0.0,
-    "image": "products-img/3in1-cable-120cm.png",
+    "image": "products-img/case-3in1-cable-120cm.png",
     "desc": "Ismartdigi PD Type-C Cto C cable",
     "features": [
       "Ismartdigi PD Type-C Cto C cable"
@@ -6760,7 +6760,7 @@ const ALL_PRODUCTS = [
     "srp": 78.0,
     "msrp": 78.0,
     "res": 0.0,
-    "image": "products-img/60w-dlp-38-100w-dlp-45.png",
+    "image": "products-img/case-60w-dlp-38-100w-dlp-45.png",
     "desc": "",
     "features": []
   },
@@ -6772,7 +6772,7 @@ const ALL_PRODUCTS = [
     "srp": 398.0,
     "msrp": 398.0,
     "res": 0.0,
-    "image": "products-img/qi2.png",
+    "image": "products-img/qi2-qi2%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB%E5%BA%95%E5%BA%A7%E5%B0%8F%E7%87%88%E5%A1%94.png",
     "desc": "PowerRider WS26",
     "features": [
       "PowerRider WS26"
@@ -6786,7 +6786,7 @@ const ALL_PRODUCTS = [
     "srp": 198.0,
     "msrp": 198.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/qi2-%E8%9E%A2%E7%9F%B3%E6%9A%96%E6%9A%96%E8%9B%8B.png",
     "desc": "PowerRider T3 Mini",
     "features": [
       "PowerRider T3 Mini"
@@ -6800,7 +6800,7 @@ const ALL_PRODUCTS = [
     "srp": 398.0,
     "msrp": 398.0,
     "res": 0.0,
-    "image": "products-img/ios-android.png",
+    "image": "products-img/qi2-%E7%84%A1%E7%B7%9A%E6%89%8B%E6%A9%9F%E5%BE%8C%E7%BD%AE%E6%8B%8D%E7%A5%9E%E5%99%A8-iosandroid-%E5%8F%AF.png",
     "desc": "",
     "features": []
   },
@@ -6812,7 +6812,7 @@ const ALL_PRODUCTS = [
     "srp": 118.0,
     "msrp": 118.0,
     "res": 0.0,
-    "image": "products-img/usb-a-40w.png",
+    "image": "products-img/treely-usb-a-%E5%BF%AB%E5%85%8540w%E7%81%AB%E7%89%9B.png",
     "desc": "50 get 8 free",
     "features": [
       "50 get 8 free"
@@ -6826,7 +6826,7 @@ const ALL_PRODUCTS = [
     "srp": 188.0,
     "msrp": 188.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/treely-%E5%8B%BE%E6%8E%9B%E5%BC%8F%E7%84%A1%E7%B7%9A%E4%BE%BF%E6%94%9C%E9%A2%A8%E6%89%87.png",
     "desc": "Treely Air Treely Fan TF-01",
     "features": [
       "Treely Air Treely Fan TF-01"
@@ -6840,7 +6840,7 @@ const ALL_PRODUCTS = [
     "srp": 548.0,
     "msrp": 548.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/treely-%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E5%9B%9B%E5%AD%A3%E5%BE%AA%E7%92%B0%E9%A2%A8%E6%89%87.png",
     "desc": "Yachi WT-F70",
     "features": [
       "Yachi WT-F70"
@@ -6854,7 +6854,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/3d.png",
+    "image": "products-img/treely-%E5%B0%8F%E5%9E%8B3d%E5%BE%AA%E7%92%B0%E6%89%87%E9%A2%A8%E6%A9%9F.png",
     "desc": "YACHI F188",
     "features": [
       "YACHI F188"
@@ -6868,7 +6868,7 @@ const ALL_PRODUCTS = [
     "srp": 498.0,
     "msrp": 498.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/treely-%E4%BE%BF%E6%94%9C%E5%BC%8F%E6%99%BA%E8%83%BD-%E8%AA%9E%E9%9F%B3-%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E9%A2%A8%E6%89%87.png",
     "desc": "Ismartdigi  GS-W65A0946D",
     "features": [
       "Ismartdigi  GS-W65A0946D"
@@ -6882,7 +6882,7 @@ const ALL_PRODUCTS = [
     "srp": 268.0,
     "msrp": 268.0,
     "res": 0.0,
-    "image": "products-img/65w-gan-2c1u.png",
+    "image": "products-img/treely-65w-gan-2c1u%E5%BF%AB%E9%80%9F%E6%8F%92%E7%89%86%E5%BC%8F%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "Heal ForceB01/B07",
     "features": [
       "Heal ForceB01/B07"
@@ -6896,7 +6896,7 @@ const ALL_PRODUCTS = [
     "srp": 450.0,
     "msrp": 450.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/treely-%E7%B2%B5%E8%AA%9E%E7%9C%9F%E4%BA%BA%E7%99%BC%E8%81%B2%E9%9B%BB%E5%A3%93%E8%A8%88.png",
     "desc": "",
     "features": []
   },
@@ -6908,7 +6908,7 @@ const ALL_PRODUCTS = [
     "srp": 1399.0,
     "msrp": 1399.0,
     "res": 0.0,
-    "image": "products-img/sound-burger.png",
+    "image": "products-img/audio-technica-sound-burger-%E4%BE%BF%E6%94%9C%E5%BC%8F%E8%97%8D%E7%89%99%E5%94%B1%E7%9B%A4.png",
     "desc": "Audio-Technica AT-LP70XBT",
     "features": [
       "Audio-Technica AT-LP70XBT"
@@ -6922,7 +6922,7 @@ const ALL_PRODUCTS = [
     "srp": 1998.0,
     "msrp": 1998.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E5%85%A8%E8%87%AA%E5%8B%95%E7%84%A1%E7%B7%9A%E8%86%A0%E5%94%B1%E7%9B%A4.png",
     "desc": "Audio-Technica AT-LP120XBT-",
     "features": [
       "Audio-Technica AT-LP120XBT-"
@@ -6936,7 +6936,7 @@ const ALL_PRODUCTS = [
     "srp": 3998.0,
     "msrp": 3998.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E7%84%A1%E7%B7%9A%E7%9B%B4%E6%8E%A5%E9%A9%85%E5%8B%95%E5%94%B1%E7%9B%A4.png",
     "desc": "Audio-Technica AT-LP3XBT",
     "features": [
       "Audio-Technica AT-LP3XBT"
@@ -6950,7 +6950,7 @@ const ALL_PRODUCTS = [
     "srp": 2880.0,
     "msrp": 2880.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E8%87%AA%E5%8B%95%E7%84%A1%E7%B7%9A%E8%86%A0%E5%94%B1%E7%9B%A4.png",
     "desc": "Audio-Technica AT-LPW50BT RW",
     "features": [
       "Audio-Technica AT-LPW50BT RW"
@@ -6964,7 +6964,7 @@ const ALL_PRODUCTS = [
     "srp": 3398.0,
     "msrp": 3398.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E7%9A%AE%E5%B8%B6%E9%A9%85%E5%8B%95%E5%BC%8F%E5%94%B1%E7%9B%A4%E6%A9%9F.png",
     "desc": "Audio Technica AT-LP8X",
     "features": [
       "Audio Technica AT-LP8X"
@@ -6978,7 +6978,7 @@ const ALL_PRODUCTS = [
     "srp": 8650.0,
     "msrp": 8650.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E5%8D%8A%E8%87%AA%E5%8B%95%E7%9B%B4%E6%8E%A5%E5%82%B3%E5%8B%95%E8%86%A0%E5%94%B1%E7%9B%A4.png",
     "desc": "",
     "features": []
   },
@@ -6990,7 +6990,7 @@ const ALL_PRODUCTS = [
     "srp": 3950.0,
     "msrp": 3950.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/soundwiser-%E5%85%A8%E6%89%8B%E5%8B%95%E7%9B%B4%E6%8E%A5%E9%A9%85%E5%8B%95%E8%86%A0%E5%94%B1%E7%9B%A4.png",
     "desc": "Audio Technica AT-LPW30BK",
     "features": [
       "Audio Technica AT-LPW30BK"
@@ -7004,7 +7004,7 @@ const ALL_PRODUCTS = [
     "srp": 2885.0,
     "msrp": 2885.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/soundwiser-%E5%85%A8%E6%89%8B%E5%8B%95%E5%B8%B6%E9%A9%85%E5%8B%95%E5%94%B1%E7%9B%A4%E6%A9%9F.png",
     "desc": "Audio Technica  ATN3600L",
     "features": [
       "Audio Technica  ATN3600L"
@@ -7018,7 +7018,7 @@ const ALL_PRODUCTS = [
     "srp": 4380.0,
     "msrp": 4380.0,
     "res": 0.0,
-    "image": "products-img/dj.png",
+    "image": "products-img/soundwiser-dj%E5%B0%88%E6%A5%AD%E7%9B%B4%E6%8E%A5%E9%A9%85%E5%8B%95%E5%BC%8F%E5%94%B1%E7%9B%A4%E6%A9%9F.png",
     "desc": "SoundWiser VRP-7",
     "features": [
       "SoundWiser VRP-7"
@@ -7032,7 +7032,7 @@ const ALL_PRODUCTS = [
     "srp": 788.0,
     "msrp": 788.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/soundwiser-%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E9%BB%91%E8%86%A0%E5%94%B1%E7%9B%A4.png",
     "desc": "SoundWiser SP8X",
     "features": [
       "SoundWiser SP8X"
@@ -7046,7 +7046,7 @@ const ALL_PRODUCTS = [
     "srp": 799.0,
     "msrp": 799.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/soundwiser-%E5%A4%9A%E5%8A%9F%E8%83%BD%E6%9B%B8%E6%9E%B6%E5%BC%8F%E9%9F%B3%E7%AE%B1.png",
     "desc": "",
     "features": []
   },
@@ -7058,7 +7058,7 @@ const ALL_PRODUCTS = [
     "srp": 1998.0,
     "msrp": 1998.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/microphone-%E7%9C%9F%E7%84%A1%E7%B7%9A%E9%99%8D%E5%99%AA%E8%80%B3%E6%A9%9F.png",
     "desc": "Audio Technica ATH-CKS30TW+",
     "features": [
       "Audio Technica ATH-CKS30TW+"
@@ -7072,7 +7072,7 @@ const ALL_PRODUCTS = [
     "srp": 780.0,
     "msrp": 780.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/microphone-%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Audio Technica ATH-AC5TW",
     "features": [
       "Audio Technica ATH-AC5TW"
@@ -7086,7 +7086,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/microphone-%E5%85%A5%E8%80%B3%E5%BC%8F%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Audio-Technica XM5S",
     "features": [
       "Audio-Technica XM5S"
@@ -7100,7 +7100,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/microphone-%E5%96%AE%E6%8C%87%E5%90%91%E6%80%A7%E5%8B%95%E5%9C%88%E5%BC%8F%E5%92%AA%E9%AB%98%E5%B3%B0.png",
     "desc": "Audio Technica AT2040CP / | AT2020CP MICROPHONE 錄音咪套裝",
     "features": [
       "Audio Technica AT2040CP /",
@@ -7115,7 +7115,7 @@ const ALL_PRODUCTS = [
     "srp": 1580.0,
     "msrp": 1580.0,
     "res": 0.0,
-    "image": "products-img/at2020cp-microphone.png",
+    "image": "products-img/microphone-at2020cp-microphone-%E9%8C%84%E9%9F%B3%E5%92%AA%E5%A5%97%E8%A3%9D.png",
     "desc": "Audio Technica ATH-SPORT7TW",
     "features": [
       "Audio Technica ATH-SPORT7TW"
@@ -7129,7 +7129,7 @@ const ALL_PRODUCTS = [
     "srp": 1580.0,
     "msrp": 1580.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/microphone-%E7%9C%9F%E7%84%A1%E7%B7%9A%E9%81%8B%E5%8B%95%E8%80%B3%E6%A9%9F.png",
     "desc": "Audio Technica AT2020USB-X",
     "features": [
       "Audio Technica AT2020USB-X"
@@ -7143,7 +7143,7 @@ const ALL_PRODUCTS = [
     "srp": 1399.0,
     "msrp": 1399.0,
     "res": 0.0,
-    "image": "products-img/usb.png",
+    "image": "products-img/microphone-%E5%BF%83%E5%BD%A2%E6%8C%87%E5%90%91-usb%E9%9B%BB%E8%85%A6%E9%8C%84%E5%92%AA.png",
     "desc": "",
     "features": []
   },
@@ -7155,7 +7155,7 @@ const ALL_PRODUCTS = [
     "srp": 580.0,
     "msrp": 580.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E7%84%A1%E7%B7%9A%E8%80%B3%E7%BD%A9%E5%BC%8F%E8%80%B3%E6%A9%9F.png",
     "desc": "Audio Technica ATH-M50xBT2",
     "features": [
       "Audio Technica ATH-M50xBT2"
@@ -7169,7 +7169,7 @@ const ALL_PRODUCTS = [
     "srp": 1580.0,
     "msrp": 1580.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E7%84%A1%E7%B7%9A%E9%A0%AD%E6%88%B4%E5%BC%8F%E8%80%B3%E6%A9%9F.png",
     "desc": "Audio-Technica ATH-R50x",
     "features": [
       "Audio-Technica ATH-R50x"
@@ -7183,7 +7183,7 @@ const ALL_PRODUCTS = [
     "srp": 820.0,
     "msrp": 820.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E5%B0%88%E6%A5%AD%E9%96%8B%E6%94%BE%E5%BC%8F%E7%9B%A3%E8%81%BD%E8%80%B3%E6%A9%9F.png",
     "desc": "Audio-Technica ATH-R70xa",
     "features": [
       "Audio-Technica ATH-R70xa"
@@ -7197,7 +7197,7 @@ const ALL_PRODUCTS = [
     "srp": 1380.0,
     "msrp": 1380.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E5%B0%88%E6%A5%AD%E7%B4%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Audio-Technica ATH-A550Z",
     "features": [
       "Audio-Technica ATH-A550Z"
@@ -7211,7 +7211,7 @@ const ALL_PRODUCTS = [
     "srp": 1099.0,
     "msrp": 1099.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E8%97%9D%E8%A1%93%E7%9B%A3%E8%81%BD%E8%80%B3%E7%AD%92.png",
     "desc": "Audio-Technica ATH-AWKT/f",
     "features": [
       "Audio-Technica ATH-AWKT/f"
@@ -7225,7 +7225,7 @@ const ALL_PRODUCTS = [
     "srp": 17330.0,
     "msrp": 17330.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E7%A9%BA%E6%B0%A3%E5%8B%95%E5%9C%88%E8%80%B3%E7%AD%92.png",
     "desc": "",
     "features": []
   },
@@ -7237,7 +7237,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/usb-type-c.png",
+    "image": "products-img/audio-technica-usb-type-c-%E8%80%B3%E5%A1%9E%E5%BC%8F%E8%80%B3%E6%A9%9F.png",
     "desc": "Audio Technica ATH-CKS770iS",
     "features": [
       "Audio Technica ATH-CKS770iS"
@@ -7251,7 +7251,7 @@ const ALL_PRODUCTS = [
     "srp": 198.0,
     "msrp": 198.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E5%85%A5%E8%80%B3%E5%BC%8F%E9%80%9A%E8%A9%B1%E8%80%B3%E6%A9%9F.png",
     "desc": "Audio Technica ATH-CHX5",
     "features": [
       "Audio Technica ATH-CHX5"
@@ -7265,7 +7265,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E5%85%A5%E8%80%B3%E5%BC%8F%E8%80%B3%E5%A1%9E.png",
     "desc": "Audio Technica ATH-CKX7iS",
     "features": [
       "Audio Technica ATH-CKX7iS"
@@ -7279,7 +7279,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/audio-technica-%E6%99%BA%E8%83%BD%E6%89%8B%E6%A9%9F%E5%B0%88%E5%85%A5%E8%80%B3%E5%BC%8F%E8%80%B3%E5%A1%9E%E5%92%AA%E5%B3%B0.png",
     "desc": "Audio Technica ATH-CHX7",
     "features": [
       "Audio Technica ATH-CHX7"
@@ -7293,7 +7293,7 @@ const ALL_PRODUCTS = [
     "srp": 1640.0,
     "msrp": 1640.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/soundwiser-%E5%B0%88%E6%A5%AD%E5%85%A5%E8%80%B3%E5%BC%8F%E7%9B%A3%E8%81%BD%E8%80%B3%E6%A9%9F.png",
     "desc": "Audio Technica ATH-E70",
     "features": [
       "Audio Technica ATH-E70"
@@ -7307,7 +7307,7 @@ const ALL_PRODUCTS = [
     "srp": 168.0,
     "msrp": 168.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/soundwiser-%E6%B0%A3%E5%8B%95%E5%BC%8F%E5%82%B3%E5%B0%8E%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F%E9%BA%A5%E5%85%8B%E9%A2%A8.png",
     "desc": "",
     "features": []
   },
@@ -7319,7 +7319,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E6%99%82%E5%B0%9A%E5%A4%9A%E5%8A%9F%E8%83%BD%E6%99%BA%E8%83%BD%E9%81%8B%E5%8B%95%E6%89%8B%E9%8C%B6.png",
     "desc": "HAVIT M9030 PRO",
     "features": [
       "HAVIT M9030 PRO"
@@ -7333,7 +7333,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/smart-watch.png",
+    "image": "products-img/havit-smart-watch-%E5%B0%88%E6%A5%AD%E7%89%88%E6%99%BA%E8%83%BD%E6%89%8B%E9%8C%B6.png",
     "desc": "HAVIT M9031  PRO",
     "features": [
       "HAVIT M9031  PRO"
@@ -7347,7 +7347,7 @@ const ALL_PRODUCTS = [
     "srp": 528.0,
     "msrp": 528.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E6%97%97%E8%89%A6%E7%B4%9A%E5%9E%8B%E8%99%9F%E9%81%8B%E5%8B%95%E6%89%8B%E9%8C%B6.png",
     "desc": "HAVIT Tw958 Pro",
     "features": [
       "HAVIT Tw958 Pro"
@@ -7361,7 +7361,7 @@ const ALL_PRODUCTS = [
     "srp": 398.0,
     "msrp": 398.0,
     "res": 0.0,
-    "image": "products-img/anc-enc.png",
+    "image": "products-img/havit-ancenc%E9%99%8D%E5%99%AA%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Havit Openbuds OWS916",
     "features": [
       "Havit Openbuds OWS916"
@@ -7375,7 +7375,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E8%80%B3%E9%AA%A8%E5%82%B3%E5%B0%8E%E7%9C%9F%E7%84%A1%E7%B7%9A.png",
     "desc": "HAVIT TW969 True Wireless Earbuds",
     "features": [
       "HAVIT TW969 True Wireless Earbuds"
@@ -7389,7 +7389,7 @@ const ALL_PRODUCTS = [
     "srp": 198.0,
     "msrp": 198.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E8%B6%85%E8%BF%B7%E4%BD%A0%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Havit Openbuds OWS907",
     "features": [
       "Havit Openbuds OWS907"
@@ -7403,7 +7403,7 @@ const ALL_PRODUCTS = [
     "srp": 229.0,
     "msrp": 229.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E9%96%8B%E6%94%BE%E7%A9%BF%E6%88%B4%E5%BC%8F%E7%AB%8B%E9%AB%94%E8%81%B2%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "",
     "features": []
   },
@@ -7415,7 +7415,7 @@ const ALL_PRODUCTS = [
     "srp": 128.0,
     "msrp": 128.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E5%8D%8A%E5%85%A5%E8%80%B3%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "HAVIT PB37 PD65W",
     "features": [
       "HAVIT PB37 PD65W"
@@ -7429,7 +7429,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/10000mah.png",
+    "image": "products-img/havit-10000mah-%E4%B8%89%E5%90%88%E4%B8%80%E7%A7%BB%E5%8B%95%E9%9B%BB%E6%BA%90%E6%8F%92%E5%BA%A7.png",
     "desc": "HAVIT PB5212 100W High-Power",
     "features": [
       "HAVIT PB5212 100W High-Power"
@@ -7443,7 +7443,7 @@ const ALL_PRODUCTS = [
     "srp": 229.0,
     "msrp": 229.0,
     "res": 0.0,
-    "image": "products-img/built-in-type-c-cable.png",
+    "image": "products-img/havit-built-in-type-c-cable.png",
     "desc": "HAVIT UC220",
     "features": [
       "HAVIT UC220"
@@ -7457,7 +7457,7 @@ const ALL_PRODUCTS = [
     "srp": 98.0,
     "msrp": 98.0,
     "res": 0.0,
-    "image": "products-img/pd20w-gan-1u1c.png",
+    "image": "products-img/havit-pd20w-gan%E5%BF%AB%E9%80%9F%E5%85%85%E9%9B%BB%E7%81%AB%E7%89%9B1u1c.png",
     "desc": "50 get 8 free | HAVIT UC30 Pro",
     "features": [
       "50 get 8 free",
@@ -7472,7 +7472,7 @@ const ALL_PRODUCTS = [
     "srp": 99.0,
     "msrp": 99.0,
     "res": 0.0,
-    "image": "products-img/pd30w.png",
+    "image": "products-img/havit-pd30w%E5%BF%AB%E5%85%85%E7%81%AB%E7%89%9B.png",
     "desc": "HAVIT PB50 183w",
     "features": [
       "HAVIT PB50 183w"
@@ -7486,7 +7486,7 @@ const ALL_PRODUCTS = [
     "srp": 599.0,
     "msrp": 599.0,
     "res": 0.0,
-    "image": "products-img/27000mah-led.png",
+    "image": "products-img/havit-27000mah-led%E6%99%BA%E8%83%BD%E9%A1%AF%E7%A4%BA%E7%A7%BB%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "HAVIT UC252 PD65W",
     "features": [
       "HAVIT UC252 PD65W"
@@ -7500,7 +7500,7 @@ const ALL_PRODUCTS = [
     "srp": 268.0,
     "msrp": 268.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E5%BF%AB%E5%85%85%E7%81%AB%E7%89%9B%E5%85%A7%E7%BD%AE%E4%BC%B8%E7%B8%AE%E5%85%85%E9%9B%BB%E7%B7%9A%E5%8F%8A%E9%8C%B6%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "",
     "features": []
   },
@@ -7512,7 +7512,7 @@ const ALL_PRODUCTS = [
     "srp": 138.0,
     "msrp": 138.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E6%97%85%E8%A1%8C%E8%90%AC%E8%BD%89%E6%8F%92.png",
     "desc": "30pcs up $69 | HAVIT W3038",
     "features": [
       "30pcs up $69",
@@ -7527,7 +7527,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/15w.png",
+    "image": "products-img/havit-15w-%E4%B8%89%E5%90%88%E4%B8%80%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB%E5%BA%A7.png",
     "desc": "HAVIT MS61WB",
     "features": [
       "HAVIT MS61WB"
@@ -7541,7 +7541,7 @@ const ALL_PRODUCTS = [
     "srp": 128.0,
     "msrp": 128.0,
     "res": 0.0,
-    "image": "products-img/pd24w-usb.png",
+    "image": "products-img/havit-pd24w-%E6%B1%BD%E8%BB%8A%E5%B0%88usb%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "HAVIT UC220",
     "features": [
       "HAVIT UC220"
@@ -7555,7 +7555,7 @@ const ALL_PRODUCTS = [
     "srp": 168.0,
     "msrp": 168.0,
     "res": 0.0,
-    "image": "products-img/2-4ghz.png",
+    "image": "products-img/havit-%E5%8D%8A%E9%80%8F%E6%98%8E24ghz%E8%97%8D%E7%89%99%E9%9B%99%E6%A8%A1%E6%BB%91%E9%BC%A0.png",
     "desc": "20 get 3 free | HAVIT KB378 USB直插鍵盤",
     "features": [
       "20 get 3 free",
@@ -7570,7 +7570,7 @@ const ALL_PRODUCTS = [
     "srp": 99.0,
     "msrp": 99.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E4%B8%80%E6%8F%92%E5%8D%B3%E5%85%8D%E5%AE%89%E8%A3%9D.png",
     "desc": "",
     "features": []
   },
@@ -7582,7 +7582,7 @@ const ALL_PRODUCTS = [
     "srp": 218.0,
     "msrp": 218.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E7%A9%BA%E6%B0%A3%E5%82%B3%E5%B0%8E%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "",
     "features": []
   },
@@ -7594,7 +7594,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/anc.png",
+    "image": "products-img/havit-anc%E4%B8%BB%E5%8B%95%E9%99%8D%E5%99%AA%E8%80%B3%E6%A9%9F.png",
     "desc": "HAVIT SK889BT",
     "features": [
       "HAVIT SK889BT"
@@ -7608,7 +7608,7 @@ const ALL_PRODUCTS = [
     "srp": 218.0,
     "msrp": 218.0,
     "res": 0.0,
-    "image": "products-img/360.png",
+    "image": "products-img/havit-%E5%A4%9A%E8%89%B2%E6%B0%A3%E6%B0%9B%E7%87%88360%E8%97%8D%E8%8A%BD%E5%96%87%E5%8F%AD.png",
     "desc": "Havit SK832BT",
     "features": [
       "Havit SK832BT"
@@ -7622,7 +7622,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/bass-waterproof-wireless-speaker.png",
+    "image": "products-img/havit-bass-waterproof-wireless-speaker.png",
     "desc": "HAVIT SK838BT",
     "features": [
       "HAVIT SK838BT"
@@ -7636,7 +7636,7 @@ const ALL_PRODUCTS = [
     "srp": 168.0,
     "msrp": 168.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E7%84%A1%E7%B7%9A%E9%98%B2%E6%B0%B4%E8%97%8D%E7%89%99%E5%96%87%E5%8F%AD.png",
     "desc": "Havit SK862BT",
     "features": [
       "Havit SK862BT"
@@ -7650,7 +7650,7 @@ const ALL_PRODUCTS = [
     "srp": 229.0,
     "msrp": 229.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E6%88%B6%E5%A4%96%E4%BD%8E%E9%9F%B3%E6%8F%90%E7%84%A1%E7%B7%9A%E7%AE%B1.png",
     "desc": "",
     "features": []
   },
@@ -7662,7 +7662,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/k.png",
+    "image": "products-img/havit-%E5%94%B1k%E7%A5%9E%E5%99%A8%E9%80%A3%E4%B8%80%E5%92%AA.png",
     "desc": "",
     "features": []
   },
@@ -7674,7 +7674,7 @@ const ALL_PRODUCTS = [
     "srp": 128.0,
     "msrp": 128.0,
     "res": 0.0,
-    "image": "products-img/typec.png",
+    "image": "products-img/havit-%E5%8D%8A%E5%85%A5%E8%80%B3%E5%BC%8F%E7%B7%9A%E6%8E%A7typec%E8%80%B3%E6%A9%9F.png",
     "desc": "20 get 5 free",
     "features": [
       "20 get 5 free"
@@ -7688,7 +7688,7 @@ const ALL_PRODUCTS = [
     "srp": 1699.0,
     "msrp": 1699.0,
     "res": 0.0,
-    "image": "products-img/4k.png",
+    "image": "products-img/havit-%E6%99%BA%E8%83%BD4k-%E9%AB%98%E6%B8%85%E6%8A%95%E5%BD%B1%E5%84%80.png",
     "desc": "Havit PJ215 Pro",
     "features": [
       "Havit PJ215 Pro"
@@ -7702,7 +7702,7 @@ const ALL_PRODUCTS = [
     "srp": 1298.0,
     "msrp": 1298.0,
     "res": 0.0,
-    "image": "products-img/4k-projector.png",
+    "image": "products-img/havit-4k%E6%99%BA%E8%83%BDprojector.png",
     "desc": "",
     "features": []
   },
@@ -7714,7 +7714,7 @@ const ALL_PRODUCTS = [
     "srp": 99.0,
     "msrp": 99.0,
     "res": 0.0,
-    "image": "products-img/numpad-mini.png",
+    "image": "products-img/havit-numpad-mini-%E6%95%B8%E5%AD%97%E9%8D%B5%E7%9B%A4.png",
     "desc": "HAVIT ST7151",
     "features": [
       "HAVIT ST7151"
@@ -7728,7 +7728,7 @@ const ALL_PRODUCTS = [
     "srp": 78.0,
     "msrp": 78.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E6%B1%BD%E8%BB%8A%E6%A9%9F%E6%9E%B6.png",
     "desc": "HAVIT H717",
     "features": [
       "HAVIT H717"
@@ -7742,7 +7742,7 @@ const ALL_PRODUCTS = [
     "srp": 58.0,
     "msrp": 58.0,
     "res": 0.0,
-    "image": "products-img/360.png",
+    "image": "products-img/havit-360%E5%BA%A6%E6%97%8B%E8%BD%89%E8%BB%8A%E6%9E%B6.png",
     "desc": "HAVIT VC019",
     "features": [
       "HAVIT VC019"
@@ -7756,7 +7756,7 @@ const ALL_PRODUCTS = [
     "srp": 428.0,
     "msrp": 428.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E4%BA%8C%E5%90%88%E5%90%B8%E5%A1%B5%E6%A9%9F-%E5%85%85%E6%B0%A3%E6%B3%B5.png",
     "desc": "HAVIT   VC015 AirLite",
     "features": [
       "HAVIT   VC015 AirLite"
@@ -7770,7 +7770,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E5%BC%B7%E5%8A%9B%E6%8C%81%E5%BC%8F%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E6%A9%9F.png",
     "desc": "HAVIT NM1702",
     "features": [
       "HAVIT NM1702"
@@ -7784,7 +7784,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E7%9F%B3%E5%A2%A8%E7%83%AF%E7%99%BC%E7%86%B1%E9%9B%99%E5%B1%A4%E6%8C%89%E6%91%A9%E9%A0%B8%E6%9E%95.png",
     "desc": "Havit HB4040",
     "features": [
       "Havit HB4040"
@@ -7798,7 +7798,7 @@ const ALL_PRODUCTS = [
     "srp": 108.0,
     "msrp": 108.0,
     "res": 0.0,
-    "image": "products-img/mini-6-in-1-combo-card-reader.png",
+    "image": "products-img/havit-mini-6-in-1-combo-card-reader.png",
     "desc": "Havit MG1508",
     "features": [
       "Havit MG1508"
@@ -7812,7 +7812,7 @@ const ALL_PRODUCTS = [
     "srp": 248.0,
     "msrp": 248.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/havit-%E8%BF%B7%E4%BD%A0%E8%82%8C%E8%82%89%E6%8C%89%E6%91%A9%E6%A7%8D.png",
     "desc": "",
     "features": []
   },
@@ -7824,7 +7824,7 @@ const ALL_PRODUCTS = [
     "srp": 799.0,
     "msrp": 799.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/plantronics-%E5%96%AE%E8%80%B3%E6%8E%9B%E5%BC%8F%E5%B0%88%E6%A5%AD%E9%80%9A%E8%A9%B1%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F-%E8%A1%8C%E8%B2%A8%E8%B2%A8.png",
     "desc": "Poly  Voyager",
     "features": [
       "Poly  Voyager"
@@ -7838,7 +7838,7 @@ const ALL_PRODUCTS = [
     "srp": 798.0,
     "msrp": 798.0,
     "res": 0.0,
-    "image": "products-img/legend-30.png",
+    "image": "products-img/plantronics-legend-30-%E5%96%AE%E8%80%B3%E5%BC%8F%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Poly Voyager Legend",
     "features": [
       "Poly Voyager Legend"
@@ -7852,7 +7852,7 @@ const ALL_PRODUCTS = [
     "srp": 599.0,
     "msrp": 599.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/plantronics-%E8%B2%BC%E8%80%B3%E5%BC%8F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Sony  MDR-ZX110AP",
     "features": [
       "Sony  MDR-ZX110AP"
@@ -7866,7 +7866,7 @@ const ALL_PRODUCTS = [
     "srp": 168.0,
     "msrp": 168.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/plantronics-%E9%A0%AD%E6%88%B4%E5%BC%8F%E7%AB%8B%E9%AB%94%E8%81%B2%E8%80%B3%E6%A9%9F.png",
     "desc": "",
     "features": []
   },
@@ -7878,7 +7878,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/sabbat-%E9%9B%B2%E7%9F%B3%E7%B3%BB%E5%88%97-%E7%9C%9F%E7%84%A1%E7%B7%9A%E5%8D%8A%E5%85%A5%E8%80%B3%E5%BC%8F%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Sabbat G12 Elite",
     "features": [
       "Sabbat G12 Elite"
@@ -7892,7 +7892,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/sabbat-%E5%85%A5%E8%80%B3%E5%BC%8F%E9%9B%BB%E7%AB%B6%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Sabbat X12 Pro",
     "features": [
       "Sabbat X12 Pro"
@@ -7906,7 +7906,7 @@ const ALL_PRODUCTS = [
     "srp": 398.0,
     "msrp": 398.0,
     "res": 0.0,
-    "image": "products-img/2024-ver.png",
+    "image": "products-img/sabbat-%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F-2024-ver.png",
     "desc": "Sabbat E12 Ultra Chips (高通無缐充電",
     "features": [
       "Sabbat E12 Ultra Chips (高通無缐充電"
@@ -7920,7 +7920,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/5-0.png",
+    "image": "products-img/sabbat-%E7%89%88-%E5%85%A5%E8%80%B3%E5%BC%8F%E7%9C%9F%E7%84%A1%E7%B7%9A50%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "",
     "features": []
   },
@@ -7932,7 +7932,7 @@ const ALL_PRODUCTS = [
     "srp": 388.0,
     "msrp": 388.0,
     "res": 0.0,
-    "image": "products-img/anc.png",
+    "image": "products-img/trueaudio-%E6%9C%80%E6%96%B0anc%E6%99%BA%E8%83%BD%E8%A7%B8%E6%8E%A7%E5%B1%8F%E5%B9%95%E8%80%B3%E6%A9%9F.png",
     "desc": "TrueAudio S31 Pro",
     "features": [
       "TrueAudio S31 Pro"
@@ -7946,7 +7946,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/trueaudio-%E9%9B%BB%E9%87%8F%E9%A1%AF%E7%A4%BA%E5%8D%8A%E5%85%A5%E8%80%B3%E5%BC%8F%E8%80%B3%E6%A9%9F.png",
     "desc": "TrueAudio L320AP",
     "features": [
       "TrueAudio L320AP"
@@ -7960,7 +7960,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/type-c.png",
+    "image": "products-img/trueaudio-type-c-%E5%85%A5%E8%80%B3%E5%BC%8F%E6%9C%89%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "TrueAudio ACK-S2L",
     "features": [
       "TrueAudio ACK-S2L"
@@ -7974,7 +7974,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/lightning.png",
+    "image": "products-img/trueaudio-lightning-%E5%85%A5%E8%80%B3%E5%BC%8F%E6%9C%89%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "TrueAudio MF01 C",
     "features": [
       "TrueAudio MF01 C"
@@ -7988,7 +7988,7 @@ const ALL_PRODUCTS = [
     "srp": 249.0,
     "msrp": 249.0,
     "res": 0.0,
-    "image": "products-img/type-c.png",
+    "image": "products-img/trueaudio-type-c-%E6%8E%9B%E8%80%B3%E6%9C%89%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "TrueAudio MF01 L",
     "features": [
       "TrueAudio MF01 L"
@@ -8002,7 +8002,7 @@ const ALL_PRODUCTS = [
     "srp": 279.0,
     "msrp": 279.0,
     "res": 0.0,
-    "image": "products-img/lightning.png",
+    "image": "products-img/trueaudio-lightning-%E6%8E%9B%E8%80%B3%E6%9C%89%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "TrueAudio MF01 J",
     "features": [
       "TrueAudio MF01 J"
@@ -8016,7 +8016,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E7%9C%9F%E7%84%A1%E7%B7%9A%E9%99%8D%E5%99%AA%E8%B1%86%E5%BD%A2%E5%85%A5%E8%80%B3%E5%BC%8F%E8%80%B3%E6%A9%9F.png",
     "desc": "JBL Wave Beam 2",
     "features": [
       "JBL Wave Beam 2"
@@ -8030,7 +8030,7 @@ const ALL_PRODUCTS = [
     "srp": 549.0,
     "msrp": 549.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E7%9C%9F%E7%84%A1%E7%B7%9A%E9%99%8D%E5%99%AA%E8%80%B3%E6%9F%84%E5%BD%A2%E5%85%A5%E8%80%B3%E5%BC%8F%E8%80%B3%E6%A9%9F.png",
     "desc": "JBL Wave Flex 2",
     "features": [
       "JBL Wave Flex 2"
@@ -8044,7 +8044,7 @@ const ALL_PRODUCTS = [
     "srp": 798.0,
     "msrp": 798.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E7%9C%9F%E7%84%A1%E7%B7%9A%E9%99%8D%E5%99%AA%E8%B1%86%E5%BD%A2%E5%85%A5%E8%80%B3%E5%BC%8F%E8%80%B3%E6%A9%9F-%E9%80%8F%E6%98%8E%E7%89%88.png",
     "desc": "JBL Wave Beam 2 Ghost Edition",
     "features": [
       "JBL Wave Beam 2 Ghost Edition"
@@ -8058,7 +8058,7 @@ const ALL_PRODUCTS = [
     "srp": 798.0,
     "msrp": 798.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E7%9C%9F%E7%84%A1%E7%B7%9A%E9%99%8D%E5%99%AA%E8%80%B3%E6%9F%84%E5%BD%A2%E5%85%A5%E8%80%B3%E5%BC%8F%E8%80%B3%E6%A9%9F-%E9%80%8F%E6%98%8E%E7%89%88.png",
     "desc": "JBL Wave Flex 2 Ghost Edition",
     "features": [
       "JBL Wave Flex 2 Ghost Edition"
@@ -8072,7 +8072,7 @@ const ALL_PRODUCTS = [
     "srp": 899.0,
     "msrp": 899.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%9F%84%E5%BD%A2%E9%96%8B%E6%94%BE%E5%BC%8F%E8%80%B3%E6%A9%9F-%E9%80%8F%E6%98%8E%E7%89%88.png",
     "desc": "",
     "features": []
   },
@@ -8084,7 +8084,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/usb-c.png",
+    "image": "products-img/jbl-usb-c-%E6%9C%89%E7%B7%9A%E9%AB%98%E8%A7%A3%E6%9E%90%E5%BA%A6%E5%85%A5%E8%80%B3%E5%BC%8F%E8%80%B3%E6%A9%9F.png",
     "desc": "JBL Endurance Run 2 Wireless",
     "features": [
       "JBL Endurance Run 2 Wireless"
@@ -8098,7 +8098,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E9%98%B2%E6%B0%B4%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E5%85%A5%E8%80%B3%E5%BC%8F%E8%80%B3%E6%A9%9F.png",
     "desc": "JBL Tube 530BT",
     "features": [
       "JBL Tube 530BT"
@@ -8112,7 +8112,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E7%84%A1%E7%B7%9A%E9%A0%AD%E6%88%B4%E5%BC%8F%E8%80%B3%E6%A9%9F.png",
     "desc": "JBL Tune 730BT",
     "features": [
       "JBL Tune 730BT"
@@ -8126,7 +8126,7 @@ const ALL_PRODUCTS = [
     "srp": 549.0,
     "msrp": 549.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E7%84%A1%E7%B7%9A%E9%A0%AD%E6%88%B4%E5%BC%8F%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "JBL TUNE 680NC",
     "features": [
       "JBL TUNE 680NC"
@@ -8140,7 +8140,7 @@ const ALL_PRODUCTS = [
     "srp": 649.0,
     "msrp": 649.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E7%84%A1%E7%B7%9A%E9%A0%AD%E6%88%B4%E5%BC%8F%E9%99%8D%E5%99%AA%E8%80%B3%E6%A9%9F.png",
     "desc": "JBL TUNE 780NC",
     "features": [
       "JBL TUNE 780NC"
@@ -8154,7 +8154,7 @@ const ALL_PRODUCTS = [
     "srp": 998.0,
     "msrp": 998.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E4%BE%BF%E6%94%9C%E5%BC%8F%E9%98%B2%E6%B0%B4%E8%97%8D%E7%89%99%E5%96%87%E5%8F%AD.png",
     "desc": "JBL Charge 6",
     "features": [
       "JBL Charge 6"
@@ -8168,7 +8168,7 @@ const ALL_PRODUCTS = [
     "srp": 549.0,
     "msrp": 549.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E9%98%B2%E6%B0%B4%E6%8E%9B%E5%8B%BE%E5%8F%AF%E6%94%9C%E5%BC%8F%E8%97%8D%E7%89%99%E5%96%87%E5%8F%AD.png",
     "desc": "JBL Grip",
     "features": [
       "JBL Grip"
@@ -8182,7 +8182,7 @@ const ALL_PRODUCTS = [
     "srp": 799.0,
     "msrp": 799.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E9%9C%93%E8%99%B9%E7%BD%90%E4%BE%BF%E6%94%9C%E5%BC%8F%E9%98%B2%E6%B0%B4%E8%97%8D%E7%89%99%E5%96%87%E5%8F%AD.png",
     "desc": "JBL Partybox Encore Essential",
     "features": [
       "JBL Partybox Encore Essential"
@@ -8196,7 +8196,7 @@ const ALL_PRODUCTS = [
     "srp": 2499.0,
     "msrp": 2499.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E6%89%8B%E6%8F%90%E5%BC%8F%E6%B4%BE%E5%B0%8D%E8%97%8D%E7%89%99%E5%96%87%E5%8F%AD.png",
     "desc": "JBL PartyBox 110",
     "features": [
       "JBL PartyBox 110"
@@ -8210,7 +8210,7 @@ const ALL_PRODUCTS = [
     "srp": 3199.0,
     "msrp": 3199.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/jbl-%E4%BE%BF%E6%94%9C%E5%BC%8F%E8%97%8D%E7%89%99%E6%B4%BE%E5%B0%8D%E5%96%87%E5%8F%AD.png",
     "desc": "",
     "features": []
   },
@@ -8222,7 +8222,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nakamichi-%E5%85%A5%E8%80%B3%E9%9B%99%E7%A3%81%E5%96%AE%E5%8B%95%E5%9C%88%E8%80%B3%E6%A9%9F.png",
     "desc": "Nakamichi MV200",
     "features": [
       "Nakamichi MV200"
@@ -8236,7 +8236,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/hi-fi.png",
+    "image": "products-img/nakamichi-%E5%85%A5%E8%80%B3%E5%BC%8F%E5%9C%88%E9%90%B5%E6%B7%B7%E5%8B%95hi-fi%E8%80%B3%E6%A9%9F.png",
     "desc": "Nakamichi MV500",
     "features": [
       "Nakamichi MV500"
@@ -8250,7 +8250,7 @@ const ALL_PRODUCTS = [
     "srp": 198.0,
     "msrp": 198.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nakamichi-%E5%8B%95%E5%9C%88%E5%85%A5%E8%80%B3%E5%BC%8F%E7%9B%A3%E8%81%BD%E6%9C%89%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Nakamichi  TW018ENC Plus",
     "features": [
       "Nakamichi  TW018ENC Plus"
@@ -8264,7 +8264,7 @@ const ALL_PRODUCTS = [
     "srp": 598.0,
     "msrp": 598.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nakamichi-%E9%99%8D%E5%99%AA%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Nakamichi Elite TW150NC",
     "features": [
       "Nakamichi Elite TW150NC"
@@ -8278,7 +8278,7 @@ const ALL_PRODUCTS = [
     "srp": 498.0,
     "msrp": 498.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nakamichi-%E4%B8%BB%E5%8B%95%E9%99%8D%E5%99%AA%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Nakamichi OP-TW007",
     "features": [
       "Nakamichi OP-TW007"
@@ -8292,7 +8292,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nakamichi-%E8%80%B3%E5%A4%BE%E5%BC%8F%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Nakamichi My Music Hue Orchid",
     "features": [
       "Nakamichi My Music Hue Orchid"
@@ -8306,7 +8306,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/5-3.png",
+    "image": "products-img/nakamichi-%E8%97%8D%E7%89%9953%E5%8D%8A%E9%96%8B%E6%94%BE%E5%BC%8F%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "",
     "features": []
   },
@@ -8318,7 +8318,7 @@ const ALL_PRODUCTS = [
     "srp": 268.0,
     "msrp": 268.0,
     "res": 0.0,
-    "image": "products-img/air-conduction.png",
+    "image": "products-img/nakamichi-air-conduction-%E8%97%8D%E7%89%99%E9%81%8B%E5%8B%95%E8%80%B3%E6%A9%9F.png",
     "desc": "Nakamichi N2",
     "features": [
       "Nakamichi N2"
@@ -8332,7 +8332,7 @@ const ALL_PRODUCTS = [
     "srp": 398.0,
     "msrp": 398.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nakamichi-%E5%96%AE%E8%80%B3%E5%BC%8F%E6%8E%9B%E8%80%B3%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Nakamichi  My Music Hue Hear",
     "features": [
       "Nakamichi  My Music Hue Hear"
@@ -8346,7 +8346,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nakamichi-%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E5%8F%AF%E6%8A%98%E7%96%8A%E8%80%B3%E6%A9%9F.png",
     "desc": "Nakamichi  OW1100ANC",
     "features": [
       "Nakamichi  OW1100ANC"
@@ -8360,7 +8360,7 @@ const ALL_PRODUCTS = [
     "srp": 348.0,
     "msrp": 348.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nakamichi-%E4%B8%BB%E5%8B%95%E5%BC%8F%E9%99%8D%E5%99%AA%E8%97%8D%E7%89%99%E7%9C%9F%E7%84%A1%E7%B6%AB%E8%80%B3%E6%A9%9F.png",
     "desc": "Nakamichi  NHP-X2",
     "features": [
       "Nakamichi  NHP-X2"
@@ -8374,7 +8374,7 @@ const ALL_PRODUCTS = [
     "srp": 349.0,
     "msrp": 349.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nakamichi-%E9%A0%AD%E6%88%B4%E5%BC%8F%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Nakamichi  OW1500ANC",
     "features": [
       "Nakamichi  OW1500ANC"
@@ -8388,7 +8388,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nakamichi-%E4%B8%BB%E5%8B%95%E5%BC%8F%E9%99%8D%E5%99%AA%E8%97%8D%E7%89%99%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "First 6 get 1 free demo | Nakamichi   N-Power-Lite",
     "features": [
       "First 6 get 1 free demo",
@@ -8403,7 +8403,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nakamichi-%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E4%BE%BF%E6%94%9C%E5%BC%8F%E5%96%87%E5%8F%AD.png",
     "desc": "Nakamichi Soundstation Mars",
     "features": [
       "Nakamichi Soundstation Mars"
@@ -8417,7 +8417,7 @@ const ALL_PRODUCTS = [
     "srp": 688.0,
     "msrp": 688.0,
     "res": 0.0,
-    "image": "products-img/hi-fi-2-0.png",
+    "image": "products-img/creative-hi-fi-20-%E6%A1%8C%E4%B8%8A%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E5%96%87%E5%8F%AD.png",
     "desc": "Creative T100",
     "features": [
       "Creative T100"
@@ -8431,7 +8431,7 @@ const ALL_PRODUCTS = [
     "srp": 899.0,
     "msrp": 899.0,
     "res": 0.0,
-    "image": "products-img/compact-hi-fi-2-0.png",
+    "image": "products-img/creative-compact-hi-fi-20-%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E9%9F%B3%E7%AE%B1.png",
     "desc": "Creative BT-W6",
     "features": [
       "Creative BT-W6"
@@ -8445,7 +8445,7 @@ const ALL_PRODUCTS = [
     "srp": 899.0,
     "msrp": 899.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/creative-%E8%97%8D%E7%89%99%E5%96%87%E5%8F%AD%E9%80%A3%E4%BD%8E%E9%9F%B3%E5%96%87%E5%8F%AD%E9%9F%BF%E7%B5%84%E5%90%88.png",
     "desc": "Creative  Stage Air V2",
     "features": [
       "Creative  Stage Air V2"
@@ -8459,7 +8459,7 @@ const ALL_PRODUCTS = [
     "srp": 398.0,
     "msrp": 398.0,
     "res": 0.0,
-    "image": "products-img/soundbar.png",
+    "image": "products-img/creative-soundbar-%E4%BE%BF%E6%94%9C%E5%BC%8F%E5%9E%8B%E8%97%8D%E7%89%99%E5%96%87%E5%8F%AD.png",
     "desc": "Creative  Stage SE mini",
     "features": [
       "Creative  Stage SE mini"
@@ -8473,7 +8473,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/creative-%E7%B7%8A%E6%B9%8A%E5%9E%8B%E9%A1%AF%E7%A4%BA%E5%99%A8%E4%B8%8B%E6%A2%9D%E5%BD%A2%E5%96%87%E5%8F%AD.png",
     "desc": "Creative GS3 SUPERWIDE™",
     "features": [
       "Creative GS3 SUPERWIDE™"
@@ -8487,7 +8487,7 @@ const ALL_PRODUCTS = [
     "srp": 428.0,
     "msrp": 428.0,
     "res": 0.0,
-    "image": "products-img/rgb.png",
+    "image": "products-img/creative-rgb-%E9%9B%BB%E7%AB%B6%E6%A2%9D%E5%BD%A2%E5%96%87%E5%8F%AD.png",
     "desc": "Creative Sound Blaster GS5",
     "features": [
       "Creative Sound Blaster GS5"
@@ -8501,7 +8501,7 @@ const ALL_PRODUCTS = [
     "srp": 588.0,
     "msrp": 588.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/creative-%E9%81%8A%E6%88%B2%E6%A2%9D%E5%9E%8B%E9%9F%B3%E7%AE%B1.png",
     "desc": "Creative Stage Pro 2.1 Soundbar",
     "features": [
       "Creative Stage Pro 2.1 Soundbar"
@@ -8515,7 +8515,7 @@ const ALL_PRODUCTS = [
     "srp": 1388.0,
     "msrp": 1388.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "",
     "desc": "",
     "features": []
   },
@@ -8527,7 +8527,7 @@ const ALL_PRODUCTS = [
     "srp": 198.0,
     "msrp": 198.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/monster-%E9%96%8B%E6%94%BE%E5%BC%8F%E8%97%8D%E8%8A%BD%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Monster Open Ear AC530 OWS開",
     "features": [
       "Monster Open Ear AC530 OWS開"
@@ -8541,7 +8541,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/monster-%E6%94%BE%E5%BC%8F%E5%8F%AF%E6%91%BA%E7%96%8A%E8%80%B3%E6%8E%9B%E8%97%8D%E7%89%99%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Monster GAIRMARS SG03 PRO",
     "features": [
       "Monster GAIRMARS SG03 PRO"
@@ -8555,7 +8555,7 @@ const ALL_PRODUCTS = [
     "srp": 178.0,
     "msrp": 178.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/monster-%E9%A0%B8%E6%8E%9B%E5%BC%8F%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Monster MISSION 100",
     "features": [
       "Monster MISSION 100"
@@ -8569,7 +8569,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/monster-%E9%A0%AD%E6%88%B4%E5%BC%8F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "MONSTER  MQO37",
     "features": [
       "MONSTER  MQO37"
@@ -8583,7 +8583,7 @@ const ALL_PRODUCTS = [
     "srp": 228.0,
     "msrp": 228.0,
     "res": 0.0,
-    "image": "products-img/6-0.png",
+    "image": "products-img/monster-%E8%97%8D%E7%89%9960-%E9%96%8B%E6%94%BE%E5%BC%8F%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Monster GT17",
     "features": [
       "Monster GT17"
@@ -8597,7 +8597,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/anc.png",
+    "image": "products-img/monster-anc%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Monster M8 唱K神器",
     "features": [
       "Monster M8 唱K神器"
@@ -8611,7 +8611,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/rgb.png",
+    "image": "products-img/monster-rgb%E7%87%88%E5%85%89%E6%95%88%E6%9E%9C.png",
     "desc": "Monster Aura Fit D02",
     "features": [
       "Monster Aura Fit D02"
@@ -8625,7 +8625,7 @@ const ALL_PRODUCTS = [
     "srp": 258.0,
     "msrp": 258.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/monster-%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "",
     "features": []
   },
@@ -8637,7 +8637,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/monster-%E5%85%A5%E8%80%B3%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Monster XKT20",
     "features": [
       "Monster XKT20"
@@ -8651,7 +8651,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/monster-%E4%B8%BB%E5%8B%95%E9%99%8D%E5%99%AA%E5%8D%8A%E5%85%A5%E8%80%B3%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Monster XKT22",
     "features": [
       "Monster XKT22"
@@ -8665,7 +8665,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/5-4.png",
+    "image": "products-img/monster-%E6%B8%9B%E5%A3%93%E9%99%80%E8%9E%BA%E9%99%8D%E5%99%AA%E5%8D%8A%E5%85%A5%E8%80%B3%E8%97%8D%E7%89%9954-%E9%9B%BB%E7%AB%B6%E8%80%B3%E6%A9%9F.png",
     "desc": "Monster Openear 101",
     "features": [
       "Monster Openear 101"
@@ -8679,7 +8679,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/monster-%E5%A4%BE%E8%80%B3%E5%BC%8F%E9%81%8B%E5%8B%95%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Monster Airmars N3",
     "features": [
       "Monster Airmars N3"
@@ -8693,7 +8693,7 @@ const ALL_PRODUCTS = [
     "srp": 579.0,
     "msrp": 579.0,
     "res": 0.0,
-    "image": "products-img/usb-7-1.png",
+    "image": "products-img/monster-usb-71-%E9%A0%AD%E6%88%B4%E5%BC%8F%E9%9B%BB%E7%AB%B6%E8%80%B3%E6%A9%9F.png",
     "desc": "Monster Open Ear HP",
     "features": [
       "Monster Open Ear HP"
@@ -8707,7 +8707,7 @@ const ALL_PRODUCTS = [
     "srp": 899.0,
     "msrp": 899.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/monster-%E9%AA%A8%E8%81%B2%E5%82%B3%E5%B0%8E%E8%80%B3%E6%A9%9F.png",
     "desc": "Monster Clarity 101 Airlinks",
     "features": [
       "Monster Clarity 101 Airlinks"
@@ -8721,7 +8721,7 @@ const ALL_PRODUCTS = [
     "srp": 559.0,
     "msrp": 559.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/monster-%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "",
     "features": []
   },
@@ -8733,7 +8733,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/philips-%E7%9C%9F%E7%84%A1%E7%B7%9A%E5%8D%8A%E5%85%A5%E8%80%B3%E8%80%B3%E6%A9%9F.png",
     "desc": "Philips TAT1199 | PHILIPS TAE2146/97",
     "features": [
       "Philips TAT1199",
@@ -8748,7 +8748,7 @@ const ALL_PRODUCTS = [
     "srp": 240.0,
     "msrp": 240.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/philips-%E8%80%B3%E5%A1%9E%E5%BC%8F%E8%80%B3%E7%AD%92.png",
     "desc": "PHILIPS TAE2146/97",
     "features": [
       "PHILIPS TAE2146/97"
@@ -8762,7 +8762,7 @@ const ALL_PRODUCTS = [
     "srp": 88.0,
     "msrp": 88.0,
     "res": 0.0,
-    "image": "products-img/type-c.png",
+    "image": "products-img/philips-%E5%85%A5%E8%80%B3%E5%BC%8Ftype-c%E8%80%B3%E6%A9%9F%E9%99%84%E9%BA%A5%E5%85%8B%E9%A2%A8.png",
     "desc": "50 get 10 free | Philips TAS2505",
     "features": [
       "50 get 10 free",
@@ -8777,7 +8777,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/philips-%E8%97%8D%E7%89%99%E9%9F%B3%E7%AE%B1%E7%84%A1%E7%B7%9A%E5%96%87%E5%8F%AD.png",
     "desc": "Philips SHM1900 3.5mm",
     "features": [
       "Philips SHM1900 3.5mm"
@@ -8791,7 +8791,7 @@ const ALL_PRODUCTS = [
     "srp": 198.0,
     "msrp": 198.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/philips-%E9%9B%BB%E8%85%A6%E8%80%B3%E7%AD%92-%E8%80%B3%E7%BD%A9%E5%BC%8F-%E5%B0%81%E9%96%89%E5%BC%8F-%E9%A0%AD%E6%88%B4%E5%BC%8F%E8%80%B3%E6%A9%9F.png",
     "desc": "Philips SHP2500 3.5mm / 6.3mm",
     "features": [
       "Philips SHP2500 3.5mm / 6.3mm"
@@ -8805,7 +8805,7 @@ const ALL_PRODUCTS = [
     "srp": 198.0,
     "msrp": 198.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/philips-%E9%9B%BB%E8%85%A6%E8%80%B3%E7%AD%92%E8%93%8B%E8%80%B3%E5%BC%8F-%E9%A0%AD%E6%88%B4%E5%BC%8F%E8%80%B3%E6%A9%9F.png",
     "desc": "Philips HTL1508",
     "features": [
       "Philips HTL1508"
@@ -8819,7 +8819,7 @@ const ALL_PRODUCTS = [
     "srp": 1299.0,
     "msrp": 1299.0,
     "res": 0.0,
-    "image": "products-img/sound-bar-2-0.png",
+    "image": "products-img/philips-sound-bar-20%E8%81%B2%E9%81%93%E8%97%8D%E7%89%99%E7%84%A1%E7%B7%9A%E7%92%B0%E7%B9%9E%E9%9F%B3%E9%9F%BF.png",
     "desc": "",
     "features": []
   },
@@ -8831,7 +8831,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/philips-%E4%BE%BF%E6%94%9C%E5%BC%8F%E6%94%B6%E9%9F%B3%E6%A9%9F.png",
     "desc": "Philips TAR1506",
     "features": [
       "Philips TAR1506"
@@ -8845,7 +8845,7 @@ const ALL_PRODUCTS = [
     "srp": 598.0,
     "msrp": 598.0,
     "res": 0.0,
-    "image": "products-img/4g.png",
+    "image": "products-img/uniwa-4g%E5%8A%9F%E8%83%BD%E6%89%8B%E6%A9%9F.png",
     "desc": "Nokia 3210",
     "features": [
       "Nokia 3210"
@@ -8859,7 +8859,7 @@ const ALL_PRODUCTS = [
     "srp": 698.0,
     "msrp": 698.0,
     "res": 0.0,
-    "image": "products-img/4g-2024.png",
+    "image": "products-img/uniwa-4g-2024%E5%BE%A9%E5%88%BB%E7%89%88.png",
     "desc": "Nokia  2720 Flip",
     "features": [
       "Nokia  2720 Flip"
@@ -8873,7 +8873,7 @@ const ALL_PRODUCTS = [
     "srp": 348.0,
     "msrp": 348.0,
     "res": 0.0,
-    "image": "products-img/4g-2021.png",
+    "image": "products-img/uniwa-4g-2021%E5%BE%A9%E5%88%BB%E7%89%88.png",
     "desc": "UNIWA 909T",
     "features": [
       "UNIWA 909T"
@@ -8887,7 +8887,7 @@ const ALL_PRODUCTS = [
     "srp": 458.0,
     "msrp": 458.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/uniwa-%E8%80%81%E5%B9%B4%E4%BA%BA%E6%8C%89%E9%8D%B5%E6%A9%9F.png",
     "desc": "",
     "features": []
   },
@@ -8899,7 +8899,7 @@ const ALL_PRODUCTS = [
     "srp": 360.0,
     "msrp": 360.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/voca-%E8%80%B3%E8%83%8C%E5%BC%8F%E5%8A%A9%E8%81%BD%E5%99%A8.png",
     "desc": "Voca HA20",
     "features": [
       "Voca HA20"
@@ -8913,7 +8913,7 @@ const ALL_PRODUCTS = [
     "srp": 680.0,
     "msrp": 680.0,
     "res": 0.0,
-    "image": "products-img/128db-dsp-v284.png",
+    "image": "products-img/voca-128db-dsp-%E5%8A%A9%E8%81%BD%E5%99%A8%E8%80%B3%E5%A1%9E%E7%B1%B3%E8%89%B2-v284.png",
     "desc": "VOCA HA30",
     "features": [
       "VOCA HA30"
@@ -8927,7 +8927,7 @@ const ALL_PRODUCTS = [
     "srp": 1250.0,
     "msrp": 1250.0,
     "res": 0.0,
-    "image": "products-img/120db.png",
+    "image": "products-img/voca-%E8%80%B3%E6%A9%9F%E5%9E%8B%E5%85%85%E9%9B%BB%E5%BC%8F%E5%8A%A9%E8%81%BD%E5%99%A8-120db.png",
     "desc": "Voca HA40  DSP 數位降噪",
     "features": [
       "Voca HA40  DSP 數位降噪"
@@ -8941,7 +8941,7 @@ const ALL_PRODUCTS = [
     "srp": 1600.0,
     "msrp": 1600.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/voca-%E9%A0%B8%E5%B8%B6%E5%BC%8F%E8%97%8D%E7%89%99%E5%8A%A9%E8%81%BD%E5%99%A8.png",
     "desc": "",
     "features": []
   },
@@ -8953,7 +8953,7 @@ const ALL_PRODUCTS = [
     "srp": 639.0,
     "msrp": 639.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nokia-%E4%B8%BB%E5%8B%95%E9%99%8D%E5%99%AA%E9%A0%AD%E6%88%B4%E5%BC%8F%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Nokia E1200  Essential",
     "features": [
       "Nokia E1200  Essential"
@@ -8967,7 +8967,7 @@ const ALL_PRODUCTS = [
     "srp": 498.0,
     "msrp": 498.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/nokia-%E9%A0%AD%E6%88%B4%E5%BC%8F%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Nokia E1300  Essential",
     "features": [
       "Nokia E1300  Essential"
@@ -8981,7 +8981,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/3d.png",
+    "image": "products-img/mon-3d-%E5%85%A8%E8%A6%86%E8%93%8B-%E5%BA%B7%E5%AF%A7%E7%8E%BB%E7%92%83%E8%B2%BC-%E7%BE%8E%E5%9C%8B%E8%A3%BD%E9%80%A0.png",
     "desc": "Casestudi  三鏡頭9H康寧貼",
     "features": [
       "Casestudi  三鏡頭9H康寧貼"
@@ -8995,7 +8995,7 @@ const ALL_PRODUCTS = [
     "srp": 198.0,
     "msrp": 198.0,
     "res": 0.0,
-    "image": "products-img/55-55.png",
+    "image": "products-img/mon-55-%E9%98%B2%E5%81%B7%E7%AA%BA%E8%97%8D%E5%85%89-55-%E9%98%B2%E8%97%8D%E5%85%89.png",
     "desc": "AMG-CT 超高清保護貼(韓國制造) | AMG iPhone 16 系列磁吸保護套",
     "features": [
       "AMG-CT 超高清保護貼(韓國制造)",
@@ -9010,7 +9010,7 @@ const ALL_PRODUCTS = [
     "srp": 99.0,
     "msrp": 99.0,
     "res": 0.0,
-    "image": "products-img/amg-ct.png",
+    "image": "products-img/amg-amg-ct-%E8%B6%85%E9%AB%98%E6%B8%85%E4%BF%9D%E8%AD%B7%E8%B2%BC%E9%9F%93%E5%9C%8B%E5%88%B6%E9%80%A0.png",
     "desc": "AMG iPhone 16 系列磁吸保護套 | GARMMA iPhone 17系列",
     "features": [
       "AMG iPhone 16 系列磁吸保護套",
@@ -9025,7 +9025,7 @@ const ALL_PRODUCTS = [
     "srp": 178.0,
     "msrp": 178.0,
     "res": 0.0,
-    "image": "products-img/amg-iphone-16.png",
+    "image": "products-img/amg-amg-iphone-16-%E7%B3%BB%E5%88%97%E7%A3%81%E5%90%B8%E4%BF%9D%E8%AD%B7%E5%A5%97.png",
     "desc": "GARMMA iPhone 17系列",
     "features": [
       "GARMMA iPhone 17系列"
@@ -9039,7 +9039,7 @@ const ALL_PRODUCTS = [
     "srp": 328.0,
     "msrp": 328.0,
     "res": 0.0,
-    "image": "products-img/garmma-iphone-17.png",
+    "image": "products-img/garmma-garmma-iphone-17%E7%B3%BB%E5%88%97.png",
     "desc": "*卡通手機殼系列產品款式眾多，如需個別圖⽂請向本公司SALES查詢.",
     "features": [
       "*卡通手機殼系列產品款式眾多，如需個別圖⽂請向本公司SALES查詢."
@@ -9053,7 +9053,7 @@ const ALL_PRODUCTS = [
     "srp": 368.0,
     "msrp": 368.0,
     "res": 0.0,
-    "image": "products-img/magcell-5000mah.png",
+    "image": "products-img/savewo-magcell-5000mah-%E7%A7%BB%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "SAVEWO MagCell Ultra",
     "features": [
       "SAVEWO MagCell Ultra"
@@ -9067,7 +9067,7 @@ const ALL_PRODUCTS = [
     "srp": 498.0,
     "msrp": 498.0,
     "res": 0.0,
-    "image": "products-img/qi2.png",
+    "image": "products-img/savewo-%E5%A4%9A%E5%8A%9F%E8%83%BDqi2%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "SAVEWO MagCell MC509",
     "features": [
       "SAVEWO MagCell MC509"
@@ -9081,7 +9081,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/qi2.png",
+    "image": "products-img/savewo-qi2%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "SAVEWO MagCell MC511QF 世界最細",
     "features": [
       "SAVEWO MagCell MC511QF 世界最細"
@@ -9095,7 +9095,7 @@ const ALL_PRODUCTS = [
     "srp": 498.0,
     "msrp": 498.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/savewo-%E9%AB%98%E6%80%A7%E8%83%BD%E5%AE%B9%E9%87%8F%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "Savewo MagCell MC1003",
     "features": [
       "Savewo MagCell MC1003"
@@ -9109,7 +9109,7 @@ const ALL_PRODUCTS = [
     "srp": 368.0,
     "msrp": 368.0,
     "res": 0.0,
-    "image": "products-img/10000mah.png",
+    "image": "products-img/savewo-10000mah-%E7%A3%81%E5%90%B8%E7%84%A1%E7%B7%9A%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "",
     "features": []
   },
@@ -9121,7 +9121,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/savewo-%E6%99%BA%E8%83%BD%E8%BB%8A%E8%BC%89%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "Savewo MagMount PRO 2",
     "features": [
       "Savewo MagMount PRO 2"
@@ -9135,7 +9135,7 @@ const ALL_PRODUCTS = [
     "srp": 398.0,
     "msrp": 398.0,
     "res": 0.0,
-    "image": "products-img/mm-w15q2-qi2.png",
+    "image": "products-img/savewo-mm-w15q2-qi2%E7%A3%81%E5%90%B8%E5%85%85%E9%9B%BB%E6%94%AF%E6%9E%B6.png",
     "desc": "SAVEWO MagMount MM-01",
     "features": [
       "SAVEWO MagMount MM-01"
@@ -9149,7 +9149,7 @@ const ALL_PRODUCTS = [
     "srp": 168.0,
     "msrp": 168.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/savewo-%E6%B1%BD%E8%BB%8A%E4%BC%B8%E7%B8%AE%E6%97%8B%E8%BD%89%E5%8F%AF%E6%91%BA%E5%8F%A0%E6%9E%B6.png",
     "desc": "SAVEWO FlipDock Qi2",
     "features": [
       "SAVEWO FlipDock Qi2"
@@ -9163,7 +9163,7 @@ const ALL_PRODUCTS = [
     "srp": 498.0,
     "msrp": 498.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/savewo-%E4%B8%89%E5%90%88%E4%B8%80%E7%A3%81%E5%90%B8%E6%91%BA%E7%96%8A%E6%97%8B%E8%BD%89%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB%E5%BA%A7.png",
     "desc": "SAVEWO UniPlug UP100S PD3.0",
     "features": [
       "SAVEWO UniPlug UP100S PD3.0"
@@ -9177,7 +9177,7 @@ const ALL_PRODUCTS = [
     "srp": 498.0,
     "msrp": 498.0,
     "res": 0.0,
-    "image": "products-img/100w-5-usb.png",
+    "image": "products-img/savewo-100w-5-usb-%E5%85%A8%E7%90%83%E6%97%85%E8%A1%8C%E5%BF%AB%E5%85%85%E6%8F%92%E9%A0%AD.png",
     "desc": "SAVEWO UniPlug UP35",
     "features": [
       "SAVEWO UniPlug UP35"
@@ -9191,7 +9191,7 @@ const ALL_PRODUCTS = [
     "srp": 158.0,
     "msrp": 158.0,
     "res": 0.0,
-    "image": "products-img/1m-2m.png",
+    "image": "products-img/savewo-%E6%A5%B5%E9%80%9F%E5%85%85%E9%9B%BB%E5%82%B3%E8%BC%B8%E7%B7%9A-1m-2m.png",
     "desc": "SAVEWO ProCable USB-C CoAxial",
     "features": [
       "SAVEWO ProCable USB-C CoAxial"
@@ -9205,7 +9205,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/usb4-thunderbolt-4-1m-2m.png",
+    "image": "products-img/savewo-usb4-thunderbolt-4-%E6%A5%B5%E9%80%9F%E5%85%A8%E8%83%BD%E7%B7%9A-1m-2m.png",
     "desc": "",
     "features": []
   },
@@ -9217,7 +9217,7 @@ const ALL_PRODUCTS = [
     "srp": 128.0,
     "msrp": 128.0,
     "res": 0.0,
-    "image": "products-img/240w-pd3-1-1m.png",
+    "image": "products-img/savewo-240w-pd31-%E7%A3%81%E5%90%B8%E8%87%AA%E5%8D%B7%E8%B6%85%E9%80%9F%E5%85%85%E9%9B%BB%E7%B7%9A-1m.png",
     "desc": "SAVEWO PowerCable ECO",
     "features": [
       "SAVEWO PowerCable ECO"
@@ -9231,7 +9231,7 @@ const ALL_PRODUCTS = [
     "srp": 128.0,
     "msrp": 128.0,
     "res": 0.0,
-    "image": "products-img/100w-pd3-0-usb-c.png",
+    "image": "products-img/savewo-100w-pd30-usb-c-%E6%95%91%E4%B8%96%E9%AB%98%E9%80%9F%E5%85%85%E9%9B%BB%E7%B7%9A.png",
     "desc": "50 get 8 free | SAVEWO  ProCable USB-C LED USB4",
     "features": [
       "50 get 8 free",
@@ -9246,7 +9246,7 @@ const ALL_PRODUCTS = [
     "srp": 338.0,
     "msrp": 338.0,
     "res": 0.0,
-    "image": "products-img/thunderbolt-4-1m.png",
+    "image": "products-img/savewo-thunderbolt-4-%E6%A5%B5%E9%80%9F%E5%85%85%E9%9B%BB%E5%82%B3%E8%BC%B8%E7%B7%9A-1m.png",
     "desc": "SAVEWO PowerCable MIX",
     "features": [
       "SAVEWO PowerCable MIX"
@@ -9260,7 +9260,7 @@ const ALL_PRODUCTS = [
     "srp": 1289.0,
     "msrp": 1289.0,
     "res": 0.0,
-    "image": "products-img/240w-pd3-1-4-1.png",
+    "image": "products-img/savewo-240w-pd31-%E6%95%91%E4%B8%96-4%E5%90%881-%E6%A5%B5%E9%80%9F%E5%85%85%E9%9B%BB%E7%B7%9A.png",
     "desc": "",
     "features": []
   },
@@ -9272,7 +9272,7 @@ const ALL_PRODUCTS = [
     "srp": 139.0,
     "msrp": 139.0,
     "res": 0.0,
-    "image": "products-img/gan36w.png",
+    "image": "products-img/m2k-gan36w-%E8%BC%95%E4%BE%BF%E7%89%88.png",
     "desc": "M2K 『 夾充 』GaN 37W",
     "features": [
       "M2K 『 夾充 』GaN 37W"
@@ -9286,7 +9286,7 @@ const ALL_PRODUCTS = [
     "srp": 168.0,
     "msrp": 168.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/m2k-%E5%A4%BE%E6%9E%B1%E8%BF%B7%E4%BD%A0%E5%BF%AB%E9%80%9F%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "M2K 『 夾充 』GaN 65W",
     "features": [
       "M2K 『 夾充 』GaN 65W"
@@ -9300,7 +9300,7 @@ const ALL_PRODUCTS = [
     "srp": 328.0,
     "msrp": 328.0,
     "res": 0.0,
-    "image": "products-img/3c1a.png",
+    "image": "products-img/m2k-%E5%A4%BE%E6%9E%B1%E8%BF%B7%E4%BD%A0%E5%BF%AB%E9%80%9F%E5%85%85%E9%9B%BB%E5%99%A8-3c1a.png",
     "desc": "M2K『摺充』 摺腳雙TYPE-C GaN45W",
     "features": [
       "M2K『摺充』 摺腳雙TYPE-C GaN45W"
@@ -9314,7 +9314,7 @@ const ALL_PRODUCTS = [
     "srp": 220.0,
     "msrp": 220.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/m2k-%E8%BF%B7%E4%BD%A0%E5%BF%AB%E9%80%9F%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "M2K PDQC 30.5w T蘇",
     "features": [
       "M2K PDQC 30.5w T蘇"
@@ -9328,7 +9328,7 @@ const ALL_PRODUCTS = [
     "srp": 198.0,
     "msrp": 198.0,
     "res": 0.0,
-    "image": "products-img/pd20w.png",
+    "image": "products-img/m2k-pd20w%E5%BF%AB%E5%85%85%E7%89%88%E9%98%B2%E9%9B%B7%E4%BF%9D%E8%AD%B7.png",
     "desc": "M2K GaN50.5W T蘇 (PD快充)",
     "features": [
       "M2K GaN50.5W T蘇 (PD快充)"
@@ -9342,7 +9342,7 @@ const ALL_PRODUCTS = [
     "srp": 220.0,
     "msrp": 220.0,
     "res": 0.0,
-    "image": "products-img/m2k-gan50-5w-t-pd.png",
+    "image": "products-img/m2k-m2k-gan505w-t%E8%98%87-pd%E5%BF%AB%E5%85%85.png",
     "desc": "",
     "features": []
   },
@@ -9354,7 +9354,7 @@ const ALL_PRODUCTS = [
     "srp": 358.0,
     "msrp": 358.0,
     "res": 0.0,
-    "image": "products-img/w17-mt-pro.png",
+    "image": "products-img/qi2-w17-mt-pro.png",
     "desc": "PowLord PowerPad",
     "features": [
       "PowLord PowerPad"
@@ -9368,7 +9368,7 @@ const ALL_PRODUCTS = [
     "srp": 328.0,
     "msrp": 328.0,
     "res": 0.0,
-    "image": "products-img/m4.png",
+    "image": "products-img/qi2-m4-%E5%A4%9A%E5%8A%9F%E8%83%BD%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "Powlord 快充數據線",
     "features": [
       "Powlord 快充數據線"
@@ -9382,7 +9382,7 @@ const ALL_PRODUCTS = [
     "srp": 368.0,
     "msrp": 368.0,
     "res": 0.0,
-    "image": "products-img/10000mah.png",
+    "image": "products-img/qi2-10000mah-%E5%8D%8A%E5%9B%BA%E6%85%8B%E9%9B%BB%E6%B1%A0.png",
     "desc": "PowLord Q2MaG Air",
     "features": [
       "PowLord Q2MaG Air"
@@ -9396,7 +9396,7 @@ const ALL_PRODUCTS = [
     "srp": 288.0,
     "msrp": 288.0,
     "res": 0.0,
-    "image": "products-img/10000mah-powerbank.png",
+    "image": "products-img/qi2-10000mah-powerbank.png",
     "desc": "$20/$22/$25/$28 | PowLord Mag-Fold Qi2.2 25W 3-",
     "features": [
       "$20/$22/$25/$28",
@@ -9411,7 +9411,7 @@ const ALL_PRODUCTS = [
     "srp": 368.0,
     "msrp": 368.0,
     "res": 0.0,
-    "image": "products-img/in-1.png",
+    "image": "products-img/qi2-in-1-%E9%8B%85%E5%90%88%E9%87%91%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB%E5%BA%A7.png",
     "desc": "",
     "features": []
   },
@@ -9423,7 +9423,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/type-c.png",
+    "image": "products-img/belkin-type-c%E6%8F%92%E9%A0%AD.png",
     "desc": "Belkin SOUNDFORM™ MINI",
     "features": [
       "Belkin SOUNDFORM™ MINI"
@@ -9437,7 +9437,7 @@ const ALL_PRODUCTS = [
     "srp": 268.0,
     "msrp": 268.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/belkin-%E9%A0%AD%E6%88%B4%E5%BC%8F%E5%85%92%E7%AB%A5%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Belkin SoundForm Surround",
     "features": [
       "Belkin SoundForm Surround"
@@ -9451,7 +9451,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/belkin-%E9%96%8B%E6%94%BE%E5%BC%8F%E8%80%B3%E6%A9%9F.png",
     "desc": "Belkin Rhythm AUC012",
     "features": [
       "Belkin Rhythm AUC012"
@@ -9465,7 +9465,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/belkin-%E7%84%A1%E7%B7%9A%E5%85%A5%E8%80%B3%E5%BC%8F%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Belkin SoundForm Anywhere",
     "features": [
       "Belkin SoundForm Anywhere"
@@ -9479,7 +9479,7 @@ const ALL_PRODUCTS = [
     "srp": 268.0,
     "msrp": 268.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/belkin-%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E8%80%B3%E6%A9%9F.png",
     "desc": "Belkin  SoundForm ANC 主動降噪有線",
     "features": [
       "Belkin  SoundForm ANC 主動降噪有線"
@@ -9493,7 +9493,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/usb-c-g3h0003fq.png",
+    "image": "products-img/belkin-%E8%80%B3%E6%A9%9Fusb-c-%E6%8E%A5%E9%A0%AD-g3h0003fq.png",
     "desc": "",
     "features": []
   },
@@ -9505,7 +9505,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/10000mah-bpb011bt.png",
+    "image": "products-img/belkin-10000mah-bpb011bt.png",
     "desc": "Belkin BOOST↑CHARGE™ 行動電源",
     "features": [
       "Belkin BOOST↑CHARGE™ 行動電源"
@@ -9519,7 +9519,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/10k-bpb021bt.png",
+    "image": "products-img/belkin-10k-%E5%B8%B6%E6%95%B4%E5%90%88%E5%BC%8F%E9%9B%BB%E7%B7%9A-bpb021bt.png",
     "desc": "Belkin UltraCharge Qi2 2合1 可折疊磁",
     "features": [
       "Belkin UltraCharge Qi2 2合1 可折疊磁"
@@ -9533,7 +9533,7 @@ const ALL_PRODUCTS = [
     "srp": 549.0,
     "msrp": 549.0,
     "res": 0.0,
-    "image": "products-img/25w-wiz039.png",
+    "image": "products-img/belkin-%E5%90%B8%E5%85%85%E9%9B%BB%E5%99%A825w-wiz039.png",
     "desc": "Belkin UltraCharge Qi2 3合1",
     "features": [
       "Belkin UltraCharge Qi2 3合1"
@@ -9547,7 +9547,7 @@ const ALL_PRODUCTS = [
     "srp": 899.0,
     "msrp": 899.0,
     "res": 0.0,
-    "image": "products-img/25w-wiz037.png",
+    "image": "products-img/belkin-%E5%8F%AF%E6%8A%98%E7%96%8A%E7%A3%81%E5%90%B8%E5%85%85%E9%9B%BB%E5%99%A825w-wiz037.png",
     "desc": "Belkin UltraCharge Pro Qi2",
     "features": [
       "Belkin UltraCharge Pro Qi2"
@@ -9561,7 +9561,7 @@ const ALL_PRODUCTS = [
     "srp": 999.0,
     "msrp": 999.0,
     "res": 0.0,
-    "image": "products-img/3-1-25w-wiz040.png",
+    "image": "products-img/belkin-3%E5%90%881-%E7%A3%81%E5%90%B8%E5%85%85%E9%9B%BB%E5%BA%A7-25w-wiz040.png",
     "desc": "Belkin HDMI Cable with Ethernet",
     "features": [
       "Belkin HDMI Cable with Ethernet"
@@ -9575,7 +9575,7 @@ const ALL_PRODUCTS = [
     "srp": 98.0,
     "msrp": 98.0,
     "res": 0.0,
-    "image": "products-img/4k-ultra-hd-compatible.png",
+    "image": "products-img/belkin-4kultra-hd-compatible.png",
     "desc": "Belkin BOOST↑CHARGE PRO",
     "features": [
       "Belkin BOOST↑CHARGE PRO"
@@ -9589,7 +9589,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/65w.png",
+    "image": "products-img/belkin-65w-%E5%AE%B6%E7%94%A8%E5%BC%8F%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "Belkin 混合式家用充電器 25W + 行動電源",
     "features": [
       "Belkin 混合式家用充電器 25W + 行動電源"
@@ -9603,7 +9603,7 @@ const ALL_PRODUCTS = [
     "srp": 268.0,
     "msrp": 268.0,
     "res": 0.0,
-    "image": "products-img/5k.png",
+    "image": "products-img/belkin-5k-%E6%97%85%E8%A1%8C%E9%81%A9%E9%85%8D%E5%99%A8%E5%A5%97%E4%BB%B6.png",
     "desc": "Belkin WCH018 BoostCharge Pro",
     "features": [
       "Belkin WCH018 BoostCharge Pro"
@@ -9617,7 +9617,7 @@ const ALL_PRODUCTS = [
     "srp": 469.0,
     "msrp": 469.0,
     "res": 0.0,
-    "image": "products-img/7-1.png",
+    "image": "products-img/belkin-7%E5%90%881-%E5%A4%9A%E5%9F%A0%E6%93%B4%E5%85%85%E5%BA%A7.png",
     "desc": "Belkin CONNECT™ USB-C",
     "features": [
       "Belkin CONNECT™ USB-C"
@@ -9631,7 +9631,7 @@ const ALL_PRODUCTS = [
     "srp": 138.0,
     "msrp": 138.0,
     "res": 0.0,
-    "image": "products-img/amg-ct.png",
+    "image": "products-img/amg-amg-ct-%E5%85%85%E9%9B%BB%E5%82%B3%E8%BC%B8%E7%B7%9A.png",
     "desc": "",
     "features": []
   },
@@ -9643,7 +9643,7 @@ const ALL_PRODUCTS = [
     "srp": 398.0,
     "msrp": 398.0,
     "res": 0.0,
-    "image": "products-img/qi2-5-1.png",
+    "image": "products-img/amg-qi2-%E7%A3%81%E5%90%B85%E5%90%881%E4%B8%89%E6%91%BA%E5%90%88%E5%BC%8F%E7%84%A1%E7%B7%9A%E5%BA%A7%E5%85%85.png",
     "desc": "AMG-CT",
     "features": [
       "AMG-CT"
@@ -9657,7 +9657,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/vx-3.png",
+    "image": "products-img/amg-vx-3-%E8%BB%8A%E8%BC%89%E7%A3%81%E5%90%B8%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB%E6%9E%B6.png",
     "desc": "AMG-CT VX-5",
     "features": [
       "AMG-CT VX-5"
@@ -9671,7 +9671,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/gan-65w.png",
+    "image": "products-img/amg-gan-65w-%E5%BF%AB%E9%80%9F%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "AMG TX75",
     "features": [
       "AMG TX75"
@@ -9685,7 +9685,7 @@ const ALL_PRODUCTS = [
     "srp": 328.0,
     "msrp": 328.0,
     "res": 0.0,
-    "image": "products-img/75w.png",
+    "image": "products-img/amg-75w-%E5%85%A8%E7%90%83%E6%97%85%E8%A1%8C%E8%BD%89%E6%8F%92%E7%81%AB.png",
     "desc": "",
     "features": []
   },
@@ -9697,7 +9697,7 @@ const ALL_PRODUCTS = [
     "srp": 338.0,
     "msrp": 338.0,
     "res": 0.0,
-    "image": "products-img/10000mah-powerbank-ccc-qrcode.png",
+    "image": "products-img/amg-10000mah-powerbank-ccc-qrcode%E7%89%88.png",
     "desc": "AMG-CT EX-R 10000mAh",
     "features": [
       "AMG-CT EX-R 10000mAh"
@@ -9711,7 +9711,7 @@ const ALL_PRODUCTS = [
     "srp": 368.0,
     "msrp": 368.0,
     "res": 0.0,
-    "image": "products-img/magsafe.png",
+    "image": "products-img/amg-magsafe-%E7%A3%81%E5%90%B8%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "AMG-CTMi-35W",
     "features": [
       "AMG-CTMi-35W"
@@ -9725,7 +9725,7 @@ const ALL_PRODUCTS = [
     "srp": 328.0,
     "msrp": 328.0,
     "res": 0.0,
-    "image": "products-img/65w-20000-mah.png",
+    "image": "products-img/amg-65w-20000-mah.png",
     "desc": "",
     "features": []
   },
@@ -9737,7 +9737,7 @@ const ALL_PRODUCTS = [
     "srp": 208.0,
     "msrp": 208.0,
     "res": 0.0,
-    "image": "products-img/magsafe-5000mah.png",
+    "image": "products-img/amg-magsafe-%E5%A4%96%E7%BD%AE%E9%9B%BB-5000mah.png",
     "desc": "AMG SU-12+ MagSafe 外置電",
     "features": [
       "AMG SU-12+ MagSafe 外置電"
@@ -9751,7 +9751,7 @@ const ALL_PRODUCTS = [
     "srp": 288.0,
     "msrp": 288.0,
     "res": 0.0,
-    "image": "products-img/magsafe-powerbank.png",
+    "image": "products-img/amg-magsafe-powerbank.png",
     "desc": "AMG-CT DX-35 qi2 Certified",
     "features": [
       "AMG-CT DX-35 qi2 Certified"
@@ -9765,7 +9765,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/10000mah.png",
+    "image": "products-img/borofone-10000mah.png",
     "desc": "JTec JX-10 MagSafe",
     "features": [
       "JTec JX-10 MagSafe"
@@ -9779,7 +9779,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/4.png",
+    "image": "products-img/borofone-%E7%A3%81%E5%90%B8%E5%B8%B64%E7%B7%9A%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB.png",
     "desc": "JTec 7000mAh Powerbank",
     "features": [
       "JTec 7000mAh Powerbank"
@@ -9793,7 +9793,7 @@ const ALL_PRODUCTS = [
     "srp": 158.0,
     "msrp": 158.0,
     "res": 0.0,
-    "image": "products-img/magsafe-5000-mah.png",
+    "image": "products-img/borofone-magsafe-%E5%A4%96%E7%BD%AE%E9%9B%BB-5000-mah.png",
     "desc": "BOROFONE DH3",
     "features": [
       "BOROFONE DH3"
@@ -9807,7 +9807,7 @@ const ALL_PRODUCTS = [
     "srp": 68.0,
     "msrp": 68.0,
     "res": 0.0,
-    "image": "products-img/3usb-adapter.png",
+    "image": "products-img/borofone-3usb-adapter.png",
     "desc": "BOROFONE BA100B",
     "features": [
       "BOROFONE BA100B"
@@ -9821,7 +9821,7 @@ const ALL_PRODUCTS = [
     "srp": 168.0,
     "msrp": 168.0,
     "res": 0.0,
-    "image": "products-img/bq16.png",
+    "image": "products-img/borofone-bq16-%E7%84%A1%E7%B7%9A%E5%85%85%E9%9B%BB%E6%A1%8C%E9%9D%A2%E6%9E%B6.png",
     "desc": "BOROFONE BG14",
     "features": [
       "BOROFONE BG14"
@@ -9835,7 +9835,7 @@ const ALL_PRODUCTS = [
     "srp": 68.0,
     "msrp": 68.0,
     "res": 0.0,
-    "image": "products-img/pd20w.png",
+    "image": "products-img/borofone-pd20w-%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "20 get 3, 50 get 8 free",
     "features": [
       "20 get 3, 50 get 8 free"
@@ -9849,7 +9849,7 @@ const ALL_PRODUCTS = [
     "srp": 68.0,
     "msrp": 68.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/borofone-%E9%96%83%E7%87%88%E8%97%8D%E7%89%99%E5%96%87%E5%8F%AD.png",
     "desc": "20 get 3, 50 get 8 free | BOROFONE BV16",
     "features": [
       "20 get 3, 50 get 8 free",
@@ -9864,7 +9864,7 @@ const ALL_PRODUCTS = [
     "srp": 68.0,
     "msrp": 68.0,
     "res": 0.0,
-    "image": "products-img/type-c-to-3-5mm.png",
+    "image": "products-img/borofone-type-c-to-35mm-%E9%9F%B3%E8%A8%8A%E8%BD%89%E6%8F%9B%E5%99%A8.png",
     "desc": "BOROFONE BW39",
     "features": [
       "BOROFONE BW39"
@@ -9878,7 +9878,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/borofone-%E5%8D%8A%E5%85%A5%E8%80%B3%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "Borofone BM88 TypeC",
     "features": [
       "Borofone BM88 TypeC"
@@ -9892,7 +9892,7 @@ const ALL_PRODUCTS = [
     "srp": 99.0,
     "msrp": 99.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/borofone-%E9%80%9A%E7%94%A8%E5%B8%B6%E9%BA%A5%E8%80%B3%E6%A9%9F%E6%9C%89%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "20 get 3, 50 get 8 free | BOROFONE BM100",
     "features": [
       "20 get 3, 50 get 8 free",
@@ -9907,7 +9907,7 @@ const ALL_PRODUCTS = [
     "srp": 99.0,
     "msrp": 99.0,
     "res": 0.0,
-    "image": "products-img/type-c.png",
+    "image": "products-img/borofone-%E6%95%B8%E5%AD%97%E8%A7%A3%E7%A2%BC%E7%89%88%E6%9C%ACtype-c-%E6%9C%89%E7%B7%9A%E8%80%B3%E6%A9%9F.png",
     "desc": "50 get 8 free | BOROFONE BO37",
     "features": [
       "50 get 8 free",
@@ -9922,7 +9922,7 @@ const ALL_PRODUCTS = [
     "srp": 209.0,
     "msrp": 209.0,
     "res": 0.0,
-    "image": "products-img/airpods-pro-pro2.png",
+    "image": "products-img/garmma-airpods-pro-pro2-%E4%BF%9D%E8%AD%B7%E5%A5%97.png",
     "desc": "GARMMA CHIIKAWA",
     "features": [
       "GARMMA CHIIKAWA"
@@ -9936,7 +9936,7 @@ const ALL_PRODUCTS = [
     "srp": 128.0,
     "msrp": 128.0,
     "res": 0.0,
-    "image": "products-img/pd.png",
+    "image": "products-img/garmma-pd%E5%BF%AB%E5%85%85%E5%A4%9A%E5%90%88%E4%B8%80%E4%BC%B8%E7%B8%AE%E5%85%85%E9%9B%BB%E7%B7%9A.png",
     "desc": "GARMMA CHIIKAWA",
     "features": [
       "GARMMA CHIIKAWA"
@@ -9950,7 +9950,7 @@ const ALL_PRODUCTS = [
     "srp": 108.0,
     "msrp": 108.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/garmma-%E7%A3%81%E5%90%B8%E6%B0%A3%E5%9B%8A%E6%94%AF%E6%9E%B6.png",
     "desc": "GARMMA Chiikawa 系列 Type-c to",
     "features": [
       "GARMMA Chiikawa 系列 Type-c to"
@@ -9964,7 +9964,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/10000mah.png",
+    "image": "products-img/garmma-10000mah-%E7%A3%81%E5%90%B8%E5%B8%B6%E7%B7%9A%E4%BA%94%E5%90%88%E4%B8%80%E5%8B%95%E9%9B%BB%E6%BA%90.png",
     "desc": "GARMMA iPhone 17系列 | CHIIKAWA卡通磁吸款保護殼",
     "features": [
       "GARMMA iPhone 17系列",
@@ -9979,7 +9979,7 @@ const ALL_PRODUCTS = [
     "srp": 328.0,
     "msrp": 328.0,
     "res": 0.0,
-    "image": "products-img/chiikawa.png",
+    "image": "products-img/chiikawa-chiikawa%E5%8D%A1%E9%80%9A%E7%A3%81%E5%90%B8%E6%AC%BE%E4%BF%9D%E8%AD%B7%E6%AE%BC.png",
     "desc": "GARMMA CHIIKAWA",
     "features": [
       "GARMMA CHIIKAWA"
@@ -9993,7 +9993,7 @@ const ALL_PRODUCTS = [
     "srp": 178.0,
     "msrp": 178.0,
     "res": 0.0,
-    "image": "products-img/80-x-40cm.png",
+    "image": "products-img/garmma-%E6%A1%8C%E5%A2%8A%E6%AC%BE%E6%BB%91%E9%BC%A0%E5%A2%8A-80-x-40cm.png",
     "desc": "GARMMA CHIIKAWA",
     "features": [
       "GARMMA CHIIKAWA"
@@ -10007,7 +10007,7 @@ const ALL_PRODUCTS = [
     "srp": 68.0,
     "msrp": 68.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/garmma-%E5%A4%A7%E9%A0%AD%E6%BB%91%E9%BC%A0%E5%A2%8A.png",
     "desc": "",
     "features": []
   },
@@ -10019,7 +10019,7 @@ const ALL_PRODUCTS = [
     "srp": 148.0,
     "msrp": 148.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/garmma-%E7%8F%8D%E7%8F%A0%E5%90%8A%E9%A3%BE%E6%89%8B%E6%A9%9F%E9%98%B2%E4%B8%9F%E6%8E%9B%E7%B9%A9.png",
     "desc": "GARMMA SANRIO/小新",
     "features": [
       "GARMMA SANRIO/小新"
@@ -10033,7 +10033,7 @@ const ALL_PRODUCTS = [
     "srp": 145.0,
     "msrp": 145.0,
     "res": 0.0,
-    "image": "products-img/sanrio.png",
+    "image": "products-img/sanrio-sanrio%E6%8B%8D%E6%8B%8D%E7%87%88%E7%9B%B2%E7%9B%92-%E9%A6%AC%E5%8D%A1%E9%BE%8D%E7%B3%BB%E5%88%97-%E7%9B%92.png",
     "desc": "6pcs up $78 | GARMMA SANRIO",
     "features": [
       "6pcs up $78",
@@ -10048,7 +10048,7 @@ const ALL_PRODUCTS = [
     "srp": 178.0,
     "msrp": 178.0,
     "res": 0.0,
-    "image": "products-img/160cm-36cm.png",
+    "image": "products-img/garmma-%E5%85%AC%E4%BB%94%E5%90%8A%E9%A3%BE%E7%B7%A8%E7%B9%94%E6%89%8B%E6%A9%9F%E8%83%8C%E5%B8%B6-160cm-%E9%98%B2%E4%B8%9F%E6%8E%9B%E7%B9%A9-36cm.png",
     "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢. | GARMMA 蠟筆小新",
     "features": [
       "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
@@ -10063,7 +10063,7 @@ const ALL_PRODUCTS = [
     "srp": 249.0,
     "msrp": 249.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/garmma-%E5%85%AC%E4%BB%94%E4%BA%8C%E5%90%88%E5%8F%AF%E6%8B%86%E5%BC%8F%E8%83%8C%E5%B8%B6.png",
     "desc": "GARMMA SANRIO",
     "features": [
       "GARMMA SANRIO"
@@ -10077,7 +10077,7 @@ const ALL_PRODUCTS = [
     "srp": 268.0,
     "msrp": 268.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/garmma-%E7%A3%81%E5%90%B8%E7%9A%AE%E6%9E%B6%E5%8D%A1%E5%8C%85.png",
     "desc": "GARMMA Hello Kitty",
     "features": [
       "GARMMA Hello Kitty"
@@ -10091,7 +10091,7 @@ const ALL_PRODUCTS = [
     "srp": 118.0,
     "msrp": 118.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/garmma-%E5%B8%83%E5%81%B6%E5%90%8A%E9%A3%BE%E6%89%8B%E6%A9%9F%E6%9E%B6.png",
     "desc": "GARMMA SANRIO",
     "features": [
       "GARMMA SANRIO"
@@ -10105,7 +10105,7 @@ const ALL_PRODUCTS = [
     "srp": 209.0,
     "msrp": 209.0,
     "res": 0.0,
-    "image": "products-img/airpods-pro-pro2.png",
+    "image": "products-img/garmma-%E7%AB%8B%E9%AB%94%E6%AC%BE-airpods-pro-pro2-%E4%BF%9D%E8%AD%B7%E5%A5%97.png",
     "desc": "",
     "features": []
   },
@@ -10117,7 +10117,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/tws-24.jpeg",
+    "image": "products-img/sanrio-%E7%9C%9F%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9Ftws-24.jpeg",
     "desc": "Disney 系列",
     "features": [
       "Disney 系列"
@@ -10131,7 +10131,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/ipad.jpeg",
+    "image": "products-img/sanrio-ipad-%E5%B0%88%E9%9B%BB%E5%AE%B9%E7%AD%86.jpeg",
     "desc": "i-Smart x Hong Man",
     "features": [
       "i-Smart x Hong Man"
@@ -10145,7 +10145,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/i-smart-x-hong-man.jpeg",
+    "image": "products-img/sanrio-i-smart-x-hong-man.png",
     "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
     "features": [
       "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢."
@@ -10159,7 +10159,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/sanrio-%E6%99%BA%E8%83%BD%E9%9B%BB%E7%85%AE%E9%8D%8B.png",
     "desc": "專用蒸架 $20 | Sanrio x Mone",
     "features": [
       "專用蒸架 $20",
@@ -10174,7 +10174,7 @@ const ALL_PRODUCTS = [
     "srp": 328.0,
     "msrp": 328.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/sanrio-%E9%8B%B0%E9%9B%BB%E6%B1%A0%E9%98%B2%E7%88%86%E8%A2%8B.png",
     "desc": "小燦 x Mone",
     "features": [
       "小燦 x Mone"
@@ -10188,7 +10188,7 @@ const ALL_PRODUCTS = [
     "srp": 168.0,
     "msrp": 168.0,
     "res": 0.0,
-    "image": "products-img/15.png",
+    "image": "products-img/sanrio-15%E5%90%8B%E6%89%8B%E6%8F%90%E7%90%86%E5%96%BC.png",
     "desc": "Sanrio x Mone",
     "features": [
       "Sanrio x Mone"
@@ -10202,7 +10202,7 @@ const ALL_PRODUCTS = [
     "srp": 198.0,
     "msrp": 198.0,
     "res": 0.0,
-    "image": "products-img/360.png",
+    "image": "products-img/sanrio-360%E5%BA%A6%E8%BD%89%E9%A0%AD%E5%85%A8%E6%96%B9%E4%BD%8D%E6%B8%85%E6%B4%97%E7%89%99%E7%B7%9A%E6%A9%9F.png",
     "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢. | Sanrio x Mone",
     "features": [
       "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
@@ -10217,7 +10217,7 @@ const ALL_PRODUCTS = [
     "srp": 338.0,
     "msrp": 338.0,
     "res": 0.0,
-    "image": "products-img/usb.png",
+    "image": "products-img/sanrio-usb-%E9%9B%BB%E7%86%B1%E6%9A%96%E6%AF%AF.png",
     "desc": "",
     "features": []
   },
@@ -10229,7 +10229,7 @@ const ALL_PRODUCTS = [
     "srp": 239.0,
     "msrp": 239.0,
     "res": 0.0,
-    "image": "products-img/cb-pbl2-6800mah.png",
+    "image": "products-img/cluebox-cb-pbl2-6800mah-%E6%B5%81%E5%8B%95%E5%BF%AB%E9%80%9F%E5%85%85%E9%9B%BB%E6%B1%A0.png",
     "desc": "(Lightning 及 TypeC款)",
     "features": [
       "(Lightning 及 TypeC款)"
@@ -10243,7 +10243,7 @@ const ALL_PRODUCTS = [
     "srp": 89.0,
     "msrp": 89.0,
     "res": 0.0,
-    "image": "products-img/3-1.png",
+    "image": "products-img/sparrow-3%E5%90%881%E9%9B%99%E9%9D%A2%E6%9A%96%E6%89%8B%E8%9B%8B.png",
     "desc": "Sparrow Kids KM01-BT",
     "features": [
       "Sparrow Kids KM01-BT"
@@ -10257,7 +10257,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/karaoke.png",
+    "image": "products-img/cluebox-%E4%BA%BA%E6%B0%A3%E5%85%92%E7%AB%A5%E7%84%A1%E7%B7%9Akaraoke%E8%97%8D%E7%89%99%E5%96%87%E5%8F%AD%E9%80%A3%E5%92%AA.png",
     "desc": "Clue Box x Sanrio Character 串珠吊",
     "features": [
       "Clue Box x Sanrio Character 串珠吊"
@@ -10271,7 +10271,7 @@ const ALL_PRODUCTS = [
     "srp": 169.0,
     "msrp": 169.0,
     "res": 0.0,
-    "image": "products-img/cb-phb-l2.png",
+    "image": "products-img/cluebox-%E9%A3%BE%E6%89%8B%E5%B8%B6%E6%9A%96%E5%99%A8-cb-phb-l2.png",
     "desc": "Clue Box x Sanrio 2合1 充電器& SD讀",
     "features": [
       "Clue Box x Sanrio 2合1 充電器& SD讀"
@@ -10285,7 +10285,7 @@ const ALL_PRODUCTS = [
     "srp": 239.0,
     "msrp": 239.0,
     "res": 0.0,
-    "image": "products-img/5000mah-cb-pbl3.png",
+    "image": "products-img/cluebox-%E5%8D%A1%E5%99%A85000mah-cb-pbl3.png",
     "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
     "features": [
       "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢."
@@ -10299,7 +10299,7 @@ const ALL_PRODUCTS = [
     "srp": 189.0,
     "msrp": 189.0,
     "res": 0.0,
-    "image": "products-img/cb-phb-l3.png",
+    "image": "products-img/cluebox-%E6%89%8B%E5%99%A8-%E5%BC%B7%E5%85%89%E9%9B%BB%E7%AD%92%E9%80%A3%E5%8F%AF%E6%84%9B%E5%B1%AC%E5%90%8A%E9%A3%BE%E6%8E%9B%E9%8F%88-cb-phb-l3.png",
     "desc": "ClueBox x Sanrio 6合1 數據/充電電線",
     "features": [
       "ClueBox x Sanrio 6合1 數據/充電電線"
@@ -10313,7 +10313,7 @@ const ALL_PRODUCTS = [
     "srp": 159.0,
     "msrp": 159.0,
     "res": 0.0,
-    "image": "products-img/cb-usb-kit.png",
+    "image": "products-img/cluebox-%E5%A5%97%E4%BB%B6%E9%80%A3%E9%8F%A1%E7%9B%92-cb-usb-kit.png",
     "desc": "",
     "features": []
   },
@@ -10325,7 +10325,7 @@ const ALL_PRODUCTS = [
     "srp": 244.0,
     "msrp": 244.0,
     "res": 0.0,
-    "image": "products-img/4-1.png",
+    "image": "products-img/miffy-4%E5%90%881-%E6%B7%A8%E6%BB%91%E5%89%83%E6%AF%9B%E5%99%A8.png",
     "desc": "20pcs up $140 | Miffy MIF21",
     "features": [
       "20pcs up $140",
@@ -10340,7 +10340,7 @@ const ALL_PRODUCTS = [
     "srp": 159.0,
     "msrp": 159.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/miffy-%E5%A4%9A%E5%8A%9F%E8%83%BD%E9%8F%A1%E9%9D%A2%E9%AC%A7%E9%90%98.png",
     "desc": "Miffy MIF23 快速 PD3.0 65W USB-C",
     "features": [
       "Miffy MIF23 快速 PD3.0 65W USB-C"
@@ -10354,7 +10354,7 @@ const ALL_PRODUCTS = [
     "srp": 258.0,
     "msrp": 258.0,
     "res": 0.0,
-    "image": "products-img/usb-a-gan.png",
+    "image": "products-img/miffy-%E5%8F%8A-usb-a-gan-%E4%B8%89%E6%8E%A5%E5%8F%A3%E5%85%85%E9%9B%BB%E5%99%A8.png",
     "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢. | Miffy MIF20",
     "features": [
       "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
@@ -10369,7 +10369,7 @@ const ALL_PRODUCTS = [
     "srp": 219.0,
     "msrp": 219.0,
     "res": 0.0,
-    "image": "products-img/pd3-0-2a1c-4.png",
+    "image": "products-img/miffy-pd30-2a1c-4%E4%BD%8D%E9%9B%BB%E6%BA%90%E6%8B%96%E6%9D%BF.png",
     "desc": "Miffy MIF25",
     "features": [
       "Miffy MIF25"
@@ -10383,7 +10383,7 @@ const ALL_PRODUCTS = [
     "srp": 258.0,
     "msrp": 258.0,
     "res": 0.0,
-    "image": "products-img/led-7-5.png",
+    "image": "products-img/miffy-led-75-%E5%AD%90%E5%8C%96%E5%A6%9D%E9%8F%A1.png",
     "desc": "20pcs up $140 | Miffy MIF33",
     "features": [
       "20pcs up $140",
@@ -10398,7 +10398,7 @@ const ALL_PRODUCTS = [
     "srp": 189.0,
     "msrp": 189.0,
     "res": 0.0,
-    "image": "products-img/usb-type-c.png",
+    "image": "products-img/miffy-usb-type-c-%E6%97%85%E8%A1%8C%E7%9B%B4%E9%AB%AE%E5%99%A8.png",
     "desc": "",
     "features": []
   },
@@ -10410,7 +10410,7 @@ const ALL_PRODUCTS = [
     "srp": 168.0,
     "msrp": 168.0,
     "res": 0.0,
-    "image": "products-img/air-tracker-tag.png",
+    "image": "products-img/miffy-%E9%98%B2%E7%8B%BC%E8%BF%BD%E8%B9%A4%E8%AD%A6%E5%A0%B1%E5%99%A8-air-tracker-tag.png",
     "desc": "Miffy MM03",
     "features": [
       "Miffy MM03"
@@ -10424,7 +10424,7 @@ const ALL_PRODUCTS = [
     "srp": 229.0,
     "msrp": 229.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/miffy-%E6%95%B8%E4%BD%8D%E8%B8%8F%E6%AD%A5%E9%AB%98%E7%B2%BE%E6%BA%96%E5%BA%A6%E9%AB%94%E9%87%8D%E7%A7%A4.png",
     "desc": "20pcs $130, 40pcs up $120 | Miffy MBS100",
     "features": [
       "20pcs $130, 40pcs up $120",
@@ -10439,7 +10439,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/miffy-%E9%80%A0%E5%9E%8B%E8%97%8D%E7%89%99%E9%9F%B3%E9%9F%BF.png",
     "desc": "Miffy MIF29",
     "features": [
       "Miffy MIF29"
@@ -10453,7 +10453,7 @@ const ALL_PRODUCTS = [
     "srp": 149.0,
     "msrp": 149.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/miffy-%E5%9D%90%E6%AA%AF%E9%9B%99%E9%A2%A8%E6%89%87.png",
     "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢. | Miffy MIF19",
     "features": [
       "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
@@ -10468,7 +10468,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/miffy-%E6%B0%B4%E6%99%B6%E7%90%83%E5%8A%A0%E6%BF%95%E6%A9%9F.png",
     "desc": "Miffy BTL001",
     "features": [
       "Miffy BTL001"
@@ -10482,7 +10482,7 @@ const ALL_PRODUCTS = [
     "srp": 149.0,
     "msrp": 149.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/miffy-%E5%85%85%E9%9B%BB%E6%84%9F%E6%87%89%E5%A4%9C%E7%87%88.png",
     "desc": "Miffy TD18",
     "features": [
       "Miffy TD18"
@@ -10496,7 +10496,7 @@ const ALL_PRODUCTS = [
     "srp": 189.0,
     "msrp": 189.0,
     "res": 0.0,
-    "image": "products-img/pro.png",
+    "image": "products-img/miffy-%E8%97%8D%E7%89%99%E7%84%A1%E7%B7%9A%E8%80%B3%E6%A9%9F-pro-%E7%B2%89%E7%B4%85%E8%89%B2.png",
     "desc": "三折式藍牙鍵盤",
     "features": [
       "三折式藍牙鍵盤"
@@ -10510,7 +10510,7 @@ const ALL_PRODUCTS = [
     "srp": 218.0,
     "msrp": 218.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/miffy-%E4%B8%89%E6%8A%98%E5%BC%8F%E8%97%8D%E7%89%99%E9%8D%B5%E7%9B%A4.png",
     "desc": "",
     "features": []
   },
@@ -10522,7 +10522,7 @@ const ALL_PRODUCTS = [
     "srp": 179.0,
     "msrp": 179.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/miffy-%E7%85%99%E5%9B%AA%E5%B0%8F%E5%B1%8B%E5%8A%A0%E6%BF%95%E5%99%A8.png",
     "desc": "Miffy  BTA700",
     "features": [
       "Miffy  BTA700"
@@ -10536,7 +10536,7 @@ const ALL_PRODUCTS = [
     "srp": 171.0,
     "msrp": 171.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/miffy-%E9%9B%99%E5%99%B4%E9%9C%A7%E5%8A%A0%E6%BF%95%E5%99%A8.png",
     "desc": "Miffy CI502-MF-PK",
     "features": [
       "Miffy CI502-MF-PK"
@@ -10550,7 +10550,7 @@ const ALL_PRODUCTS = [
     "srp": 319.0,
     "msrp": 319.0,
     "res": 0.0,
-    "image": "products-img/3d.png",
+    "image": "products-img/miffy-%E5%8F%AF%E6%8A%98%E7%96%8A3d%E7%9C%BC%E9%83%A8%E6%8C%89%E6%91%A9%E5%99%A8.png",
     "desc": "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢.",
     "features": [
       "*卡通系列產品款式眾多，如需個別圖文請向本公司SALES查詢."
@@ -10564,7 +10564,7 @@ const ALL_PRODUCTS = [
     "srp": 899.0,
     "msrp": 899.0,
     "res": 0.0,
-    "image": "products-img/eva-earphone-001.png",
+    "image": "products-img/miffy-eva-earphone-001.png",
     "desc": "E Audio x EVANGELION",
     "features": [
       "E Audio x EVANGELION"
@@ -10578,7 +10578,7 @@ const ALL_PRODUCTS = [
     "srp": 98.0,
     "msrp": 98.0,
     "res": 0.0,
-    "image": "products-img/68-90-139.png",
+    "image": "products-img/miffy-6890139.png",
     "desc": "E AUDIO x EVANGELION",
     "features": [
       "E AUDIO x EVANGELION"
@@ -10592,7 +10592,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/miffy-%E6%96%B0%E4%B8%96%E7%B4%80%E7%A6%8F%E9%9F%B3%E6%88%B0%E6%97%8B%E9%A2%A8%E6%8C%81%E9%A2%A8%E6%89%87.png",
     "desc": "Miffy MIF28",
     "features": [
       "Miffy MIF28"
@@ -10606,7 +10606,7 @@ const ALL_PRODUCTS = [
     "srp": 119.0,
     "msrp": 119.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/miffy-%E8%BF%B7%E4%BD%A0%E6%89%8B%E6%8C%81%E9%A2%A8%E6%89%87.png",
     "desc": "",
     "features": []
   },
@@ -10618,7 +10618,7 @@ const ALL_PRODUCTS = [
     "srp": 188.0,
     "msrp": 188.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/yohome-%E5%8B%BE%E6%8E%9B%E5%BC%8F%E7%84%A1%E7%B7%9A%E4%BE%BF%E6%94%9C%E9%A2%A8%E6%89%87.png",
     "desc": "SAVEWO  AirFlow | SAVEWO AirFlow ClipFan",
     "features": [
       "SAVEWO  AirFlow",
@@ -10633,7 +10633,7 @@ const ALL_PRODUCTS = [
     "srp": 99.0,
     "msrp": 99.0,
     "res": 0.0,
-    "image": "products-img/af-mf01.png",
+    "image": "products-img/yohome-af-mf01-%E5%A4%9A%E5%8A%9F%E8%83%BD%E5%A4%BE%E6%89%87.png",
     "desc": "SAVEWO AirFlow Cool Fan",
     "features": [
       "SAVEWO AirFlow Cool Fan"
@@ -10647,7 +10647,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/yohome-%E4%BE%BF%E6%94%9C%E5%BC%8F%E5%86%B0%E6%84%9F%E9%A2%A8%E6%89%87.png",
     "desc": "RHYTHM Silky Wind Mini",
     "features": [
       "RHYTHM Silky Wind Mini"
@@ -10661,7 +10661,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/yohome-%E9%9B%99%E6%89%87%E8%91%89%E5%9D%90%E6%9E%B1%E9%A2%A8%E6%89%87.png",
     "desc": "SAVEWO AirFlow Cool Fan 2",
     "features": [
       "SAVEWO AirFlow Cool Fan 2"
@@ -10675,7 +10675,7 @@ const ALL_PRODUCTS = [
     "srp": 109.0,
     "msrp": 109.0,
     "res": 0.0,
-    "image": "products-img/gf04.png",
+    "image": "products-img/yohome-%E9%AB%98%E9%80%9F%E9%A2%A8%E6%89%87-gf04.png",
     "desc": "SIINCOS SC-DC06",
     "features": [
       "SIINCOS SC-DC06"
@@ -10689,7 +10689,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/pro.png",
+    "image": "products-img/yohome-%E6%A5%B5%E9%80%9F%E9%9B%BB%E6%A9%9F%E9%A2%B6%E9%A2%A8%E4%BE%BF%E6%94%9C%E9%A2%A8%E6%89%87pro.png",
     "desc": "Miffy MIF29",
     "features": [
       "Miffy MIF29"
@@ -10703,7 +10703,7 @@ const ALL_PRODUCTS = [
     "srp": 149.0,
     "msrp": 149.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/yohome-%E5%9D%90%E6%AA%AF%E9%9B%99%E9%A2%A8%E6%89%87.png",
     "desc": "",
     "features": []
   },
@@ -10715,7 +10715,7 @@ const ALL_PRODUCTS = [
     "srp": 899.0,
     "msrp": 899.0,
     "res": 0.0,
-    "image": "products-img/pro.png",
+    "image": "products-img/yohome-%E6%99%BA%E8%83%BD%E8%AA%9E%E9%9F%B3%E4%BC%B8%E7%B8%AE%E5%BE%AA%E7%92%B0%E6%89%87pro.png",
     "desc": "Yohome",
     "features": [
       "Yohome"
@@ -10729,7 +10729,7 @@ const ALL_PRODUCTS = [
     "srp": 469.0,
     "msrp": 469.0,
     "res": 0.0,
-    "image": "products-img/4d.png",
+    "image": "products-img/yohome-4d-%E5%85%A8%E6%96%B9%E4%BD%8D%E6%B7%A8%E5%8C%96%E7%9B%B4%E6%B5%81%E5%BE%AA%E7%92%B0%E6%89%87-%E7%B6%93%E5%85%B8%E6%AC%BE.png",
     "desc": "Miffy MIF28",
     "features": [
       "Miffy MIF28"
@@ -10743,7 +10743,7 @@ const ALL_PRODUCTS = [
     "srp": 119.0,
     "msrp": 119.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/yohome-%E8%BF%B7%E4%BD%A0%E6%89%8B%E6%8C%81%E9%A2%A8%E6%89%87.png",
     "desc": "Yohome",
     "features": [
       "Yohome"
@@ -10757,7 +10757,7 @@ const ALL_PRODUCTS = [
     "srp": 599.0,
     "msrp": 599.0,
     "res": 0.0,
-    "image": "products-img/4d.png",
+    "image": "products-img/yohome-4d%E5%85%A8%E6%96%B9%E4%BD%8D%E6%B7%A8%E5%8C%96%E7%9B%B4%E6%B5%81%E4%BC%B8%E7%B8%AE%E5%BE%AA%E7%92%B0%E6%89%87-%E6%AC%BE.png",
     "desc": "JNC - 5寸負離子座檯風扇",
     "features": [
       "JNC - 5寸負離子座檯風扇"
@@ -10771,7 +10771,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/hello-kitty.png",
+    "image": "products-img/yohome-hello-kitty.png",
     "desc": "Jisulife Life5 Plus FA27",
     "features": [
       "Jisulife Life5 Plus FA27"
@@ -10785,7 +10785,7 @@ const ALL_PRODUCTS = [
     "srp": 298.0,
     "msrp": 298.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/yohome-%E6%A1%8C%E4%B8%8A%E5%9E%8B%E5%85%85%E9%9B%BB%E9%A2%A8%E6%89%87.png",
     "desc": "YACHI Smart Wind",
     "features": [
       "YACHI Smart Wind"
@@ -10799,7 +10799,7 @@ const ALL_PRODUCTS = [
     "srp": 498.0,
     "msrp": 498.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/yohome-%E4%BE%BF%E6%94%9C%E5%BC%8F%E6%99%BA%E8%83%BD%E8%AA%9E%E9%9F%B3%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E9%A2%A8%E6%89%87.png",
     "desc": "YACHI 小型3D循環扇風機 | Treely Air Treely Fan TF-01",
     "features": [
       "YACHI 小型3D循環扇風機",
@@ -10814,7 +10814,7 @@ const ALL_PRODUCTS = [
     "srp": 548.0,
     "msrp": 548.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "",
     "desc": "",
     "features": []
   },
@@ -10826,7 +10826,7 @@ const ALL_PRODUCTS = [
     "srp": 569.0,
     "msrp": 569.0,
     "res": 0.0,
-    "image": "products-img/4l-hl200.png",
+    "image": "products-img/yohome-%E6%9A%96%E9%A2%A8%E4%B9%BE%E8%A1%A34l%E7%A9%BA%E9%96%93%E6%8A%BD%E6%BF%95%E6%A9%9F-hl200.png",
     "desc": "Yohome",
     "features": [
       "Yohome"
@@ -10840,7 +10840,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/yohome-%E7%9B%B4%E7%AB%8B%E6%99%BA%E8%83%BD%E5%AE%89%E5%85%A8%E6%94%B6%E7%B4%8D%E6%8B%96%E6%9D%BF.png",
     "desc": "Yohome 多功能泡燒溫控攪拌自清潔高效 | Yohome",
     "features": [
       "Yohome 多功能泡燒溫控攪拌自清潔高效",
@@ -10855,7 +10855,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/yohome-%E4%BE%BF%E9%A3%B2%E5%81%A5%E5%BA%B7%E6%9D%AF.png",
     "desc": "Yohome",
     "features": [
       "Yohome"
@@ -10869,7 +10869,7 @@ const ALL_PRODUCTS = [
     "srp": 259.0,
     "msrp": 259.0,
     "res": 0.0,
-    "image": "products-img/pro.png",
+    "image": "products-img/yohome-%E4%BB%BF%E7%94%9F%E9%9B%BB%E6%93%8A%E8%AA%98%E9%A9%85%E9%9B%99%E6%95%88%E6%BB%85%E8%9A%8A%E6%A9%9F-pro.png",
     "desc": "",
     "features": []
   },
@@ -10881,7 +10881,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/pro.png",
+    "image": "products-img/usatisfy-%E4%BA%BA%E8%87%89%E8%BF%BD%E8%B9%A4%E5%85%A8%E4%BD%8D%E6%8F%90%E6%94%9D%E7%BE%8E%E6%8B%8D%E6%A1%BF-pro.png",
     "desc": "USATISFY SuperCharge快充無線有線多設",
     "features": [
       "USATISFY SuperCharge快充無線有線多設"
@@ -10895,7 +10895,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/pro-3-0-ct102.png",
+    "image": "products-img/usatisfy-%E6%8E%A2%E5%AE%88%E5%AE%B6%E5%B0%8D%E8%AC%9B%E9%AB%98%E6%B8%85%E6%94%9D%E9%8C%84%E6%A9%9Fpro-30-ct102.png",
     "desc": "Dou.Clean智控AirPure雙域大吸力三重強淨改性",
     "features": [
       "Dou.Clean智控AirPure雙域大吸力三重強淨改性"
@@ -10909,7 +10909,7 @@ const ALL_PRODUCTS = [
     "srp": 629.0,
     "msrp": 629.0,
     "res": 0.0,
-    "image": "products-img/5d-pro.png",
+    "image": "products-img/usatisfy-%E7%82%AD5d%E7%A5%9B%E5%91%B3%E9%99%A4%E8%8F%8C%E9%9D%9C%E9%9F%B3%E5%AF%B5%E7%89%A9%E7%B4%9A%E6%96%B0%E9%A2%A8%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E6%A9%9Fpro.png",
     "desc": "Dou.Clean",
     "features": [
       "Dou.Clean"
@@ -10923,7 +10923,7 @@ const ALL_PRODUCTS = [
     "srp": 999.0,
     "msrp": 999.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/usatisfy-%E5%AF%B5%E7%89%A9%E6%AF%9B%E5%BE%AE%E7%B2%92%E5%90%B8%E9%99%84%E7%A9%BA%E6%B0%A3%E6%A5%B5%E6%B7%A8%E6%A9%9F.png",
     "desc": "Dou.Clean 萬用電動清潔刷 PRO | Braun BNT400",
     "features": [
       "Dou.Clean 萬用電動清潔刷 PRO",
@@ -10938,7 +10938,7 @@ const ALL_PRODUCTS = [
     "srp": 269.0,
     "msrp": 269.0,
     "res": 0.0,
-    "image": "products-img/6.png",
+    "image": "products-img/usatisfy-6%E5%88%B7%E5%A5%97.png",
     "desc": "Braun BNT400",
     "features": [
       "Braun BNT400"
@@ -10952,7 +10952,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/usatisfy-%E5%85%8D%E6%8E%A5%E8%A7%B8%E9%A1%8D%E6%BA%AB%E6%A7%8D%E6%BA%AB%E5%BA%A6%E8%A8%88.png",
     "desc": "",
     "features": []
   },
@@ -10964,7 +10964,7 @@ const ALL_PRODUCTS = [
     "srp": 1288.0,
     "msrp": 1288.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/airbot-%E9%9B%99%E6%BB%BE%E7%AD%92%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E6%A9%9F.png",
     "desc": "FUTURE LAB",
     "features": [
       "FUTURE LAB"
@@ -10978,7 +10978,7 @@ const ALL_PRODUCTS = [
     "srp": 569.0,
     "msrp": 569.0,
     "res": 0.0,
-    "image": "products-img/mg1.png",
+    "image": "products-img/airbot-%E8%84%88%E5%A3%93%E6%BB%85%E6%B1%99%E7%A0%B2mg1.png",
     "desc": "Future Lab FG15050",
     "features": [
       "Future Lab FG15050"
@@ -10992,7 +10992,7 @@ const ALL_PRODUCTS = [
     "srp": 599.0,
     "msrp": 599.0,
     "res": 0.0,
-    "image": "products-img/gradit.png",
+    "image": "products-img/airbot-gradit-%E9%9A%A8%E8%A1%8C%E6%BA%AB%E6%8E%A7%E6%9D%AF.png",
     "desc": "Airbot Hypersonics MAX 33000Pa",
     "features": [
       "Airbot Hypersonics MAX 33000Pa"
@@ -11006,7 +11006,7 @@ const ALL_PRODUCTS = [
     "srp": 1999.0,
     "msrp": 1999.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/airbot-%E6%8B%96%E5%9C%B0%E5%90%B8%E5%A1%B5%E4%BA%8C%E5%90%88%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E6%A9%9F.png",
     "desc": "Airbot Hypersonics Pro",
     "features": [
       "Airbot Hypersonics Pro"
@@ -11020,7 +11020,7 @@ const ALL_PRODUCTS = [
     "srp": 1499.0,
     "msrp": 1499.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/airbot-%E6%99%BA%E8%83%BD%E7%84%A1%E7%B9%A9%E5%90%B8%E5%A1%B5%E5%99%A8%E6%89%8B%E6%8C%81%E5%BC%8F%E5%90%B8%E5%A1%B5%E5%99%A8.png",
     "desc": "Airbot Aura VC801",
     "features": [
       "Airbot Aura VC801"
@@ -11034,7 +11034,7 @@ const ALL_PRODUCTS = [
     "srp": 990.0,
     "msrp": 990.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/airbot-%E6%99%BA%E8%83%BD%E8%BC%95%E9%9F%B3%E9%99%8D%E5%99%AA%E7%84%A1%E7%B7%9A%E6%8F%90%E5%90%B8%E5%A1%B5%E6%A9%9F.png",
     "desc": "FUTURE LAB",
     "features": [
       "FUTURE LAB"
@@ -11048,7 +11048,7 @@ const ALL_PRODUCTS = [
     "srp": 799.0,
     "msrp": 799.0,
     "res": 0.0,
-    "image": "products-img/omni-air.png",
+    "image": "products-img/airbot-omni-air-%E5%85%A8%E5%9F%9F%E6%B0%A3%E6%B5%81%E6%89%87.png",
     "desc": "FUTURE LAB",
     "features": [
       "FUTURE LAB"
@@ -11062,7 +11062,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/vocon-white.png",
+    "image": "products-img/airbot-vocon-white-%E9%9F%B3%E6%84%9F%E6%BD%94%E5%88%B7.png",
     "desc": "Future Lab【Prime zone】",
     "features": [
       "Future Lab【Prime zone】"
@@ -11076,7 +11076,7 @@ const ALL_PRODUCTS = [
     "srp": 569.0,
     "msrp": 569.0,
     "res": 0.0,
-    "image": "products-img/stermidi.png",
+    "image": "products-img/airbot-stermidi-%E6%AE%BA%E8%8F%8C%E9%99%A4%E6%BF%95%E6%A9%9F%E2%85%B1.png",
     "desc": "",
     "features": []
   },
@@ -11088,7 +11088,7 @@ const ALL_PRODUCTS = [
     "srp": 299.0,
     "msrp": 299.0,
     "res": 0.0,
-    "image": "products-img/s1121-41.png",
+    "image": "products-img/ipeak-%E4%B9%BE%E6%BF%95%E5%85%A9%E9%9B%BB%E5%8B%95%E5%89%83%E9%AC%9A%E5%88%A8s112141.png",
     "desc": "FUTURE LAB",
     "features": [
       "FUTURE LAB"
@@ -11102,7 +11102,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/gc1.png",
+    "image": "products-img/ipeak-gc1-%E5%85%89%E8%83%BD%E6%B8%85%E6%B7%A8%E6%A9%9F.png",
     "desc": "FUTURE LAB",
     "features": [
       "FUTURE LAB"
@@ -11116,7 +11116,7 @@ const ALL_PRODUCTS = [
     "srp": 429.0,
     "msrp": 429.0,
     "res": 0.0,
-    "image": "products-img/gc2-2-0.png",
+    "image": "products-img/ipeak-gc2-%E5%85%89%E8%83%BD%E6%B8%85%E6%B7%A8%E6%A9%9F20.png",
     "desc": "FUTURE LAB",
     "features": [
       "FUTURE LAB"
@@ -11130,7 +11130,7 @@ const ALL_PRODUCTS = [
     "srp": 368.0,
     "msrp": 368.0,
     "res": 0.0,
-    "image": "products-img/nx7.png",
+    "image": "products-img/ipeak-nx7-%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E5%90%B8%E5%A1%B5%E5%99%A8.png",
     "desc": "FUTURE LAB",
     "features": [
       "FUTURE LAB"
@@ -11144,7 +11144,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/purefiltap.png",
+    "image": "products-img/ipeak-purefiltap-%E6%B7%A8%E6%BF%BE%E6%BF%BE%E8%8A%AF%E6%B0%B4%E9%BE%8D%E9%A0%AD.png",
     "desc": "Hyundai OC-012 IPX7",
     "features": [
       "Hyundai OC-012 IPX7"
@@ -11158,7 +11158,7 @@ const ALL_PRODUCTS = [
     "srp": 118.0,
     "msrp": 118.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/ipeak-%E9%9B%99%E5%B0%96%E5%88%B7%E6%AF%9B%E9%9B%BB%E5%8B%95%E7%89%99%E5%88%B7.png",
     "desc": "HYUNDAI",
     "features": [
       "HYUNDAI"
@@ -11172,7 +11172,7 @@ const ALL_PRODUCTS = [
     "srp": 199.0,
     "msrp": 199.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/ipeak-%E4%BC%B8%E7%B8%AE%E4%BE%BF%E6%94%9C%E6%B0%B4%E7%89%99%E7%B7%9A%E6%A9%9F.png",
     "desc": "Hyundai PMS-016",
     "features": [
       "Hyundai PMS-016"
@@ -11186,7 +11186,7 @@ const ALL_PRODUCTS = [
     "srp": 138.0,
     "msrp": 138.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "",
     "desc": "",
     "features": []
   },
@@ -11198,7 +11198,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/philips-%E7%84%A1%E7%B7%9A%E7%9B%B4%E9%AB%AE%E5%A4%BE.png",
     "desc": "Hyundai FC051",
     "features": [
       "Hyundai FC051"
@@ -11212,7 +11212,7 @@ const ALL_PRODUCTS = [
     "srp": 258.0,
     "msrp": 258.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/philips-%E4%B8%89%E6%91%BA%E5%BC%8F%E7%A7%BB%E5%8B%95%E4%BB%A3%E5%A6%9D%E9%8F%A1.png",
     "desc": "Medicube  Age-R Booster Pro",
     "features": [
       "Medicube  Age-R Booster Pro"
@@ -11226,7 +11226,7 @@ const ALL_PRODUCTS = [
     "srp": 1680.0,
     "msrp": 1680.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/philips-%E5%85%AD%E5%90%88%E4%B8%80%E6%99%BA%E6%85%A7%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%BE%8E%E5%AE%B9%E5%84%80.png",
     "desc": "SAVEWO Airflow HairDryer X119專",
     "features": [
       "SAVEWO Airflow HairDryer X119專"
@@ -11240,7 +11240,7 @@ const ALL_PRODUCTS = [
     "srp": 399.0,
     "msrp": 399.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/philips-%E6%A5%AD%E6%95%B8%E7%A2%BC%E6%81%86%E6%BA%AB%E8%B2%A0%E9%9B%A2%E5%AD%90%E8%AD%B7%E9%AB%AE%E9%A2%A8%E7%AD%92-%E5%9F%BA%E6%9C%AC%E8%A3%9D.png",
     "desc": "SAVEWO Airflow HairDryer X119專",
     "features": [
       "SAVEWO Airflow HairDryer X119專"
@@ -11254,7 +11254,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/philips-%E6%A5%AD%E6%95%B8%E7%A2%BC%E6%81%86%E6%BA%AB%E8%B2%A0%E9%9B%A2%E5%AD%90%E8%AD%B7%E9%AB%AE%E9%A2%A8%E7%AD%92-%E6%9C%80%E5%BC%B7%E5%A5%97%E8%A3%9D.png",
     "desc": "Savewo Ionic Brush",
     "features": [
       "Savewo Ionic Brush"
@@ -11268,7 +11268,7 @@ const ALL_PRODUCTS = [
     "srp": 398.0,
     "msrp": 398.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/philips-%E7%84%A1%E7%B7%9A%E8%B2%A0%E9%9B%A2%E5%AD%90%E7%9B%B4%E9%AB%AE%E6%A2%B3.png",
     "desc": "",
     "features": []
   },
@@ -11280,7 +11280,7 @@ const ALL_PRODUCTS = [
     "srp": 899.0,
     "msrp": 899.0,
     "res": 0.0,
-    "image": "products-img/be3-pro-2-5ge.png",
+    "image": "products-img/huawei-be3-pro-25ge.png",
     "desc": "Huawei 4G 隨行WiFi 5",
     "features": [
       "Huawei 4G 隨行WiFi 5"
@@ -11294,7 +11294,7 @@ const ALL_PRODUCTS = [
     "srp": 799.0,
     "msrp": 799.0,
     "res": 0.0,
-    "image": "products-img/wi-fi-6.png",
+    "image": "products-img/huawei-%E9%9B%99%E9%A0%BBwi-fi-6-%E5%85%AB%E9%80%9A%E9%81%93%E4%BF%A1%E8%99%9F%E6%94%BE%E5%A4%A7.png",
     "desc": "ZTE 5G 隨身WiFi",
     "features": [
       "ZTE 5G 隨身WiFi"
@@ -11308,7 +11308,7 @@ const ALL_PRODUCTS = [
     "srp": 898.0,
     "msrp": 898.0,
     "res": 0.0,
-    "image": "products-img/u30-air.png",
+    "image": "products-img/huawei-u30-air.png",
     "desc": "ZTE 隨身WiFi",
     "features": [
       "ZTE 隨身WiFi"
@@ -11322,7 +11322,7 @@ const ALL_PRODUCTS = [
     "srp": 499.0,
     "msrp": 499.0,
     "res": 0.0,
-    "image": "products-img/u10s-pro.png",
+    "image": "products-img/huawei-u10s-pro.png",
     "desc": "",
     "features": []
   },
@@ -11334,7 +11334,7 @@ const ALL_PRODUCTS = [
     "srp": 488.0,
     "msrp": 488.0,
     "res": 0.0,
-    "image": "products-img/2k.png",
+    "image": "products-img/tp-link-2k-%E7%B6%B2%E7%B5%A1%E6%94%9D%E5%BD%B1%E6%A9%9F.png",
     "desc": "TP-LINK 4G全網通插Sim卡IP CAM",
     "features": [
       "TP-LINK 4G全網通插Sim卡IP CAM"
@@ -11348,7 +11348,7 @@ const ALL_PRODUCTS = [
     "srp": 1699.0,
     "msrp": 1699.0,
     "res": 0.0,
-    "image": "products-img/4k.png",
+    "image": "products-img/darts-%E6%99%BA%E8%83%BD4k-%E9%AB%98%E6%B8%85%E6%8A%95%E5%BD%B1%E5%84%80.png",
     "desc": "GRAN MAT LED 地毯",
     "features": [
       "GRAN MAT LED 地毯"
@@ -11362,7 +11362,7 @@ const ALL_PRODUCTS = [
     "srp": 980.0,
     "msrp": 980.0,
     "res": 0.0,
-    "image": "products-img/gran-board-3.png",
+    "image": "products-img/darts-%E9%81%A9%E7%94%A8%E6%96%BC-gran-board-3.png",
     "desc": "Gran Board Portable Stand",
     "features": [
       "Gran Board Portable Stand"
@@ -11376,7 +11376,7 @@ const ALL_PRODUCTS = [
     "srp": 780.0,
     "msrp": 780.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/darts-%E4%BE%BF%E6%94%9C%E4%B8%89%E8%85%B3%E6%9E%B6.png",
     "desc": "GranBoard Dash",
     "features": [
       "GranBoard Dash"
@@ -11390,7 +11390,7 @@ const ALL_PRODUCTS = [
     "srp": 780.0,
     "msrp": 780.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/darts-%E5%8D%87%E7%B4%9A%E7%89%88%E6%99%BA%E8%83%BD%E9%A3%9B%E6%A8%99%E9%9D%B6.png",
     "desc": "GranBoard 3S",
     "features": [
       "GranBoard 3S"
@@ -11404,7 +11404,7 @@ const ALL_PRODUCTS = [
     "srp": 1980.0,
     "msrp": 1980.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/darts-%E7%82%AB%E5%BD%A9%E6%99%BA%E8%83%BD%E9%9D%9C%E9%9F%B3%E9%8F%A2%E9%9D%B6.png",
     "desc": "Havit PJ215 Pro",
     "features": [
       "Havit PJ215 Pro"
@@ -11418,7 +11418,7 @@ const ALL_PRODUCTS = [
     "srp": 1298.0,
     "msrp": 1298.0,
     "res": 0.0,
-    "image": "products-img/4k-projector.png",
+    "image": "products-img/darts-4k%E6%99%BA%E8%83%BDprojector.png",
     "desc": "",
     "features": []
   },
@@ -11430,7 +11430,7 @@ const ALL_PRODUCTS = [
     "srp": 1280.0,
     "msrp": 1280.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/boya-%E4%B8%80%E7%AB%99%E5%BC%8F%E7%84%A1%E7%B7%9A%E9%99%8D%E5%99%AA%E6%94%B6%E5%92%AA.png",
     "desc": "BOYA BOYALINK 2",
     "features": [
       "BOYA BOYALINK 2"
@@ -11444,7 +11444,7 @@ const ALL_PRODUCTS = [
     "srp": 880.0,
     "msrp": 880.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/boya-%E7%84%A1%E7%B7%9A%E9%99%8D%E5%99%AA%E6%94%B6%E9%9F%B3%E7%B3%BB%E7%B5%B1.png",
     "desc": "BOYA BOYALINK",
     "features": [
       "BOYA BOYALINK"
@@ -11458,7 +11458,7 @@ const ALL_PRODUCTS = [
     "srp": 880.0,
     "msrp": 880.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/boya-%E5%85%A8%E9%9D%A2%E7%84%A1%E7%B7%9A%E9%99%8D%E5%99%AA%E6%94%B6%E7%B3%BB%E7%B5%B1.png",
     "desc": "BOYA mini-17",
     "features": [
       "BOYA mini-17"
@@ -11472,7 +11472,7 @@ const ALL_PRODUCTS = [
     "srp": 238.0,
     "msrp": 238.0,
     "res": 0.0,
-    "image": "products-img/.png",
+    "image": "products-img/boya-%E5%A4%BE%E9%A0%98%E5%BC%8F%E7%84%A1%E7%B7%9A%E9%99%8D%E5%99%AA%E6%94%B6%E9%9F%B3%E7%B3%BB%E7%B5%B1.png",
     "desc": "BOYA mini-12",
     "features": [
       "BOYA mini-12"
